@@ -79,6 +79,7 @@ These are well-known studies that fit the niche. Details are summaries to orient
 | Van Baaren et al. (2003), mimicry | Servers who repeated orders back got bigger tips | Repeating their words back | No |
 | Ambady and Rosenthal (1993), thin slices | Short silent clips predicted end-of-term teacher ratings | First impressions | No |
 | Kahneman et al. (1993), peak-end rule | People judge an experience by its peak and its end | Leaving a conversation well | No |
+| Walter, Levin and Murnighan (2015), reconnection choices | The most valuable dormant ties offered novelty (people they'd spent less time with), but people preferred reconnecting with old close ties | Who to message first when reconnecting | No |
 | Aron et al. (1997), fast friends | Gradually deeper questions built closeness between strangers | Going one level deeper | No |
 
 Add new studies to this table as you verify them, with the source link in the fact sheet of the script that first uses it.
