@@ -76,13 +76,29 @@ def edge(text, voice, rate, mp3_path):
     return words
 
 
-def elevenlabs(text, voice, mp3_path):
+def load_env():
+    """Read KEY=value lines from .env (gitignored) into the environment, without overriding."""
+    env = ROOT / ".env"
+    if env.exists():
+        for line in env.read_text(encoding="utf-8").splitlines():
+            if "=" in line and not line.lstrip().startswith("#"):
+                k, v = line.split("=", 1)
+                os.environ.setdefault(k.strip(), v.strip().strip('"').strip("'"))
+
+
+def elevenlabs(text, voice, mp3_path, model=None, settings=None, seed=None):
+    load_env()
     key = os.environ.get("ELEVENLABS_API_KEY")
     if not key or not voice:
-        sys.exit("ElevenLabs needs ELEVENLABS_API_KEY and --voice <voice id>.")
+        sys.exit("ElevenLabs needs ELEVENLABS_API_KEY (in .env or the environment) and --voice <voice id>.")
+    body = {"text": text, "model_id": model or CONFIG.get("elevenlabs", {}).get("model", "eleven_v4")}
+    if settings:
+        body["voice_settings"] = settings
+    if seed is not None:
+        body["seed"] = seed
     req = urllib.request.Request(
-        f"https://api.elevenlabs.io/v1/text-to-speech/{voice}/with-timestamps",
-        data=json.dumps({"text": text, "model_id": CONFIG.get("elevenlabs", {}).get("model", "eleven_v4")}).encode(),
+        f"https://api.elevenlabs.io/v1/text-to-speech/{voice}/with-timestamps?output_format=mp3_44100_128",
+        data=json.dumps(body).encode(),
         headers={"xi-api-key": key, "Content-Type": "application/json"},
     )
     with urllib.request.urlopen(req, timeout=300) as r:
@@ -95,7 +111,7 @@ def main(argv):
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("script")
     ap.add_argument("--engine", default="edge", choices=["edge", "elevenlabs"])
-    ap.add_argument("--voice", default=None)
+    ap.add_argument("--voice", default=None, help="voice id (elevenlabs: defaults to elevenlabs.voice_id in config.json)")
     ap.add_argument("--rate", default="+0%", help="edge only, e.g. +8%% to speed up")
     a = ap.parse_args(argv)
     script = Path(a.script).resolve()
@@ -107,7 +123,7 @@ def main(argv):
     if a.engine == "edge":
         stamps = edge(text, a.voice or "en-US-AndrewNeural", a.rate, mp3)
     else:
-        stamps = elevenlabs(text, a.voice, mp3)
+        stamps = elevenlabs(text, a.voice or CONFIG.get("elevenlabs", {}).get("voice_id"), mp3)
     words_path = script.with_suffix(".words.json")
     words_path.write_text(json.dumps(stamps, indent=1) + "\n", encoding="utf-8")
     n = len(stamps) if isinstance(stamps, list) else len(stamps["alignment"]["characters"])

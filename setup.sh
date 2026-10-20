@@ -23,3 +23,5 @@ echo "Ready. In Claude Code, from this folder:"
 echo "  /make <topic>            research, script, then the video"
 echo "  /script <topic>          just the script"
 echo "  /video scripts/<file>.md just the video"
+echo
+echo "Or the web app:  python3 app/server.py  → http://localhost:8787"

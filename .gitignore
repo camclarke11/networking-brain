@@ -5,3 +5,5 @@ data/*/performance.json
 video/node_modules/
 video/out/
 .venv/
+.env
+video/public/*/takes/

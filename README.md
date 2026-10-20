@@ -19,6 +19,12 @@ Give it a topic and it pins the situation, checks it against what performs, rese
 ```
 Claude reads `CLAUDE.md`, which loads `AGENTS.md`.
 
+**The Studio** (web app): a local dashboard for all of it.
+```
+python3 app/server.py        # then open http://localhost:8787
+```
+Read and check scripts, move the ElevenLabs tags around, generate voice takes (cost shown first, Turbo for cheap drafts, identical takes never paid for twice), pick the take that times the video, run prep/stills/render, browse topics, the prop library, performance data and the brain. Writing scripts and coding videos run Claude Code headless as jobs you can watch. Put your ElevenLabs key in on the Voice page (saved to `.env`, gitignored); give it Text to Speech, plus Voices and User read if you want the voice list and credit balance.
+
 **Other coding agents** (Codex, Cursor): most read `AGENTS.md` automatically. If not: *"Read AGENTS.md and follow it."*
 
 **Claude.ai Projects**: upload `AGENTS.md`, everything in `knowledge/`, `templates/`, `topics/topic-bank.md`, `content-log.md` and the two breakout transcripts (`examples/theoryofbehaviour/13-…` and `14-…`). Paste `PROJECT-INSTRUCTIONS.md` into the project instructions and turn on web search. (The checker only runs where code can run.)
@@ -54,6 +60,7 @@ Claude reads `CLAUDE.md`, which loads `AGENTS.md`.
 | `tools/performance.py` | Imports Media Tools exports per account, rebuilds the live tables, breaks down any post |
 | `tools/check_script.py` | Mechanical checks on a finished script and its storyboard must-haves |
 | `tools/library.py` | Lists the prop library, registers a script's new assets, tracks what's built |
+| `app/` | The Studio web app: `server.py` (standard library) and `static/` (one page, no build step) |
 | `tools/voice.py` | Records the narration with text to speech (placeholder Edge voice, or ElevenLabs) and saves word timestamps |
 | `tools/make_video.py` | `prep` (voice, align, scaffold), `stills` (contact sheets for review), `render` (the final MP4 at -14 LUFS) |
 | `tools/make_sfx.py` | Synthesises the sound-effects kit in `video/public/sfx/` |
