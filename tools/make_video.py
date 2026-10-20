@@ -10,7 +10,7 @@ Options:
   --engine edge|elevenlabs, --voice <id>, --rate +5%   Passed to tools/voice.py.
   --times 1.0 2.5 ...  stills at these seconds (default: every shot's middle and every cue).
 
-Setup once: `cd video && npm install`, and `pip install edge-tts` for the placeholder voice.
+Setup once: ./setup.sh (npm install, and the placeholder voice in .venv).
 On a Mac the GPU renders the 3D (REMOTION_GL=angle, the default). On a Linux server set
 REMOTION_GL=swangle, and REMOTION_BROWSER to a Chrome binary if Remotion can't download one.
 """
@@ -138,7 +138,7 @@ def main(argv):
     if not script.exists():
         sys.exit(f"No such script: {a.script}")
     if not (VIDEO / "node_modules").exists():
-        sys.exit("Run `cd video && npm install` first.")
+        sys.exit("Run ./setup.sh first.")
     os.environ.setdefault("REMOTION_GL", "angle" if sys.platform == "darwin" else "swangle")
     {"prep": prep, "stills": stills, "render": render}[a.step](script, a)
 

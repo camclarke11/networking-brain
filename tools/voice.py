@@ -44,7 +44,10 @@ def edge(text, voice, rate, mp3_path):
         import edge_tts
         import edge_tts.communicate as comm
     except ImportError:
-        sys.exit("The placeholder voice needs edge-tts: pip install edge-tts")
+        venv = ROOT / ".venv" / "bin" / "python"
+        if venv.exists() and Path(sys.executable).resolve() != venv.resolve():
+            os.execv(str(venv), [str(venv), *sys.argv])  # setup.sh installs edge-tts here
+        sys.exit("The placeholder voice needs edge-tts: run ./setup.sh (or pip install edge-tts)")
     ca = os.environ.get("SSL_CERT_FILE") or os.environ.get("REQUESTS_CA_BUNDLE")
     if ca and Path(ca).exists():  # behind a TLS-inspecting proxy
         comm._SSL_CTX = ssl.create_default_context(cafile=ca)

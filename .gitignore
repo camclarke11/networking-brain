@@ -4,3 +4,4 @@ __pycache__/
 data/*/performance.json
 video/node_modules/
 video/out/
+.venv/

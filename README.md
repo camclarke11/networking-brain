@@ -14,6 +14,7 @@ Give it a topic and it pins the situation, checks it against what performs, rese
 /ideas 10 outreach          # new topic ideas, added to the bank
 /align scripts/<file>.md <timestamps.json>   # time the visuals to the recorded voice
 /video scripts/<file>.md    # voice it, code the shots, render the MP4
+/make <topic>               # all of it: research, script, video
 /refresh ~/Downloads/Media\ Tools/Account\ Exports/<export>
 ```
 Claude reads `CLAUDE.md`, which loads `AGENTS.md`.
@@ -62,8 +63,7 @@ Claude reads `CLAUDE.md`, which loads `AGENTS.md`.
 ## Making videos
 
 ```bash
-cd video && npm install && cd ..        # once (Node 18+)
-pip install edge-tts                    # once, the placeholder voice
+./setup.sh                              # once: npm install + the placeholder voice in .venv
 python3 tools/make_video.py scripts/<file>.md prep     # voice, timing, scaffold
 # write video/src/videos/<slug>/Video.tsx (or let /video do it)
 python3 tools/make_video.py scripts/<file>.md stills   # review contact sheets

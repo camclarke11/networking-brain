@@ -22,7 +22,7 @@ python3 tools/make_video.py scripts/<file>.md render   # MP4 at -14 LUFS → vid
 4. **Render.** Full 1080×1920, 30fps, H.264, audio normalised to -14 LUFS. Then sample the finished file (`ffmpeg -i out/<slug>.mp4 -vf fps=1/3,scale=270:-1,tile=6x3 sheet.jpg`) and look at it once more.
 5. **Deliver.** Send the MP4. Update `content-log.md` (status `video`), and mark any asset you built with `python3 tools/library.py status <id> built`.
 
-Setup once per machine: `cd video && npm install`, and `pip install edge-tts`. On a Mac the GPU renders the 3D. On a Linux server set `REMOTION_GL=swangle` (CPU, about 4× slower) and `REMOTION_BROWSER` to a Chrome binary if needed. `cd video && npm run studio` opens a live preview with a scrubber.
+Setup once per machine: `./setup.sh` (npm install, plus the placeholder voice in `.venv`). On a Mac the GPU renders the 3D. On a Linux server set `REMOTION_GL=swangle` (CPU, about 4× slower) and `REMOTION_BROWSER` to a Chrome binary if needed. `cd video && npm run studio` opens a live preview with a scrubber.
 
 ---
 

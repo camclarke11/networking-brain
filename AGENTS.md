@@ -147,6 +147,7 @@ Format / Tier / Situation / A vs B / Length / Hook code / Ending code / Named to
 - **"More creative" / "different visuals"** → keep the script, pick a different metaphor, and redo the storyboard.
 - **"Time it" / "here's the audio"** → the timing pass above.
 - **"Make the video" / "render it"** → `/video scripts/<file>.md`, per `knowledge/13-video-production.md`.
+- **"Make a video about X"** → `/make X`: the full workflow for the script, then straight into `/video`.
 
 ## Performance workflow
 
