@@ -1,0 +1,383 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "storyboard.schema.json",
+  "title": "Storyboard for one reel",
+  "description": "One shot per spoken script line. Enums must match knowledge/12-visual-storyboard.md and tools/check_script.py.",
+  "type": "object",
+  "required": [
+    "version",
+    "names",
+    "shots"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "version": {
+      "const": 1
+    },
+    "names": {
+      "type": "object",
+      "description": "Display names used in this script, by cast id. Recurring cast keep their default names.",
+      "propertyNames": {
+        "enum": [
+          "you",
+          "connector",
+          "big_name",
+          "friend",
+          "stranger_a",
+          "stranger_b",
+          "stranger_c",
+          "professor",
+          "crowd"
+        ]
+      },
+      "additionalProperties": {
+        "type": "string"
+      }
+    },
+    "shots": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/shot"
+      }
+    }
+  },
+  "$defs": {
+    "shot": {
+      "type": "object",
+      "required": [
+        "line",
+        "text",
+        "set",
+        "camera",
+        "characters",
+        "overlay"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "line": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "text": {
+          "type": "string",
+          "description": "The script line, exactly as written in the SCRIPT section."
+        },
+        "set": {
+          "enum": [
+            "event_hall",
+            "drinks_table",
+            "stage_talk",
+            "coffee_shop",
+            "coworking",
+            "phone_screen",
+            "doorway",
+            "street_night",
+            "void"
+          ]
+        },
+        "camera": {
+          "enum": [
+            "wide",
+            "medium",
+            "close",
+            "over_shoulder",
+            "push_in",
+            "pull_out",
+            "pan"
+          ]
+        },
+        "characters": {
+          "type": "array",
+          "maxItems": 4,
+          "items": {
+            "type": "object",
+            "required": [
+              "id",
+              "action",
+              "expression",
+              "position"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "id": {
+                "enum": [
+                  "you",
+                  "connector",
+                  "big_name",
+                  "friend",
+                  "stranger_a",
+                  "stranger_b",
+                  "stranger_c",
+                  "professor",
+                  "crowd"
+                ]
+              },
+              "action": {
+                "enum": [
+                  "idle",
+                  "talk",
+                  "listen",
+                  "nod",
+                  "laugh",
+                  "smile",
+                  "wave",
+                  "wave_over",
+                  "point",
+                  "shrug",
+                  "lean_in",
+                  "look_away",
+                  "look_at_door",
+                  "check_phone",
+                  "type_phone",
+                  "walk_in",
+                  "walk_away",
+                  "handshake",
+                  "hold_drink",
+                  "cross_arms",
+                  "think",
+                  "surprised",
+                  "cringe",
+                  "thumbs_up"
+                ]
+              },
+              "expression": {
+                "enum": [
+                  "neutral",
+                  "happy",
+                  "awkward",
+                  "bored",
+                  "interested",
+                  "surprised",
+                  "confident",
+                  "nervous"
+                ]
+              },
+              "position": {
+                "enum": [
+                  "left",
+                  "center",
+                  "right",
+                  "background"
+                ]
+              }
+            }
+          }
+        },
+        "overlay": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/$defs/overlay"
+            }
+          ]
+        },
+        "sfx": {
+          "enum": [
+            "none",
+            "whoosh",
+            "pop",
+            "ding",
+            "record_scratch",
+            "crowd_murmur",
+            "phone_buzz"
+          ]
+        }
+      }
+    },
+    "overlay": {
+      "oneOf": [
+        {
+          "type": "object",
+          "required": [
+            "type",
+            "title",
+            "items"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "type": {
+              "const": "tool_card"
+            },
+            "title": {
+              "type": "string"
+            },
+            "items": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "highlight": {
+              "type": [
+                "integer",
+                "null"
+              ]
+            }
+          }
+        },
+        {
+          "type": "object",
+          "required": [
+            "type",
+            "year",
+            "who",
+            "finding"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "type": {
+              "const": "study_card"
+            },
+            "year": {
+              "type": "integer"
+            },
+            "who": {
+              "type": "string"
+            },
+            "finding": {
+              "type": "string"
+            }
+          }
+        },
+        {
+          "type": "object",
+          "required": [
+            "type",
+            "speaker",
+            "text"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "type": {
+              "const": "quote_bubble"
+            },
+            "speaker": {
+              "enum": [
+                "you",
+                "connector",
+                "big_name",
+                "friend",
+                "stranger_a",
+                "stranger_b",
+                "stranger_c",
+                "professor",
+                "crowd"
+              ]
+            },
+            "text": {
+              "type": "string"
+            }
+          }
+        },
+        {
+          "type": "object",
+          "required": [
+            "type",
+            "from",
+            "messages"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "type": {
+              "const": "dm_screen"
+            },
+            "from": {
+              "type": "string"
+            },
+            "messages": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "required": [
+                  "side",
+                  "text"
+                ],
+                "additionalProperties": false,
+                "properties": {
+                  "side": {
+                    "enum": [
+                      "me",
+                      "them"
+                    ]
+                  },
+                  "text": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "type": "object",
+          "required": [
+            "type",
+            "wrong",
+            "right"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "type": {
+              "const": "x_check"
+            },
+            "wrong": {
+              "type": "string"
+            },
+            "right": {
+              "type": "string"
+            }
+          }
+        },
+        {
+          "type": "object",
+          "required": [
+            "type",
+            "text",
+            "target"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "type": {
+              "const": "label"
+            },
+            "text": {
+              "type": "string"
+            },
+            "target": {
+              "enum": [
+                "you",
+                "connector",
+                "big_name",
+                "friend",
+                "stranger_a",
+                "stranger_b",
+                "stranger_c",
+                "professor",
+                "crowd"
+              ]
+            }
+          }
+        },
+        {
+          "type": "object",
+          "required": [
+            "type",
+            "text"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "type": {
+              "const": "big_text"
+            },
+            "text": {
+              "type": "string"
+            }
+          }
+        }
+      ]
+    }
+  }
+}

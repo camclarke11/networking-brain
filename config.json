@@ -1,0 +1,17 @@
+{
+  "our_account": null,
+  "default_account": "theoryofbehaviour",
+  "reference_accounts": [
+    "theoryofbehaviour"
+  ],
+  "spelling": "US English",
+  "words_per_minute": 175,
+  "too_new_days": {
+    "theoryofbehaviour": 0
+  },
+  "_notes": {
+    "too_new_days": "Days before a post counts in medians. 0 for accounts we only have one export of, so their newest posts still count.",
+    "our_account": "Set to our Instagram handle once the account exists, then make it the default_account.",
+    "words_per_minute": "Narration pace used to estimate length. Re-measure once the voice is chosen."
+  }
+}
