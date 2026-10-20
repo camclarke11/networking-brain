@@ -31,6 +31,14 @@
 
 ---
 
+## ELEVENLABS
+
+```text
+[thoughtful] [The SCRIPT's exact words as one paragraph, with audio tags at the turns (knowledge/14-voice-tags.md).] [playful] Send this to…
+```
+
+---
+
 ## STORYBOARD
 
 ```json

@@ -57,6 +57,14 @@ Send this to the friend who's always the last one talking at the bar.
 
 ---
 
+## ELEVENLABS
+
+```text
+[thoughtful] Leave the best conversation of the night early. You're twenty minutes in with Marco. It's going great. So you stay. And stay. [sighs] Till you're both talking about the weather. [short pause] That's the bit he'll remember. [matter-of-fact] In 1993, psychologists had people hold a hand in painfully cold water. One round lasted 60 seconds. Another lasted 90, but the last 30 got slightly less cold. Most chose to repeat the longer one. The ending mattered more than the length. [confident] So end on the high. Next time you both crack up, use this line. [encouraging] Let me grab you again later, I promised myself three new people tonight. You're thinking, won't leaving a good chat feel rude? [chuckles] Not if you say what you loved first. That bit about firing your first client is staying with me. [warm] Now he watches you go, still smiling. Fizzling out makes you forgettable. [happy] Leaving on a laugh makes him come find you later. [playful] Send this to the friend who's always the last one talking at the bar.
+```
+
+---
+
 ## STORYBOARD
 
 ```json

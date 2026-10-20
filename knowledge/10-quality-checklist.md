@@ -42,6 +42,9 @@ Go through every item. **Hard fails** must be fixed before delivering. For **sof
 ### Length
 - [ ] 120 to 170 words (hard ceiling 190). Word count and estimated seconds are in the header.
 
+### ElevenLabs block
+- [ ] `## ELEVENLABS` has the SCRIPT's exact words as one paragraph, opens with a tag, and has 7 to 11 tags at the turns, none stacked (`14-voice-tags.md`).
+
 ### Storyboard
 - [ ] One visual metaphor, and it makes the lesson clearer (someone could explain the lesson by describing what they saw).
 - [ ] Every script line is in exactly one shot, in order. Frame one shows the situation in line 1 with the short hook.

@@ -60,6 +60,14 @@ Send this to the friend with five unsent follow-ups in his drafts.
 
 ---
 
+## ELEVENLABS
+
+```text
+[playful] Great to meet you last night! [serious] Is why nobody texts you back. You met Maya at an event. Good chat. So next morning, you send that. [sighs] She thinks, who's this again? Half the room sent her the same one as you. [confident] So send the one only you could send. Her name, the thing she said, and what you did with it. [encouraging] Maya, you said cold emails work when the first line is about them. Tried it on three people this morning. Two replied. [happy] Now she knows exactly who you are. You're thinking, isn't that a bit much after one chat? [chuckles] It's three lines. And she won't have to scroll back to place you. [short pause] But this is where people ruin it. They tack on, can we jump on a call? Don't ask for anything yet. Let her reply first. A generic text asks her to remember you. [warm] A specific one gives her a reason to. [playful] Send this to the friend with five unsent follow-ups in his drafts.
+```
+
+---
+
 ## STORYBOARD
 
 ```json

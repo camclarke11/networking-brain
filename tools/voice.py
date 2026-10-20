@@ -10,7 +10,9 @@ Engines:
               package: `pip install edge-tts`. Good enough to time and review a video.
               Default voice en-US-AndrewNeural. Others: en-US-BrianNeural, en-GB-RyanNeural.
   elevenlabs  The real thing once a voice is chosen. Needs ELEVENLABS_API_KEY and --voice <voice id>.
-              Uses the "with timestamps" endpoint, so timing is exact.
+              Sends the script's ELEVENLABS block (audio tags and all) to the model in
+              config.json (elevenlabs.model, Eleven v4 by default). Uses the "with timestamps"
+              endpoint, so timing is exact; tools/align.py skips the tags.
 
 A real recording instead? Put it at video/public/<slug>/voice.mp3, get word timestamps from
 speech to text (Whisper with word timestamps, or ElevenLabs speech to text), and save them as
@@ -28,11 +30,14 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "tools"))
-from check_script import script_lines  # noqa: E402
+from check_script import CONFIG, script_lines, tagged_text  # noqa: E402
 
 
-def narration(script_path):
-    lines = script_lines(script_path.read_text(encoding="utf-8"))
+def narration(script_path, tags=False):
+    text = script_path.read_text(encoding="utf-8")
+    if tags and tagged_text(text):
+        return tagged_text(text)
+    lines = script_lines(text)
     if not lines:
         sys.exit(f"No SCRIPT section in {script_path}")
     # Every line ends with punctuation so the voice pauses between them.
@@ -77,7 +82,7 @@ def elevenlabs(text, voice, mp3_path):
         sys.exit("ElevenLabs needs ELEVENLABS_API_KEY and --voice <voice id>.")
     req = urllib.request.Request(
         f"https://api.elevenlabs.io/v1/text-to-speech/{voice}/with-timestamps",
-        data=json.dumps({"text": text, "model_id": "eleven_multilingual_v2"}).encode(),
+        data=json.dumps({"text": text, "model_id": CONFIG.get("elevenlabs", {}).get("model", "eleven_v4")}).encode(),
         headers={"xi-api-key": key, "Content-Type": "application/json"},
     )
     with urllib.request.urlopen(req, timeout=300) as r:
@@ -98,7 +103,7 @@ def main(argv):
     out_dir = ROOT / "video" / "public" / slug
     out_dir.mkdir(parents=True, exist_ok=True)
     mp3 = out_dir / "voice.mp3"
-    text = narration(script)
+    text = narration(script, tags=a.engine == "elevenlabs")  # the placeholder voice would read tags aloud
     if a.engine == "edge":
         stamps = edge(text, a.voice or "en-US-AndrewNeural", a.rate, mp3)
     else:

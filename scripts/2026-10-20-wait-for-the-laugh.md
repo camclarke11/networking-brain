@@ -60,6 +60,14 @@ Send this to the friend who orbits groups like a lost satellite.
 
 ---
 
+## ELEVENLABS
+
+```text
+[curious] Here's how to join a group that's already talking, without hovering. You spot three people mid-conversation. You drift closer. And closer. [sighs] Nobody looks up. Now you're the guy standing half a step behind a circle. [confident] So stop waiting for an invite. Wait for the laugh. [thoughtful] Right after a laugh, the circle loosens for a second. That's your gap. [encouraging] Step in and say, okay, that laugh sounded like the best story here. What did I miss? You're thinking, isn't that interrupting? [chuckles] Not in the gap. You just told them they're the fun group. [short pause] But the next ten seconds decide if you stay. You get in and want to talk about yourself. Don't. [warm] Turn to whoever was telling the story and say, go on, finish it. Now the storyteller's on your side. And the circle opens a little wider. Hovering makes you the guy at the edge. [happy] One line makes you the guy who asked for the story. [playful] Send this to the friend who orbits groups like a lost satellite.
+```
+
+---
+
 ## STORYBOARD
 
 ```json

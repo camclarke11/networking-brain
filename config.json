@@ -13,6 +13,32 @@
   "_notes": {
     "too_new_days": "Days before a post counts in medians. 0 for accounts we only have one export of, so their newest posts still count.",
     "our_account": "Our Instagram handle. Switch default_account to it once its first Media Tools export is imported.",
-    "words_per_minute": "Narration pace used to estimate length. Re-measure once the voice is chosen."
+    "words_per_minute": "Narration pace used to estimate length. Re-measure once the voice is chosen.",
+    "elevenlabs": "Model for tools/voice.py --engine elevenlabs, and the audio tags scripts may use in their ELEVENLABS block (knowledge/14-voice-tags.md). Add a tag here once you've heard it work on the chosen voice."
+  },
+  "elevenlabs": {
+    "model": "eleven_v4",
+    "tags": [
+      "thoughtful",
+      "curious",
+      "serious",
+      "matter-of-fact",
+      "confident",
+      "encouraging",
+      "reassuring",
+      "warm",
+      "happy",
+      "excited",
+      "playful",
+      "sarcastic",
+      "whispers",
+      "sighs",
+      "exhales",
+      "chuckles",
+      "laughs",
+      "short pause",
+      "pause",
+      "long pause"
+    ]
   }
 }

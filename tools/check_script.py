@@ -6,7 +6,8 @@
 Checks what a machine can check from knowledge/10-quality-checklist.md: length, banned
 words, punctuation, the hook's first line and voice density, plus the storyboard
 must-haves in knowledge/12-visual-storyboard.md §5 (every line in a shot, library reuse,
-cues on spoken words). It cannot judge whether the script or the visuals are good.
+cues on spoken words), and that the ELEVENLABS block says exactly the SCRIPT's words with
+sensible audio tags (knowledge/14-voice-tags.md). It cannot judge whether the script or the visuals are good.
 Exit code 1 if any hard fail.
 """
 import json
@@ -41,6 +42,8 @@ ASSET_KINDS = enum(SCHEMA, "$defs", "asset", "properties", "kind")
 COMPONENTS = {c["properties"]["type"]["const"]: set(c["required"]) - {"type"} for c in SCHEMA["$defs"]["component"]["oneOf"]}
 SAYS_EXACT = {"quote_bubble", "x_check", "dm_screen"}
 LIBRARY = ROOT / "visuals" / "library.json"
+TAG_RE = re.compile(r"\[([^\[\]]+)\]")
+KNOWN_TAGS = set(CONFIG.get("elevenlabs", {}).get("tags", []))
 
 
 def tokens(text):
@@ -58,6 +61,44 @@ def contains(haystack, needle):
 def script_lines(text):
     script = section(text, "SCRIPT") or ""
     return [line.strip() for line in script.splitlines() if line.strip() and line.strip() != "---"]
+
+
+def tagged_text(text):
+    """The paste-ready ElevenLabs text (with audio tags), or None if the file has no block."""
+    body = section(text, "ELEVENLABS")
+    if body is None:
+        return None
+    block = re.search(r"```(?:text)?\s*(.*?)```", body, re.S)
+    return (block.group(1) if block else body).strip()
+
+
+def untag(text):
+    return re.sub(r"\s+", " ", TAG_RE.sub(" ", text)).strip()
+
+
+def check_tags(tagged, script, n_words):
+    """The ELEVENLABS block must say the SCRIPT's words, with tags at the turns."""
+    fails, warns = [], []
+    said, written = tokens(untag(tagged)), tokens(script)
+    if said != written:
+        k = next((i for i, (a, b) in enumerate(zip(said, written)) if a != b), min(len(said), len(written)))
+        fails.append(f"ELEVENLABS words differ from SCRIPT at word {k + 1}: "
+                     f"'{' '.join(said[k:k + 5])}' vs '{' '.join(written[k:k + 5])}'. Keep them identical.")
+    tags = [t.strip().lower() for t in TAG_RE.findall(tagged)]
+    if len(tags) < 5:
+        warns.append(f"Only {len(tags)} audio tags; aim for one every sentence or two (about 7 to 11).")
+    elif len(tags) > max(12, n_words // 12):
+        warns.append(f"{len(tags)} audio tags is a lot; past about 11 the delivery gets jumpy.")
+    if not tagged.startswith("["):
+        warns.append("ELEVENLABS doesn't open with a tag; set the hook's delivery from the first word.")
+    if re.search(r"\]\s*\[", tagged):
+        warns.append("Two tags side by side; use one per spot (pause tags may follow an emotion tag only if you've heard it work).")
+    if KNOWN_TAGS:
+        for t in sorted(set(tags) - KNOWN_TAGS):
+            warns.append(f"Tag [{t}] isn't in config.json's elevenlabs.tags; fine if you've heard it work, then add it.")
+    if "\n" in tagged:
+        warns.append("ELEVENLABS should be one paragraph, ready to paste.")
+    return fails, warns
 
 
 def read_board(text):
@@ -128,6 +169,15 @@ def check(path, library=None):
     short = sum(1 for line in lines if len(line.split()) <= 3)
     if short < 2:
         warns.append("Fewer than two 1–3 word lines; the rhythm may be flat.")
+
+    # ElevenLabs text
+    tagged = tagged_text(text)
+    if tagged is None:
+        fails.append("No '## ELEVENLABS' section (the SCRIPT as one paragraph with audio tags).")
+    else:
+        tag_fails, tag_warns = check_tags(tagged, script, n)
+        fails += tag_fails
+        warns += tag_warns
 
     # Storyboard
     board_text = section(text, "STORYBOARD")

@@ -51,6 +51,14 @@ Send this to the friend who asks one question and checks his phone.
 
 ---
 
+## ELEVENLABS
+
+```text
+[thoughtful] Your second question at an event matters more than your first. Say you meet Priya by the drinks. You ask what she's working on. She says she's launching a skincare brand. You go, nice, how do you know the host? [sighs] Interview over. You just showed her you weren't listening. [confident] So ask about her answer instead. [curious] A skincare brand? What made you start that? Now she's telling you a story, not filling a silence. You're thinking, won't that feel like an interrogation? [chuckles] Not if you trade. She answers. You share one small thing. Then you dig into what she said. [matter-of-fact] Harvard researchers looked at over 2,000 speed dates. The people who asked more follow-up questions were liked more. And the best askers got the most second dates. [short pause] But here's the bit that matters. Nobody remembers your first question. Everybody asks that one. [warm] They remember the one that proved you were listening. [playful] Send this to the friend who asks one question and checks his phone.
+```
+
+---
+
 ## STORYBOARD
 
 ```json

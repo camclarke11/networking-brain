@@ -64,6 +64,14 @@ Send this to the friend still waiting on a coffee from June.
 
 ---
 
+## ELEVENLABS
+
+```text
+[thoughtful] We should grab coffee sometime. Means one of two things. [curious] One text tells you which. Lena says it to you after a great chat. You go home buzzing. [sighs] Three weeks later, you've heard nothing. Because sometime isn't a day. [confident] So give her one. Loved chatting. I'm near you Thursday. Does 9 work for 20 minutes? I call it the Thursday test. If she meant it, she moves the day. Thursday's bad, how about Monday? [happy] That's a yes. If not, you get, crazy month, let's play it by ear. No new day. That's a polite no. You're thinking, isn't pinning her down a bit pushy? [chuckles] It's the opposite. Sometime leaves her all the work. You just made yes easy. [short pause] But here's where you could blow it. You get the polite no and keep chasing. Don't. [warm] Reply, no stress, see you at the next one. Sometime is where coffees go to die. [happy] Thursday is where they actually happen. [playful] Send this to the friend still waiting on a coffee from June.
+```
+
+---
+
 ## STORYBOARD
 
 ```json

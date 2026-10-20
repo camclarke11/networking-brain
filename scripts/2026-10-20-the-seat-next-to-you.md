@@ -57,6 +57,14 @@ Send this to the friend who sprints to the stage before the clapping stops.
 
 ---
 
+## ELEVENLABS
+
+```text
+[confident] When the talk ends, don't join the queue for the speaker. Turn to the person sitting next to you. Thirty people rush the stage. You get forty seconds and a handshake. [sighs] By the parking lot, he's forgotten your face. [short pause] But look who's still in her seat. Say her name's Nia. Notebook open. She heard everything you heard. So you've already got something to talk about. [encouraging] Ask, what's the one thing you're actually going to use? Now you're comparing notes, not making small talk. You're thinking, but I came here to meet the speaker. [chuckles] You still can. Just don't go alone. [confident] Say, want to go ask him about that hiring bit together? Two people with one sharp question get more than forty seconds. [warm] He'll remember the pair who listened. You walked in to meet the speaker. [happy] You walked out with a speaker who knows you, and someone to go to the next one with. [playful] Send this to the friend who sprints to the stage before the clapping stops.
+```
+
+---
+
 ## STORYBOARD
 
 ```json

@@ -61,6 +61,14 @@ Send this to the friend who hasn't texted you back since 2023.
 
 ---
 
+## ELEVENLABS
+
+```text
+[serious] Stop hunting for new contacts. Message three old ones. You need your first clients. [sighs] So you're cold DMing strangers who never reply. [short pause] Your phone's full of people who already like you. The guy from your old job. Your friend's older brother with the shop. You just stopped talking. [matter-of-fact] In 2011, researchers had executives ask old contacts for advice on a real project. Those contacts gave fresher ideas than their current ones. You're thinking, it'll be weird after two years. [chuckles] For about four seconds. Then it's just two people catching up. [encouraging] Here's what you send. Saw the new job, congrats. I just started my own thing. How's it going? No pitch. Just hello. [short pause] But most people message the wrong three. They pick their old best friend. The best ones turned out to be people they barely knew. [confident] So pick the one you only half knew. [warm] Your next client isn't a stranger. It's someone who forgot you exist. [playful] Send this to the friend who hasn't texted you back since 2023.
+```
+
+---
+
 ## STORYBOARD
 
 ```json

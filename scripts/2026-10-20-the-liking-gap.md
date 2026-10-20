@@ -61,6 +61,14 @@ Send this to the friend who replays every chat in the shower.
 
 ---
 
+## ELEVENLABS
+
+```text
+[serious] You think that conversation went badly. [reassuring] It didn't. You're walking home from the event. [sighs] Replaying the bit where you forgot his name. The joke that died. The weird goodbye. So you don't text him. [short pause] Big mistake. [matter-of-fact] In 2018, psychologists had strangers chat, then guess how much the other person liked them. They kept guessing low. Their partners liked them more than they thought. Researchers call it the liking gap. You're thinking, no, I really was awkward. [chuckles] Maybe. [warm] But you were too busy judging yourself to notice him enjoying it. You're grading yourself on the bloopers. He's grading you on the highlights. So your review of that chat doesn't count. His does. [encouraging] Text him anyway. Good chatting last night, you've got me rethinking my pricing. That's it. [happy] The guy who sends it gets a second conversation. The guy who doesn't never finds out it went fine. [playful] Send this to the friend who replays every chat in the shower.
+```
+
+---
+
 ## STORYBOARD
 
 ```json

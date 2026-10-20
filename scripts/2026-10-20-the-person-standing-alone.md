@@ -58,6 +58,14 @@ Send this to the friend who hides in the bathroom at events.
 
 ---
 
+## ELEVENLABS
+
+```text
+[thoughtful] Ten minutes into an event and everyone's already in a group? [sighs] Go find the one person who isn't. You're by the drinks, fake scrolling your phone. Every circle's closed. [short pause] But look again. Someone else is doing exactly what you're doing. Say his name's Sam. Lanyard on, full drink, eyes on the door. He just got here before his friends. [encouraging] So walk over and say, I don't know a single person here. You? You're thinking, he'll think I'm a loser. [chuckles] He's praying someone like you saves him. In 2014, researchers had Chicago commuters talk to strangers on the train. Most people predicted silence would be nicer. The ones who talked had the better ride. [thoughtful] But don't stop at two. Next person standing alone, you both wave him over. Now you're the group. You walked in waiting to be saved. [happy] You walked out with your own group. [playful] Send this to the friend who hides in the bathroom at events.
+```
+
+---
+
 ## STORYBOARD
 
 ```json

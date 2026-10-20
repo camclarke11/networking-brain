@@ -49,6 +49,7 @@ Read every session, before writing:
 - `knowledge/06-formats.md`
 - `knowledge/10-quality-checklist.md`
 - `knowledge/12-visual-storyboard.md`
+- `knowledge/14-voice-tags.md`
 - `visuals/library.json` (or `python3 tools/library.py list`)
 
 Then read both breakouts in `examples/theoryofbehaviour/` (`13-…` FORD, `14-…` the connector) and their teardowns in `knowledge/09-annotated-breakdowns.md`.
@@ -87,6 +88,9 @@ One sentence per line. "You" in the scene, present tense. Exact words for the mo
 - Read the payoff alone: would someone repeat it?
 - Count words. Trim to 130 to 160.
 
+### Step 8b — Voice tags
+Copy the finished SCRIPT into the `## ELEVENLABS` block as one paragraph and add audio tags at the turns (`14-voice-tags.md`): open with one, `[short pause]` before the BUT, `[chuckles]` after the objection, `[happy]` on the payoff, `[playful]` on the share prompt. 7 to 11 tags. Same words, exactly.
+
 ### Step 9 — Storyboard
 Direct it (`12-visual-storyboard.md`):
 1. Pick **one visual metaphor** that makes the lesson clearer, not just prettier. Check the library's metaphors first; a recurring one is good, but not twice in a row.
@@ -109,7 +113,7 @@ Direct it (`12-visual-storyboard.md`):
 
 ### After the narration is recorded (the timing pass)
 1. Get word timestamps for the take (`12-visual-storyboard.md` §6). ElevenLabs text to speech gives them directly; a real voice goes through speech-to-text with word timestamps.
-2. If the take changed any words, update the SCRIPT (and any cues) to match.
+2. If the take changed any words, update the SCRIPT, the ELEVENLABS block and any cues to match.
 3. Run `python3 tools/align.py scripts/<file>.md <timestamps.json>`. It writes `scripts/<file>.timing.json` for the video engine.
 4. Fix every warning: add cues where a shot sits still for over 4.5 seconds, move cues that land on a cut, then run it again.
 
@@ -129,6 +133,7 @@ Format / Tier / Situation / A vs B / Length / Hook code / Ending code / Named to
 ## TITLE / COVER OPTIONS
 ## HOOK OPTIONS
 ## SCRIPT            ← only spoken words, one sentence per line
+## ELEVENLABS        ← the same words, one paragraph, with [audio tags], paste-ready
 ## STORYBOARD        ← ```json, version 2: concept, shots grouped by idea, new_assets
 ## CAPTION
 ## FACT SHEET & SOURCES

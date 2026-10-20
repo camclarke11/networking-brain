@@ -61,6 +61,14 @@ Send this to the friend still waiting on five intros.
 
 ---
 
+## ELEVENLABS
+
+```text
+[confident] Stop asking people to introduce you. Write the intro for them. Marco knows everyone. He says, you should meet my friend Lena, I'll intro you. [sighs] Two weeks later, you're still waiting. He didn't forget you. [thoughtful] He has to explain who you are, why you matter, and what you want. That's homework. [encouraging] So do the homework for him. Send him one he can forward as is. Lena, meet my friend. He makes gym videos and wants his first monthly client. He'd love 15 minutes on how you landed yours. Marco just hits forward. [happy] Done in ten seconds. You're thinking, isn't writing my own intro a bit much? [chuckles] It's the polite move. You've turned a favor into a button. [short pause] But you need one more line. Add, no pressure if the timing's off. Now Lena can say no without Marco looking bad. So Marco's happy to send it. An intro he has to write waits a week. [happy] One he can forward goes tonight. [playful] Send this to the friend still waiting on five intros.
+```
+
+---
+
 ## STORYBOARD
 
 ```json
