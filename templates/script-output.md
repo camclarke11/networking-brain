@@ -35,17 +35,31 @@
 
 ```json
 {
-  "version": 1,
-  "names": {"connector": "Marco"},
+  "version": 2,
+  "concept": {
+    "metaphor": "[the one visual idea that runs through the video]",
+    "why": "[how the picture makes the lesson clearer]",
+    "library_metaphor": "[library id if reusing or creating a recurring metaphor, else leave out]"
+  },
+  "names": {"stranger_a": "[name, if the script gives one]"},
   "shots": [
     {
-      "line": 1,
-      "text": "[exactly script line 1]",
-      "set": "event_hall",
-      "camera": "push_in",
-      "characters": [{"id": "you", "action": "hold_drink", "expression": "nervous", "position": "center"}],
-      "overlay": {"type": "big_text", "text": "[short hook, 4–9 words]"}
+      "id": 1,
+      "lines": [1, 1],
+      "title": "[short name]",
+      "what_we_see": "[plain words, detailed enough to build]",
+      "camera": "[framing and movement]",
+      "transition_in": "[cut, whip pan, match cut…]",
+      "cast": ["you", "crowd"],
+      "uses": ["event_hall"],
+      "new": [],
+      "cues": [{"word": "[a word spoken in these lines]", "what": "[what happens on that word]"}],
+      "on_screen": [{"type": "big_text", "text": "[short hook, 4–9 words]"}],
+      "screenshot": false
     }
+  ],
+  "new_assets": [
+    {"id": "[snake_case]", "kind": "prop", "name": "[name]", "description": "[shape, material, size next to a character, how it moves]", "reuse": "[what else it could show]"}
   ]
 }
 ```
@@ -65,7 +79,7 @@
 | [e.g. 2017 study: follow-up questions increased liking] | [journal or university page] | Confirmed |
 
 ### ⚠️ Check before posting
-- [anything uncertain, a line that might sound off, anything the storyboard couldn't show]
+- [anything uncertain, a line that might sound off, any new asset that might be hard to build]
 
 <!-- Labels for data/<handle>/post-tags.csv once posted:
 category=… tier=… format=… hook=… named_tool=… proof=… objection=… character=… ending=… cta=… -->

@@ -4,8 +4,9 @@
   python3 tools/check_script.py scripts/2026-10-21-the-doorway-test.md [more files…]
 
 Checks what a machine can check from knowledge/10-quality-checklist.md: length, banned
-words, punctuation, the hook's first line, voice density, and that the storyboard has
-exactly one valid shot per spoken line. It cannot judge whether the script is good.
+words, punctuation, the hook's first line and voice density, plus the storyboard
+must-haves in knowledge/12-visual-storyboard.md §5 (every line in a shot, library reuse,
+cues on spoken words). It cannot judge whether the script or the visuals are good.
 Exit code 1 if any hard fail.
 """
 import json
@@ -28,20 +29,47 @@ STUDY_RE = re.compile(r"\b(study|studies|researchers|psychologists|experiment)\b
 EMOJI_RE = re.compile("[\U0001F300-\U0001FAFF☀-➿]")
 
 
-def enum(path):
-    node = SCHEMA
+def enum(node, *path):
     for key in path:
         node = node[key]
     return set(node["enum"])
 
 
-CAST = enum(["$defs", "shot", "properties", "characters", "items", "properties", "id"])
-SETS = enum(["$defs", "shot", "properties", "set"])
-CAMERAS = enum(["$defs", "shot", "properties", "camera"])
-ACTIONS = enum(["$defs", "shot", "properties", "characters", "items", "properties", "action"])
-EXPRESSIONS = enum(["$defs", "shot", "properties", "characters", "items", "properties", "expression"])
-POSITIONS = enum(["$defs", "shot", "properties", "characters", "items", "properties", "position"])
-OVERLAYS = {o["properties"]["type"]["const"]: set(o["required"]) for o in SCHEMA["$defs"]["overlay"]["oneOf"]}
+SHOT = SCHEMA["$defs"]["shot"]["properties"]
+CAST = enum(SHOT, "cast", "items")
+ASSET_KINDS = enum(SCHEMA, "$defs", "asset", "properties", "kind")
+COMPONENTS = {c["properties"]["type"]["const"]: set(c["required"]) - {"type"} for c in SCHEMA["$defs"]["component"]["oneOf"]}
+SAYS_EXACT = {"quote_bubble", "x_check", "dm_screen"}
+LIBRARY = ROOT / "visuals" / "library.json"
+
+
+def tokens(text):
+    """Lowercase spoken tokens, with number commas and curly apostrophes normalised."""
+    text = text.lower().replace("’", "'")
+    text = re.sub(r"(?<=\d),(?=\d)", "", text)
+    return re.findall(r"[a-z0-9$']+", text)
+
+
+def contains(haystack, needle):
+    n = len(needle)
+    return n > 0 and any(haystack[i:i + n] == needle for i in range(len(haystack) - n + 1))
+
+
+def script_lines(text):
+    script = section(text, "SCRIPT") or ""
+    return [line.strip() for line in script.splitlines() if line.strip() and line.strip() != "---"]
+
+
+def read_board(text):
+    """The storyboard JSON from a script file, or None if there isn't a parseable one."""
+    board_text = section(text, "STORYBOARD")
+    block = re.search(r"```json\s*(.*?)```", board_text or "", re.S)
+    if not block:
+        return None
+    try:
+        return json.loads(block.group(1))
+    except json.JSONDecodeError:
+        return None
 
 
 def section(text, name):
@@ -49,13 +77,13 @@ def section(text, name):
     return match.group(1).strip() if match else None
 
 
-def check(path):
+def check(path, library=None):
     text = Path(path).read_text(encoding="utf-8")
     fails, warns = [], []
     script = section(text, "SCRIPT")
     if not script:
         return ["No '## SCRIPT' section."], [], {}
-    lines = [line.strip() for line in script.splitlines() if line.strip() and line.strip() != "---"]
+    lines = script_lines(text)
     words = re.findall(r"[\w'’$]+", script)
     n = len(words)
     seconds = round(n / WPM * 60)
@@ -105,63 +133,118 @@ def check(path):
     board_text = section(text, "STORYBOARD")
     if board_text is None:
         fails.append("No '## STORYBOARD' section.")
+    elif not re.search(r"```json\s*(.*?)```", board_text, re.S):
+        fails.append("STORYBOARD has no ```json block.")
     else:
-        block = re.search(r"```json\s*(.*?)```", board_text, re.S)
-        if not block:
-            fails.append("STORYBOARD has no ```json block.")
+        board = read_board(text)
+        if board is None:
+            fails.append("Storyboard JSON doesn't parse.")
         else:
-            try:
-                board = json.loads(block.group(1))
-            except json.JSONDecodeError as err:
-                fails.append(f"Storyboard JSON doesn't parse: {err}.")
-                board = None
-            if board is not None:
-                fails += check_board(board, lines, script)
+            if library is None:
+                library = json.loads(LIBRARY.read_text(encoding="utf-8")) if LIBRARY.exists() else {"assets": []}
+            board_fails, board_warns = check_board(board, lines, script, Path(path).stem, library)
+            fails += board_fails
+            warns += board_warns
     return fails, warns, {"words": n, "seconds": seconds, "lines": len(lines)}
 
 
-def check_board(board, lines, script):
-    fails = []
-    if board.get("version") != 1:
-        fails.append("Storyboard 'version' must be 1.")
+def check_board(board, lines, script, stem, library):
+    """Must-haves from knowledge/12-visual-storyboard.md §5. Returns (fails, warns)."""
+    fails, warns = [], []
+    if board.get("version") != 2:
+        fails.append("Storyboard 'version' must be 2 (see templates/storyboard.schema.json).")
+    concept = board.get("concept") or {}
+    if not concept.get("metaphor") or not concept.get("why"):
+        fails.append("concept needs a 'metaphor' and a 'why'.")
     for cid in board.get("names", {}):
         if cid not in CAST:
             fails.append(f"names: unknown cast id '{cid}'.")
+
+    lib = {a["id"]: a for a in library.get("assets", []) if a.get("status") != "retired"}
+    new_specs = {a.get("id"): a for a in board.get("new_assets", [])}
+    for aid, spec in new_specs.items():
+        if spec.get("kind") not in ASSET_KINDS:
+            fails.append(f"new_assets '{aid}': kind must be one of {', '.join(sorted(ASSET_KINDS))}.")
+        if len((spec.get("description") or "").split()) < 8:
+            fails.append(f"new_assets '{aid}': describe it well enough to build (shape, material, size, movement).")
+        if aid in lib and lib[aid].get("first_used") != stem:
+            fails.append(f"'{aid}' is already in the library; reuse it under 'uses' instead of 'new'.")
+
     shots = board.get("shots", [])
-    if len(shots) != len(lines):
-        fails.append(f"{len(shots)} shots for {len(lines)} script lines; need exactly one per line.")
-    norm = lambda s: re.sub(r"\s+", " ", s).strip()
-    for i, shot in enumerate(shots, 1):
-        where = f"Shot {i}"
-        if shot.get("line") != i:
-            fails.append(f"{where}: 'line' should be {i}.")
-        if i <= len(lines) and norm(shot.get("text", "")) != norm(lines[i - 1]):
-            fails.append(f"{where}: text doesn't match script line {i}.")
-        if shot.get("set") not in SETS:
-            fails.append(f"{where}: unknown set '{shot.get('set')}'.")
-        if shot.get("camera") not in CAMERAS:
-            fails.append(f"{where}: unknown camera '{shot.get('camera')}'.")
-        chars = shot.get("characters", [])
-        if len(chars) > 4:
-            fails.append(f"{where}: more than 4 characters.")
-        for c in chars:
-            for key, allowed in (("id", CAST), ("action", ACTIONS), ("expression", EXPRESSIONS), ("position", POSITIONS)):
-                if c.get(key) not in allowed:
-                    fails.append(f"{where}: unknown {key} '{c.get(key)}'.")
-        overlay = shot.get("overlay")
-        if overlay is not None:
-            kind = overlay.get("type")
-            if kind not in OVERLAYS:
-                fails.append(f"{where}: unknown overlay '{kind}'.")
-            else:
-                missing = OVERLAYS[kind] - set(overlay)
-                if missing:
-                    fails.append(f"{where}: {kind} is missing {', '.join(sorted(missing))}.")
-    if shots and (shots[0].get("overlay") or {}).get("type") != "big_text":
-        fails.append("Shot 1 needs a big_text overlay with the short hook.")
-    if STUDY_RE.search(script) and not any((s.get("overlay") or {}).get("type") == "study_card" for s in shots):
-        fails.append("The script cites research but no shot has a study_card.")
-    return fails
+    expected, referenced_new = 1, set()
+    for n, shot in enumerate(shots, 1):
+        where = f"Shot {n}"
+        if shot.get("id") != n:
+            fails.append(f"{where}: 'id' should be {n}.")
+        span = shot.get("lines") or [0, 0]
+        first, last = (span + [0, 0])[:2]
+        if first != expected or last < first:
+            fails.append(f"{where}: lines {span} should start at line {expected} (every line in one shot, in order).")
+        expected = max(expected, last + 1)
+        spoken = tokens(" ".join(lines[first - 1:last])) if first >= 1 else []
+        if len((shot.get("what_we_see") or "").split()) < 8:
+            fails.append(f"{where}: 'what_we_see' is too thin to build from.")
+        if not shot.get("camera"):
+            fails.append(f"{where}: no camera.")
+        for cid in shot.get("cast", []):
+            if cid not in CAST:
+                fails.append(f"{where}: unknown cast id '{cid}'. New looks for the cast are a 'costume' asset.")
+        for uid in shot.get("uses", []):
+            if uid in new_specs and uid not in lib:
+                if uid not in referenced_new:
+                    fails.append(f"{where}: '{uid}' is new in this video; list it under 'new' the first time it appears.")
+            elif uid not in lib:
+                fails.append(f"{where}: '{uid}' isn't in visuals/library.json.")
+        for nid in shot.get("new", []):
+            referenced_new.add(nid)
+            if nid not in new_specs:
+                fails.append(f"{where}: new asset '{nid}' isn't described in new_assets.")
+        for cue in shot.get("cues", []):
+            cue_line = cue.get("line")
+            pool = tokens(lines[cue_line - 1]) if cue_line and first <= cue_line <= last else spoken
+            if not contains(pool, tokens(cue.get("word", ""))):
+                fails.append(f"{where}: cue word '{cue.get('word')}' isn't spoken in this shot.")
+        for comp in shot.get("on_screen", []):
+            kind = comp.get("type")
+            if kind not in COMPONENTS:
+                fails.append(f"{where}: unknown on-screen component '{kind}'.")
+                continue
+            missing = COMPONENTS[kind] - set(comp)
+            if missing:
+                fails.append(f"{where}: {kind} is missing {', '.join(sorted(missing))}.")
+            if comp.get("at") and not contains(spoken, tokens(comp["at"])):
+                fails.append(f"{where}: {kind} 'at' word '{comp['at']}' isn't spoken in this shot.")
+        changes = 1 + len(shot.get("cues", [])) + sum(1 for c in shot.get("on_screen", []) if c.get("at"))
+        if spoken and len(spoken) / changes > 14:
+            warns.append(f"{where}: {len(spoken)} words with only {changes} visual change(s); add cues so something moves every 2 to 4 seconds.")
+    if lines and expected != len(lines) + 1:
+        fails.append(f"Shots cover lines 1 to {expected - 1}, but the script has {len(lines)} lines.")
+    metaphor_id = concept.get("library_metaphor")
+    if metaphor_id:
+        referenced_new.add(metaphor_id)
+        if metaphor_id not in lib and metaphor_id not in new_specs:
+            fails.append(f"concept.library_metaphor '{metaphor_id}' isn't in the library or new_assets.")
+    for aid in new_specs:
+        if aid not in referenced_new:
+            fails.append(f"new_assets '{aid}' isn't used in any shot.")
+
+    comps = lambda s: [c.get("type") for c in s.get("on_screen", [])]
+    if shots and "big_text" not in comps(shots[0]):
+        fails.append("Shot 1 needs a big_text with the short hook.")
+    if not any(t in SAYS_EXACT for s in shots for t in comps(s)):
+        fails.append("The exact words to say never appear on screen (quote_bubble, x_check or dm_screen).")
+    if STUDY_RE.search(script) and not any("study_card" in comps(s) and "professor" in s.get("cast", []) for s in shots):
+        fails.append("The script cites research but no shot has a study_card with the professor.")
+    if shots and lines and re.search(r"\bsend this to\b", lines[-1].lower()) and "friend" not in shots[-1].get("cast", []):
+        fails.append("The share prompt's shot needs 'friend' in it.")
+    if not any(s.get("screenshot") for s in shots):
+        warns.append("No shot is marked as the screenshot moment.")
+    built = sum(1 for a in lib.values() if a.get("status") != "core")
+    fresh = [a for a in new_specs if a not in lib or lib[a].get("first_used") == stem]
+    if len(fresh) > 3:
+        note = " (fine while the library is young)" if built < 20 else ""
+        warns.append(f"{len(fresh)} new assets; aim for 3 or fewer{note}.")
+    return fails, warns
 
 
 def main(paths):

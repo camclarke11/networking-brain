@@ -1,0 +1,291 @@
+{
+  "_notes": "Everything the videos have used, so the agent reuses before inventing. Status: core (starter kit, build first), requested (invented by a script, not built yet), built, retired. Edit with tools/library.py, not by hand.",
+  "assets": [
+    {
+      "id": "event_hall",
+      "kind": "set",
+      "name": "Event hall",
+      "description": "A busy networking event: high tables, drinks, warm low light, crowd silhouettes.",
+      "reuse": "",
+      "status": "core",
+      "first_used": null,
+      "used_in": [
+        "2026-10-20-the-second-question"
+      ]
+    },
+    {
+      "id": "drinks_table",
+      "kind": "set",
+      "name": "Drinks table",
+      "description": "Close corner of the event by the drinks. Two to three people fit comfortably.",
+      "reuse": "",
+      "status": "core",
+      "first_used": null,
+      "used_in": [
+        "2026-10-20-the-second-question"
+      ]
+    },
+    {
+      "id": "stage_talk",
+      "kind": "set",
+      "name": "Stage talk",
+      "description": "Rows of seats facing a small stage with a speaker and a mic.",
+      "reuse": "",
+      "status": "core",
+      "first_used": null,
+      "used_in": []
+    },
+    {
+      "id": "coffee_shop",
+      "kind": "set",
+      "name": "Coffee shop",
+      "description": "A two-person table by a window, two cups.",
+      "reuse": "",
+      "status": "core",
+      "first_used": null,
+      "used_in": []
+    },
+    {
+      "id": "coworking",
+      "kind": "set",
+      "name": "Coworking space",
+      "description": "Desks, laptops, plants, a whiteboard.",
+      "reuse": "",
+      "status": "core",
+      "first_used": null,
+      "used_in": []
+    },
+    {
+      "id": "phone_screen",
+      "kind": "set",
+      "name": "Phone screen",
+      "description": "Full-frame phone UI for DMs, texts and profiles. Uses the dm_screen component.",
+      "reuse": "",
+      "status": "core",
+      "first_used": null,
+      "used_in": []
+    },
+    {
+      "id": "doorway",
+      "kind": "set",
+      "name": "Event doorway",
+      "description": "The entrance to the event, with a lanyard table and the room glowing behind.",
+      "reuse": "",
+      "status": "core",
+      "first_used": null,
+      "used_in": []
+    },
+    {
+      "id": "street_night",
+      "kind": "set",
+      "name": "Street at night",
+      "description": "Outside after the event: wet pavement, streetlights, walking home.",
+      "reuse": "",
+      "status": "core",
+      "first_used": null,
+      "used_in": []
+    },
+    {
+      "id": "void",
+      "kind": "set",
+      "name": "Brand void",
+      "description": "Plain off-white background with the gold accent. For big statements and cards.",
+      "reuse": "",
+      "status": "core",
+      "first_used": null,
+      "used_in": []
+    },
+    {
+      "id": "drink_glass",
+      "kind": "prop",
+      "name": "Drink glass",
+      "description": "A stylised glass a character can hold, sip or put down.",
+      "reuse": "",
+      "status": "core",
+      "first_used": null,
+      "used_in": [
+        "2026-10-20-the-second-question"
+      ]
+    },
+    {
+      "id": "phone",
+      "kind": "prop",
+      "name": "Phone",
+      "description": "A character's phone: check it, type, show the screen to camera.",
+      "reuse": "",
+      "status": "core",
+      "first_used": null,
+      "used_in": [
+        "2026-10-20-the-second-question"
+      ]
+    },
+    {
+      "id": "freeze_frame",
+      "kind": "effect",
+      "name": "Freeze frame",
+      "description": "Everything stops mid-motion except the narrator's focus.",
+      "reuse": "",
+      "status": "core",
+      "first_used": null,
+      "used_in": [
+        "2026-10-20-the-second-question"
+      ]
+    },
+    {
+      "id": "colour_drain",
+      "kind": "effect",
+      "name": "Colour drain",
+      "description": "The wrong move: the frame drains to cold grey-blue and slows. Part of the locked visual grammar.",
+      "reuse": "",
+      "status": "core",
+      "first_used": null,
+      "used_in": [
+        "2026-10-20-the-second-question"
+      ]
+    },
+    {
+      "id": "gold_glow",
+      "kind": "effect",
+      "name": "Gold glow",
+      "description": "The right move: warm gold light spreads and colour floods back. Part of the locked visual grammar.",
+      "reuse": "",
+      "status": "core",
+      "first_used": null,
+      "used_in": [
+        "2026-10-20-the-second-question"
+      ]
+    },
+    {
+      "id": "whip_pan",
+      "kind": "effect",
+      "name": "Whip pan",
+      "description": "A fast blurred camera swing used as a transition.",
+      "reuse": "",
+      "status": "core",
+      "first_used": null,
+      "used_in": [
+        "2026-10-20-the-second-question"
+      ]
+    },
+    {
+      "id": "answer_door",
+      "kind": "metaphor",
+      "name": "The answer door",
+      "description": "When someone tells you something about themselves, a small glowing door appears between you. Ignoring it shuts it, a follow-up opens it into their world.",
+      "reuse": "Any video about listening, follow-ups, curiosity or missed openings",
+      "status": "requested",
+      "first_used": "2026-10-20-the-second-question",
+      "used_in": [
+        "2026-10-20-the-second-question"
+      ]
+    },
+    {
+      "id": "glowing_door",
+      "kind": "prop",
+      "name": "Glowing door",
+      "description": "A small wooden door, knee height next to a character, with a warm gold glow from the gap underneath. It rises from any surface, shrinks and shuts with a puff of smoke, or swings open onto a new set. A small painted icon on it shows what's behind it.",
+      "reuse": "The answer door metaphor, any 'opening' or opportunity moment",
+      "status": "requested",
+      "first_used": "2026-10-20-the-second-question",
+      "used_in": [
+        "2026-10-20-the-second-question"
+      ]
+    },
+    {
+      "id": "question_cards",
+      "kind": "prop",
+      "name": "Question cards",
+      "description": "Two speech bubbles held like playing cards, hand sized, marked with big numbers. One can glow gold, the other crumbles to dust.",
+      "reuse": "Ranking or comparing lines, first vs second, this vs that",
+      "status": "requested",
+      "first_used": "2026-10-20-the-second-question",
+      "used_in": [
+        "2026-10-20-the-second-question"
+      ]
+    },
+    {
+      "id": "loading_spinner",
+      "kind": "effect",
+      "name": "Loading spinner",
+      "description": "A floating grey loading spinner above a character's head, slowly turning, shown while they're bored or stalled.",
+      "reuse": "Any stalled or boring conversation",
+      "status": "requested",
+      "first_used": "2026-10-20-the-second-question",
+      "used_in": [
+        "2026-10-20-the-second-question"
+      ]
+    },
+    {
+      "id": "vhs_rewind",
+      "kind": "effect",
+      "name": "VHS rewind",
+      "description": "The whole frame scrubs backwards with VHS tracking lines and a slight colour wobble, then snaps back to normal at a chosen moment.",
+      "reuse": "Showing the do-over, 'let's try that again'",
+      "status": "requested",
+      "first_used": "2026-10-20-the-second-question",
+      "used_in": [
+        "2026-10-20-the-second-question"
+      ]
+    },
+    {
+      "id": "night_kitchen_lab",
+      "kind": "set",
+      "name": "Night kitchen lab",
+      "description": "A small home kitchen at 2am, lit by one warm lamp, the counter covered in test bottles, handwritten labels and a laptop. Feels like someone's first business.",
+      "reuse": "Any founder's origin story or side-project moment",
+      "status": "requested",
+      "first_used": "2026-10-20-the-second-question",
+      "used_in": [
+        "2026-10-20-the-second-question"
+      ]
+    },
+    {
+      "id": "interrogation_room",
+      "kind": "set",
+      "name": "Interrogation room",
+      "description": "A dark police interview room with a metal table, two chairs, a swinging overhead lamp and an old tape recorder. Played for comedy, not menace.",
+      "reuse": "Asking too many questions, being grilled, awkward pressure",
+      "status": "requested",
+      "first_used": "2026-10-20-the-second-question",
+      "used_in": [
+        "2026-10-20-the-second-question"
+      ]
+    },
+    {
+      "id": "ping_pong_table",
+      "kind": "prop",
+      "name": "Ping-pong table",
+      "description": "A full-size ping-pong table with paddles and a ball that can glow gold, built so the interview table or any table can flip into it.",
+      "reuse": "Back-and-forth conversation, give and take, trading",
+      "status": "requested",
+      "first_used": "2026-10-20-the-second-question",
+      "used_in": [
+        "2026-10-20-the-second-question"
+      ]
+    },
+    {
+      "id": "speed_date_grid",
+      "kind": "set",
+      "name": "Study scale grid",
+      "description": "A huge grid of tiny two-person tables seen from above, each one able to light up warm or go grey, with small tickets that can fly out of chosen tables.",
+      "reuse": "Showing the size and result of any study with many participants",
+      "status": "requested",
+      "first_used": "2026-10-20-the-second-question",
+      "used_in": [
+        "2026-10-20-the-second-question"
+      ]
+    },
+    {
+      "id": "question_bubbles",
+      "kind": "effect",
+      "name": "Question bubbles",
+      "description": "Speech bubbles that float up from conversations like balloons. Grey ones merge into a fog over the room, a gold one can drift to one person and be pocketed.",
+      "reuse": "Forgettable vs memorable lines, small talk, being remembered",
+      "status": "requested",
+      "first_used": "2026-10-20-the-second-question",
+      "used_in": [
+        "2026-10-20-the-second-question"
+      ]
+    }
+  ]
+}

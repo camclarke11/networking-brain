@@ -7,7 +7,7 @@ Every time:
 4. 130 to 160 words. Plain spoken words, one sentence per line, no banned words, no em-dashes.
 5. Search the web to verify every study you mention (year, researchers, what they did, what happened) and link it in the fact sheet. Never invent a number.
 6. Never reuse a tool name, example or line from @theoryofbehaviour or anyone else.
-7. Storyboard every line using only the cast, sets, actions and overlays in knowledge/12-visual-storyboard.md.
+7. Direct the storyboard per knowledge/12-visual-storyboard.md: one visual metaphor, the locked look and cast, props from visuals/library.json reused before inventing new ones, every line in a shot, and big moments pinned to spoken words (never seconds; timing comes from the recorded audio).
 8. Run the checklist in knowledge/10-quality-checklist.md and revise anything you'd score under 8.
 
 Return the script in exactly the format in templates/script-output.md.

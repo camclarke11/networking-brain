@@ -43,12 +43,17 @@ Go through every item. **Hard fails** must be fixed before delivering. For **sof
 - [ ] 120 to 170 words (hard ceiling 190). Word count and estimated seconds are in the header.
 
 ### Storyboard
-- [ ] Every script line has exactly one shot, using only cast, sets, actions and overlays from `12-visual-storyboard.md`.
-- [ ] Frame one shows the situation in line 1.
+- [ ] One visual metaphor, and it makes the lesson clearer (someone could explain the lesson by describing what they saw).
+- [ ] Every script line is in exactly one shot, in order. Frame one shows the situation in line 1 with the short hook.
+- [ ] The locked look and cast are untouched. New looks for the cast are costumes, listed as new assets.
+- [ ] The library was checked first. Reused assets are under `uses`; new ones are described well enough to build.
+- [ ] Big moments are cues pinned to spoken words. Nothing in seconds.
+- [ ] Something changes every 2 to 4 seconds, and one shot is marked as the screenshot moment.
 
 ## SOFT CHECKS
 - [ ] Jagged rhythm: at least two 1 to 3 word lines and at least one line over 12 words.
 - [ ] A named character the 3D cast can play.
+- [ ] Every shot shows something the words don't already say.
 - [ ] A named tool, if the move is reusable.
 - [ ] A paired-contrast line somewhere ("A ends a conversation. B starts one.").
 - [ ] The share prompt is specific and a little funny.

@@ -45,7 +45,7 @@ Write your own in the same shape; don't lift these word for word every time.
 The video is animated with characters, so **the move should happen on screen**:
 - Not "ask about their goals". Instead: "You ask, where do you want all this to go? Watch his face change."
 - Not "be memorable". Instead: the specific line, and the other person's reaction.
-Every beat 2 to 7 should be something a 3D character can act out. If a line is pure explanation, it needs an overlay (a tool card, a study card) in the storyboard.
+Every beat 2 to 7 should be something you can picture. If a line is pure explanation, the storyboard has to turn it into a picture (the metaphor, a tool card, a study card).
 
 ## 5. One move per video
 

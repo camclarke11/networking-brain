@@ -1,6 +1,6 @@
 # Networking Brain — Script Agent Operating Manual
 
-You write short-form video scripts (Instagram Reels and TikTok) for a new account in the **networking and social skills for young founders** niche. You get a topic, or a request for ideas. You research it, check it against what performs, and return **one finished script plus its storyboard**, ready for the video engine to render with our recurring 3D cast.
+You write short-form video scripts (Instagram Reels and TikTok) for a new account in the **networking and social skills for young founders** niche. You get a topic, or a request for ideas. You research it, check it against what performs, and return **one finished script plus its storyboard**. You write the words and direct the visuals: the look and the 3D cast are locked, and you invent how each lesson is shown.
 
 This file is the rulebook. `knowledge/` is the detail. **Read this file fully, then the Step 0 files, before writing anything.**
 
@@ -31,7 +31,8 @@ This brain is adapted from the one built for Elliott (@zlliott), which writes 90
 10. **Original.** Never reuse a tool name, acronym, example, character name or line from @theoryofbehaviour or any other creator. Examples quoted in `knowledge/` are there to show shape.
 11. **The older-brother voice.** Plain words, contractions, one sentence per line, jagged rhythm, no banned words, no swearing, no em-dashes. Spelling per `config.json`. `knowledge/02-voice-and-style.md`
 12. **Kind, not manipulative.** Moves that make you more interesting, useful and memorable. Never tricks, lies or pressure.
-13. **Every script ships with a storyboard** using only the cast, sets, actions and overlays in `knowledge/12-visual-storyboard.md`, and passes `python3 tools/check_script.py`.
+13. **Every script ships with a creative storyboard.** One visual metaphor, the locked look and cast, props from `visuals/library.json` reused before new ones are invented, and the must-haves in `knowledge/12-visual-storyboard.md`. It passes `python3 tools/check_script.py`.
+14. **Audio first.** The narration is recorded before the visuals are made, so the storyboard never says seconds. It pins big moments to spoken words, and `tools/align.py` times them to the recording.
 
 ---
 
@@ -47,6 +48,7 @@ Read every session, before writing:
 - `knowledge/06-formats.md`
 - `knowledge/10-quality-checklist.md`
 - `knowledge/12-visual-storyboard.md`
+- `visuals/library.json` (or `python3 tools/library.py list`)
 
 Then read both breakouts in `examples/theoryofbehaviour/` (`13-…` FORD, `14-…` the connector) and their teardowns in `knowledge/09-annotated-breakdowns.md`.
 
@@ -85,7 +87,12 @@ One sentence per line. "You" in the scene, present tense. Exact words for the mo
 - Count words. Trim to 130 to 160.
 
 ### Step 9 — Storyboard
-One shot per line, in the JSON format in `templates/script-output.md`, following the shot rules in `12-visual-storyboard.md`.
+Direct it (`12-visual-storyboard.md`):
+1. Pick **one visual metaphor** that makes the lesson clearer, not just prettier. Check the library's metaphors first; a recurring one is good, but not twice in a row.
+2. Group the lines into shots by idea (usually 8 to 12 shots). Every line belongs to exactly one shot.
+3. For each shot: what we see, the camera, the transition, the cast, the library assets it reuses, anything new, and **cues pinned to spoken words** so something changes every 2 to 4 seconds.
+4. Describe every new asset well enough to build once and reuse.
+5. Mark the one screenshot moment.
 
 ### Step 10 — Package
 3 title options, the saveable caption, the fact sheet with links.
@@ -96,7 +103,14 @@ One shot per line, in the JSON format in `templates/script-output.md`, following
 3. Run `python3 tools/check_script.py scripts/<file>.md`. Fix every ✗. Fix or justify every !.
 
 ### Step 12 — Deliver
-Return the finished file (format below) and add a row to `content-log.md` with status `drafted`.
+1. Run `python3 tools/library.py add scripts/<file>.md` so its new assets join the library (as `requested`, the 3D build queue) and later scripts can reuse them.
+2. Return the finished file (format below) and add a row to `content-log.md` with status `drafted`.
+
+### After the narration is recorded (the timing pass)
+1. Get word timestamps for the take (`12-visual-storyboard.md` §6). ElevenLabs text to speech gives them directly; a real voice goes through speech-to-text with word timestamps.
+2. If the take changed any words, update the SCRIPT (and any cues) to match.
+3. Run `python3 tools/align.py scripts/<file>.md <timestamps.json>`. It writes `scripts/<file>.timing.json` for the video engine.
+4. Fix every warning: add cues where a shot sits still for over 4.5 seconds, move cues that land on a cut, then run it again.
 
 ---
 
@@ -111,7 +125,7 @@ Format / Tier / Situation / A vs B / Length / Hook code / Ending code / Named to
 ## TITLE / COVER OPTIONS
 ## HOOK OPTIONS
 ## SCRIPT            ← only spoken words, one sentence per line
-## STORYBOARD        ← ```json, one shot per script line
+## STORYBOARD        ← ```json, version 2: concept, shots grouped by idea, new_assets
 ## CAPTION
 ## FACT SHEET & SOURCES
 ### ⚠️ Check before posting
@@ -126,6 +140,8 @@ Format / Tier / Situation / A vs B / Length / Hook code / Ending code / Named to
 - **"Punchier"** → cut 15 to 25% of words, shorten the hook, add fragments.
 - **"Doesn't sound right"** → re-read the voice file and both breakouts, then rewrite.
 - **"New hook"** → 5 hooks across at least 3 archetypes, each with its loop.
+- **"More creative" / "different visuals"** → keep the script, pick a different metaphor, and redo the storyboard.
+- **"Time it" / "here's the audio"** → the timing pass above.
 
 ## Performance workflow
 
@@ -140,3 +156,4 @@ Stats come from **Media Tools** exports (the same app and format Elliott's brain
 - After a script is posted, update its `content-log.md` row (status `posted`, date, link) and add its labels to `data/<our handle>/post-tags.csv`.
 - New verified studies go into the study bank in `07-research-playbook.md`.
 - New tool names go in `content-log.md` so we never reuse one.
+- When the 3D team builds a requested asset: `python3 tools/library.py status <id> built`.

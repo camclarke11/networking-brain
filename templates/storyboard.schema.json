@@ -1,22 +1,47 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "storyboard.schema.json",
-  "title": "Storyboard for one reel",
-  "description": "One shot per spoken script line. Enums must match knowledge/12-visual-storyboard.md and tools/check_script.py.",
+  "title": "Storyboard for one reel (version 2: creative direction)",
+  "description": "Shots grouped by idea, each covering one or more consecutive script lines. Timing comes later from the recorded audio via tools/align.py, so nothing here is in seconds. Rules: knowledge/12-visual-storyboard.md. Checked by tools/check_script.py.",
   "type": "object",
   "required": [
     "version",
+    "concept",
     "names",
-    "shots"
+    "shots",
+    "new_assets"
   ],
   "additionalProperties": false,
   "properties": {
     "version": {
-      "const": 1
+      "const": 2
+    },
+    "concept": {
+      "type": "object",
+      "required": [
+        "metaphor",
+        "why"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "metaphor": {
+          "type": "string",
+          "description": "The one visual idea that runs through the video."
+        },
+        "why": {
+          "type": "string",
+          "description": "How the picture makes the lesson clearer."
+        },
+        "library_metaphor": {
+          "type": "string",
+          "pattern": "^[a-z0-9_]+$",
+          "description": "Library id if this reuses a recurring metaphor."
+        }
+      }
     },
     "names": {
       "type": "object",
-      "description": "Display names used in this script, by cast id. Recurring cast keep their default names.",
+      "description": "Display names used in this script, by cast id.",
       "propertyNames": {
         "enum": [
           "you",
@@ -40,155 +65,247 @@
       "items": {
         "$ref": "#/$defs/shot"
       }
+    },
+    "new_assets": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/asset"
+      }
     }
   },
   "$defs": {
     "shot": {
       "type": "object",
       "required": [
-        "line",
-        "text",
-        "set",
+        "id",
+        "lines",
+        "what_we_see",
         "camera",
-        "characters",
-        "overlay"
+        "cast",
+        "uses",
+        "new",
+        "on_screen"
       ],
       "additionalProperties": false,
       "properties": {
-        "line": {
+        "id": {
           "type": "integer",
           "minimum": 1
         },
-        "text": {
-          "type": "string",
-          "description": "The script line, exactly as written in the SCRIPT section."
+        "lines": {
+          "type": "array",
+          "items": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "minItems": 2,
+          "maxItems": 2,
+          "description": "[first, last] script line this shot covers, inclusive."
         },
-        "set": {
-          "enum": [
-            "event_hall",
-            "drinks_table",
-            "stage_talk",
-            "coffee_shop",
-            "coworking",
-            "phone_screen",
-            "doorway",
-            "street_night",
-            "void"
-          ]
+        "title": {
+          "type": "string"
+        },
+        "what_we_see": {
+          "type": "string",
+          "description": "Plain words: what happens on screen, with enough detail to build it."
         },
         "camera": {
-          "enum": [
-            "wide",
-            "medium",
-            "close",
-            "over_shoulder",
-            "push_in",
-            "pull_out",
-            "pan"
-          ]
+          "type": "string",
+          "description": "Free text: framing and movement."
         },
-        "characters": {
+        "transition_in": {
+          "type": "string",
+          "description": "Free text, e.g. cut, whip pan, match cut on the door."
+        },
+        "cast": {
           "type": "array",
-          "maxItems": 4,
+          "items": {
+            "enum": [
+              "you",
+              "connector",
+              "big_name",
+              "friend",
+              "stranger_a",
+              "stranger_b",
+              "stranger_c",
+              "professor",
+              "crowd"
+            ]
+          },
+          "description": "Cast on screen."
+        },
+        "uses": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[a-z0-9_]+$"
+          },
+          "description": "Library ids reused in this shot (visuals/library.json)."
+        },
+        "new": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[a-z0-9_]+$"
+          },
+          "description": "New asset ids first made for this video, each described in new_assets."
+        },
+        "cues": {
+          "type": "array",
           "items": {
             "type": "object",
             "required": [
-              "id",
-              "action",
-              "expression",
-              "position"
+              "word",
+              "what"
             ],
             "additionalProperties": false,
             "properties": {
-              "id": {
-                "enum": [
-                  "you",
-                  "connector",
-                  "big_name",
-                  "friend",
-                  "stranger_a",
-                  "stranger_b",
-                  "stranger_c",
-                  "professor",
-                  "crowd"
-                ]
+              "word": {
+                "type": "string",
+                "description": "A word spoken in this shot's lines."
               },
-              "action": {
-                "enum": [
-                  "idle",
-                  "talk",
-                  "listen",
-                  "nod",
-                  "laugh",
-                  "smile",
-                  "wave",
-                  "wave_over",
-                  "point",
-                  "shrug",
-                  "lean_in",
-                  "look_away",
-                  "look_at_door",
-                  "check_phone",
-                  "type_phone",
-                  "walk_in",
-                  "walk_away",
-                  "handshake",
-                  "hold_drink",
-                  "cross_arms",
-                  "think",
-                  "surprised",
-                  "cringe",
-                  "thumbs_up"
-                ]
+              "line": {
+                "type": "integer",
+                "description": "Optional: which line, if the word appears more than once."
               },
-              "expression": {
-                "enum": [
-                  "neutral",
-                  "happy",
-                  "awkward",
-                  "bored",
-                  "interested",
-                  "surprised",
-                  "confident",
-                  "nervous"
-                ]
-              },
-              "position": {
-                "enum": [
-                  "left",
-                  "center",
-                  "right",
-                  "background"
-                ]
+              "what": {
+                "type": "string"
               }
             }
           }
         },
-        "overlay": {
-          "oneOf": [
-            {
-              "type": "null"
-            },
-            {
-              "$ref": "#/$defs/overlay"
-            }
-          ]
+        "on_screen": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/component"
+          }
         },
-        "sfx": {
-          "enum": [
-            "none",
-            "whoosh",
-            "pop",
-            "ding",
-            "record_scratch",
-            "crowd_murmur",
-            "phone_buzz"
-          ]
+        "sound": {
+          "type": "string",
+          "description": "Optional sound effect or music note."
+        },
+        "screenshot": {
+          "type": "boolean",
+          "description": "True on the frame people would pause on or send."
         }
       }
     },
-    "overlay": {
+    "asset": {
+      "type": "object",
+      "required": [
+        "id",
+        "kind",
+        "description",
+        "reuse"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z0-9_]+$"
+        },
+        "kind": {
+          "enum": [
+            "set",
+            "prop",
+            "effect",
+            "costume",
+            "metaphor"
+          ]
+        },
+        "name": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string",
+          "description": "Shape, material, size next to a character, how it moves."
+        },
+        "reuse": {
+          "type": "string",
+          "description": "What else it could be used for."
+        }
+      }
+    },
+    "component": {
       "oneOf": [
+        {
+          "type": "object",
+          "required": [
+            "type",
+            "text"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "type": {
+              "const": "big_text"
+            },
+            "at": {
+              "type": "string",
+              "description": "Optional spoken word (in this shot's lines) the component appears on."
+            },
+            "text": {
+              "type": "string"
+            }
+          }
+        },
+        {
+          "type": "object",
+          "required": [
+            "type",
+            "speaker",
+            "text"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "type": {
+              "const": "quote_bubble"
+            },
+            "at": {
+              "type": "string",
+              "description": "Optional spoken word (in this shot's lines) the component appears on."
+            },
+            "speaker": {
+              "enum": [
+                "you",
+                "connector",
+                "big_name",
+                "friend",
+                "stranger_a",
+                "stranger_b",
+                "stranger_c",
+                "professor",
+                "crowd"
+              ]
+            },
+            "text": {
+              "type": "string"
+            }
+          }
+        },
+        {
+          "type": "object",
+          "required": [
+            "type",
+            "wrong",
+            "right"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "type": {
+              "const": "x_check"
+            },
+            "at": {
+              "type": "string",
+              "description": "Optional spoken word (in this shot's lines) the component appears on."
+            },
+            "wrong": {
+              "type": "string"
+            },
+            "right": {
+              "type": "string"
+            }
+          }
+        },
         {
           "type": "object",
           "required": [
@@ -200,6 +317,10 @@
           "properties": {
             "type": {
               "const": "tool_card"
+            },
+            "at": {
+              "type": "string",
+              "description": "Optional spoken word (in this shot's lines) the component appears on."
             },
             "title": {
               "type": "string"
@@ -231,6 +352,10 @@
             "type": {
               "const": "study_card"
             },
+            "at": {
+              "type": "string",
+              "description": "Optional spoken word (in this shot's lines) the component appears on."
+            },
             "year": {
               "type": "integer"
             },
@@ -246,36 +371,6 @@
           "type": "object",
           "required": [
             "type",
-            "speaker",
-            "text"
-          ],
-          "additionalProperties": false,
-          "properties": {
-            "type": {
-              "const": "quote_bubble"
-            },
-            "speaker": {
-              "enum": [
-                "you",
-                "connector",
-                "big_name",
-                "friend",
-                "stranger_a",
-                "stranger_b",
-                "stranger_c",
-                "professor",
-                "crowd"
-              ]
-            },
-            "text": {
-              "type": "string"
-            }
-          }
-        },
-        {
-          "type": "object",
-          "required": [
-            "type",
             "from",
             "messages"
           ],
@@ -283,6 +378,10 @@
           "properties": {
             "type": {
               "const": "dm_screen"
+            },
+            "at": {
+              "type": "string",
+              "description": "Optional spoken word (in this shot's lines) the component appears on."
             },
             "from": {
               "type": "string"
@@ -315,26 +414,6 @@
           "type": "object",
           "required": [
             "type",
-            "wrong",
-            "right"
-          ],
-          "additionalProperties": false,
-          "properties": {
-            "type": {
-              "const": "x_check"
-            },
-            "wrong": {
-              "type": "string"
-            },
-            "right": {
-              "type": "string"
-            }
-          }
-        },
-        {
-          "type": "object",
-          "required": [
-            "type",
             "text",
             "target"
           ],
@@ -342,6 +421,10 @@
           "properties": {
             "type": {
               "const": "label"
+            },
+            "at": {
+              "type": "string",
+              "description": "Optional spoken word (in this shot's lines) the component appears on."
             },
             "text": {
               "type": "string"
@@ -370,7 +453,11 @@
           "additionalProperties": false,
           "properties": {
             "type": {
-              "const": "big_text"
+              "const": "stamp"
+            },
+            "at": {
+              "type": "string",
+              "description": "Optional spoken word (in this shot's lines) the component appears on."
             },
             "text": {
               "type": "string"
