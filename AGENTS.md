@@ -10,6 +10,7 @@ This brain is adapted from the one built for Elliott (@zlliott), which writes 90
 
 ## The account in 30 seconds
 
+- **Handle:** @f___a___c___t___s (Instagram first; TikTok to follow).
 - **Audience:** guys roughly 18 to 28 starting a business (agency, freelancing, coaching) who aren't natural networkers. `knowledge/01-audience-and-account.md`
 - **Promise:** psychology-backed moves that get people to like you, remember you and introduce you.
 - **Competitor we're beating:** @theoryofbehaviour. Same niche. We win on volume, script quality and our own 3D look. Their transcripts are in `examples/theoryofbehaviour/` for structure only.
@@ -149,7 +150,7 @@ Stats come from **Media Tools** exports (the same app and format Elliott's brain
 
 - **New export** (ours or a competitor's): `python3 tools/performance.py import "<export folder>"` (the handle is read from the export), then `tag`, label every new post in `data/<handle>/post-tags.csv` using the taxonomy in `00-what-performs.md`, then `report`. Compare with "What the data says" and update the written rules if a pattern moved. Tell the person in 3 to 5 bullets what changed and what to make next.
 - **"How did [post] do?"** → `python3 tools/performance.py --account <handle> post <link>`, then explain it in plain words with one thing to change next time. Under 7 days old is too new to judge.
-- **Once our account exists:** set `our_account` and `default_account` in `config.json`. Our data then beats the competitor's wherever they disagree.
+- **Our account is @f___a___c___t___s** (`our_account` in `config.json`). After its first export is imported, make it the `default_account`. Our data then beats the competitor's wherever they disagree.
 - Correlation only. Call a pattern strong only with 3+ posts behind it.
 
 ## Keeping the brain current

@@ -69,7 +69,7 @@ python3 -m unittest discover -s tests                    # 20 tests
 ```
 
 ## Before the first real batch
-- **Pick the account name and handle**, then set `our_account` and `default_account` in `config.json`.
+- **Account:** @f___a___c___t___s (set as `our_account` in `config.json`). After its first Media Tools export is imported, set `default_account` to it too.
 - **Confirm spelling** (US English by default) and **narration pace** once the voice is chosen.
 - **Pick the voice:** text to speech or recording it yourself. Either works with `tools/align.py`; ElevenLabs text to speech gives word timestamps directly, a real voice needs a speech-to-text pass.
 - **Lock the look:** replace the provisional style brief in `knowledge/12-visual-storyboard.md` §1 with exact colours and materials after the design pass, and build the `core` items in the library.
