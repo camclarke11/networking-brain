@@ -13,6 +13,7 @@ Give it a topic and it pins the situation, checks it against what performs, rese
 /batch 5                    # five scripts from the topic bank
 /ideas 10 outreach          # new topic ideas, added to the bank
 /align scripts/<file>.md <timestamps.json>   # time the visuals to the recorded voice
+/video scripts/<file>.md    # voice it, code the shots, render the MP4
 /refresh ~/Downloads/Media\ Tools/Account\ Exports/<export>
 ```
 Claude reads `CLAUDE.md`, which loads `AGENTS.md`.
@@ -39,6 +40,8 @@ Claude reads `CLAUDE.md`, which loads `AGENTS.md`.
 | `knowledge/10-quality-checklist.md` | The gate every script passes |
 | `knowledge/11-storytelling-principles.md` | The Callaway and South Park theory underneath |
 | `knowledge/12-visual-storyboard.md` | The locked look and cast, the creative rules, on-screen components, must-haves, and the audio-first timing pass |
+| `knowledge/13-video-production.md` | How a script becomes an MP4: the pipeline, the kit, the craft rules, the stills checklist |
+| `video/` | The Remotion project. `src/kit/` is the locked look (tokens, 3D clay cast, sets, on-screen components, effects, timeline); `src/videos/<slug>/` is each video's own shots |
 | `visuals/library.json` | Every set, prop, effect, costume and metaphor used so far, with its build status. Reuse before inventing. |
 | `templates/script-output.md` | The exact output format |
 | `templates/storyboard.schema.json` | Storyboard format, version 2 (the video engine reads this) |
@@ -50,12 +53,28 @@ Claude reads `CLAUDE.md`, which loads `AGENTS.md`.
 | `tools/performance.py` | Imports Media Tools exports per account, rebuilds the live tables, breaks down any post |
 | `tools/check_script.py` | Mechanical checks on a finished script and its storyboard must-haves |
 | `tools/library.py` | Lists the prop library, registers a script's new assets, tracks what's built |
+| `tools/voice.py` | Records the narration with text to speech (placeholder Edge voice, or ElevenLabs) and saves word timestamps |
+| `tools/make_video.py` | `prep` (voice, align, scaffold), `stills` (contact sheets for review), `render` (the final MP4 at -14 LUFS) |
+| `tools/make_sfx.py` | Synthesises the sound-effects kit in `video/public/sfx/` |
 | `tools/align.py` | Times every shot, cue and on-screen component to the recorded narration's word timestamps |
 | `config.json` | Our handle (once chosen), default account, spelling, narration pace |
 
+## Making videos
+
+```bash
+cd video && npm install && cd ..        # once (Node 18+)
+pip install edge-tts                    # once, the placeholder voice
+python3 tools/make_video.py scripts/<file>.md prep     # voice, timing, scaffold
+# write video/src/videos/<slug>/Video.tsx (or let /video do it)
+python3 tools/make_video.py scripts/<file>.md stills   # review contact sheets
+python3 tools/make_video.py scripts/<file>.md render   # video/out/<slug>.mp4
+cd video && npm run studio              # live preview with a scrubber
+```
+On a Mac the GPU renders the 3D. On a Linux server set `REMOTION_GL=swangle`.
+
 ## Tools
 
-Python 3 only, nothing to install.
+Python 3 only, nothing to install (except the video tools above).
 ```bash
 python3 tools/check_script.py scripts/<file>.md          # check a script and its storyboard
 python3 tools/library.py list --status requested         # the 3D build queue
@@ -72,5 +91,5 @@ python3 -m unittest discover -s tests                    # 20 tests
 - **Account:** @f___a___c___t___s (set as `our_account` in `config.json`). After its first Media Tools export is imported, set `default_account` to it too.
 - **Confirm spelling** (US English by default) and **narration pace** once the voice is chosen.
 - **Pick the voice:** text to speech or recording it yourself. Either works with `tools/align.py`; ElevenLabs text to speech gives word timestamps directly, a real voice needs a speech-to-text pass.
-- **Lock the look:** replace the provisional style brief in `knowledge/12-visual-storyboard.md` §1 with exact colours and materials after the design pass, and build the `core` items in the library.
+- **Tune the look:** a first pass of the palette, fonts and clay cast is built in `video/src/kit/`. Change it there (never inside a video) and every future video follows. Remaining `core` sets (coffee shop, coworking, stage, doorway, street) get built the first time a script needs them.
 - **Retention data** from our own Instagram insights is the biggest missing piece, as it was for Elliott's brain.

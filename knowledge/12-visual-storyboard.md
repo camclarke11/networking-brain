@@ -13,7 +13,7 @@ The narration is recorded **before** the visuals are made (text to speech or a r
 
 ## 1. The locked look (never changes)
 
-Until the design pass replaces these with exact values, this is the brief:
+The exact values live in code: `video/src/kit/tokens.ts` (colours, fonts, safe zones) and `video/src/kit/three/` (the clay cast, lighting, materials). This is the brief they implement:
 
 - **Style:** stylised 3D, soft and slightly toy-like (rounded shapes, matte clay-like materials). Never realistic humans, never stock footage.
 - **Light:** warm key light, soft shadows, shallow depth of field.

@@ -6,7 +6,7 @@ Every script we draft or post, newest first. Check this before writing so no mov
 
 | Date | Status | Title | Format | Hook | Named tool | Study used | File | Post link | Views |
 |---|---|---|---|---|---|---|---|---|---|
-| 2026-10-20 | drafted | The second question (sample, built to test the brain) | F3 | N6 | none | Huang et al. (2017) | `scripts/2026-10-20-the-second-question.md` | | |
+| 2026-10-20 | rendered | The second question (sample, built to test the brain) | F3 | N6 | none | Huang et al. (2017) | `scripts/2026-10-20-the-second-question.md` | | |
 
 ## Tool names in use
 Names we've coined. Never reuse one for a different move.

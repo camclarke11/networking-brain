@@ -10,8 +10,9 @@ sys.path.insert(0, str(ROOT / "tools"))
 import check_script as C  # noqa: E402
 
 SAMPLE = ROOT / "scripts" / "2026-10-20-the-second-question.md"
+# The starter kit: everything no script invented (core items stay starter kit once built).
 CORE_ONLY = {"assets": [a for a in json.loads((ROOT / "visuals" / "library.json").read_text())["assets"]
-                        if a["status"] == "core"]}
+                        if a["first_used"] is None]}
 
 
 class CheckScriptTests(unittest.TestCase):

@@ -1,0 +1,1 @@
+{"duration": 2, "lines": [{"line": 1, "text": "Example line.", "start": 0.1, "end": 1.4}], "shots": [{"id": 1, "title": "Example", "lines": [1, 1], "start": 0, "end": 2, "duration": 2, "cues": [], "on_screen": []}], "words": [{"word": "Example", "start": 0.1, "end": 0.6}, {"word": "line.", "start": 0.7, "end": 1.4}]}

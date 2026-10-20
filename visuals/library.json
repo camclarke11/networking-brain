@@ -7,7 +7,7 @@
       "name": "Event hall",
       "description": "A busy networking event: high tables, drinks, warm low light, crowd silhouettes.",
       "reuse": "",
-      "status": "core",
+      "status": "built",
       "first_used": null,
       "used_in": [
         "2026-10-20-the-second-question"
@@ -19,7 +19,7 @@
       "name": "Drinks table",
       "description": "Close corner of the event by the drinks. Two to three people fit comfortably.",
       "reuse": "",
-      "status": "core",
+      "status": "built",
       "first_used": null,
       "used_in": [
         "2026-10-20-the-second-question"
@@ -61,7 +61,7 @@
       "name": "Phone screen",
       "description": "Full-frame phone UI for DMs, texts and profiles. Uses the dm_screen component.",
       "reuse": "",
-      "status": "core",
+      "status": "built",
       "first_used": null,
       "used_in": []
     },
@@ -91,7 +91,7 @@
       "name": "Brand void",
       "description": "Plain off-white background with the gold accent. For big statements and cards.",
       "reuse": "",
-      "status": "core",
+      "status": "built",
       "first_used": null,
       "used_in": []
     },
@@ -101,7 +101,7 @@
       "name": "Drink glass",
       "description": "A stylised glass a character can hold, sip or put down.",
       "reuse": "",
-      "status": "core",
+      "status": "built",
       "first_used": null,
       "used_in": [
         "2026-10-20-the-second-question"
@@ -113,7 +113,7 @@
       "name": "Phone",
       "description": "A character's phone: check it, type, show the screen to camera.",
       "reuse": "",
-      "status": "core",
+      "status": "built",
       "first_used": null,
       "used_in": [
         "2026-10-20-the-second-question"
@@ -125,7 +125,7 @@
       "name": "Freeze frame",
       "description": "Everything stops mid-motion except the narrator's focus.",
       "reuse": "",
-      "status": "core",
+      "status": "built",
       "first_used": null,
       "used_in": [
         "2026-10-20-the-second-question"
@@ -137,7 +137,7 @@
       "name": "Colour drain",
       "description": "The wrong move: the frame drains to cold grey-blue and slows. Part of the locked visual grammar.",
       "reuse": "",
-      "status": "core",
+      "status": "built",
       "first_used": null,
       "used_in": [
         "2026-10-20-the-second-question"
@@ -149,7 +149,7 @@
       "name": "Gold glow",
       "description": "The right move: warm gold light spreads and colour floods back. Part of the locked visual grammar.",
       "reuse": "",
-      "status": "core",
+      "status": "built",
       "first_used": null,
       "used_in": [
         "2026-10-20-the-second-question"
@@ -161,7 +161,7 @@
       "name": "Whip pan",
       "description": "A fast blurred camera swing used as a transition.",
       "reuse": "",
-      "status": "core",
+      "status": "built",
       "first_used": null,
       "used_in": [
         "2026-10-20-the-second-question"
@@ -173,7 +173,7 @@
       "name": "The answer door",
       "description": "When someone tells you something about themselves, a small glowing door appears between you. Ignoring it shuts it, a follow-up opens it into their world.",
       "reuse": "Any video about listening, follow-ups, curiosity or missed openings",
-      "status": "requested",
+      "status": "built",
       "first_used": "2026-10-20-the-second-question",
       "used_in": [
         "2026-10-20-the-second-question"
@@ -185,7 +185,7 @@
       "name": "Glowing door",
       "description": "A small wooden door, knee height next to a character, with a warm gold glow from the gap underneath. It rises from any surface, shrinks and shuts with a puff of smoke, or swings open onto a new set. A small painted icon on it shows what's behind it.",
       "reuse": "The answer door metaphor, any 'opening' or opportunity moment",
-      "status": "requested",
+      "status": "built",
       "first_used": "2026-10-20-the-second-question",
       "used_in": [
         "2026-10-20-the-second-question"
@@ -197,7 +197,7 @@
       "name": "Question cards",
       "description": "Two speech bubbles held like playing cards, hand sized, marked with big numbers. One can glow gold, the other crumbles to dust.",
       "reuse": "Ranking or comparing lines, first vs second, this vs that",
-      "status": "requested",
+      "status": "built",
       "first_used": "2026-10-20-the-second-question",
       "used_in": [
         "2026-10-20-the-second-question"
@@ -209,7 +209,7 @@
       "name": "Loading spinner",
       "description": "A floating grey loading spinner above a character's head, slowly turning, shown while they're bored or stalled.",
       "reuse": "Any stalled or boring conversation",
-      "status": "requested",
+      "status": "built",
       "first_used": "2026-10-20-the-second-question",
       "used_in": [
         "2026-10-20-the-second-question"
@@ -221,7 +221,7 @@
       "name": "VHS rewind",
       "description": "The whole frame scrubs backwards with VHS tracking lines and a slight colour wobble, then snaps back to normal at a chosen moment.",
       "reuse": "Showing the do-over, 'let's try that again'",
-      "status": "requested",
+      "status": "built",
       "first_used": "2026-10-20-the-second-question",
       "used_in": [
         "2026-10-20-the-second-question"
@@ -233,7 +233,7 @@
       "name": "Night kitchen lab",
       "description": "A small home kitchen at 2am, lit by one warm lamp, the counter covered in test bottles, handwritten labels and a laptop. Feels like someone's first business.",
       "reuse": "Any founder's origin story or side-project moment",
-      "status": "requested",
+      "status": "built",
       "first_used": "2026-10-20-the-second-question",
       "used_in": [
         "2026-10-20-the-second-question"
@@ -245,7 +245,7 @@
       "name": "Interrogation room",
       "description": "A dark police interview room with a metal table, two chairs, a swinging overhead lamp and an old tape recorder. Played for comedy, not menace.",
       "reuse": "Asking too many questions, being grilled, awkward pressure",
-      "status": "requested",
+      "status": "built",
       "first_used": "2026-10-20-the-second-question",
       "used_in": [
         "2026-10-20-the-second-question"
@@ -257,7 +257,7 @@
       "name": "Ping-pong table",
       "description": "A full-size ping-pong table with paddles and a ball that can glow gold, built so the interview table or any table can flip into it.",
       "reuse": "Back-and-forth conversation, give and take, trading",
-      "status": "requested",
+      "status": "built",
       "first_used": "2026-10-20-the-second-question",
       "used_in": [
         "2026-10-20-the-second-question"
@@ -269,7 +269,7 @@
       "name": "Study scale grid",
       "description": "A huge grid of tiny two-person tables seen from above, each one able to light up warm or go grey, with small tickets that can fly out of chosen tables.",
       "reuse": "Showing the size and result of any study with many participants",
-      "status": "requested",
+      "status": "built",
       "first_used": "2026-10-20-the-second-question",
       "used_in": [
         "2026-10-20-the-second-question"
@@ -281,7 +281,7 @@
       "name": "Question bubbles",
       "description": "Speech bubbles that float up from conversations like balloons. Grey ones merge into a fog over the room, a gold one can drift to one person and be pocketed.",
       "reuse": "Forgettable vs memorable lines, small talk, being remembered",
-      "status": "requested",
+      "status": "built",
       "first_used": "2026-10-20-the-second-question",
       "used_in": [
         "2026-10-20-the-second-question"

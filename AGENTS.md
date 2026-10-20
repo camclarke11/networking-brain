@@ -113,6 +113,9 @@ Direct it (`12-visual-storyboard.md`):
 3. Run `python3 tools/align.py scripts/<file>.md <timestamps.json>`. It writes `scripts/<file>.timing.json` for the video engine.
 4. Fix every warning: add cues where a shot sits still for over 4.5 seconds, move cues that land on a cut, then run it again.
 
+### Making the video (`/video`)
+Follow `knowledge/13-video-production.md`. In short: `python3 tools/make_video.py scripts/<file>.md prep` records the voice (a placeholder TTS until the real voice is chosen), aligns it and scaffolds `video/src/videos/<slug>/Video.tsx`. You write the shots in Remotion with the kit in `video/src/kit/` (locked look, 3D cast, sets, components), every time pinned to a spoken word. Then `stills`, review every contact sheet, fix, and `render`. The MP4 lands in `video/out/<slug>.mp4`; set the content-log row to `rendered`.
+
 ---
 
 ## Output format
@@ -143,6 +146,7 @@ Format / Tier / Situation / A vs B / Length / Hook code / Ending code / Named to
 - **"New hook"** → 5 hooks across at least 3 archetypes, each with its loop.
 - **"More creative" / "different visuals"** → keep the script, pick a different metaphor, and redo the storyboard.
 - **"Time it" / "here's the audio"** → the timing pass above.
+- **"Make the video" / "render it"** → `/video scripts/<file>.md`, per `knowledge/13-video-production.md`.
 
 ## Performance workflow
 

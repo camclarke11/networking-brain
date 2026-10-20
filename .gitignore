@@ -2,3 +2,5 @@ __pycache__/
 *.pyc
 .DS_Store
 data/*/performance.json
+video/node_modules/
+video/out/
