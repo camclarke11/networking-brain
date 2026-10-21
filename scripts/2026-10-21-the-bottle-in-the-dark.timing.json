@@ -1,0 +1,1098 @@
+{
+  "duration": 52.44,
+  "match": 1.0,
+  "lines": [
+    {
+      "line": 1,
+      "text": "You reach into a dark cooler and grab a bottle without looking.",
+      "start": 0.08,
+      "end": 3.92,
+      "matched": "12/12"
+    },
+    {
+      "line": 2,
+      "text": "You already know it's a Coke.",
+      "start": 4.04,
+      "end": 5.6,
+      "matched": "6/6"
+    },
+    {
+      "line": 3,
+      "text": "That's not luck.",
+      "start": 5.92,
+      "end": 7.2,
+      "matched": "3/3"
+    },
+    {
+      "line": 4,
+      "text": "It was the brief.",
+      "start": 7.24,
+      "end": 8.32,
+      "matched": "4/4"
+    },
+    {
+      "line": 5,
+      "text": "In 1915, Coca-Cola had a problem.",
+      "start": 8.7,
+      "end": 11.64,
+      "matched": "7/7"
+    },
+    {
+      "line": 6,
+      "text": "Copycats.",
+      "start": 12.76,
+      "end": 13.56,
+      "matched": "1/1"
+    },
+    {
+      "line": 7,
+      "text": "Koka-Nola.",
+      "start": 13.76,
+      "end": 14.72,
+      "matched": "2/2"
+    },
+    {
+      "line": 8,
+      "text": "Toka-Cola.",
+      "start": 14.88,
+      "end": 15.76,
+      "matched": "2/2"
+    },
+    {
+      "line": 9,
+      "text": "Koke.",
+      "start": 16.6,
+      "end": 17.28,
+      "matched": "1/1"
+    },
+    {
+      "line": 10,
+      "text": "Same curly writing, same plain bottle.",
+      "start": 17.52,
+      "end": 20.0,
+      "matched": "6/6"
+    },
+    {
+      "line": 11,
+      "text": "You'd think they'd just make the logo bigger.",
+      "start": 20.387,
+      "end": 22.32,
+      "matched": "8/8"
+    },
+    {
+      "line": 12,
+      "text": "They made the bottle the logo.",
+      "start": 22.72,
+      "end": 24.6,
+      "matched": "6/6"
+    },
+    {
+      "line": 13,
+      "text": "They asked glassmakers for a bottle you'd recognize by feel in the dark.",
+      "start": 24.928,
+      "end": 29.0,
+      "matched": "13/13"
+    },
+    {
+      "line": 14,
+      "text": "Or lying broken on the ground.",
+      "start": 29.2,
+      "end": 30.88,
+      "matched": "6/6"
+    },
+    {
+      "line": 15,
+      "text": "A glass company in Indiana sent back these curves.",
+      "start": 31.28,
+      "end": 34.52,
+      "matched": "9/9"
+    },
+    {
+      "line": 16,
+      "text": "More than a hundred years later, you still don't need the label.",
+      "start": 34.848,
+      "end": 38.0,
+      "matched": "12/12"
+    },
+    {
+      "line": 17,
+      "text": "So if you sell anything, make it so people know it's yours with your name covered.",
+      "start": 38.467,
+      "end": 43.28,
+      "matched": "16/16"
+    },
+    {
+      "line": 18,
+      "text": "A color, a shape, a way you always do it.",
+      "start": 43.36,
+      "end": 46.52,
+      "matched": "10/10"
+    },
+    {
+      "line": 19,
+      "text": "Something they'd know in the dark.",
+      "start": 47.04,
+      "end": 48.4,
+      "matched": "6/6"
+    },
+    {
+      "line": 20,
+      "text": "Send this to the friend whose stuff looks like everyone else's.",
+      "start": 48.832,
+      "end": 51.84,
+      "matched": "11/11"
+    }
+  ],
+  "shots": [
+    {
+      "id": 1,
+      "title": "The dark cooler",
+      "lines": [
+        1,
+        2
+      ],
+      "start": 0.0,
+      "end": 5.92,
+      "duration": 5.92,
+      "cues": [
+        {
+          "word": "dark",
+          "what": "the lid opens on black",
+          "time": 1.12
+        },
+        {
+          "word": "grab",
+          "what": "the hand closes on a bottle",
+          "time": 2.08
+        },
+        {
+          "word": "Coke",
+          "what": "the bottle's outline glows yellow",
+          "time": 5.04
+        }
+      ],
+      "on_screen": [
+        {
+          "type": "big_text",
+          "at": "You",
+          "time": 0.08
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "The brief",
+      "lines": [
+        3,
+        4
+      ],
+      "start": 5.92,
+      "end": 8.7,
+      "duration": 2.78,
+      "cues": [
+        {
+          "word": "luck",
+          "what": "the bottle turns slowly",
+          "time": 6.56
+        },
+        {
+          "word": "brief",
+          "what": "the card drops in",
+          "time": 7.84
+        }
+      ],
+      "on_screen": []
+    },
+    {
+      "id": 3,
+      "title": "Copycats",
+      "lines": [
+        5,
+        10
+      ],
+      "start": 8.7,
+      "end": 20.387,
+      "duration": 11.687,
+      "cues": [
+        {
+          "word": "1915",
+          "what": "the date card",
+          "time": 8.8
+        },
+        {
+          "word": "Koka",
+          "what": "the first copycat pops up",
+          "time": 13.76
+        },
+        {
+          "word": "Toka",
+          "what": "the second pops up",
+          "time": 14.88
+        },
+        {
+          "word": "Koke",
+          "what": "the third pops up",
+          "time": 16.6
+        },
+        {
+          "word": "Same",
+          "what": "all four bottles wobble in sync",
+          "time": 17.52
+        }
+      ],
+      "on_screen": []
+    },
+    {
+      "id": 4,
+      "title": "The bottle is the logo",
+      "lines": [
+        11,
+        12
+      ],
+      "start": 20.387,
+      "end": 24.928,
+      "duration": 4.541,
+      "cues": [
+        {
+          "word": "bigger",
+          "what": "the label balloons",
+          "time": 21.92
+        },
+        {
+          "word": "logo",
+          "what": "the label shrinks and the bottle morphs into the curves",
+          "time": 21.52
+        }
+      ],
+      "on_screen": []
+    },
+    {
+      "id": 5,
+      "title": "Lights out, then broken",
+      "lines": [
+        13,
+        14
+      ],
+      "start": 24.928,
+      "end": 31.28,
+      "duration": 6.352,
+      "cues": [
+        {
+          "word": "dark",
+          "what": "lights out, only the outline glows",
+          "time": 28.48
+        },
+        {
+          "word": "broken",
+          "what": "the bottle shatters into glowing curved pieces",
+          "time": 29.84
+        }
+      ],
+      "on_screen": []
+    },
+    {
+      "id": 6,
+      "title": "Indiana",
+      "lines": [
+        15,
+        15
+      ],
+      "start": 31.28,
+      "end": 34.848,
+      "duration": 3.568,
+      "cues": [
+        {
+          "word": "Indiana",
+          "what": "the card drops in",
+          "time": 32.52
+        },
+        {
+          "word": "curves",
+          "what": "the line traces the bottle",
+          "time": 33.84
+        }
+      ],
+      "on_screen": []
+    },
+    {
+      "id": 7,
+      "title": "A hundred years later",
+      "lines": [
+        16,
+        16
+      ],
+      "start": 34.848,
+      "end": 38.467,
+      "duration": 3.619,
+      "cues": [
+        {
+          "word": "hundred",
+          "what": "the shelf appears",
+          "time": 35.24
+        },
+        {
+          "word": "label",
+          "what": "the contour bottle's label fades and it still glows",
+          "time": 37.6
+        }
+      ],
+      "on_screen": []
+    },
+    {
+      "id": 8,
+      "title": "Your name covered",
+      "lines": [
+        17,
+        19
+      ],
+      "start": 38.467,
+      "end": 48.832,
+      "duration": 10.365,
+      "cues": [
+        {
+          "word": "covered",
+          "what": "a hand covers the name",
+          "time": 42.56
+        },
+        {
+          "word": "shape",
+          "what": "the stripe and shape light up",
+          "time": 44.32
+        },
+        {
+          "word": "dark",
+          "what": "lights out, only your box glows",
+          "time": 48.04
+        }
+      ],
+      "on_screen": [
+        {
+          "type": "x_check",
+          "at": "sell",
+          "time": 38.88
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Jay's grey boxes",
+      "lines": [
+        20,
+        20
+      ],
+      "start": 48.832,
+      "end": 52.44,
+      "duration": 3.608,
+      "cues": [
+        {
+          "word": "else's",
+          "what": "the stalls blur into one",
+          "time": 51.12
+        }
+      ],
+      "on_screen": [
+        {
+          "type": "label",
+          "at": "friend",
+          "time": 49.36
+        }
+      ]
+    }
+  ],
+  "words": [
+    {
+      "word": "You",
+      "start": 0.08,
+      "end": 0.24
+    },
+    {
+      "word": "reach",
+      "start": 0.36,
+      "end": 0.48
+    },
+    {
+      "word": "into",
+      "start": 0.56,
+      "end": 0.72
+    },
+    {
+      "word": "a",
+      "start": 0.8,
+      "end": 0.96
+    },
+    {
+      "word": "dark",
+      "start": 1.12,
+      "end": 1.28
+    },
+    {
+      "word": "cooler",
+      "start": 1.36,
+      "end": 1.84
+    },
+    {
+      "word": "and",
+      "start": 1.92,
+      "end": 2.0
+    },
+    {
+      "word": "grab",
+      "start": 2.08,
+      "end": 2.24
+    },
+    {
+      "word": "a",
+      "start": 2.32,
+      "end": 2.4
+    },
+    {
+      "word": "bottle",
+      "start": 2.44,
+      "end": 2.72
+    },
+    {
+      "word": "without",
+      "start": 2.88,
+      "end": 3.04
+    },
+    {
+      "word": "looking.",
+      "start": 3.24,
+      "end": 3.92
+    },
+    {
+      "word": "You",
+      "start": 4.04,
+      "end": 4.16
+    },
+    {
+      "word": "already",
+      "start": 4.32,
+      "end": 4.48
+    },
+    {
+      "word": "know",
+      "start": 4.56,
+      "end": 4.72
+    },
+    {
+      "word": "it's",
+      "start": 4.76,
+      "end": 4.88
+    },
+    {
+      "word": "a",
+      "start": 4.92,
+      "end": 4.96
+    },
+    {
+      "word": "Coke.",
+      "start": 5.04,
+      "end": 5.6
+    },
+    {
+      "word": "That's",
+      "start": 5.92,
+      "end": 6.16
+    },
+    {
+      "word": "not",
+      "start": 6.28,
+      "end": 6.4
+    },
+    {
+      "word": "luck.",
+      "start": 6.56,
+      "end": 7.2
+    },
+    {
+      "word": "It",
+      "start": 7.24,
+      "end": 7.28
+    },
+    {
+      "word": "was",
+      "start": 7.36,
+      "end": 7.44
+    },
+    {
+      "word": "the",
+      "start": 7.52,
+      "end": 7.6
+    },
+    {
+      "word": "brief.",
+      "start": 7.84,
+      "end": 8.32
+    },
+    {
+      "word": "In",
+      "start": 8.7,
+      "end": 8.72
+    },
+    {
+      "word": "1915,",
+      "start": 8.8,
+      "end": 9.92
+    },
+    {
+      "word": "Coca-Cola",
+      "start": 9.96,
+      "end": 10.64
+    },
+    {
+      "word": "had",
+      "start": 10.72,
+      "end": 10.8
+    },
+    {
+      "word": "a",
+      "start": 10.88,
+      "end": 10.92
+    },
+    {
+      "word": "problem.",
+      "start": 10.96,
+      "end": 11.64
+    },
+    {
+      "word": "Copycats.",
+      "start": 12.76,
+      "end": 13.56
+    },
+    {
+      "word": "Koka-Nola.",
+      "start": 13.76,
+      "end": 14.72
+    },
+    {
+      "word": "Toka-Cola.",
+      "start": 14.88,
+      "end": 15.76
+    },
+    {
+      "word": "Koke.",
+      "start": 16.6,
+      "end": 17.28
+    },
+    {
+      "word": "Same",
+      "start": 17.52,
+      "end": 17.76
+    },
+    {
+      "word": "curly",
+      "start": 17.84,
+      "end": 18.08
+    },
+    {
+      "word": "writing,",
+      "start": 18.16,
+      "end": 18.88
+    },
+    {
+      "word": "same",
+      "start": 18.96,
+      "end": 19.2
+    },
+    {
+      "word": "plain",
+      "start": 19.28,
+      "end": 19.52
+    },
+    {
+      "word": "bottle.",
+      "start": 19.6,
+      "end": 20.0
+    },
+    {
+      "word": "You'd",
+      "start": 20.387,
+      "end": 20.56
+    },
+    {
+      "word": "think",
+      "start": 20.68,
+      "end": 20.8
+    },
+    {
+      "word": "they'd",
+      "start": 20.84,
+      "end": 20.96
+    },
+    {
+      "word": "just",
+      "start": 21.04,
+      "end": 21.12
+    },
+    {
+      "word": "make",
+      "start": 21.2,
+      "end": 21.36
+    },
+    {
+      "word": "the",
+      "start": 21.4,
+      "end": 21.44
+    },
+    {
+      "word": "logo",
+      "start": 21.52,
+      "end": 21.84
+    },
+    {
+      "word": "bigger.",
+      "start": 21.92,
+      "end": 22.32
+    },
+    {
+      "word": "They",
+      "start": 22.72,
+      "end": 22.88
+    },
+    {
+      "word": "made",
+      "start": 22.96,
+      "end": 23.12
+    },
+    {
+      "word": "the",
+      "start": 23.2,
+      "end": 23.28
+    },
+    {
+      "word": "bottle",
+      "start": 23.36,
+      "end": 23.76
+    },
+    {
+      "word": "the",
+      "start": 23.84,
+      "end": 23.92
+    },
+    {
+      "word": "logo.",
+      "start": 24.16,
+      "end": 24.6
+    },
+    {
+      "word": "They",
+      "start": 24.928,
+      "end": 24.96
+    },
+    {
+      "word": "asked",
+      "start": 25.04,
+      "end": 25.28
+    },
+    {
+      "word": "glassmakers",
+      "start": 25.36,
+      "end": 26.08
+    },
+    {
+      "word": "for",
+      "start": 26.12,
+      "end": 26.16
+    },
+    {
+      "word": "a",
+      "start": 26.24,
+      "end": 26.32
+    },
+    {
+      "word": "bottle",
+      "start": 26.36,
+      "end": 26.64
+    },
+    {
+      "word": "you'd",
+      "start": 26.72,
+      "end": 26.88
+    },
+    {
+      "word": "recognize",
+      "start": 26.96,
+      "end": 27.52
+    },
+    {
+      "word": "by",
+      "start": 27.6,
+      "end": 27.68
+    },
+    {
+      "word": "feel",
+      "start": 27.84,
+      "end": 28.16
+    },
+    {
+      "word": "in",
+      "start": 28.2,
+      "end": 28.24
+    },
+    {
+      "word": "the",
+      "start": 28.32,
+      "end": 28.4
+    },
+    {
+      "word": "dark.",
+      "start": 28.48,
+      "end": 29.0
+    },
+    {
+      "word": "Or",
+      "start": 29.2,
+      "end": 29.44
+    },
+    {
+      "word": "lying",
+      "start": 29.52,
+      "end": 29.76
+    },
+    {
+      "word": "broken",
+      "start": 29.84,
+      "end": 30.16
+    },
+    {
+      "word": "on",
+      "start": 30.2,
+      "end": 30.24
+    },
+    {
+      "word": "the",
+      "start": 30.32,
+      "end": 30.36
+    },
+    {
+      "word": "ground.",
+      "start": 30.4,
+      "end": 30.88
+    },
+    {
+      "word": "A",
+      "start": 31.28,
+      "end": 31.36
+    },
+    {
+      "word": "glass",
+      "start": 31.44,
+      "end": 31.68
+    },
+    {
+      "word": "company",
+      "start": 31.76,
+      "end": 32.08
+    },
+    {
+      "word": "in",
+      "start": 32.16,
+      "end": 32.24
+    },
+    {
+      "word": "Indiana",
+      "start": 32.52,
+      "end": 32.8
+    },
+    {
+      "word": "sent",
+      "start": 32.88,
+      "end": 33.12
+    },
+    {
+      "word": "back",
+      "start": 33.2,
+      "end": 33.36
+    },
+    {
+      "word": "these",
+      "start": 33.44,
+      "end": 33.76
+    },
+    {
+      "word": "curves.",
+      "start": 33.84,
+      "end": 34.52
+    },
+    {
+      "word": "More",
+      "start": 34.848,
+      "end": 34.88
+    },
+    {
+      "word": "than",
+      "start": 34.96,
+      "end": 35.04
+    },
+    {
+      "word": "a",
+      "start": 35.12,
+      "end": 35.2
+    },
+    {
+      "word": "hundred",
+      "start": 35.24,
+      "end": 35.52
+    },
+    {
+      "word": "years",
+      "start": 35.6,
+      "end": 35.84
+    },
+    {
+      "word": "later,",
+      "start": 35.92,
+      "end": 36.48
+    },
+    {
+      "word": "you",
+      "start": 36.56,
+      "end": 36.72
+    },
+    {
+      "word": "still",
+      "start": 36.88,
+      "end": 37.04
+    },
+    {
+      "word": "don't",
+      "start": 37.12,
+      "end": 37.28
+    },
+    {
+      "word": "need",
+      "start": 37.36,
+      "end": 37.44
+    },
+    {
+      "word": "the",
+      "start": 37.48,
+      "end": 37.52
+    },
+    {
+      "word": "label.",
+      "start": 37.6,
+      "end": 38.0
+    },
+    {
+      "word": "So",
+      "start": 38.467,
+      "end": 38.48
+    },
+    {
+      "word": "if",
+      "start": 38.56,
+      "end": 38.64
+    },
+    {
+      "word": "you",
+      "start": 38.72,
+      "end": 38.8
+    },
+    {
+      "word": "sell",
+      "start": 38.88,
+      "end": 39.12
+    },
+    {
+      "word": "anything,",
+      "start": 39.2,
+      "end": 39.92
+    },
+    {
+      "word": "make",
+      "start": 40.0,
+      "end": 40.16
+    },
+    {
+      "word": "it",
+      "start": 40.2,
+      "end": 40.24
+    },
+    {
+      "word": "so",
+      "start": 40.32,
+      "end": 40.48
+    },
+    {
+      "word": "people",
+      "start": 40.64,
+      "end": 40.8
+    },
+    {
+      "word": "know",
+      "start": 40.88,
+      "end": 41.04
+    },
+    {
+      "word": "it's",
+      "start": 41.12,
+      "end": 41.28
+    },
+    {
+      "word": "yours",
+      "start": 41.36,
+      "end": 41.6
+    },
+    {
+      "word": "with",
+      "start": 41.68,
+      "end": 41.84
+    },
+    {
+      "word": "your",
+      "start": 41.92,
+      "end": 42.08
+    },
+    {
+      "word": "name",
+      "start": 42.24,
+      "end": 42.48
+    },
+    {
+      "word": "covered.",
+      "start": 42.56,
+      "end": 43.28
+    },
+    {
+      "word": "A",
+      "start": 43.36,
+      "end": 43.44
+    },
+    {
+      "word": "color,",
+      "start": 43.52,
+      "end": 44.08
+    },
+    {
+      "word": "a",
+      "start": 44.16,
+      "end": 44.24
+    },
+    {
+      "word": "shape,",
+      "start": 44.32,
+      "end": 44.88
+    },
+    {
+      "word": "a",
+      "start": 44.96,
+      "end": 45.0
+    },
+    {
+      "word": "way",
+      "start": 45.04,
+      "end": 45.2
+    },
+    {
+      "word": "you",
+      "start": 45.28,
+      "end": 45.44
+    },
+    {
+      "word": "always",
+      "start": 45.52,
+      "end": 45.92
+    },
+    {
+      "word": "do",
+      "start": 46.0,
+      "end": 46.08
+    },
+    {
+      "word": "it.",
+      "start": 46.16,
+      "end": 46.52
+    },
+    {
+      "word": "Something",
+      "start": 47.04,
+      "end": 47.12
+    },
+    {
+      "word": "they'd",
+      "start": 47.2,
+      "end": 47.44
+    },
+    {
+      "word": "know",
+      "start": 47.52,
+      "end": 47.6
+    },
+    {
+      "word": "in",
+      "start": 47.64,
+      "end": 47.68
+    },
+    {
+      "word": "the",
+      "start": 47.76,
+      "end": 47.84
+    },
+    {
+      "word": "dark.",
+      "start": 48.04,
+      "end": 48.4
+    },
+    {
+      "word": "Send",
+      "start": 48.832,
+      "end": 48.88
+    },
+    {
+      "word": "this",
+      "start": 48.96,
+      "end": 49.04
+    },
+    {
+      "word": "to",
+      "start": 49.12,
+      "end": 49.2
+    },
+    {
+      "word": "the",
+      "start": 49.253,
+      "end": 49.307
+    },
+    {
+      "word": "friend",
+      "start": 49.36,
+      "end": 49.6
+    },
+    {
+      "word": "whose",
+      "start": 49.68,
+      "end": 49.84
+    },
+    {
+      "word": "stuff",
+      "start": 49.92,
+      "end": 50.16
+    },
+    {
+      "word": "looks",
+      "start": 50.28,
+      "end": 50.4
+    },
+    {
+      "word": "like",
+      "start": 50.52,
+      "end": 50.64
+    },
+    {
+      "word": "everyone",
+      "start": 50.72,
+      "end": 51.04
+    },
+    {
+      "word": "else's.",
+      "start": 51.12,
+      "end": 51.84
+    }
+  ],
+  "warnings": [
+    "Shot 3: 5.0s with no visual change. Add a cue."
+  ],
+  "script": "2026-10-21-the-bottle-in-the-dark.md"
+}

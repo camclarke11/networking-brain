@@ -6,6 +6,7 @@
 **A vs B:** "Great to meet you last night!" → her name, the thing she said, and what you did with it
 **Length:** 167 words ≈ 57s (at 175 wpm)
 **Hook code:** N2 · **Ending code:** E1 · **Named tool:** none
+**Pillar:** The Move · **Playbook chapter:** Get clients
 
 ---
 
@@ -220,23 +221,12 @@ Send this to the friend with five unsent follow-ups in his drafts.
 
 ## CAPTION
 
-"Great to meet you!" is why nobody texts you back.
 
-Everyone sends that text the morning after an event. The one that gets a reply proves you were listening.
+Why does nobody reply to your follow-up texts?
 
-The three-part follow-up:
-📍 Their name.
-📍 One thing they said.
-📍 What you did with it.
-→ "Maya, you said cold emails work when the first line is about them. Tried it on three people this morning. Two replied."
+The full playbook is coming soon. Follow so you don't miss it.
 
-Don't add "can we jump on a call?" Let them reply first. The ask comes in the second message.
-
-Send one tomorrow morning and tell me if they answered 👇
-
-Follow, the networking playbook drops soon.
-
-#networking #socialskills #entrepreneur #followup
+#smallbusiness #entrepreneur #networking #followup
 
 ---
 

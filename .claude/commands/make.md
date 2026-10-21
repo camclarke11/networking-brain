@@ -8,3 +8,5 @@ Make a finished video for: $ARGUMENTS
 2. Show me the ELEVENLABS block and the one-line metaphor, then carry straight on (don't wait) unless the topic was ambiguous.
 3. Make the video exactly as `/video` does: knowledge/13-video-production.md, `python3 tools/make_video.py <script> prep`, write the shots, review the stills (at least two passes), `render`.
 4. Finish with the path to video/out/<slug>.mp4, its length, and anything I should check before posting (the script's "Check before posting" list plus any visual compromises).
+
+The caption is a teaser (knowledge/05-endings-and-ctas.md): one line, usually a question about the viewer's business, that names nothing from the video, then the Playbook line and hashtags.

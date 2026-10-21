@@ -6,6 +6,7 @@
 **A vs B:** cold DM more strangers → message three people you've lost touch with, starting with the ones you only half knew
 **Length:** 168 words ≈ 58s (at 175 wpm)
 **Hook code:** N3 · **Ending code:** E1 · **Named tool:** none
+**Pillar:** The Move · **Playbook chapter:** Get clients
 
 ---
 
@@ -224,21 +225,12 @@ Send this to the friend who hasn't texted you back since 2023.
 
 ## CAPTION
 
-Your next client is already in your phone.
 
-People you've lost touch with still like you, and they know people your current circle doesn't. Researchers found reconnecting with them brought fresher ideas than talking to the people you see every week.
+Cold DMs are the hard way to find clients. What's the easy one?
 
-How to do it:
-📍 Pick three people you haven't spoken to in a year or more.
-📍 Pick at least one you only half knew, not just your old best friend.
-📍 Send: "Saw the new job, congrats. I just started my own thing. How's it going?"
-📍 No pitch. If they ask what you're doing, then tell them.
+The full playbook is coming soon. Follow so you don't miss it.
 
-Who's your three? Message them before Friday 👇
-
-Follow, the networking playbook drops soon.
-
-#networking #socialskills #entrepreneur #firstclient
+#smallbusiness #entrepreneur #networking #firstclient
 
 ---
 

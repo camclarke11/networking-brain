@@ -1,0 +1,1177 @@
+{
+  "duration": 57.8,
+  "match": 1.0,
+  "lines": [
+    {
+      "line": 1,
+      "text": "It's early December and every story you tap is the same screenshot.",
+      "start": 0.133,
+      "end": 4.8,
+      "matched": "12/12"
+    },
+    {
+      "line": 2,
+      "text": "Someone's top five artists.",
+      "start": 4.96,
+      "end": 6.64,
+      "matched": "4/4"
+    },
+    {
+      "line": 3,
+      "text": "Someone's minutes listened.",
+      "start": 6.8,
+      "end": 8.32,
+      "matched": "3/3"
+    },
+    {
+      "line": 4,
+      "text": "Someone's top song, which is a bit embarrassing.",
+      "start": 8.96,
+      "end": 12.16,
+      "matched": "8/8"
+    },
+    {
+      "line": 5,
+      "text": "Spotify didn't pay for a single one of those posts.",
+      "start": 12.297,
+      "end": 15.52,
+      "matched": "10/10"
+    },
+    {
+      "line": 6,
+      "text": "You'd think Wrapped is just a fun recap for the fans.",
+      "start": 15.56,
+      "end": 18.72,
+      "matched": "11/11"
+    },
+    {
+      "line": 7,
+      "text": "It's an ad.",
+      "start": 18.8,
+      "end": 19.92,
+      "matched": "3/3"
+    },
+    {
+      "line": 8,
+      "text": "Posted by you.",
+      "start": 20.0,
+      "end": 21.376,
+      "matched": "3/3"
+    },
+    {
+      "line": 9,
+      "text": "And you're happy to post it.",
+      "start": 21.504,
+      "end": 23.0,
+      "matched": "6/6"
+    },
+    {
+      "line": 10,
+      "text": "Because it isn't really about Spotify.",
+      "start": 23.04,
+      "end": 25.44,
+      "matched": "6/6"
+    },
+    {
+      "line": 11,
+      "text": "It's about you.",
+      "start": 25.507,
+      "end": 26.6,
+      "matched": "3/3"
+    },
+    {
+      "line": 12,
+      "text": "Your taste.",
+      "start": 26.64,
+      "end": 27.64,
+      "matched": "2/2"
+    },
+    {
+      "line": 13,
+      "text": "Your weird year.",
+      "start": 27.68,
+      "end": 29.093,
+      "matched": "3/3"
+    },
+    {
+      "line": 14,
+      "text": "So you share it the way you'd never share an ad.",
+      "start": 29.147,
+      "end": 31.76,
+      "matched": "11/11"
+    },
+    {
+      "line": 15,
+      "text": "In 2022, more than 156 million people went through theirs.",
+      "start": 31.84,
+      "end": 36.92,
+      "matched": "10/10"
+    },
+    {
+      "line": 16,
+      "text": "And every share put Spotify's name in front of their friends.",
+      "start": 36.96,
+      "end": 40.48,
+      "matched": "11/11"
+    },
+    {
+      "line": 17,
+      "text": "So if you sell anything, give your customers something about themselves worth posting.",
+      "start": 40.549,
+      "end": 45.253,
+      "matched": "13/13"
+    },
+    {
+      "line": 18,
+      "text": "Their results.",
+      "start": 45.307,
+      "end": 46.32,
+      "matched": "2/2"
+    },
+    {
+      "line": 19,
+      "text": "Their numbers.",
+      "start": 46.4,
+      "end": 47.24,
+      "matched": "2/2"
+    },
+    {
+      "line": 20,
+      "text": "Their before and after.",
+      "start": 47.28,
+      "end": 48.893,
+      "matched": "4/4"
+    },
+    {
+      "line": 21,
+      "text": "Because nobody screenshots your ad.",
+      "start": 48.96,
+      "end": 51.093,
+      "matched": "5/5"
+    },
+    {
+      "line": 22,
+      "text": "They screenshot themselves.",
+      "start": 51.147,
+      "end": 52.88,
+      "matched": "3/3"
+    },
+    {
+      "line": 23,
+      "text": "Send this to the friend whose clients get the same boring report every month.",
+      "start": 52.96,
+      "end": 57.2,
+      "matched": "14/14"
+    }
+  ],
+  "shots": [
+    {
+      "id": 1,
+      "title": "The same screenshot",
+      "lines": [
+        1,
+        4
+      ],
+      "start": 0.0,
+      "end": 12.297,
+      "duration": 12.297,
+      "cues": [
+        {
+          "word": "screenshot",
+          "what": "the first card flicks in",
+          "time": 3.68
+        },
+        {
+          "word": "artists",
+          "what": "TOP 5 ARTISTS card",
+          "time": 5.76
+        },
+        {
+          "word": "minutes",
+          "what": "MINUTES LISTENED card",
+          "time": 7.2
+        },
+        {
+          "word": "embarrassing",
+          "what": "TOP SONG card with a blushing face",
+          "time": 11.12
+        }
+      ],
+      "on_screen": [
+        {
+          "type": "big_text",
+          "at": "It's",
+          "time": 0.133
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Not one paid",
+      "lines": [
+        5,
+        5
+      ],
+      "start": 12.297,
+      "end": 15.56,
+      "duration": 3.263,
+      "cues": [
+        {
+          "word": "pay",
+          "what": "the $0 tags swing in",
+          "time": 13.04
+        },
+        {
+          "word": "posts",
+          "what": "the stack fans out",
+          "time": 14.64
+        }
+      ],
+      "on_screen": []
+    },
+    {
+      "id": 3,
+      "title": "It's an ad",
+      "lines": [
+        6,
+        8
+      ],
+      "start": 15.56,
+      "end": 21.504,
+      "duration": 5.944,
+      "cues": [
+        {
+          "word": "recap",
+          "what": "the card reads FAN RECAP",
+          "time": 17.24
+        },
+        {
+          "word": "ad",
+          "what": "it flips to AD",
+          "time": 19.2
+        },
+        {
+          "word": "you",
+          "what": "you hold it up",
+          "time": 20.72
+        }
+      ],
+      "on_screen": [
+        {
+          "type": "label",
+          "at": "Posted",
+          "time": 20.0
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "It's about you",
+      "lines": [
+        9,
+        13
+      ],
+      "start": 21.504,
+      "end": 29.147,
+      "duration": 7.643,
+      "cues": [
+        {
+          "word": "happy",
+          "what": "you grin",
+          "time": 21.84
+        },
+        {
+          "word": "you",
+          "what": "the card shows your face",
+          "time": 26.0
+        },
+        {
+          "word": "taste",
+          "what": "your top artists appear",
+          "time": 26.92
+        },
+        {
+          "word": "weird",
+          "what": "your strange top song appears",
+          "time": 28.0
+        }
+      ],
+      "on_screen": []
+    },
+    {
+      "id": 5,
+      "title": "A billboard made of people",
+      "lines": [
+        14,
+        16
+      ],
+      "start": 29.147,
+      "end": 40.549,
+      "duration": 11.402,
+      "cues": [
+        {
+          "word": "share",
+          "what": "everyone lifts their phone",
+          "time": 29.48
+        },
+        {
+          "word": "2022",
+          "what": "the crane up starts",
+          "time": 32.0
+        },
+        {
+          "word": "156",
+          "what": "the screens flip one by one into a 156 MILLION billboard",
+          "time": 33.6
+        },
+        {
+          "word": "friends",
+          "what": "the billboard glows",
+          "time": 39.68
+        }
+      ],
+      "on_screen": []
+    },
+    {
+      "id": 6,
+      "title": "Your client's recap",
+      "lines": [
+        17,
+        20
+      ],
+      "start": 40.549,
+      "end": 48.96,
+      "duration": 8.411,
+      "cues": [
+        {
+          "word": "results",
+          "what": "41 NEW LEADS appears",
+          "time": 45.8
+        },
+        {
+          "word": "numbers",
+          "what": "REACH UP 3X appears",
+          "time": 46.84
+        },
+        {
+          "word": "after",
+          "what": "the before and after slides in and the client posts it",
+          "time": 48.24
+        }
+      ],
+      "on_screen": [
+        {
+          "type": "x_check",
+          "at": "sell",
+          "time": 40.96
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Ad versus you",
+      "lines": [
+        21,
+        22
+      ],
+      "start": 48.96,
+      "end": 52.96,
+      "duration": 4.0,
+      "cues": [
+        {
+          "word": "ad",
+          "what": "people walk past the billboard",
+          "time": 50.56
+        },
+        {
+          "word": "themselves",
+          "what": "everyone crowds round the recap card",
+          "time": 51.867
+        }
+      ],
+      "on_screen": []
+    },
+    {
+      "id": 8,
+      "title": "Jay's report",
+      "lines": [
+        23,
+        23
+      ],
+      "start": 52.96,
+      "end": 57.8,
+      "duration": 4.84,
+      "cues": [
+        {
+          "word": "boring",
+          "what": "the client yawns",
+          "time": 55.36
+        },
+        {
+          "word": "month",
+          "what": "the phone goes face down",
+          "time": 56.64
+        }
+      ],
+      "on_screen": [
+        {
+          "type": "label",
+          "at": "friend",
+          "time": 53.72
+        }
+      ]
+    }
+  ],
+  "words": [
+    {
+      "word": "It's",
+      "start": 0.133,
+      "end": 0.32
+    },
+    {
+      "word": "early",
+      "start": 0.44,
+      "end": 0.56
+    },
+    {
+      "word": "December",
+      "start": 0.64,
+      "end": 1.28
+    },
+    {
+      "word": "and",
+      "start": 1.44,
+      "end": 1.68
+    },
+    {
+      "word": "every",
+      "start": 1.76,
+      "end": 2.0
+    },
+    {
+      "word": "story",
+      "start": 2.16,
+      "end": 2.48
+    },
+    {
+      "word": "you",
+      "start": 2.56,
+      "end": 2.64
+    },
+    {
+      "word": "tap",
+      "start": 2.8,
+      "end": 2.96
+    },
+    {
+      "word": "is",
+      "start": 3.0,
+      "end": 3.04
+    },
+    {
+      "word": "the",
+      "start": 3.12,
+      "end": 3.28
+    },
+    {
+      "word": "same",
+      "start": 3.4,
+      "end": 3.52
+    },
+    {
+      "word": "screenshot.",
+      "start": 3.68,
+      "end": 4.8
+    },
+    {
+      "word": "Someone's",
+      "start": 4.96,
+      "end": 5.2
+    },
+    {
+      "word": "top",
+      "start": 5.28,
+      "end": 5.44
+    },
+    {
+      "word": "five",
+      "start": 5.52,
+      "end": 5.68
+    },
+    {
+      "word": "artists.",
+      "start": 5.76,
+      "end": 6.64
+    },
+    {
+      "word": "Someone's",
+      "start": 6.8,
+      "end": 7.04
+    },
+    {
+      "word": "minutes",
+      "start": 7.2,
+      "end": 7.52
+    },
+    {
+      "word": "listened.",
+      "start": 7.64,
+      "end": 8.32
+    },
+    {
+      "word": "Someone's",
+      "start": 8.96,
+      "end": 9.2
+    },
+    {
+      "word": "top",
+      "start": 9.28,
+      "end": 9.52
+    },
+    {
+      "word": "song,",
+      "start": 9.6,
+      "end": 10.32
+    },
+    {
+      "word": "which",
+      "start": 10.4,
+      "end": 10.48
+    },
+    {
+      "word": "is",
+      "start": 10.56,
+      "end": 10.64
+    },
+    {
+      "word": "a",
+      "start": 10.76,
+      "end": 10.88
+    },
+    {
+      "word": "bit",
+      "start": 10.96,
+      "end": 11.04
+    },
+    {
+      "word": "embarrassing.",
+      "start": 11.12,
+      "end": 12.16
+    },
+    {
+      "word": "Spotify",
+      "start": 12.297,
+      "end": 12.72
+    },
+    {
+      "word": "didn't",
+      "start": 12.8,
+      "end": 12.96
+    },
+    {
+      "word": "pay",
+      "start": 13.04,
+      "end": 13.2
+    },
+    {
+      "word": "for",
+      "start": 13.28,
+      "end": 13.36
+    },
+    {
+      "word": "a",
+      "start": 13.48,
+      "end": 13.6
+    },
+    {
+      "word": "single",
+      "start": 13.8,
+      "end": 14.0
+    },
+    {
+      "word": "one",
+      "start": 14.08,
+      "end": 14.16
+    },
+    {
+      "word": "of",
+      "start": 14.24,
+      "end": 14.32
+    },
+    {
+      "word": "those",
+      "start": 14.44,
+      "end": 14.56
+    },
+    {
+      "word": "posts.",
+      "start": 14.64,
+      "end": 15.52
+    },
+    {
+      "word": "You'd",
+      "start": 15.56,
+      "end": 15.76
+    },
+    {
+      "word": "think",
+      "start": 15.88,
+      "end": 16.0
+    },
+    {
+      "word": "Wrapped",
+      "start": 16.16,
+      "end": 16.32
+    },
+    {
+      "word": "is",
+      "start": 16.4,
+      "end": 16.48
+    },
+    {
+      "word": "just",
+      "start": 16.56,
+      "end": 16.64
+    },
+    {
+      "word": "a",
+      "start": 16.8,
+      "end": 16.84
+    },
+    {
+      "word": "fun",
+      "start": 16.88,
+      "end": 17.12
+    },
+    {
+      "word": "recap",
+      "start": 17.24,
+      "end": 17.52
+    },
+    {
+      "word": "for",
+      "start": 17.6,
+      "end": 17.68
+    },
+    {
+      "word": "the",
+      "start": 17.72,
+      "end": 17.76
+    },
+    {
+      "word": "fans.",
+      "start": 17.84,
+      "end": 18.72
+    },
+    {
+      "word": "It's",
+      "start": 18.8,
+      "end": 18.96
+    },
+    {
+      "word": "an",
+      "start": 19.04,
+      "end": 19.12
+    },
+    {
+      "word": "ad.",
+      "start": 19.2,
+      "end": 19.92
+    },
+    {
+      "word": "Posted",
+      "start": 20.0,
+      "end": 20.4
+    },
+    {
+      "word": "by",
+      "start": 20.52,
+      "end": 20.64
+    },
+    {
+      "word": "you.",
+      "start": 20.72,
+      "end": 21.376
+    },
+    {
+      "word": "And",
+      "start": 21.504,
+      "end": 21.52
+    },
+    {
+      "word": "you're",
+      "start": 21.573,
+      "end": 21.68
+    },
+    {
+      "word": "happy",
+      "start": 21.84,
+      "end": 22.0
+    },
+    {
+      "word": "to",
+      "start": 22.08,
+      "end": 22.16
+    },
+    {
+      "word": "post",
+      "start": 22.32,
+      "end": 22.48
+    },
+    {
+      "word": "it.",
+      "start": 22.56,
+      "end": 23.0
+    },
+    {
+      "word": "Because",
+      "start": 23.04,
+      "end": 23.2
+    },
+    {
+      "word": "it",
+      "start": 23.28,
+      "end": 23.36
+    },
+    {
+      "word": "isn't",
+      "start": 23.44,
+      "end": 23.76
+    },
+    {
+      "word": "really",
+      "start": 23.92,
+      "end": 24.08
+    },
+    {
+      "word": "about",
+      "start": 24.16,
+      "end": 24.4
+    },
+    {
+      "word": "Spotify.",
+      "start": 24.48,
+      "end": 25.44
+    },
+    {
+      "word": "It's",
+      "start": 25.507,
+      "end": 25.6
+    },
+    {
+      "word": "about",
+      "start": 25.76,
+      "end": 25.92
+    },
+    {
+      "word": "you.",
+      "start": 26.0,
+      "end": 26.6
+    },
+    {
+      "word": "Your",
+      "start": 26.64,
+      "end": 26.88
+    },
+    {
+      "word": "taste.",
+      "start": 26.92,
+      "end": 27.64
+    },
+    {
+      "word": "Your",
+      "start": 27.68,
+      "end": 27.92
+    },
+    {
+      "word": "weird",
+      "start": 28.0,
+      "end": 28.24
+    },
+    {
+      "word": "year.",
+      "start": 28.4,
+      "end": 29.093
+    },
+    {
+      "word": "So",
+      "start": 29.147,
+      "end": 29.2
+    },
+    {
+      "word": "you",
+      "start": 29.28,
+      "end": 29.36
+    },
+    {
+      "word": "share",
+      "start": 29.48,
+      "end": 29.6
+    },
+    {
+      "word": "it",
+      "start": 29.64,
+      "end": 29.68
+    },
+    {
+      "word": "the",
+      "start": 29.76,
+      "end": 29.84
+    },
+    {
+      "word": "way",
+      "start": 29.92,
+      "end": 30.0
+    },
+    {
+      "word": "you'd",
+      "start": 30.04,
+      "end": 30.32
+    },
+    {
+      "word": "never",
+      "start": 30.4,
+      "end": 30.64
+    },
+    {
+      "word": "share",
+      "start": 30.72,
+      "end": 30.88
+    },
+    {
+      "word": "an",
+      "start": 30.92,
+      "end": 30.96
+    },
+    {
+      "word": "ad.",
+      "start": 31.04,
+      "end": 31.76
+    },
+    {
+      "word": "In",
+      "start": 31.84,
+      "end": 31.92
+    },
+    {
+      "word": "2022,",
+      "start": 32.0,
+      "end": 33.173
+    },
+    {
+      "word": "more",
+      "start": 33.227,
+      "end": 33.28
+    },
+    {
+      "word": "than",
+      "start": 33.4,
+      "end": 33.52
+    },
+    {
+      "word": "156",
+      "start": 33.6,
+      "end": 34.88
+    },
+    {
+      "word": "million",
+      "start": 34.96,
+      "end": 35.36
+    },
+    {
+      "word": "people",
+      "start": 35.52,
+      "end": 35.68
+    },
+    {
+      "word": "went",
+      "start": 35.76,
+      "end": 35.92
+    },
+    {
+      "word": "through",
+      "start": 36.04,
+      "end": 36.16
+    },
+    {
+      "word": "theirs.",
+      "start": 36.24,
+      "end": 36.92
+    },
+    {
+      "word": "And",
+      "start": 36.96,
+      "end": 37.12
+    },
+    {
+      "word": "every",
+      "start": 37.2,
+      "end": 37.52
+    },
+    {
+      "word": "share",
+      "start": 37.68,
+      "end": 37.84
+    },
+    {
+      "word": "put",
+      "start": 37.92,
+      "end": 38.0
+    },
+    {
+      "word": "Spotify's",
+      "start": 38.08,
+      "end": 38.64
+    },
+    {
+      "word": "name",
+      "start": 38.72,
+      "end": 38.88
+    },
+    {
+      "word": "in",
+      "start": 38.96,
+      "end": 39.12
+    },
+    {
+      "word": "front",
+      "start": 39.2,
+      "end": 39.28
+    },
+    {
+      "word": "of",
+      "start": 39.36,
+      "end": 39.44
+    },
+    {
+      "word": "their",
+      "start": 39.52,
+      "end": 39.6
+    },
+    {
+      "word": "friends.",
+      "start": 39.68,
+      "end": 40.48
+    },
+    {
+      "word": "So",
+      "start": 40.549,
+      "end": 40.56
+    },
+    {
+      "word": "if",
+      "start": 40.64,
+      "end": 40.72
+    },
+    {
+      "word": "you",
+      "start": 40.8,
+      "end": 40.88
+    },
+    {
+      "word": "sell",
+      "start": 40.96,
+      "end": 41.2
+    },
+    {
+      "word": "anything,",
+      "start": 41.28,
+      "end": 42.0
+    },
+    {
+      "word": "give",
+      "start": 42.08,
+      "end": 42.16
+    },
+    {
+      "word": "your",
+      "start": 42.24,
+      "end": 42.32
+    },
+    {
+      "word": "customers",
+      "start": 42.56,
+      "end": 42.8
+    },
+    {
+      "word": "something",
+      "start": 42.96,
+      "end": 43.12
+    },
+    {
+      "word": "about",
+      "start": 43.2,
+      "end": 43.36
+    },
+    {
+      "word": "themselves",
+      "start": 43.4,
+      "end": 44.08
+    },
+    {
+      "word": "worth",
+      "start": 44.2,
+      "end": 44.32
+    },
+    {
+      "word": "posting.",
+      "start": 44.76,
+      "end": 45.253
+    },
+    {
+      "word": "Their",
+      "start": 45.307,
+      "end": 45.36
+    },
+    {
+      "word": "results.",
+      "start": 45.8,
+      "end": 46.32
+    },
+    {
+      "word": "Their",
+      "start": 46.4,
+      "end": 46.48
+    },
+    {
+      "word": "numbers.",
+      "start": 46.84,
+      "end": 47.24
+    },
+    {
+      "word": "Their",
+      "start": 47.28,
+      "end": 47.36
+    },
+    {
+      "word": "before",
+      "start": 47.44,
+      "end": 47.92
+    },
+    {
+      "word": "and",
+      "start": 48.0,
+      "end": 48.08
+    },
+    {
+      "word": "after.",
+      "start": 48.24,
+      "end": 48.893
+    },
+    {
+      "word": "Because",
+      "start": 48.96,
+      "end": 49.28
+    },
+    {
+      "word": "nobody",
+      "start": 49.32,
+      "end": 49.76
+    },
+    {
+      "word": "screenshots",
+      "start": 49.84,
+      "end": 50.32
+    },
+    {
+      "word": "your",
+      "start": 50.4,
+      "end": 50.48
+    },
+    {
+      "word": "ad.",
+      "start": 50.56,
+      "end": 51.093
+    },
+    {
+      "word": "They",
+      "start": 51.147,
+      "end": 51.2
+    },
+    {
+      "word": "screenshot",
+      "start": 51.28,
+      "end": 51.76
+    },
+    {
+      "word": "themselves.",
+      "start": 51.867,
+      "end": 52.88
+    },
+    {
+      "word": "Send",
+      "start": 52.96,
+      "end": 53.12
+    },
+    {
+      "word": "this",
+      "start": 53.2,
+      "end": 53.36
+    },
+    {
+      "word": "to",
+      "start": 53.4,
+      "end": 53.44
+    },
+    {
+      "word": "the",
+      "start": 53.52,
+      "end": 53.6
+    },
+    {
+      "word": "friend",
+      "start": 53.72,
+      "end": 53.84
+    },
+    {
+      "word": "whose",
+      "start": 53.92,
+      "end": 54.08
+    },
+    {
+      "word": "clients",
+      "start": 54.16,
+      "end": 54.48
+    },
+    {
+      "word": "get",
+      "start": 54.56,
+      "end": 54.64
+    },
+    {
+      "word": "the",
+      "start": 54.72,
+      "end": 54.88
+    },
+    {
+      "word": "same",
+      "start": 55.08,
+      "end": 55.28
+    },
+    {
+      "word": "boring",
+      "start": 55.36,
+      "end": 55.68
+    },
+    {
+      "word": "report",
+      "start": 55.92,
+      "end": 56.16
+    },
+    {
+      "word": "every",
+      "start": 56.24,
+      "end": 56.56
+    },
+    {
+      "word": "month.",
+      "start": 56.64,
+      "end": 57.2
+    }
+  ],
+  "warnings": [
+    "Shot 5: 6.1s with no visual change. Add a cue.",
+    "Shot 6: 4.8s with no visual change. Add a cue."
+  ],
+  "script": "2026-10-21-the-ad-you-posted.md"
+}

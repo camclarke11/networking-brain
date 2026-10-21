@@ -6,6 +6,7 @@
 **A vs B:** hover near a group hoping someone lets you in → walk to the one other person standing alone
 **Length:** 157 words ≈ 54s (at 175 wpm)
 **Hook code:** N1 · **Ending code:** E4 · **Named tool:** none
+**Pillar:** The Move · **Playbook chapter:** Get clients
 
 ---
 
@@ -216,21 +217,12 @@ Send this to the friend who hides in the bathroom at events.
 
 ## CAPTION
 
-Everyone's in a group? Find the one person who isn't.
 
-The person standing alone isn't the least interesting person at the event. They just arrived early or their friends are late. They're the easiest yes in the room.
+You walk into an event where you know nobody. Who do you talk to first?
 
-How to do it:
-📍 Look for the tells: lanyard on, full drink, eyes on the door.
-📍 Walk over and say: "I don't know a single person here. You?"
-📍 When the next person is standing alone, wave them over together.
-📍 Do it twice and you're not joining a group. You are the group.
+The full playbook is coming soon. Follow so you don't miss it.
 
-Try it at your next event and tell me how fast your group grew 👇
-
-Follow, the networking playbook drops soon.
-
-#networking #socialskills #entrepreneur #networkingevent
+#smallbusiness #entrepreneur #networking
 
 ---
 

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Networking Brain Studio: a local web app over everything this repo does. Standard library only.
+"""Brain Studio: a local web app over everything this repo does. Standard library only.
 
   python3 app/server.py [--port 8787]     then open http://localhost:8787
 
@@ -316,7 +316,10 @@ def generate_take(slug, body):
     if not api_key():
         raise PermissionError("No ElevenLabs API key yet. Add it on the Voice page.")
     try:
-        stamps = V.elevenlabs(text, voice, mp3, model=model, settings=settings, seed=seed)
+        spoken, swaps = V.say_as(text)  # brand names the voice gets wrong (config.json elevenlabs.say)
+        stamps = V.elevenlabs(spoken, voice, mp3, model=model, settings=settings, seed=seed)
+        if swaps:
+            stamps["alignment"] = V.unsay(stamps["alignment"], swaps)
     except urllib.error.HTTPError as e:
         raise RuntimeError(http_detail(e)) from None
     meta = {"id": tid, "key": key, "slug": slug, "text": text, "partial": part, "voice_id": voice,
@@ -493,7 +496,7 @@ def accounts():
 
 
 def docs():
-    files = ["AGENTS.md", "README.md", "content-log.md", "topics/topic-bank.md"] + [rel(p) for p in sorted((ROOT / "knowledge").glob("*.md"))]
+    files = ["AGENTS.md", "README.md", "content-log.md", "topics/topic-bank.md", "product/playbook.md"] + [rel(p) for p in sorted((ROOT / "knowledge").glob("*.md"))]
     return [{"path": f, "name": Path(f).stem} for f in files if (ROOT / f).exists()]
 
 
@@ -521,8 +524,10 @@ class Handler(BaseHTTPRequestHandler):
     server_version = "Studio/1"
 
     def log_message(self, fmt, *args):
-        if "/api/jobs/" not in (args[0] if args else ""):
-            sys.stderr.write("%s\n" % (fmt % args))
+        line = str(args[0]) if args else ""
+        if " 200 " in f" {args[1] if len(args) > 1 else ''} " and ("/api/jobs" in line or "/api/eleven/account" in line):
+            return  # the sidebar's routine polling
+        sys.stderr.write("%s\n" % (fmt % args))
 
     def send_json(self, data, code=200):
         body = json.dumps(data, ensure_ascii=False).encode()
@@ -755,7 +760,7 @@ def main():
     ap.add_argument("--port", type=int, default=int(os.environ.get("PORT", 8787)))
     a = ap.parse_args()
     srv = ThreadingHTTPServer(("127.0.0.1", a.port), Handler)
-    print(f"Networking Brain Studio on http://localhost:{a.port}  (Ctrl+C to stop)")
+    print(f"Brain Studio on http://localhost:{a.port}  (Ctrl+C to stop)")
     try:
         srv.serve_forever()
     except KeyboardInterrupt:

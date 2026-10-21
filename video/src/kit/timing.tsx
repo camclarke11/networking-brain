@@ -2,6 +2,7 @@
 // pinned to the spoken word it lands on.
 import React, {createContext, useContext} from 'react';
 import {useCurrentFrame} from 'remotion';
+import {OffscreenCheck} from './ui';
 import {FPS} from './tokens';
 
 export type TimingWord = {word: string; start: number; end: number};
@@ -25,7 +26,10 @@ export type Timing = {
 const Ctx = createContext<Timing | null>(null);
 
 export const TimingProvider: React.FC<{timing: Timing; children: React.ReactNode}> = ({timing, children}) => (
-  <Ctx.Provider value={timing}>{children}</Ctx.Provider>
+  <Ctx.Provider value={timing}>
+    {children}
+    <OffscreenCheck t={useCurrentFrame() / FPS} />
+  </Ctx.Provider>
 );
 
 const norm = (s: string) => s.toLowerCase().replace(/[^a-z0-9]/g, '');

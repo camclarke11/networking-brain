@@ -1,57 +1,62 @@
-# 11 — Storytelling Principles (the theory under this brain)
+# 11 — Storytelling Principles (where the lead comes from)
 
-This brain is adapted from the script brain built for Elliott (@zlliott), who pointed us to two videos by short-form strategist **Callaway**: *"Give me 15 mins, and I'll make your hooks impossible to skip"* and *"How To Become A Master Storyteller"*. He also teaches the South Park **but/therefore** rule himself. This is a summary of those principles, in our own words, and how each one applies to this account.
+This brain is adapted from the one built for Elliott (@zlliott). He pointed us to two YouTube videos by short-form strategist **Callaway** and made two reels of his own on the same ideas. This file summarises them in our own words, then shows what Elliott's numbers say. The working rules are in `03-hooks.md` (the hook) and `04-lesson-engine.md` (keeping them).
 
----
-
-## Part 1: Hooks
-
-### A hook needs exactly two things
-1. **Topic clarity**: the viewer instantly knows what the video is about.
-2. **On-target curiosity**: they believe it's for them, it'll be worth it, and they want to know what comes next.
-
-### Four ways hooks fail
-1. **Delay**: the topic arrives too late. Short-form retention falls off a cliff in the first 2 seconds, so every second without context loses viewers. *Fix:* cut the opening fluff and state the topic in the first line. ("Speed to value.")
-2. **Confusion**: the words are hard to parse. *Fix:* fewer words, simpler words (6th-grade level), active voice. Read the hook alone and ask: could anyone misunderstand this, or understand it two ways?
-3. **Irrelevance**: the viewer isn't sure it's for them. *Fix:* use "you/your" instead of "I/me", and frame around a pain point they already have (need-to-know beats nice-to-know).
-4. **Disinterest**: clear and relevant, but no pull. *Fix:* open a **curiosity loop** using **contrast**, the gap between A (what they believe or expect) and B (the surprising alternative or outcome).
-   - **Stated contrast:** say both A and B.
-   - **Implied contrast:** say only B; the viewer supplies A.
-
-Hooks are often 2–3 lines: clarity in line 1, contrast/loop in lines 2–3.
-
-**Here:** "you" in a specific networking moment handles relevance. Line 1 handles clarity. The A-vs-B contrast handles curiosity ("Skip the CEO. Find the connector.").
+**Sources** (re-read them when a rule feels thin). All are in `~/Downloads/Media Tools/Transcripts/`:
+- Callaway, *"Give me 15 mins, and I'll make your hooks impossible to skip"* `[2byPP_9F0-Q]`
+- Callaway, *"How To Become A Master Storyteller"* `[t5Z-Q1bg1tU]`
+- Elliott, *"MAKE YOUR CONTENT ADDICTIVE"* `[DbrE9dwMg-G]` (but / therefore) and *"The easiest storytelling hack"* `[DbtMhv6sYrK]` (why should I care)
+- Elliott's story scripts: `zlliott transcripts/`, plus the WhatsApp drafts (the JFK heist, D.B. Cooper)
+- Elliott's stats: `~/Downloads/Media Tools/Account Exports/zlliott — Complete account export/videos.csv`
 
 ---
 
-## Part 2: Storytelling
+## Part 1: The hook (Callaway)
 
-### 1. The dance: context and conflict
-Great stories alternate context (what's happening) with conflict (oh no). Conflict opens loops in the brain and context closes them. The South Park rule: between beats you should be able to write **"but"** or **"therefore"**, never **"and then"**. An "and then" chain is a list of events, not a story. *(See `04-lesson-engine.md`.)*
+**A hook has one job:** the viewer decides to stay. It does that by giving two things:
+1. **Topic clarity:** they know exactly what this is about.
+2. **On-target curiosity:** they believe it's for them, it's worth it, and they want to know what comes next.
 
-### 2. Rhythm
-Same-length sentences drone and people swipe. Mix short, medium and long sentences so the writing has music. Write one sentence per line and check the right edge looks jagged. *(See `02-voice-and-style.md`.)*
+**Four ways hooks fail:**
+1. **Delay.** The topic arrives on line 2 or 3. Retention falls off a cliff in the first two seconds, so every second without context loses people. "This is one of the craziest things I've ever seen" gives zero context. *Fix:* cut the fluff and move the topic to the first line ("speed to value").
+2. **Confusion.** The words are hard to parse. *Fix:* fewer words, simpler words, active voice. Read the hook alone: could it be understood two ways?
+3. **Irrelevance.** They can't tell it's for them. *Fix:* "you" instead of "I", and a pain they already have (need-to-know beats nice-to-know).
+4. **Disinterest.** Clear and relevant, but no pull. *Fix:* open a curiosity loop with **contrast**: A (what they believe) against B (what you're offering). Stated contrast says both; implied contrast says only B and lets them supply A.
 
-### 3. Tone
-The best creators sound like they're talking *with* you, not *at* you, like a text or voice note to one close friend. That breaks down the "am I being sold to?" barrier.
+**The curiosity loop**, which most people never define: the viewer sees something, asks a question in their head, gets context that answers it, but the answer raises a new question, then more context, then a new question, all the way through. The hook's job is to *"open that initial curiosity loop and start the spiral."* That spiral is what "keep leading the viewer" means in this brain.
 
-### 4. Direction: start from the end
-Decide the last line first, then work backwards. The last line should be so good that someone would share the video for that line alone. Short-form loops, so the last line also sets up the first line on replay. Practical method: write the first and last lines, leave space, then fill the middle. *(See `05-endings-and-ctas.md`.)*
+Hooks are usually two or three lines: clarity in line 1, contrast in lines 2 and 3. The first line should say what the video is about, never "wait till you see this". **Show while you tell:** eyes are faster than ears, so frame one shows the thing line 1 names.
 
-### 5. Story lenses
-A good topic isn't enough, because dozens of people cover it. Your lens is your unique angle, like a prism bending the same beam of light. Choose the least common angle you can do well, and be a "category of one". *(See `07-research-playbook.md` §5.)*
+## Part 2: Keeping them (Callaway)
 
-### 6. The hook, again: be specific and visual
-- The first line should be punchy and clearly tell the viewer what the video is about. Never open with an opaque "wait till you see this".
-- **Visual hooks beat audio-only hooks**, because eyes process faster than ears. Show the thing while you say it: the person, the object, the place. *(This is why the output includes on-screen notes and a text hook.)*
+1. **The dance.** Great stories alternate context and conflict. Conflict opens a loop, context closes it, then a new conflict. The South Park rule: between beats you should be able to write "but" or "therefore", never "and then". His Stanley cup video has four "but" turns in the first 30 seconds, "head fakes to keep the storyline moving".
+2. **Rhythm.** Same-length sentences drone (Gary Provost's "this sentence has five words" passage). Mix short, medium and long. One sentence per line, and check the right edge looks jagged.
+3. **Tone.** Talk *with* the viewer like a voice note to one close friend, not *at* them.
+4. **Direction.** Write the last line first ("the last dab"), so good someone would share the video for it alone. Short-form loops, so the last line sets up the first on replay. Write the first and last lines, leave a gap, fill the middle.
+5. **Story lens.** A good topic isn't enough; dozens of people cover it. Pick the least common angle you can do well and be a category of one.
+6. **The hook, again.** Punchy, specific, visual.
 
----
+## Part 3: Elliott's two reels
 
-## Part 3: Elliott's principles that carry over
-- **"Why should I care?"** The viewer's brain asks this in the first two seconds and filters out anything not personally relevant. Here, that means a moment they've lived.
-- **Stories are vehicles, not products.** The scene (Daniel, the event, the DM) is the vehicle. The move is the product.
-- **Content that becomes identity wins.** "Who does my audience become if they watch me?" Here: the guy who knows everyone.
-- **Frame the comparison yourself.** Set the A-vs-B so the viewer doesn't have to.
+- **But / therefore.** "I did this and then I did this" is a timeline, not a story. "I did this, but then this happened, therefore I had to do this" takes the viewer on the character's journey. His fix: go through an old script and replace every "and then" with "but" or "therefore".
+- **Why should I care?** The viewer's brain asks one question in the first two seconds, and filters out anything not personally relevant. People only care about a story when they can see their own life inside it ("this could be me"). The story is never the product. It's the vehicle that carries the value.
 
-## Part 4: What's different about teaching a move
-Elliott's data says a lesson bolted onto a story kills it. Here the move *is* the point, so the rule flips: the story is bolted onto the lesson, kept to one short scene, and only there to make the move visible. If the scene gets longer than the move, cut the scene.
+## Part 4: What Elliott's numbers say (36 posts)
+
+Full table in `00-what-performs.md` §3b. In short:
+- **Second-person stories win.** 23 posts that put "you" in the scene from the first word: median **30.9k**, and all of his top 12 (775k, 662k, 264k…).
+- **Explaining kills it.** His three lessons that explain with "researchers found", "psychologists call it" or "neuroscientists call this" got 2.2k to 3.5k. He told the Malone Lam story three times: the two versions that just tell it got 662k and 164k; the one that stops to explain the psychology and adds a moral got 51k.
+- **The shape isn't magic.** The same D.B. Cooper script got 115k once and 13k the second time. A good shape gives the video a chance; the topic and timing still matter.
+
+**What his winners do, line by line** (teardowns in `09-annotated-breakdowns.md`):
+1. **Drop in.** Line 1 puts "you" in a moment you can see, mid-action, present tense. No setup, no "imagine".
+2. **Point forward.** The hook names a destination the viewer has to wait for: an outcome that hasn't happened yet, or "one tiny mistake" that hasn't been named.
+3. **Relay.** Each answer opens the next question. "Most people would stop right there. But you don't."
+4. **Escalate.** Every beat is bigger: more money, more days, a worse decision.
+5. **Specifics are the proof.** Dates, times, amounts, places. "$234 million, 4,064 Bitcoin" needs no expert to make it believable.
+6. **Never stop to explain.** The meaning comes out of what happens.
+7. **Call back at the end.** The last line echoes the first, so the loop replays.
+
+## Part 5: What's different about teaching a move
+
+Elliott's stories end on what happened. Ours end on what the viewer can do. The move is the product and the scene is the vehicle, so the scene stays short and only exists to make the move visible. But every one of the techniques above still applies **to the move itself**: reveal it in steps, make each step answer one question and open the next, and save the full payoff for the end.

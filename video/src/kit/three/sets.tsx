@@ -38,7 +38,7 @@ export const Phone: React.FC<D & {screen?: string; position?: [number, number, n
 
 /** A cocktail high table: thin pedestal, round top at y = 1.1 (part of event_hall). */
 export const HighTable: React.FC<D & {position?: [number, number, number]; cloth?: string; glasses?: number}> = ({position = [0, 0, 0], cloth = '#FFFCF6', drain = 0, glow = 0, glasses = 2}) => (
-  <group position={position}>
+  <group position={position} userData={{clip: {kind: 'solid', name: 'table'}}}>
     <mesh position={[0, 0.03, 0]} castShadow receiveShadow>
       <cylinderGeometry args={[0.26, 0.3, 0.06, 28]} />
       <Clay color="#3A332B" drain={drain} />
@@ -86,7 +86,7 @@ export const EventHall: React.FC<D & {t: number; tables?: [number, number][]}> =
 
 /** library: drinks_table. A bar counter with bottles and glasses. Front edge sits at z = 0.45. */
 export const DrinksTable: React.FC<D & {position?: [number, number, number]; length?: number}> = ({position = [0, 0, 0], length = 3.2, drain = 0, glow = 0}) => (
-  <group position={position}>
+  <group position={position} userData={{clip: {kind: 'solid', name: 'bar'}}}>
     <RoundedBox args={[length, 1.05, 0.9]} radius={0.08} smoothness={4} position={[0, 0.525, 0]} castShadow receiveShadow>
       <Clay color="#8A5A3C" drain={drain} glow={glow} />
     </RoundedBox>
@@ -225,7 +225,7 @@ export const Dust: React.FC<{t: number; k: number; position?: [number, number, n
 
 /** Text drawn onto a canvas texture (uses the brand display font once it has loaded). */
 export const useTextTexture = (text: string, color: string = C.ink, size = 256) => {
-  const ready = typeof document !== 'undefined' && document.fonts?.check?.(`800 100px "Bricolage Grotesque"`);
+  const ready = typeof document !== 'undefined' && document.fonts?.check?.(`700 100px "Antonio"`);
   return useMemo(() => {
     const cv = document.createElement('canvas');
     cv.width = size;
@@ -234,7 +234,13 @@ export const useTextTexture = (text: string, color: string = C.ink, size = 256) 
     ctx.fillStyle = color;
     ctx.textAlign = 'center';
     ctx.textBaseline = 'middle';
-    ctx.font = `800 ${size * 0.62}px "Bricolage Grotesque", sans-serif`;
+    let px = size * 0.62;
+    ctx.font = `700 ${px}px "Antonio", sans-serif`;
+    const wide = ctx.measureText(text).width;
+    if (wide > size * 0.92) {
+      px *= (size * 0.92) / wide; // shrink long words to fit the canvas
+      ctx.font = `700 ${px}px "Antonio", sans-serif`;
+    }
     ctx.fillText(text, size / 2, size * 0.54);
     const tx = new THREE.CanvasTexture(cv);
     tx.colorSpace = THREE.SRGBColorSpace;
@@ -352,7 +358,7 @@ export const InterrogationRoom: React.FC<D & {t: number; lampSwing?: number; fli
       <spotLight position={[0, -1.5, 0]} target-position={[0, -6, 0]} angle={0.7} penumbra={0.5} intensity={30} distance={8} decay={1.5} color="#FFF1CF" castShadow />
     </group>
     {/* metal table */}
-    <RoundedBox args={[1.9, 0.06, 1.0]} radius={0.02} position={[0, 0.95, 0]} castShadow receiveShadow>
+    <RoundedBox args={[1.9, 0.06, 1.0]} radius={0.02} position={[0, 0.95, 0]} castShadow receiveShadow userData={{clip: {kind: 'solid', name: 'metal table'}}}>
       <meshStandardMaterial color="#9CA3AB" metalness={0.6} roughness={0.35} />
     </RoundedBox>
     {[[-0.85, -0.42], [0.85, -0.42], [-0.85, 0.42], [0.85, 0.42]].map(([x, z], i) => (
@@ -379,7 +385,7 @@ export const InterrogationRoom: React.FC<D & {t: number; lampSwing?: number; fli
 /** library: ping_pong_table. Net along x = 0, players at x = ±1.7. */
 export const PingPongTable: React.FC<D & {position?: [number, number, number]; scale?: number}> = ({position = [0, 0, 0], scale = 1, drain = 0, glow = 0}) => (
   <group position={position} scale={scale}>
-    <RoundedBox args={[2.74, 0.05, 1.52]} radius={0.015} position={[0, 0.76, 0]} castShadow receiveShadow>
+    <RoundedBox args={[2.74, 0.05, 1.52]} radius={0.015} position={[0, 0.76, 0]} castShadow receiveShadow userData={{clip: {kind: 'solid', name: 'ping-pong table'}}}>
       <Clay color="#2F6E8F" drain={drain} glow={glow} rough={0.6} />
     </RoundedBox>
     {/* white lines */}
@@ -457,7 +463,7 @@ export const SpeedDateGrid: React.FC<D & {cols?: number; rows?: number; spacing?
     for (let s = 0; s < 2; s++) {
       m.makeTranslation(x + (s ? 0.28 : -0.28), 0.42, z);
       people.setMatrixAt(i * 2 + s, m);
-      people.setColorAt(i * 2 + s, col.set(s ? '#8A7E72' : '#A99A8A').lerp(warm, k * 0.6));
+      people.setColorAt(i * 2 + s, col.set(s ? '#A3A6AB' : '#C6C8CC').lerp(warm, k * 0.6));
     }
   }
   tables.instanceMatrix.needsUpdate = true;

@@ -1,6 +1,6 @@
 # 02 — Voice and Style
 
-The narrator is **the older brother who has already done it**. A couple of years ahead, been to the events, made the mistakes, now telling you the one move that works. Calm, direct, a bit amused at how simple it is. Never a guru, never a hype man, never a lecturer.
+The narrator is **the older brother who has already done it**. A couple of years ahead: landed the first clients, set the wrong prices, been ghosted, studied how the big brands do it, and now tells you the one move that works. Calm, direct, a bit amused at how simple it is. Never a guru, never a hype man, never a lecturer.
 
 ---
 
@@ -27,7 +27,7 @@ The narrator is **the older brother who has already done it**. A couple of years
 - **Plain, spoken, about a 6th-grade reading level.** "Talk to" not "engage with". "Remember you" not "retain a positive impression".
 - **Spelling:** set in `config.json` (`spelling`). Default **US English** ("favor", "realize") because the audience is global and the reference account uses it. Money in dollars.
 - **Contractions always:** you're, don't, he'll, that's.
-- **The niche's own nouns:** event, room, connector, intro, DM, coffee, founder, agency, client, follow-up. Use them; they signal "this is for you".
+- **The niche's own nouns:** client, customer, offer, price, quote, invoice, proposal, call, DM, follow-up, referral, intro, launch, brand, shop, agency, founder, "your business". Use them; they signal "this is for you". Avoid corporate words (stakeholder, synergy, value proposition, KPI, ROI).
 - **Swearing:** none. The account should be safe to share with a mate, a boss or a mum.
 
 ### Banned (instant AI voice, or instant guru voice)
@@ -39,7 +39,7 @@ Specifics make advice feel tested instead of made up.
 - **Exact words in quotes:** the opener, the DM, the follow-up text, word for word. "You did X. I'm about to do the same. If you were me, A or B?" is worth ten lines of theory.
 - **Exact numbers:** "three people this week", "10 seconds", "four letters".
 - **Exact people:** "the guy who built the agency you want", not "a successful person".
-- **Studies, when used:** the year, who ran it, what they did, what happened, in one or two lines. "In 1969, researchers asked people to give back money they'd won, as a personal favor. Those people ended up liking the researcher more." Never "studies show".
+- **Facts, told not cited.** Say what happened, not who found it. Not "In 2011, researchers at Oxford gave people yogurt in three bowls." Instead: "You're handed the same yogurt in three bowls. The heaviest one tastes richer." No "researchers", "a study", "studies show", "scientists", "psychologists call it" or named effects in the script (`00-what-performs.md` §4). The source lives in the fact sheet.
 
 ## 5. Dialogue
 

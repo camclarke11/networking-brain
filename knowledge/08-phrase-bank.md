@@ -25,11 +25,15 @@ Lines grouped by the job they do. The **reference** column shows the shape @theo
 - "Give them a job."
 - "Ask one question only they can answer."
 
-## Proof lead-ins
-- "Researchers tested exactly this."
-- "In [year], psychologists [did X]."
-- "A study of [who] found [what]."
-- "This isn't a guess. [One-line finding]."
+## Lead-on lines (keep them watching, `04-lesson-engine.md` §2)
+Never "researchers found" or "a study showed". These do the same job without the lecture:
+- Forward pointer: "And that's not even the part that works." / "The line that gets you the intro hasn't come up yet."
+- Wrong guess: "You'd think it's [obvious reason]. It isn't."
+- Withheld thing: "There's one question that fixes this." / "One detail gives it away."
+- Most people stop here: "Most people stop there. Don't."
+- Clock: "You've got about ten seconds."
+- Asked question (once): "So why would they want that?"
+- Experiment as a scene: "You're handed [the same thing] [twice]. [One difference]. [What you'd swear happened]."
 
 ## Paired-contrast payoffs (E1 shapes)
 - "[A] ends a conversation. [B] starts one."
@@ -47,4 +51,4 @@ Lines grouped by the job they do. The **reference** column shows the shape @theo
 - "Send this to the friend who always [gets stuck / talks too much / never follows up]."
 
 ## Words the audience uses
-event, mixer, meetup, conference, the room, intro, connector, DM, cold DM, left on read, follow-up, coffee, founder, agency, first client, niche, offer, pitch, LinkedIn, IG bio
+client, customer, offer, price, quote, proposal, invoice, the call, follow-up, left on read, ghosted, referral, review, launch, brand, shop, event, intro, connector, DM, cold DM, coffee, founder, agency, first client, niche, pitch, LinkedIn, IG bio

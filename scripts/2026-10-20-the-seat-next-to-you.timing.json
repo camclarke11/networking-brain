@@ -1,0 +1,1237 @@
+{
+  "duration": 53.62,
+  "match": 1.0,
+  "lines": [
+    {
+      "line": 1,
+      "text": "When the talk ends, don't join the queue for the speaker.",
+      "start": 0.0,
+      "end": 2.58,
+      "matched": "11/11"
+    },
+    {
+      "line": 2,
+      "text": "Turn to the person sitting next to you.",
+      "start": 3.26,
+      "end": 4.82,
+      "matched": "8/8"
+    },
+    {
+      "line": 3,
+      "text": "Thirty people rush the stage.",
+      "start": 5.3,
+      "end": 6.82,
+      "matched": "5/5"
+    },
+    {
+      "line": 4,
+      "text": "You get forty seconds and a handshake.",
+      "start": 7.4,
+      "end": 9.02,
+      "matched": "7/7"
+    },
+    {
+      "line": 5,
+      "text": "By the parking lot, he's forgotten your face.",
+      "start": 10.08,
+      "end": 12.72,
+      "matched": "8/8"
+    },
+    {
+      "line": 6,
+      "text": "But look who's still in her seat.",
+      "start": 13.58,
+      "end": 14.8,
+      "matched": "7/7"
+    },
+    {
+      "line": 7,
+      "text": "Say her name's Nia.",
+      "start": 15.5,
+      "end": 16.22,
+      "matched": "4/4"
+    },
+    {
+      "line": 8,
+      "text": "Notebook open.",
+      "start": 16.94,
+      "end": 17.3,
+      "matched": "2/2"
+    },
+    {
+      "line": 9,
+      "text": "She heard everything you heard.",
+      "start": 18.08,
+      "end": 19.52,
+      "matched": "5/5"
+    },
+    {
+      "line": 10,
+      "text": "So you've already got something to talk about.",
+      "start": 19.96,
+      "end": 21.54,
+      "matched": "8/8"
+    },
+    {
+      "line": 11,
+      "text": "Ask, what's the one thing you're actually going to use?",
+      "start": 22.02,
+      "end": 24.88,
+      "matched": "10/10"
+    },
+    {
+      "line": 12,
+      "text": "Now you're comparing notes, not making small talk.",
+      "start": 25.46,
+      "end": 27.96,
+      "matched": "8/8"
+    },
+    {
+      "line": 13,
+      "text": "You're thinking, but I came here to meet the speaker.",
+      "start": 28.44,
+      "end": 29.98,
+      "matched": "10/10"
+    },
+    {
+      "line": 14,
+      "text": "You still can.",
+      "start": 31.04,
+      "end": 32.42,
+      "matched": "3/3"
+    },
+    {
+      "line": 15,
+      "text": "Just don't go alone.",
+      "start": 32.78,
+      "end": 33.84,
+      "matched": "4/4"
+    },
+    {
+      "line": 16,
+      "text": "Say, want to go ask him about that hiring bit together?",
+      "start": 34.28,
+      "end": 36.92,
+      "matched": "11/11"
+    },
+    {
+      "line": 17,
+      "text": "Two people with one sharp question get more than forty seconds.",
+      "start": 37.34,
+      "end": 40.66,
+      "matched": "11/11"
+    },
+    {
+      "line": 18,
+      "text": "He'll remember the pair who listened.",
+      "start": 41.3,
+      "end": 42.62,
+      "matched": "6/6"
+    },
+    {
+      "line": 19,
+      "text": "You walked in to meet the speaker.",
+      "start": 43.44,
+      "end": 44.74,
+      "matched": "7/7"
+    },
+    {
+      "line": 20,
+      "text": "You walked out with a speaker who knows you, and someone to go to the next one with.",
+      "start": 45.4,
+      "end": 49.28,
+      "matched": "18/18"
+    },
+    {
+      "line": 21,
+      "text": "Send this to the friend who sprints to the stage before the clapping stops.",
+      "start": 49.68,
+      "end": 53.02,
+      "matched": "14/14"
+    }
+  ],
+  "shots": [
+    {
+      "id": 1,
+      "title": "Off the belt",
+      "lines": [
+        1,
+        2
+      ],
+      "start": 0.0,
+      "end": 5.3,
+      "duration": 5.3,
+      "cues": [
+        {
+          "word": "queue",
+          "what": "the aisle becomes a conveyor belt",
+          "time": 1.8
+        },
+        {
+          "word": "Turn",
+          "what": "you turn to the seat beside you",
+          "time": 3.26
+        }
+      ],
+      "on_screen": [
+        {
+          "type": "big_text",
+          "at": null,
+          "time": 0.0
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Processed",
+      "lines": [
+        3,
+        5
+      ],
+      "start": 5.3,
+      "end": 13.58,
+      "duration": 8.28,
+      "cues": [
+        {
+          "word": "rush",
+          "what": "the belt fills up",
+          "time": 5.98
+        },
+        {
+          "word": "handshake",
+          "what": "the stamp lands on you",
+          "time": 8.72
+        },
+        {
+          "word": "forgotten",
+          "what": "the faces in his head blur into fog",
+          "time": 11.86
+        }
+      ],
+      "on_screen": [
+        {
+          "type": "stamp",
+          "at": "forty",
+          "time": 7.54
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Nia",
+      "lines": [
+        6,
+        9
+      ],
+      "start": 13.58,
+      "end": 19.96,
+      "duration": 6.38,
+      "cues": [
+        {
+          "word": "seat",
+          "what": "the camera finds Nia",
+          "time": 14.52
+        },
+        {
+          "word": "Notebook",
+          "what": "close on her pages glowing",
+          "time": 16.94
+        },
+        {
+          "word": "heard",
+          "what": "her underlines light up gold",
+          "time": 18.16
+        }
+      ],
+      "on_screen": [
+        {
+          "type": "label",
+          "at": "Nia",
+          "time": 15.98
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Comparing notes",
+      "lines": [
+        10,
+        12
+      ],
+      "start": 19.96,
+      "end": 28.44,
+      "duration": 8.48,
+      "cues": [
+        {
+          "word": "use",
+          "what": "Nia turns her notebook round",
+          "time": 24.64
+        },
+        {
+          "word": "comparing",
+          "what": "the matching pages glow gold",
+          "time": 25.82
+        }
+      ],
+      "on_screen": [
+        {
+          "type": "quote_bubble",
+          "at": "Ask",
+          "time": 22.02
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "But the speaker",
+      "lines": [
+        13,
+        15
+      ],
+      "start": 28.44,
+      "end": 34.28,
+      "duration": 5.84,
+      "cues": [
+        {
+          "word": "speaker",
+          "what": "the belt yanks your arm",
+          "time": 29.98
+        },
+        {
+          "word": "can",
+          "what": "you stop pulling",
+          "time": 32.0
+        },
+        {
+          "word": "alone",
+          "what": "you grab Nia's sleeve",
+          "time": 33.44
+        }
+      ],
+      "on_screen": []
+    },
+    {
+      "id": 6,
+      "title": "The belt stops",
+      "lines": [
+        16,
+        18
+      ],
+      "start": 34.28,
+      "end": 43.44,
+      "duration": 9.16,
+      "cues": [
+        {
+          "word": "together",
+          "what": "you walk up side by side",
+          "time": 36.54
+        },
+        {
+          "word": "forty",
+          "what": "the belt grinds to a halt",
+          "time": 40.0
+        },
+        {
+          "word": "pair",
+          "what": "the speaker leans in and laughs, the stage glows gold",
+          "time": 42.02
+        }
+      ],
+      "on_screen": [
+        {
+          "type": "quote_bubble",
+          "at": "Say",
+          "time": 34.28
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Walking out",
+      "lines": [
+        19,
+        20
+      ],
+      "start": 43.44,
+      "end": 49.68,
+      "duration": 6.24,
+      "cues": [
+        {
+          "word": "out",
+          "what": "the right side lights up",
+          "time": 45.64
+        },
+        {
+          "word": "knows",
+          "what": "the speaker waves back",
+          "time": 46.86
+        }
+      ],
+      "on_screen": []
+    },
+    {
+      "id": 8,
+      "title": "Jay sprints",
+      "lines": [
+        21,
+        21
+      ],
+      "start": 49.68,
+      "end": 53.62,
+      "duration": 3.94,
+      "cues": [
+        {
+          "word": "sprints",
+          "what": "Jay vaults the seats",
+          "time": 50.76
+        }
+      ],
+      "on_screen": [
+        {
+          "type": "label",
+          "at": "friend",
+          "time": 50.32
+        }
+      ]
+    }
+  ],
+  "words": [
+    {
+      "word": "when",
+      "start": 0.0,
+      "end": 0.12
+    },
+    {
+      "word": "the",
+      "start": 0.12,
+      "end": 0.24
+    },
+    {
+      "word": "talk",
+      "start": 0.24,
+      "end": 0.42
+    },
+    {
+      "word": "ends,",
+      "start": 0.42,
+      "end": 0.8
+    },
+    {
+      "word": "don't",
+      "start": 1.1,
+      "end": 1.48
+    },
+    {
+      "word": "join",
+      "start": 1.48,
+      "end": 1.66
+    },
+    {
+      "word": "the",
+      "start": 1.66,
+      "end": 1.8
+    },
+    {
+      "word": "queue",
+      "start": 1.8,
+      "end": 2.0
+    },
+    {
+      "word": "for",
+      "start": 2.0,
+      "end": 2.18
+    },
+    {
+      "word": "the",
+      "start": 2.18,
+      "end": 2.26
+    },
+    {
+      "word": "speaker.",
+      "start": 2.26,
+      "end": 2.58
+    },
+    {
+      "word": "Turn",
+      "start": 3.26,
+      "end": 3.3
+    },
+    {
+      "word": "to",
+      "start": 3.3,
+      "end": 3.46
+    },
+    {
+      "word": "the",
+      "start": 3.46,
+      "end": 3.56
+    },
+    {
+      "word": "person",
+      "start": 3.56,
+      "end": 3.74
+    },
+    {
+      "word": "sitting",
+      "start": 3.74,
+      "end": 4.08
+    },
+    {
+      "word": "next",
+      "start": 4.08,
+      "end": 4.42
+    },
+    {
+      "word": "to",
+      "start": 4.42,
+      "end": 4.62
+    },
+    {
+      "word": "you.",
+      "start": 4.62,
+      "end": 4.82
+    },
+    {
+      "word": "Thirty",
+      "start": 5.3,
+      "end": 5.48
+    },
+    {
+      "word": "people",
+      "start": 5.48,
+      "end": 5.98
+    },
+    {
+      "word": "rush",
+      "start": 5.98,
+      "end": 6.22
+    },
+    {
+      "word": "the",
+      "start": 6.22,
+      "end": 6.5
+    },
+    {
+      "word": "stage.",
+      "start": 6.5,
+      "end": 6.82
+    },
+    {
+      "word": "You",
+      "start": 7.4,
+      "end": 7.42
+    },
+    {
+      "word": "get",
+      "start": 7.42,
+      "end": 7.54
+    },
+    {
+      "word": "forty",
+      "start": 7.54,
+      "end": 7.8
+    },
+    {
+      "word": "seconds",
+      "start": 7.8,
+      "end": 8.26
+    },
+    {
+      "word": "and",
+      "start": 8.26,
+      "end": 8.62
+    },
+    {
+      "word": "a",
+      "start": 8.62,
+      "end": 8.72
+    },
+    {
+      "word": "handshake.",
+      "start": 8.72,
+      "end": 9.02
+    },
+    {
+      "word": "By",
+      "start": 10.08,
+      "end": 10.58
+    },
+    {
+      "word": "the",
+      "start": 10.58,
+      "end": 10.74
+    },
+    {
+      "word": "parking",
+      "start": 10.74,
+      "end": 11.08
+    },
+    {
+      "word": "lot,",
+      "start": 11.08,
+      "end": 11.36
+    },
+    {
+      "word": "he's",
+      "start": 11.68,
+      "end": 11.86
+    },
+    {
+      "word": "forgotten",
+      "start": 11.86,
+      "end": 12.1
+    },
+    {
+      "word": "your",
+      "start": 12.1,
+      "end": 12.36
+    },
+    {
+      "word": "face.",
+      "start": 12.36,
+      "end": 12.72
+    },
+    {
+      "word": "But",
+      "start": 13.58,
+      "end": 13.62
+    },
+    {
+      "word": "look",
+      "start": 13.62,
+      "end": 13.78
+    },
+    {
+      "word": "who's",
+      "start": 13.78,
+      "end": 14.04
+    },
+    {
+      "word": "still",
+      "start": 14.04,
+      "end": 14.24
+    },
+    {
+      "word": "in",
+      "start": 14.24,
+      "end": 14.38
+    },
+    {
+      "word": "her",
+      "start": 14.38,
+      "end": 14.52
+    },
+    {
+      "word": "seat.",
+      "start": 14.52,
+      "end": 14.8
+    },
+    {
+      "word": "Say",
+      "start": 15.5,
+      "end": 15.54
+    },
+    {
+      "word": "her",
+      "start": 15.54,
+      "end": 15.7
+    },
+    {
+      "word": "name's",
+      "start": 15.7,
+      "end": 15.98
+    },
+    {
+      "word": "Nia.",
+      "start": 15.98,
+      "end": 16.22
+    },
+    {
+      "word": "Notebook",
+      "start": 16.94,
+      "end": 17.12
+    },
+    {
+      "word": "open.",
+      "start": 17.12,
+      "end": 17.3
+    },
+    {
+      "word": "She",
+      "start": 18.08,
+      "end": 18.16
+    },
+    {
+      "word": "heard",
+      "start": 18.16,
+      "end": 18.38
+    },
+    {
+      "word": "everything",
+      "start": 18.38,
+      "end": 18.92
+    },
+    {
+      "word": "you",
+      "start": 18.92,
+      "end": 19.28
+    },
+    {
+      "word": "heard.",
+      "start": 19.28,
+      "end": 19.52
+    },
+    {
+      "word": "So",
+      "start": 19.96,
+      "end": 20.06
+    },
+    {
+      "word": "you've",
+      "start": 20.06,
+      "end": 20.24
+    },
+    {
+      "word": "already",
+      "start": 20.24,
+      "end": 20.38
+    },
+    {
+      "word": "got",
+      "start": 20.38,
+      "end": 20.66
+    },
+    {
+      "word": "something",
+      "start": 20.66,
+      "end": 20.88
+    },
+    {
+      "word": "to",
+      "start": 20.88,
+      "end": 21.08
+    },
+    {
+      "word": "talk",
+      "start": 21.08,
+      "end": 21.28
+    },
+    {
+      "word": "about.",
+      "start": 21.28,
+      "end": 21.54
+    },
+    {
+      "word": "Ask,",
+      "start": 22.02,
+      "end": 22.2
+    },
+    {
+      "word": "what's",
+      "start": 22.54,
+      "end": 22.86
+    },
+    {
+      "word": "the",
+      "start": 22.86,
+      "end": 22.96
+    },
+    {
+      "word": "one",
+      "start": 22.96,
+      "end": 23.2
+    },
+    {
+      "word": "thing",
+      "start": 23.2,
+      "end": 23.5
+    },
+    {
+      "word": "you're",
+      "start": 23.5,
+      "end": 23.76
+    },
+    {
+      "word": "actually",
+      "start": 23.76,
+      "end": 24.12
+    },
+    {
+      "word": "going",
+      "start": 24.12,
+      "end": 24.46
+    },
+    {
+      "word": "to",
+      "start": 24.46,
+      "end": 24.64
+    },
+    {
+      "word": "use?",
+      "start": 24.64,
+      "end": 24.88
+    },
+    {
+      "word": "Now",
+      "start": 25.46,
+      "end": 25.62
+    },
+    {
+      "word": "you're",
+      "start": 25.62,
+      "end": 25.82
+    },
+    {
+      "word": "comparing",
+      "start": 25.82,
+      "end": 26.1
+    },
+    {
+      "word": "notes,",
+      "start": 26.1,
+      "end": 26.56
+    },
+    {
+      "word": "not",
+      "start": 26.96,
+      "end": 27.1
+    },
+    {
+      "word": "making",
+      "start": 27.1,
+      "end": 27.38
+    },
+    {
+      "word": "small",
+      "start": 27.38,
+      "end": 27.68
+    },
+    {
+      "word": "talk.",
+      "start": 27.68,
+      "end": 27.96
+    },
+    {
+      "word": "You're",
+      "start": 28.44,
+      "end": 28.54
+    },
+    {
+      "word": "thinking,",
+      "start": 28.54,
+      "end": 28.82
+    },
+    {
+      "word": "but",
+      "start": 29.26,
+      "end": 29.44
+    },
+    {
+      "word": "I",
+      "start": 29.44,
+      "end": 29.74
+    },
+    {
+      "word": "came",
+      "start": 29.74,
+      "end": 29.9
+    },
+    {
+      "word": "here",
+      "start": 29.9,
+      "end": 29.98
+    },
+    {
+      "word": "to",
+      "start": 29.98,
+      "end": 29.98
+    },
+    {
+      "word": "meet",
+      "start": 29.98,
+      "end": 29.98
+    },
+    {
+      "word": "the",
+      "start": 29.98,
+      "end": 29.98
+    },
+    {
+      "word": "speaker.",
+      "start": 29.98,
+      "end": 29.98
+    },
+    {
+      "word": "You",
+      "start": 31.04,
+      "end": 31.52
+    },
+    {
+      "word": "still",
+      "start": 31.52,
+      "end": 32.0
+    },
+    {
+      "word": "can.",
+      "start": 32.0,
+      "end": 32.42
+    },
+    {
+      "word": "Just",
+      "start": 32.78,
+      "end": 33.02
+    },
+    {
+      "word": "don't",
+      "start": 33.02,
+      "end": 33.34
+    },
+    {
+      "word": "go",
+      "start": 33.34,
+      "end": 33.44
+    },
+    {
+      "word": "alone.",
+      "start": 33.44,
+      "end": 33.84
+    },
+    {
+      "word": "Say,",
+      "start": 34.28,
+      "end": 34.46
+    },
+    {
+      "word": "want",
+      "start": 34.74,
+      "end": 34.96
+    },
+    {
+      "word": "to",
+      "start": 34.96,
+      "end": 35.1
+    },
+    {
+      "word": "go",
+      "start": 35.1,
+      "end": 35.22
+    },
+    {
+      "word": "ask",
+      "start": 35.22,
+      "end": 35.46
+    },
+    {
+      "word": "him",
+      "start": 35.46,
+      "end": 35.56
+    },
+    {
+      "word": "about",
+      "start": 35.56,
+      "end": 35.76
+    },
+    {
+      "word": "that",
+      "start": 35.76,
+      "end": 35.94
+    },
+    {
+      "word": "hiring",
+      "start": 35.94,
+      "end": 36.24
+    },
+    {
+      "word": "bit",
+      "start": 36.24,
+      "end": 36.54
+    },
+    {
+      "word": "together?",
+      "start": 36.54,
+      "end": 36.92
+    },
+    {
+      "word": "Two",
+      "start": 37.34,
+      "end": 37.5
+    },
+    {
+      "word": "people",
+      "start": 37.5,
+      "end": 37.86
+    },
+    {
+      "word": "with",
+      "start": 37.86,
+      "end": 38.1
+    },
+    {
+      "word": "one",
+      "start": 38.1,
+      "end": 38.36
+    },
+    {
+      "word": "sharp",
+      "start": 38.36,
+      "end": 38.66
+    },
+    {
+      "word": "question",
+      "start": 38.66,
+      "end": 39.16
+    },
+    {
+      "word": "get",
+      "start": 39.16,
+      "end": 39.46
+    },
+    {
+      "word": "more",
+      "start": 39.46,
+      "end": 39.78
+    },
+    {
+      "word": "than",
+      "start": 39.78,
+      "end": 40.0
+    },
+    {
+      "word": "forty",
+      "start": 40.0,
+      "end": 40.24
+    },
+    {
+      "word": "seconds.",
+      "start": 40.24,
+      "end": 40.66
+    },
+    {
+      "word": "He'll",
+      "start": 41.3,
+      "end": 41.44
+    },
+    {
+      "word": "remember",
+      "start": 41.44,
+      "end": 41.68
+    },
+    {
+      "word": "the",
+      "start": 41.68,
+      "end": 42.02
+    },
+    {
+      "word": "pair",
+      "start": 42.02,
+      "end": 42.22
+    },
+    {
+      "word": "who",
+      "start": 42.22,
+      "end": 42.44
+    },
+    {
+      "word": "listened.",
+      "start": 42.44,
+      "end": 42.62
+    },
+    {
+      "word": "You",
+      "start": 43.44,
+      "end": 43.46
+    },
+    {
+      "word": "walked",
+      "start": 43.46,
+      "end": 43.66
+    },
+    {
+      "word": "in",
+      "start": 43.66,
+      "end": 43.94
+    },
+    {
+      "word": "to",
+      "start": 43.94,
+      "end": 44.14
+    },
+    {
+      "word": "meet",
+      "start": 44.14,
+      "end": 44.34
+    },
+    {
+      "word": "the",
+      "start": 44.34,
+      "end": 44.5
+    },
+    {
+      "word": "speaker.",
+      "start": 44.5,
+      "end": 44.74
+    },
+    {
+      "word": "You",
+      "start": 45.4,
+      "end": 45.44
+    },
+    {
+      "word": "walked",
+      "start": 45.44,
+      "end": 45.64
+    },
+    {
+      "word": "out",
+      "start": 45.64,
+      "end": 45.96
+    },
+    {
+      "word": "with",
+      "start": 45.96,
+      "end": 46.24
+    },
+    {
+      "word": "a",
+      "start": 46.24,
+      "end": 46.32
+    },
+    {
+      "word": "speaker",
+      "start": 46.32,
+      "end": 46.58
+    },
+    {
+      "word": "who",
+      "start": 46.58,
+      "end": 46.86
+    },
+    {
+      "word": "knows",
+      "start": 46.86,
+      "end": 47.1
+    },
+    {
+      "word": "you",
+      "start": 47.1,
+      "end": 47.38
+    },
+    {
+      "word": "and",
+      "start": 47.38,
+      "end": 47.72
+    },
+    {
+      "word": "someone",
+      "start": 47.72,
+      "end": 48.06
+    },
+    {
+      "word": "to",
+      "start": 48.06,
+      "end": 48.28
+    },
+    {
+      "word": "go",
+      "start": 48.28,
+      "end": 48.42
+    },
+    {
+      "word": "to",
+      "start": 48.42,
+      "end": 48.54
+    },
+    {
+      "word": "the",
+      "start": 48.54,
+      "end": 48.66
+    },
+    {
+      "word": "next",
+      "start": 48.66,
+      "end": 48.84
+    },
+    {
+      "word": "one",
+      "start": 48.84,
+      "end": 49.06
+    },
+    {
+      "word": "with.",
+      "start": 49.06,
+      "end": 49.28
+    },
+    {
+      "word": "Send",
+      "start": 49.68,
+      "end": 49.86
+    },
+    {
+      "word": "this",
+      "start": 49.86,
+      "end": 50.08
+    },
+    {
+      "word": "to",
+      "start": 50.08,
+      "end": 50.2
+    },
+    {
+      "word": "the",
+      "start": 50.2,
+      "end": 50.32
+    },
+    {
+      "word": "friend",
+      "start": 50.32,
+      "end": 50.54
+    },
+    {
+      "word": "who",
+      "start": 50.54,
+      "end": 50.76
+    },
+    {
+      "word": "sprints",
+      "start": 50.76,
+      "end": 51.28
+    },
+    {
+      "word": "to",
+      "start": 51.28,
+      "end": 51.4
+    },
+    {
+      "word": "the",
+      "start": 51.4,
+      "end": 51.5
+    },
+    {
+      "word": "stage",
+      "start": 51.5,
+      "end": 51.82
+    },
+    {
+      "word": "before",
+      "start": 51.82,
+      "end": 52.02
+    },
+    {
+      "word": "the",
+      "start": 52.02,
+      "end": 52.4
+    },
+    {
+      "word": "clapping",
+      "start": 52.4,
+      "end": 52.68
+    },
+    {
+      "word": "stops.",
+      "start": 52.68,
+      "end": 53.02
+    }
+  ],
+  "warnings": [],
+  "script": "2026-10-20-the-seat-next-to-you.md"
+}

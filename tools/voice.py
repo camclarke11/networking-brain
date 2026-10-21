@@ -77,13 +77,14 @@ def edge(text, voice, rate, mp3_path):
 
 
 def load_env():
-    """Read KEY=value lines from .env (gitignored) into the environment, without overriding."""
+    """Read KEY=value lines from .env (gitignored) into the environment. .env wins over the shell,
+    so a key saved in the Studio is the one used."""
     env = ROOT / ".env"
     if env.exists():
         for line in env.read_text(encoding="utf-8").splitlines():
             if "=" in line and not line.lstrip().startswith("#"):
                 k, v = line.split("=", 1)
-                os.environ.setdefault(k.strip(), v.strip().strip('"').strip("'"))
+                os.environ[k.strip()] = v.strip().strip('"').strip("'")
 
 
 def elevenlabs(text, voice, mp3_path, model=None, settings=None, seed=None):
@@ -107,6 +108,40 @@ def elevenlabs(text, voice, mp3_path, model=None, settings=None, seed=None):
     return {"alignment": data["alignment"]}
 
 
+def say_as(text):
+    """Swap words the voice mispronounces for how they sound (config.json elevenlabs.say, written → spoken).
+    Returns the text to send and the swaps made, so unsay() can put the spelling back."""
+    swaps = []
+    for written, spoken in (CONFIG.get("elevenlabs", {}).get("say") or {}).items():
+        if written in text:
+            text = text.replace(written, spoken)
+            swaps.append((written, spoken))
+    return text, swaps
+
+
+def unsay(alignment, swaps):
+    """Put the written spelling back into an ElevenLabs character alignment, spreading each swapped word's time
+    evenly over its letters, so tools/align.py and the captions see the script's own words."""
+    chars = list(alignment["characters"])
+    st = list(alignment["character_start_times_seconds"])
+    en = list(alignment["character_end_times_seconds"])
+    for written, spoken in swaps:
+        out_c, out_s, out_e, i = [], [], [], 0
+        s = "".join(chars)
+        while (j := s.find(spoken, i)) >= 0:
+            out_c += chars[i:j]
+            out_s += st[i:j]
+            out_e += en[i:j]
+            a, b, n = st[j], en[j + len(spoken) - 1], len(written)
+            for k, ch in enumerate(written):
+                out_c.append(ch)
+                out_s.append(a + (b - a) * k / n)
+                out_e.append(a + (b - a) * (k + 1) / n)
+            i = j + len(spoken)
+        chars, st, en = out_c + chars[i:], out_s + st[i:], out_e + en[i:]
+    return {**alignment, "characters": chars, "character_start_times_seconds": st, "character_end_times_seconds": en}
+
+
 def main(argv):
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("script")
@@ -123,7 +158,11 @@ def main(argv):
     if a.engine == "edge":
         stamps = edge(text, a.voice or "en-US-AndrewNeural", a.rate, mp3)
     else:
-        stamps = elevenlabs(text, a.voice or CONFIG.get("elevenlabs", {}).get("voice_id"), mp3)
+        spoken, swaps = say_as(text)
+        stamps = elevenlabs(spoken, a.voice or CONFIG.get("elevenlabs", {}).get("voice_id"), mp3)
+        if swaps:
+            stamps["alignment"] = unsay(stamps["alignment"], swaps)
+            print("Said as: " + ", ".join(f"{w} → {s}" for w, s in swaps))
     words_path = script.with_suffix(".words.json")
     words_path.write_text(json.dumps(stamps, indent=1) + "\n", encoding="utf-8")
     n = len(stamps) if isinstance(stamps, list) else len(stamps["alignment"]["characters"])

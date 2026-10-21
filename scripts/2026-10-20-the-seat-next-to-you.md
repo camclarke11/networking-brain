@@ -6,6 +6,7 @@
 **A vs B:** join the queue for the speaker → turn to the person next to you, then go up together
 **Length:** 167 words ≈ 57s (at 175 wpm)
 **Hook code:** N1 · **Ending code:** E4 · **Named tool:** none
+**Pillar:** The Move · **Playbook chapter:** Get clients
 
 ---
 
@@ -204,21 +205,12 @@ Send this to the friend who sprints to the stage before the clapping stops.
 
 ## CAPTION
 
-When the talk ends, don't queue for the speaker.
 
-The speaker shakes thirty hands and remembers none. The person next to you heard the same talk, so you already have something to talk about.
+Everyone in the room wants the same person's attention. Should you?
 
-What to do instead:
-📍 Turn to the person in the next seat: "What's the one thing you're actually going to use?"
-📍 Compare notes. You're not making small talk, you're talking about something you both just heard.
-📍 Then go up together: "Want to go ask him about that bit together?"
-📍 Ask one sharp question as a pair, not "loved the talk".
+The full playbook is coming soon. Follow so you don't miss it.
 
-Try it at the next talk you go to and tell me who you met 👇
-
-Follow, the networking playbook drops soon.
-
-#networking #socialskills #entrepreneur #conference
+#smallbusiness #entrepreneur #networking #conference
 
 ---
 

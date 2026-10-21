@@ -6,6 +6,7 @@
 **A vs B:** stay until it fizzles into small talk → leave right after a laugh, with one line
 **Length:** 167 words ≈ 57s (at 175 wpm)
 **Hook code:** N3 · **Ending code:** E1 · **Named tool:** none
+**Pillar:** The Move · **Playbook chapter:** Get clients
 
 ---
 
@@ -195,21 +196,12 @@ Send this to the friend who's always the last one talking at the bar.
 
 ## CAPTION
 
-Leave the best conversation of the night early.
 
-People remember a conversation by its best moment and how it ended. Stay till it fizzles and the fizzle is what they keep.
+When's the right moment to walk away from a great conversation?
 
-How to leave on a high:
-📍 Wait for a laugh, not a lull.
-📍 Say what you loved: "That bit about firing your first client is staying with me."
-📍 Then the exit: "Let me grab you again later, I promised myself three new people tonight."
-📍 Actually go and grab them later. Or follow up the next morning.
+The full playbook is coming soon. Follow so you don't miss it.
 
-Try it at your next event and tell me if they came to find you 👇
-
-Follow, the networking playbook drops soon.
-
-#networking #socialskills #entrepreneur #networkingevent #psychology
+#smallbusiness #entrepreneur #networking
 
 ---
 

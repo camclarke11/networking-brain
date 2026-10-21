@@ -24,7 +24,7 @@ About **7 to 11 tags** in a 150-word script: roughly one per sentence or two, pl
 | The BUT / turn | `[short pause]` *before* the "But" | Pauses before the twist so it lands |
 | The move (the exact words) | `[encouraging]`, `[confident]` | Says it like you believe it works |
 | The objection ("You're thinking…") | `[chuckles]` *after* the objection, before the answer | Shows we get it, then answer warmly |
-| The proof (the study) | `[matter-of-fact]` or `[thoughtful]` | Sounds credible, not salesy |
+| The wrong guess / the reveal | `[matter-of-fact]` or `[thoughtful]` | Calm, so the turn after it lands |
 | The re-hook / escalation | `[thoughtful]`, `[excited]` | Lifts the energy for the second half |
 | The payoff | `[happy]`, `[warm]` | The loop closes on a high |
 | The share prompt | `[playful]` | Light, like you're nudging a friend |
@@ -48,3 +48,8 @@ About **7 to 11 tags** in a 150-word script: roughly one per sentence or two, pl
 ## 5. Timing
 
 `tools/align.py` skips anything in square brackets in ElevenLabs' character timestamps, so tags never throw the cues off. A `[pause]` just makes a longer gap between two words, which the video holds on.
+
+## 6. Pronunciation (say it as)
+
+Brand names the voice gets wrong go in `config.json` → `elevenlabs.say`, as written → spoken, e.g. `"Häagen-Dazs": "Hah-gen Dahz"`. `tools/voice.py` sends the spoken form to ElevenLabs, then puts the written spelling back into the word timestamps, so the SCRIPT, ELEVENLABS block, captions and timing all keep the real spelling. After any take, check what was actually said: transcribe the mp3 without hints (faster-whisper in `.venv`) and read it against the script. Names the speech model doesn't know will come back odd even when they're said right, so judge the brand names by ear or by a second take.
+

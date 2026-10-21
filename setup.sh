@@ -9,11 +9,11 @@ need ffmpeg "Install ffmpeg (brew install ffmpeg)."
 need python3 "Install Python 3 (brew install python)."
 echo "== Video project (Remotion)"
 (cd video && npm install --no-fund --no-audit)
-echo "== Placeholder voice (edge-tts) in .venv"
+echo "== Placeholder voice (edge-tts) and transcription (faster-whisper) in .venv"
 if command -v uv >/dev/null; then
-  uv venv -q .venv && uv pip install -q --python .venv/bin/python edge-tts
+  uv venv -q .venv && uv pip install -q --python .venv/bin/python edge-tts faster-whisper
 else
-  python3 -m venv .venv && .venv/bin/pip install -q edge-tts
+  python3 -m venv .venv && .venv/bin/pip install -q edge-tts faster-whisper
 fi
 echo "== Checks"
 python3 -m unittest discover -s tests 2>&1 | tail -1

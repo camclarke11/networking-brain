@@ -1,0 +1,1081 @@
+{
+  "duration": 44.6,
+  "match": 1.0,
+  "lines": [
+    {
+      "line": 1,
+      "text": "You order a Domino's, then sit there staring at your phone.",
+      "start": 0.16,
+      "end": 3.88,
+      "matched": "11/11"
+    },
+    {
+      "line": 2,
+      "text": "Being made.",
+      "start": 4.16,
+      "end": 5.08,
+      "matched": "2/2"
+    },
+    {
+      "line": 3,
+      "text": "In the oven.",
+      "start": 5.28,
+      "end": 6.08,
+      "matched": "3/3"
+    },
+    {
+      "line": 4,
+      "text": "Now Mike's bringing it to you.",
+      "start": 6.32,
+      "end": 8.12,
+      "matched": "6/6"
+    },
+    {
+      "line": 5,
+      "text": "You'd think that tracker is there so you know when to open the door.",
+      "start": 8.4,
+      "end": 11.849,
+      "matched": "14/14"
+    },
+    {
+      "line": 6,
+      "text": "That's the small part.",
+      "start": 11.92,
+      "end": 13.32,
+      "matched": "4/4"
+    },
+    {
+      "line": 7,
+      "text": "The pizza doesn't get to you a second faster.",
+      "start": 13.36,
+      "end": 15.88,
+      "matched": "9/9"
+    },
+    {
+      "line": 8,
+      "text": "But the wait stops feeling like a wait.",
+      "start": 15.92,
+      "end": 18.173,
+      "matched": "8/8"
+    },
+    {
+      "line": 9,
+      "text": "Because a silent wait feels like nobody's working on it.",
+      "start": 18.24,
+      "end": 21.56,
+      "matched": "10/10"
+    },
+    {
+      "line": 10,
+      "text": "A wait you can watch feels like somebody is.",
+      "start": 21.6,
+      "end": 24.333,
+      "matched": "9/9"
+    },
+    {
+      "line": 11,
+      "text": "And when you can see the work, you'll wait longer and like them more for it.",
+      "start": 24.4,
+      "end": 28.571,
+      "matched": "16/16"
+    },
+    {
+      "line": 12,
+      "text": "The tracker didn't make the pizza better.",
+      "start": 28.64,
+      "end": 30.84,
+      "matched": "7/7"
+    },
+    {
+      "line": 13,
+      "text": "It just stopped hiding the kitchen.",
+      "start": 30.88,
+      "end": 32.84,
+      "matched": "6/6"
+    },
+    {
+      "line": 14,
+      "text": "So if you sell anything, show them the work.",
+      "start": 32.947,
+      "end": 35.8,
+      "matched": "9/9"
+    },
+    {
+      "line": 15,
+      "text": "Don't go quiet for a week and drop the finished thing.",
+      "start": 35.84,
+      "end": 38.733,
+      "matched": "11/11"
+    },
+    {
+      "line": 16,
+      "text": "Send a photo of it in the oven.",
+      "start": 38.8,
+      "end": 40.571,
+      "matched": "8/8"
+    },
+    {
+      "line": 17,
+      "text": "Send this to the friend whose clients always text, any update?",
+      "start": 40.64,
+      "end": 44.0,
+      "matched": "11/11"
+    }
+  ],
+  "shots": [
+    {
+      "id": 1,
+      "title": "Staring at the tracker",
+      "lines": [
+        1,
+        4
+      ],
+      "start": 0.0,
+      "end": 8.4,
+      "duration": 8.4,
+      "cues": [
+        {
+          "word": "staring",
+          "what": "you lean into the phone",
+          "time": 2.48
+        },
+        {
+          "word": "made",
+          "what": "step one lights",
+          "time": 4.48
+        },
+        {
+          "word": "oven",
+          "what": "step two lights",
+          "time": 5.52
+        },
+        {
+          "word": "Mike's",
+          "what": "step three lights",
+          "time": 6.64
+        }
+      ],
+      "on_screen": [
+        {
+          "type": "big_text",
+          "at": "You",
+          "time": 0.16
+        },
+        {
+          "type": "tool_card",
+          "at": null,
+          "time": 0.0
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Not the door",
+      "lines": [
+        5,
+        6
+      ],
+      "start": 8.4,
+      "end": 13.36,
+      "duration": 4.96,
+      "cues": [
+        {
+          "word": "door",
+          "what": "your hand hovers at the handle",
+          "time": 11.48
+        },
+        {
+          "word": "small",
+          "what": "the door slides back and shrinks",
+          "time": 12.44
+        }
+      ],
+      "on_screen": []
+    },
+    {
+      "id": 3,
+      "title": "Same clock",
+      "lines": [
+        7,
+        8
+      ],
+      "start": 13.36,
+      "end": 18.24,
+      "duration": 4.88,
+      "cues": [
+        {
+          "word": "faster",
+          "what": "the clock ticks on, same speed",
+          "time": 15.08
+        },
+        {
+          "word": "wait",
+          "what": "the clock's ring turns from red to yellow",
+          "time": 16.16
+        }
+      ],
+      "on_screen": []
+    },
+    {
+      "id": 4,
+      "title": "Wall or window",
+      "lines": [
+        9,
+        10
+      ],
+      "start": 18.24,
+      "end": 24.4,
+      "duration": 6.16,
+      "cues": [
+        {
+          "word": "silent",
+          "what": "the left you taps a foot, a question mark pops",
+          "time": 18.907
+        },
+        {
+          "word": "watch",
+          "what": "the right wall turns to glass and the oven glows",
+          "time": 22.52
+        }
+      ],
+      "on_screen": []
+    },
+    {
+      "id": 5,
+      "title": "Wait longer, like it more",
+      "lines": [
+        11,
+        11
+      ],
+      "start": 24.4,
+      "end": 28.64,
+      "duration": 4.24,
+      "cues": [
+        {
+          "word": "work",
+          "what": "Mike slides the pizza out",
+          "time": 25.44
+        },
+        {
+          "word": "longer",
+          "what": "the clock hand jumps on",
+          "time": 26.48
+        },
+        {
+          "word": "more",
+          "what": "you cheer",
+          "time": 27.6
+        }
+      ],
+      "on_screen": []
+    },
+    {
+      "id": 6,
+      "title": "Stop hiding the kitchen",
+      "lines": [
+        12,
+        13
+      ],
+      "start": 28.64,
+      "end": 32.947,
+      "duration": 4.307,
+      "cues": [
+        {
+          "word": "better",
+          "what": "the box sits still, nothing changes",
+          "time": 30.48
+        },
+        {
+          "word": "kitchen",
+          "what": "the wall drops and the kitchen lights up",
+          "time": 32.08
+        }
+      ],
+      "on_screen": []
+    },
+    {
+      "id": 7,
+      "title": "Send the photo",
+      "lines": [
+        14,
+        16
+      ],
+      "start": 32.947,
+      "end": 40.64,
+      "duration": 7.693,
+      "cues": [
+        {
+          "word": "work",
+          "what": "you lift the phone to the laptop",
+          "time": 35.4
+        },
+        {
+          "word": "quiet",
+          "what": "a grey silent week flashes past",
+          "time": 36.32
+        },
+        {
+          "word": "photo",
+          "what": "the message sends",
+          "time": 39.333
+        }
+      ],
+      "on_screen": [
+        {
+          "type": "dm_screen",
+          "at": null,
+          "time": 32.947
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Jay's phone",
+      "lines": [
+        17,
+        17
+      ],
+      "start": 40.64,
+      "end": 44.6,
+      "duration": 3.96,
+      "cues": [
+        {
+          "word": "update",
+          "what": "the phone buzzes with any update?",
+          "time": 43.52
+        }
+      ],
+      "on_screen": [
+        {
+          "type": "label",
+          "at": "friend",
+          "time": 41.4
+        }
+      ]
+    }
+  ],
+  "words": [
+    {
+      "word": "You",
+      "start": 0.16,
+      "end": 0.24
+    },
+    {
+      "word": "order",
+      "start": 0.36,
+      "end": 0.48
+    },
+    {
+      "word": "a",
+      "start": 0.56,
+      "end": 0.64
+    },
+    {
+      "word": "Domino's,",
+      "start": 0.72,
+      "end": 1.48
+    },
+    {
+      "word": "then",
+      "start": 1.52,
+      "end": 1.76
+    },
+    {
+      "word": "sit",
+      "start": 1.92,
+      "end": 2.08
+    },
+    {
+      "word": "there",
+      "start": 2.24,
+      "end": 2.4
+    },
+    {
+      "word": "staring",
+      "start": 2.48,
+      "end": 2.8
+    },
+    {
+      "word": "at",
+      "start": 2.84,
+      "end": 2.88
+    },
+    {
+      "word": "your",
+      "start": 2.96,
+      "end": 3.12
+    },
+    {
+      "word": "phone.",
+      "start": 3.2,
+      "end": 3.88
+    },
+    {
+      "word": "Being",
+      "start": 4.16,
+      "end": 4.4
+    },
+    {
+      "word": "made.",
+      "start": 4.48,
+      "end": 5.08
+    },
+    {
+      "word": "In",
+      "start": 5.28,
+      "end": 5.36
+    },
+    {
+      "word": "the",
+      "start": 5.44,
+      "end": 5.48
+    },
+    {
+      "word": "oven.",
+      "start": 5.52,
+      "end": 6.08
+    },
+    {
+      "word": "Now",
+      "start": 6.32,
+      "end": 6.48
+    },
+    {
+      "word": "Mike's",
+      "start": 6.64,
+      "end": 6.96
+    },
+    {
+      "word": "bringing",
+      "start": 7.04,
+      "end": 7.28
+    },
+    {
+      "word": "it",
+      "start": 7.36,
+      "end": 7.44
+    },
+    {
+      "word": "to",
+      "start": 7.52,
+      "end": 7.68
+    },
+    {
+      "word": "you.",
+      "start": 7.76,
+      "end": 8.12
+    },
+    {
+      "word": "You'd",
+      "start": 8.4,
+      "end": 8.64
+    },
+    {
+      "word": "think",
+      "start": 8.76,
+      "end": 8.88
+    },
+    {
+      "word": "that",
+      "start": 9.0,
+      "end": 9.12
+    },
+    {
+      "word": "tracker",
+      "start": 9.32,
+      "end": 9.52
+    },
+    {
+      "word": "is",
+      "start": 9.6,
+      "end": 9.68
+    },
+    {
+      "word": "there",
+      "start": 9.76,
+      "end": 10.0
+    },
+    {
+      "word": "so",
+      "start": 10.08,
+      "end": 10.16
+    },
+    {
+      "word": "you",
+      "start": 10.2,
+      "end": 10.24
+    },
+    {
+      "word": "know",
+      "start": 10.32,
+      "end": 10.4
+    },
+    {
+      "word": "when",
+      "start": 10.48,
+      "end": 10.56
+    },
+    {
+      "word": "to",
+      "start": 10.64,
+      "end": 10.72
+    },
+    {
+      "word": "open",
+      "start": 10.84,
+      "end": 10.96
+    },
+    {
+      "word": "the",
+      "start": 11.04,
+      "end": 11.12
+    },
+    {
+      "word": "door.",
+      "start": 11.48,
+      "end": 11.849
+    },
+    {
+      "word": "That's",
+      "start": 11.92,
+      "end": 12.16
+    },
+    {
+      "word": "the",
+      "start": 12.24,
+      "end": 12.32
+    },
+    {
+      "word": "small",
+      "start": 12.44,
+      "end": 12.56
+    },
+    {
+      "word": "part.",
+      "start": 12.64,
+      "end": 13.32
+    },
+    {
+      "word": "The",
+      "start": 13.36,
+      "end": 13.44
+    },
+    {
+      "word": "pizza",
+      "start": 13.6,
+      "end": 13.76
+    },
+    {
+      "word": "doesn't",
+      "start": 13.84,
+      "end": 14.0
+    },
+    {
+      "word": "get",
+      "start": 14.08,
+      "end": 14.16
+    },
+    {
+      "word": "to",
+      "start": 14.24,
+      "end": 14.32
+    },
+    {
+      "word": "you",
+      "start": 14.36,
+      "end": 14.4
+    },
+    {
+      "word": "a",
+      "start": 14.56,
+      "end": 14.6
+    },
+    {
+      "word": "second",
+      "start": 14.64,
+      "end": 15.04
+    },
+    {
+      "word": "faster.",
+      "start": 15.08,
+      "end": 15.88
+    },
+    {
+      "word": "But",
+      "start": 15.92,
+      "end": 16.0
+    },
+    {
+      "word": "the",
+      "start": 16.04,
+      "end": 16.08
+    },
+    {
+      "word": "wait",
+      "start": 16.16,
+      "end": 16.4
+    },
+    {
+      "word": "stops",
+      "start": 16.56,
+      "end": 16.72
+    },
+    {
+      "word": "feeling",
+      "start": 16.8,
+      "end": 17.12
+    },
+    {
+      "word": "like",
+      "start": 17.2,
+      "end": 17.28
+    },
+    {
+      "word": "a",
+      "start": 17.36,
+      "end": 17.44
+    },
+    {
+      "word": "wait.",
+      "start": 17.8,
+      "end": 18.173
+    },
+    {
+      "word": "Because",
+      "start": 18.24,
+      "end": 18.4
+    },
+    {
+      "word": "a",
+      "start": 18.64,
+      "end": 18.773
+    },
+    {
+      "word": "silent",
+      "start": 18.907,
+      "end": 19.04
+    },
+    {
+      "word": "wait",
+      "start": 19.12,
+      "end": 19.44
+    },
+    {
+      "word": "feels",
+      "start": 19.48,
+      "end": 19.68
+    },
+    {
+      "word": "like",
+      "start": 19.76,
+      "end": 20.0
+    },
+    {
+      "word": "nobody's",
+      "start": 20.04,
+      "end": 20.48
+    },
+    {
+      "word": "working",
+      "start": 20.64,
+      "end": 20.8
+    },
+    {
+      "word": "on",
+      "start": 20.88,
+      "end": 20.96
+    },
+    {
+      "word": "it.",
+      "start": 21.24,
+      "end": 21.56
+    },
+    {
+      "word": "A",
+      "start": 21.6,
+      "end": 21.64
+    },
+    {
+      "word": "wait",
+      "start": 21.68,
+      "end": 21.84
+    },
+    {
+      "word": "you",
+      "start": 21.92,
+      "end": 22.0
+    },
+    {
+      "word": "can",
+      "start": 22.12,
+      "end": 22.24
+    },
+    {
+      "word": "watch",
+      "start": 22.52,
+      "end": 22.8
+    },
+    {
+      "word": "feels",
+      "start": 22.84,
+      "end": 23.04
+    },
+    {
+      "word": "like",
+      "start": 23.12,
+      "end": 23.28
+    },
+    {
+      "word": "somebody",
+      "start": 23.36,
+      "end": 23.68
+    },
+    {
+      "word": "is.",
+      "start": 23.76,
+      "end": 24.333
+    },
+    {
+      "word": "And",
+      "start": 24.4,
+      "end": 24.48
+    },
+    {
+      "word": "when",
+      "start": 24.56,
+      "end": 24.64
+    },
+    {
+      "word": "you",
+      "start": 24.68,
+      "end": 24.72
+    },
+    {
+      "word": "can",
+      "start": 24.8,
+      "end": 25.04
+    },
+    {
+      "word": "see",
+      "start": 25.16,
+      "end": 25.28
+    },
+    {
+      "word": "the",
+      "start": 25.32,
+      "end": 25.36
+    },
+    {
+      "word": "work,",
+      "start": 25.44,
+      "end": 25.96
+    },
+    {
+      "word": "you'll",
+      "start": 26.0,
+      "end": 26.16
+    },
+    {
+      "word": "wait",
+      "start": 26.24,
+      "end": 26.4
+    },
+    {
+      "word": "longer",
+      "start": 26.48,
+      "end": 26.96
+    },
+    {
+      "word": "and",
+      "start": 27.04,
+      "end": 27.12
+    },
+    {
+      "word": "like",
+      "start": 27.2,
+      "end": 27.36
+    },
+    {
+      "word": "them",
+      "start": 27.44,
+      "end": 27.52
+    },
+    {
+      "word": "more",
+      "start": 27.6,
+      "end": 27.84
+    },
+    {
+      "word": "for",
+      "start": 27.92,
+      "end": 28.0
+    },
+    {
+      "word": "it.",
+      "start": 28.08,
+      "end": 28.571
+    },
+    {
+      "word": "The",
+      "start": 28.64,
+      "end": 28.72
+    },
+    {
+      "word": "tracker",
+      "start": 28.88,
+      "end": 29.04
+    },
+    {
+      "word": "didn't",
+      "start": 29.12,
+      "end": 29.36
+    },
+    {
+      "word": "make",
+      "start": 29.44,
+      "end": 29.6
+    },
+    {
+      "word": "the",
+      "start": 29.68,
+      "end": 29.76
+    },
+    {
+      "word": "pizza",
+      "start": 29.96,
+      "end": 30.16
+    },
+    {
+      "word": "better.",
+      "start": 30.48,
+      "end": 30.84
+    },
+    {
+      "word": "It",
+      "start": 30.88,
+      "end": 30.96
+    },
+    {
+      "word": "just",
+      "start": 31.04,
+      "end": 31.2
+    },
+    {
+      "word": "stopped",
+      "start": 31.28,
+      "end": 31.52
+    },
+    {
+      "word": "hiding",
+      "start": 31.6,
+      "end": 31.92
+    },
+    {
+      "word": "the",
+      "start": 31.96,
+      "end": 32.0
+    },
+    {
+      "word": "kitchen.",
+      "start": 32.08,
+      "end": 32.84
+    },
+    {
+      "word": "So",
+      "start": 32.947,
+      "end": 32.96
+    },
+    {
+      "word": "if",
+      "start": 33.04,
+      "end": 33.12
+    },
+    {
+      "word": "you",
+      "start": 33.2,
+      "end": 33.28
+    },
+    {
+      "word": "sell",
+      "start": 33.36,
+      "end": 33.6
+    },
+    {
+      "word": "anything,",
+      "start": 33.68,
+      "end": 34.44
+    },
+    {
+      "word": "show",
+      "start": 34.48,
+      "end": 34.64
+    },
+    {
+      "word": "them",
+      "start": 34.72,
+      "end": 34.88
+    },
+    {
+      "word": "the",
+      "start": 34.96,
+      "end": 35.04
+    },
+    {
+      "word": "work.",
+      "start": 35.4,
+      "end": 35.8
+    },
+    {
+      "word": "Don't",
+      "start": 35.84,
+      "end": 36.0
+    },
+    {
+      "word": "go",
+      "start": 36.12,
+      "end": 36.24
+    },
+    {
+      "word": "quiet",
+      "start": 36.32,
+      "end": 36.64
+    },
+    {
+      "word": "for",
+      "start": 36.68,
+      "end": 36.72
+    },
+    {
+      "word": "a",
+      "start": 36.8,
+      "end": 36.88
+    },
+    {
+      "word": "week",
+      "start": 36.96,
+      "end": 37.12
+    },
+    {
+      "word": "and",
+      "start": 37.2,
+      "end": 37.36
+    },
+    {
+      "word": "drop",
+      "start": 37.48,
+      "end": 37.6
+    },
+    {
+      "word": "the",
+      "start": 37.68,
+      "end": 37.76
+    },
+    {
+      "word": "finished",
+      "start": 37.92,
+      "end": 38.08
+    },
+    {
+      "word": "thing.",
+      "start": 38.16,
+      "end": 38.733
+    },
+    {
+      "word": "Send",
+      "start": 38.8,
+      "end": 38.96
+    },
+    {
+      "word": "a",
+      "start": 39.12,
+      "end": 39.227
+    },
+    {
+      "word": "photo",
+      "start": 39.333,
+      "end": 39.44
+    },
+    {
+      "word": "of",
+      "start": 39.52,
+      "end": 39.6
+    },
+    {
+      "word": "it",
+      "start": 39.64,
+      "end": 39.68
+    },
+    {
+      "word": "in",
+      "start": 39.72,
+      "end": 39.76
+    },
+    {
+      "word": "the",
+      "start": 39.84,
+      "end": 39.92
+    },
+    {
+      "word": "oven.",
+      "start": 40.24,
+      "end": 40.571
+    },
+    {
+      "word": "Send",
+      "start": 40.64,
+      "end": 40.8
+    },
+    {
+      "word": "this",
+      "start": 40.88,
+      "end": 41.04
+    },
+    {
+      "word": "to",
+      "start": 41.08,
+      "end": 41.12
+    },
+    {
+      "word": "the",
+      "start": 41.2,
+      "end": 41.28
+    },
+    {
+      "word": "friend",
+      "start": 41.4,
+      "end": 41.52
+    },
+    {
+      "word": "whose",
+      "start": 41.64,
+      "end": 41.76
+    },
+    {
+      "word": "clients",
+      "start": 41.92,
+      "end": 42.08
+    },
+    {
+      "word": "always",
+      "start": 42.16,
+      "end": 42.4
+    },
+    {
+      "word": "text,",
+      "start": 42.48,
+      "end": 43.08
+    },
+    {
+      "word": "any",
+      "start": 43.12,
+      "end": 43.28
+    },
+    {
+      "word": "update?",
+      "start": 43.52,
+      "end": 44.0
+    }
+  ],
+  "warnings": [],
+  "script": "2026-10-21-the-pizza-in-the-oven.md"
+}

@@ -6,6 +6,7 @@
 **A vs B:** assume it went badly and don't follow up → assume they liked you more than you think and text anyway
 **Length:** 157 words ≈ 54s (at 175 wpm)
 **Hook code:** N6 · **Ending code:** E1 · **Named tool:** none (the liking gap is the researchers' name, not ours)
+**Pillar:** The Move · **Playbook chapter:** Get clients
 
 ---
 
@@ -210,20 +211,12 @@ Send this to the friend who replays every chat in the shower.
 
 ## CAPTION
 
-That conversation went better than you think.
 
-After a chat, people consistently guess the other person liked them less than they actually did. Researchers call it the liking gap. You grade yourself on the bloopers. They grade you on the highlights.
+You think that conversation went badly. Are you sure?
 
-What to do on the walk home:
-📍 Notice you're replaying the awkward bits. That's the gap talking.
-📍 Send one line about something they said: "Good chatting last night, you've got me rethinking my pricing."
-📍 Don't apologize for anything. They probably didn't notice it.
+The full playbook is coming soon. Follow so you don't miss it.
 
-Who are you not texting because you think it went badly? Text them tonight 👇
-
-Follow, the networking playbook drops soon.
-
-#networking #socialskills #entrepreneur #psychology
+#smallbusiness #entrepreneur #networking
 
 ---
 

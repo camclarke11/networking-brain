@@ -6,6 +6,7 @@
 **A vs B:** wait for "sometime" to turn into a plan → send one specific day and time, and read how she answers
 **Length:** 168 words ≈ 58s (at 175 wpm)
 **Hook code:** N2 · **Ending code:** E1 · **Named tool:** the Thursday test
+**Pillar:** The Move · **Playbook chapter:** Get clients
 
 ---
 
@@ -232,21 +233,12 @@ Send this to the friend still waiting on a coffee from June.
 
 ## CAPTION
 
-"Let's grab coffee sometime" means one of two things.
 
-"Sometime" isn't a day, so it never happens. Give it one, and their answer tells you if they meant it.
+How do you know if someone actually wants to meet again?
 
-The Thursday test:
-📍 Send one day, one time, one length: "Loved chatting. I'm near you Thursday. Does 9 work for 20 minutes?"
-📍 They move the day ("Thursday's bad, how about Monday?") → that's a yes.
-📍 No new day ("crazy month, let's play it by ear") → that's a polite no.
-📍 Polite no? Reply "No stress, see you at the next one." Then let it go.
+The full playbook is coming soon. Follow so you don't miss it.
 
-Who still owes you a coffee? Send them a Thursday this week 👇
-
-Follow, the networking playbook drops soon.
-
-#networking #socialskills #entrepreneur #coffeechat
+#smallbusiness #entrepreneur #networking #coffeechat
 
 ---
 

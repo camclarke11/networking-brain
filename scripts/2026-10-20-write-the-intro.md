@@ -6,6 +6,7 @@
 **A vs B:** ask "can you intro me?" and wait → send a message he can forward without changing a word
 **Length:** 170 words ≈ 58s (at 175 wpm)
 **Hook code:** N3 · **Ending code:** E1 · **Named tool:** none
+**Pillar:** The Move · **Playbook chapter:** Get clients
 
 ---
 
@@ -225,21 +226,12 @@ Send this to the friend still waiting on five intros.
 
 ## CAPTION
 
-If you want an intro, write it yourself.
 
-"I'll intro you" usually dies because the person has to explain who you are, why you matter and what you want. Do it for them.
+Asking for an intro is the easy part. So why do so few happen?
 
-The forwardable intro:
-📍 Who you are, in one line: "He makes videos for gyms."
-📍 What you want, small and specific: "He'd love 15 minutes on how you landed your first monthly client."
-📍 An easy out: "No pressure if the timing's off."
-→ Send it to the connector with "Here's something you can forward if it's easier."
+The full playbook is coming soon. Follow so you don't miss it.
 
-Who promised you an intro that never came? Send them this tonight 👇
-
-Follow, the networking playbook drops soon.
-
-#networking #socialskills #entrepreneur #introductions
+#smallbusiness #entrepreneur #networking #introductions
 
 ---
 

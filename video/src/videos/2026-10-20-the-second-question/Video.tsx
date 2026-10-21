@@ -17,7 +17,7 @@ import {C} from '../../kit/tokens';
 import timing from './timing.json';
 
 const SLUG = '2026-10-20-the-second-question';
-const CROWD: [number, number][] = [[-2.6, -2.2], [-3.3, -3.0], [2.7, -2.6], [3.4, -3.4], [-1.2, -5.5], [0.6, -6.2], [1.9, -5.4], [-3.8, -6.5], [4.0, -7.0], [-0.4, -8.5]];
+const CROWD: [number, number][] = [[-2.6, -2.2], [-4.05, -3.0], [2.7, -2.6], [3.4, -3.4], [-1.2, -5.5], [0.6, -6.2], [1.9, -5.4], [-3.8, -6.5], [4.0, -7.0], [-0.52, -8.78]];
 
 // ---------- Shot 1: two cards, frozen room ----------
 const TwoCards: React.FC<{t: number}> = ({t}) => {
@@ -43,8 +43,8 @@ const TwoCards: React.FC<{t: number}> = ({t}) => {
 };
 
 // ---------- Shots 2 to 4: the drinks table and the door ----------
-const YOU_POS: [number, number, number] = [-0.62, 0, 0.05];
-const PRIYA_POS: [number, number, number] = [0.62, 0, 0.05];
+const YOU_POS: [number, number, number] = [-0.7, 0, 0.05];
+const PRIYA_POS: [number, number, number] = [0.7, 0, 0.05];
 const drinksCam = (t: number, s2: number, s3: number, over: number): Cam =>
   camPath(t, [
     [s2, {pos: [0, 1.75, 6.6], target: [0, 1.3, 0], fov: 34}],
@@ -146,7 +146,7 @@ const ThroughDoor: React.FC<{t: number}> = ({t}) => {
         </Stage>
         <XCheck t={t} at={instead} out={line(9).start + 0.05} wrong="How do you know the host?" right="What made you start that?" y={230} />
         <QuoteBubble t={t} at={line(9).start + 0.05} out={start + 0.4} speaker="you" text="A skincare brand? What made you start that?" x={youHead[0] + 40} y={youHead[1] - 20} side="left" width={700} tone="right" />
-        <AbsoluteFill style={{background: C.goldGlow, opacity: p(t, into - 0.25, into) * 0.95}} />
+        <AbsoluteFill style={{background: '#FFFDF5', opacity: p(t, into - 0.25, into) * 0.95}} />
       </AbsoluteFill>
     );
   }
@@ -165,7 +165,7 @@ const ThroughDoor: React.FC<{t: number}> = ({t}) => {
           return <Bubble3D key={i} position={[Math.cos(a) * 1.6, 1.2 + rise * 2.2, -0.4 + Math.sin(a) * 0.8]} gold={1} scale={0.12 * glow} />;
         })}
       </Stage>
-      <AbsoluteFill style={{background: C.goldGlow, opacity: (1 - p(t, into, into + 0.4)) * 0.95}} />
+      <AbsoluteFill style={{background: '#FFFDF5', opacity: (1 - p(t, into, into + 0.4)) * 0.95}} />
     </AbsoluteFill>
   );
 };
@@ -177,14 +177,14 @@ const Interrogation: React.FC<{t: number}> = ({t}) => {
   const hit = cue(6, 'interrogation');
   const swing = Math.sin((t - s.start) * 2.4) * 0.12 + Math.sin(clamp((t - hit) * 3.5, 0, Math.PI)) * 0.55 * (t > hit ? 1 : 0);
   const drift: Cam = {pos: [0.4 + wobble(t, 0.6) * 0.12, 2.1 + wobble(t, 0.5, 2) * 0.05, 4.6], target: [0, 1.35, 0], fov: 36, roll: wobble(t, 0.4, 1) * 0.02};
-  const youHead = toScreen(drift, [-0.75, 2.0, 0.6]);
+  const youHead = toScreen(drift, [-0.75, 2.0, 0.88]);
   const qs = ['Why skincare?', 'Since when?', 'Who knows?!'];
   return (
     <AbsoluteFill>
       <Stage t={t} cam={drift} backdrop="dark" light="harsh" fog={[8, 20]}>
         <InterrogationRoom t={t} lampSwing={swing} />
-        <Character who="you" t={t} position={[-0.75, 0, 0.6]} rotY={0.7} pose="point" lean={0.25} talking={talk(t, s.start, s.end)} mood="excited" />
-        <Character who="stranger_a" t={t} position={[0.7, 0, -0.65]} rotY={-0.5} pose="shrug" mood="shock" sweat={((t - s.start) * 1.3) % 1} seed={3} />
+        <Character who="you" t={t} position={[-0.75, 0, 0.88]} rotY={0.7} pose="point" lean={0.25} talking={talk(t, s.start, s.end)} mood="excited" />
+        <Character who="stranger_a" t={t} position={[0.7, 0, -0.88]} rotY={-0.5} pose="shrug" mood="shock" sweat={((t - s.start) * 1.3) % 1} seed={3} />
       </Stage>
       {qs.map((q, i) => (
         <QuoteBubble key={q} t={t} at={s.start + 0.2 + i * 0.6} out={s.start + 0.75 + i * 0.6} speaker="you" text={q} x={youHead[0] + i * 60} y={youHead[1] - 20 - i * 40} side="left" width={520} typeOn={false} />

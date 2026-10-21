@@ -11,35 +11,36 @@ export const FPS = 30;
 export const SAFE = {top: 170, bottom: 1500, left: 70, right: 930};
 
 export const C = {
-  // neutral base (warm greys and off-white)
-  base: '#EFE6DA',
-  base2: '#E2D5C3',
-  base3: '#CDBDA8',
-  white: '#FFFCF6',
-  ink: '#211C17',
-  ink2: '#4A4037',
-  // brand accent (warm gold): the right move
-  gold: '#F2B33D',
-  goldDeep: '#C9860F',
-  goldGlow: '#FFD983',
-  // the "wrong" tone (cold grey-blue): the wrong move
-  cold: '#7F93AB',
-  coldDeep: '#4B5C72',
-  coldLight: '#C4CFDB',
+  // neutral base: off-white space and soft greys
+  base: '#F3F2EE',
+  base2: '#E6E5E1',
+  base3: '#C9C9C6',
+  white: '#FFFFFF',
+  ink: '#1F2023',
+  ink2: '#5B5D62',
+  // the one accent (yellow): the right move
+  gold: '#F5CF2E',
+  goldDeep: '#D9AE00',
+  goldGlow: '#FFE88A',
+  // the "wrong" tone (flat cold grey): the wrong move
+  cold: '#8D9096',
+  coldDeep: '#5E6167',
+  coldLight: '#E3E4E7',
   // verdicts
-  red: '#D9483B',
-  green: '#3E9E68',
+  red: '#E5484D',
+  green: '#2FA36B',
 };
 
 // Fonts ship with the repo (public/fonts, SIL Open Font License) so renders never need the network.
+loadFont({family: 'Antonio', url: staticFile('fonts/Antonio-var.ttf'), weight: '100 700'});
 loadFont({family: 'Bricolage Grotesque', url: staticFile('fonts/BricolageGrotesque-800.woff2'), weight: '800'});
 loadFont({family: 'Inter', url: staticFile('fonts/Inter-var.woff2'), weight: '100 900'});
 loadFont({family: 'Caveat', url: staticFile('fonts/Caveat-700.woff2'), weight: '700'});
 
 export const FONT = {
-  display: "'Bricolage Grotesque', sans-serif", // weight 800 only
+  display: "'Antonio', sans-serif", // tall condensed headlines, weights 100 to 700
   ui: "'Inter', sans-serif",
   hand: "'Caveat', cursive",
 };
 
-export const SHADOW = '0 18px 40px rgba(33,28,23,0.22), 0 4px 10px rgba(33,28,23,0.12)';
+export const SHADOW = '0 14px 40px rgba(31,32,35,0.12), 0 2px 8px rgba(31,32,35,0.06)';

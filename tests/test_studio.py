@@ -24,7 +24,10 @@ class StudioTests(unittest.TestCase):
         S.VIDEOS_SRC = self.tmp / "videos"
         S.CONTENT_LOG = self.tmp / "content-log.md"
         S.SCRIPTS.mkdir()
-        shutil.copy(ROOT / "scripts" / f"{SLUG}.md", S.SCRIPTS)
+        # Written before the no-citation rule (knowledge/00-what-performs.md §4); test it without the citation.
+        text = (ROOT / "scripts" / f"{SLUG}.md").read_text(encoding="utf-8").replace(
+            "In 2014, researchers had Chicago commuters", "In 2014, someone had Chicago commuters")
+        (S.SCRIPTS / f"{SLUG}.md").write_text(text, encoding="utf-8")
         shutil.copy(ROOT / "content-log.md", S.CONTENT_LOG)
         self.calls = 0
 

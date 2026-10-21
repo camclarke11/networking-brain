@@ -6,6 +6,7 @@
 **A vs B:** drift closer and hover until someone notices you → wait for the laugh, step in with one line, then hand the story back
 **Length:** 169 words ≈ 58s (at 175 wpm)
 **Hook code:** N4 · **Ending code:** E1 · **Named tool:** none (the "gap" is a light frame, not a coined name)
+**Pillar:** The Move · **Playbook chapter:** Get clients
 
 ---
 
@@ -223,21 +224,12 @@ Send this to the friend who orbits groups like a lost satellite.
 
 ## CAPTION
 
-How to join a group without hovering.
 
-You can't walk into a turning skipping rope. You wait for the beat. In a group, the beat is the laugh.
+How do you join a group that's already talking without it being weird?
 
-How to do it:
-📍 Stand close enough to hear, but don't hover.
-📍 Wait for the laugh. Right after it, the circle loosens.
-📍 Step in: "Okay, that laugh sounded like the best story here. What did I miss?"
-📍 Then hand it back: "Go on, finish it." Don't start talking about yourself.
+The full playbook is coming soon. Follow so you don't miss it.
 
-Try it at your next event and tell me what story you walked into 👇
-
-Follow, the networking playbook drops soon.
-
-#networking #socialskills #entrepreneur #networkingevent
+#smallbusiness #entrepreneur #networking
 
 ---
 

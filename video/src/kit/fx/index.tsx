@@ -8,16 +8,16 @@ import {clamp, p} from '../time';
 /** Wrap anything. drain 0..1 pulls it to cold grey-blue, glow 0..1 floods it warm gold. */
 export const Grade: React.FC<{drain?: number; glow?: number; children: React.ReactNode}> = ({drain = 0, glow = 0, children}) => (
   <AbsoluteFill>
-    <AbsoluteFill style={{filter: `saturate(${1 - 0.8 * drain + 0.25 * glow}) brightness(${1 - 0.08 * drain + 0.04 * glow}) contrast(${1 - 0.06 * drain})`}}>
+    <AbsoluteFill style={{filter: `saturate(${1 - 0.8 * drain}) brightness(${1 - 0.08 * drain + 0.03 * glow}) contrast(${1 - 0.06 * drain})`}}>
       {children}
     </AbsoluteFill>
     {drain > 0.001 && <AbsoluteFill style={{background: C.cold, mixBlendMode: 'color', opacity: 0.55 * drain}} />}
     {glow > 0.001 && (
       <AbsoluteFill
         style={{
-          background: `radial-gradient(ellipse 70% 55% at 50% 45%, ${C.goldGlow}, rgba(242,179,61,0.35) 55%, rgba(242,179,61,0) 80%)`,
-          mixBlendMode: 'soft-light',
-          opacity: 0.9 * glow,
+          background: `radial-gradient(ellipse 75% 55% at 50% 45%, #FFF8E1, rgba(255,248,225,0.5) 55%, rgba(255,248,225,0) 85%)`,
+          mixBlendMode: 'screen',
+          opacity: 0.45 * glow,
         }}
       />
     )}
@@ -25,7 +25,7 @@ export const Grade: React.FC<{drain?: number; glow?: number; children: React.Rea
 );
 
 /** Film grain. Sits on top of every video. */
-export const Grain: React.FC<{opacity?: number}> = ({opacity = 0.07}) => {
+export const Grain: React.FC<{opacity?: number}> = ({opacity = 0.025}) => {
   const f = useCurrentFrame();
   return (
     <AbsoluteFill style={{pointerEvents: 'none', mixBlendMode: 'overlay', opacity}}>
@@ -40,8 +40,8 @@ export const Grain: React.FC<{opacity?: number}> = ({opacity = 0.07}) => {
   );
 };
 
-export const Vignette: React.FC<{strength?: number}> = ({strength = 0.35}) => (
-  <AbsoluteFill style={{pointerEvents: 'none', background: `radial-gradient(ellipse 85% 70% at 50% 48%, transparent 55%, rgba(33,28,23,${strength}) 100%)`}} />
+export const Vignette: React.FC<{strength?: number}> = ({strength = 0.06}) => (
+  <AbsoluteFill style={{pointerEvents: 'none', background: `radial-gradient(ellipse 85% 70% at 50% 48%, transparent 55%, rgba(31,32,35,${strength}) 100%)`}} />
 );
 
 /** A white (or gold) flash peaking at time `at`. */

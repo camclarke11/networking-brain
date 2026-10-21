@@ -1,14 +1,17 @@
-# Networking Brain
+# Script Brain for @f___a___c___t___s
 
-A knowledge base that teaches any AI agent to write short-form scripts for our networking and social skills account (young guys starting a business), the way the best videos in the niche are written, and to direct a creative storyboard for our 3D video engine.
+A knowledge base that teaches any AI agent to write short-form scripts for our **make-your-business-better** account (young founders growing a small business), the way the best videos in the niche are written, and to direct a creative storyboard for our 3D video engine. Two pillars: **the Brand X-ray** (steal a famous brand's trick) and **the Move** (one business moment, the exact move). The views feed a product, **the Playbook** (`product/playbook.md`), which every script adds to. It's coming soon: the bio says so and the videos don't mention it yet (`config.json` → `playbook`).
 
-Give it a topic and it pins the situation, checks it against what performs, researches any study it uses, writes the script with the ending first, then directs the visuals: one visual metaphor per video, a locked look and 3D cast, and a prop library that grows (and gets reused) with every video. The narration is recorded first, and the storyboard is timed to it word by word. It's adapted from the script brain built for Elliott ([zlliott-brain](https://github.com/camclarke11/zlliott-brain)).
+(The repo is still called `networking-brain`; networking was the first niche and is now the Playbook's "Get clients" chapter.)
+
+Give it a topic and it pins the situation, checks it against what performs, researches every fact (and tells it as a scene, never as a citation), writes the script with the ending first and a hook that leads, plans every loop so each line pulls the viewer to the next, then directs the visuals: one visual metaphor per video, a minimal 3D look with a pill-figure cast, and a prop library that grows (and gets reused) with every video. The narration is recorded first, and the storyboard is timed to it word by word. It's adapted from the script brain built for Elliott ([zlliott-brain](https://github.com/camclarke11/zlliott-brain)).
 
 ## How to use it
 
 **Claude Code** (best): open this folder and type a topic, or use a command.
 ```
-/script the follow-up text after an event
+/script why Costco keeps the chicken at the back
+/script the follow-up after a proposal goes quiet
 /script T12                 # a row from topics/topic-bank.md
 /batch 5                    # five scripts from the topic bank
 /ideas 10 outreach          # new topic ideas, added to the bank
@@ -27,7 +30,7 @@ Read and check scripts, move the ElevenLabs tags around, generate voice takes (c
 
 **Other coding agents** (Codex, Cursor): most read `AGENTS.md` automatically. If not: *"Read AGENTS.md and follow it."*
 
-**Claude.ai Projects**: upload `AGENTS.md`, everything in `knowledge/`, `templates/`, `topics/topic-bank.md`, `content-log.md` and the two breakout transcripts (`examples/theoryofbehaviour/13-…` and `14-…`). Paste `PROJECT-INSTRUCTIONS.md` into the project instructions and turn on web search. (The checker only runs where code can run.)
+**Claude.ai Projects**: upload `AGENTS.md`, everything in `knowledge/`, `templates/`, `topics/topic-bank.md`, `content-log.md` and `product/playbook.md`, and the reference transcripts (`examples/theoryofbehaviour/13-…`, `14-…` and a few from `examples/decoyreport/`). Paste `PROJECT-INSTRUCTIONS.md` into the project instructions and turn on web search. (The checker only runs where code can run.)
 
 ## What's inside
 
@@ -35,24 +38,25 @@ Read and check scripts, move the ElevenLabs tags around, generate voice takes (c
 |---|---|
 | `AGENTS.md` | **The operating manual.** Rules, the 12-step workflow, output format. |
 | `knowledge/00-what-performs.md` | Real view data and topic tiers. Overrides everything else. Bottom half is generated. |
-| `knowledge/01-audience-and-account.md` | Who we're talking to, the promise, how we beat @theoryofbehaviour |
+| `knowledge/01-audience-and-account.md` | Who we're talking to, the two pillars, the Playbook's chapters and its launch phases |
 | `knowledge/02-voice-and-style.md` | The older-brother voice, rhythm, banned words, spelling |
 | `knowledge/03-hooks.md` | Hook archetypes N1–N8 with their record, the loop line, the 4 hook failures |
-| `knowledge/04-lesson-engine.md` | The eight beats, but/so, re-hooks, one move per video |
-| `knowledge/05-endings-and-ctas.md` | Ending types E1–E5, the share prompt, the saveable caption |
+| `knowledge/04-lesson-engine.md` | The lead engine: the relay, the lead devices, the beats, the loop map, one move per video |
+| `knowledge/05-endings-and-ctas.md` | Ending types E1–E6, the share prompt, the Playbook CTA by phase, the teaser caption |
 | `knowledge/06-formats.md` | Formats F1–F6 with skeletons, and how to name a tool |
-| `knowledge/07-research-playbook.md` | How to verify and describe studies, plus a 27-study bank |
+| `knowledge/07-research-playbook.md` | How to verify facts and turn them into scenes, plus a 27-study bank |
 | `knowledge/08-phrase-bank.md` | Re-hooks, objections, payoffs and share prompts, in our own words |
-| `knowledge/09-annotated-breakdowns.md` | Line-by-line teardowns of the two breakouts, and why the flops flopped |
+| `knowledge/09-annotated-breakdowns.md` | Line-by-line teardowns of the two breakouts, why the flops flopped, and two of Elliott's stories |
 | `knowledge/10-quality-checklist.md` | The gate every script passes |
-| `knowledge/11-storytelling-principles.md` | The Callaway and South Park theory underneath |
-| `knowledge/12-visual-storyboard.md` | The locked look and cast, the creative rules, on-screen components, must-haves, and the audio-first timing pass |
+| `knowledge/11-storytelling-principles.md` | Callaway's hooks and storytelling, Elliott's reels and numbers: where the lead comes from |
+| `knowledge/12-visual-storyboard.md` | The cast, the creative rules, on-screen components, must-haves, and the audio-first timing pass |
 | `knowledge/13-video-production.md` | How a script becomes an MP4: the pipeline, the kit, the craft rules, the stills checklist |
-| `video/` | The Remotion project. `src/kit/` is the locked look (tokens, 3D clay cast, sets, on-screen components, effects, timeline); `src/videos/<slug>/` is each video's own shots |
+| `video/` | The Remotion project. `src/kit/` is the look (tokens, 3D pill cast, sets, on-screen components, effects, timeline, and the clipping check); `src/videos/<slug>/` is each video's own shots |
 | `visuals/library.json` | Every set, prop, effect, costume and metaphor used so far, with its build status. Reuse before inventing. |
 | `templates/script-output.md` | The exact output format |
 | `templates/storyboard.schema.json` | Storyboard format, version 2 (the video engine reads this) |
-| `topics/topic-bank.md` | 30 starter ideas with situations, A vs B and study leads |
+| `topics/topic-bank.md` | 50 ideas grouped by Playbook chapter, with situations, A vs B and fact leads |
+| `product/playbook.md` | The Playbook, drafting itself: every script's move, filed under its chapter |
 | `content-log.md` | Every script and post, plus tool names in use and names already taken |
 | `scripts/` | Finished scripts. `2026-10-20-the-second-question.md` is the worked example. |
 | `examples/theoryofbehaviour/` | The competitor's 14 transcripts (structure only, never copy) |
@@ -64,6 +68,7 @@ Read and check scripts, move the ElevenLabs tags around, generate voice takes (c
 | `tools/voice.py` | Records the narration with text to speech (placeholder Edge voice, or ElevenLabs) and saves word timestamps |
 | `tools/make_video.py` | `prep` (voice, align, scaffold), `stills` (contact sheets for review), `render` (the final MP4 at -14 LUFS) |
 | `tools/make_sfx.py` | Synthesises the sound-effects kit in `video/public/sfx/` |
+| `tools/transcribe.py` | Uses a take made elsewhere (e.g. the ElevenLabs website): copies it in and gets word timestamps locally with faster-whisper |
 | `tools/align.py` | Times every shot, cue and on-screen component to the recorded narration's word timestamps |
 | `config.json` | Our handle (once chosen), default account, spelling, narration pace |
 
@@ -98,5 +103,5 @@ python3 -m unittest discover -s tests                    # 20 tests
 - **Account:** @f___a___c___t___s (set as `our_account` in `config.json`). After its first Media Tools export is imported, set `default_account` to it too.
 - **Confirm spelling** (US English by default) and **narration pace** once the voice is chosen.
 - **Pick the voice:** text to speech or recording it yourself. Either works with `tools/align.py`; ElevenLabs text to speech gives word timestamps directly, a real voice needs a speech-to-text pass.
-- **Tune the look:** a first pass of the palette, fonts and clay cast is built in `video/src/kit/`. Change it there (never inside a video) and every future video follows. Remaining `core` sets (coffee shop, coworking, stage, doorway, street) get built the first time a script needs them.
+- **Tune the look:** the palette, fonts and pill cast are in `video/src/kit/`. Change it there (never inside a video) and every future video follows. Remaining `core` sets (coffee shop, coworking, stage, doorway, street) get built the first time a script needs them.
 - **Retention data** from our own Instagram insights is the biggest missing piece, as it was for Elliott's brain.

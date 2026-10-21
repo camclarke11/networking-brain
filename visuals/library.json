@@ -33,7 +33,12 @@
         "2026-10-20-the-second-question",
         "2026-10-20-the-person-standing-alone",
         "2026-10-20-the-echo",
-        "2026-10-20-leave-on-the-high"
+        "2026-10-20-leave-on-the-high",
+        "2026-10-21-the-car-that-flies",
+        "2026-10-21-the-tilted-laptop",
+        "2026-10-21-the-comma-in-the-price",
+        "2026-10-21-the-folding-iphone",
+        "2026-10-21-the-heavy-bowl"
       ]
     },
     {
@@ -100,7 +105,8 @@
       "status": "core",
       "first_used": null,
       "used_in": [
-        "2026-10-20-the-seat-next-to-you"
+        "2026-10-20-the-seat-next-to-you",
+        "2026-10-21-the-pizza-in-the-oven"
       ]
     },
     {
@@ -128,7 +134,13 @@
         "2026-10-20-the-specific-follow-up",
         "2026-10-20-the-thursday-test",
         "2026-10-20-write-the-intro",
-        "2026-10-20-leave-on-the-high"
+        "2026-10-20-leave-on-the-high",
+        "2026-10-21-the-car-that-flies",
+        "2026-10-21-the-tilted-laptop",
+        "2026-10-21-the-comma-in-the-price",
+        "2026-10-21-the-folding-iphone",
+        "2026-10-21-the-heavy-bowl",
+        "2026-10-21-the-name-from-the-bronx"
       ]
     },
     {
@@ -163,7 +175,12 @@
         "2026-10-20-the-thursday-test",
         "2026-10-20-the-liking-gap",
         "2026-10-20-write-the-intro",
-        "2026-10-20-message-three-old-ones"
+        "2026-10-20-message-three-old-ones",
+        "2026-10-21-the-car-that-flies",
+        "2026-10-21-the-tilted-laptop",
+        "2026-10-21-the-folding-iphone",
+        "2026-10-21-the-pizza-in-the-oven",
+        "2026-10-21-the-ad-you-posted"
       ]
     },
     {
@@ -201,7 +218,9 @@
         "2026-10-20-the-seat-next-to-you",
         "2026-10-20-leave-on-the-high",
         "2026-10-20-message-three-old-ones",
-        "2026-10-20-wait-for-the-laugh"
+        "2026-10-20-wait-for-the-laugh",
+        "2026-10-21-the-folding-iphone",
+        "2026-10-21-the-heavy-bowl"
       ]
     },
     {
@@ -223,7 +242,12 @@
         "2026-10-20-the-seat-next-to-you",
         "2026-10-20-leave-on-the-high",
         "2026-10-20-message-three-old-ones",
-        "2026-10-20-wait-for-the-laugh"
+        "2026-10-20-wait-for-the-laugh",
+        "2026-10-21-the-car-that-flies",
+        "2026-10-21-the-tilted-laptop",
+        "2026-10-21-the-comma-in-the-price",
+        "2026-10-21-the-folding-iphone",
+        "2026-10-21-the-heavy-bowl"
       ]
     },
     {
@@ -601,7 +625,7 @@
       "name": "The conveyor belt",
       "description": "Doing what everyone does puts you on a factory conveyor belt: you get processed the same way as everyone else and dropped off the end, forgotten. Stepping off it is the move.",
       "reuse": "Queues, mass outreach, generic DMs, anything where everyone does the same thing",
-      "status": "requested",
+      "status": "built",
       "first_used": "2026-10-20-the-seat-next-to-you",
       "used_in": [
         "2026-10-20-the-seat-next-to-you"
@@ -613,7 +637,7 @@
       "name": "Queue conveyor",
       "description": "A floor or aisle turns into a grey industrial conveyor belt carrying people in a line. At the end, a stamp marks each person and they drop into a bin of identical grey faces. The belt can grind to a halt with a clunk.",
       "reuse": "Queues, processes, being one of many, standing out from the line",
-      "status": "requested",
+      "status": "built",
       "first_used": "2026-10-20-the-seat-next-to-you",
       "used_in": [
         "2026-10-20-the-seat-next-to-you"
@@ -625,7 +649,7 @@
       "name": "Notebook",
       "description": "A hand-sized notebook with a pen clipped on, pages that flutter and turn, and underlined lines that can glow gold. Two notebooks can swap pages through the air.",
       "reuse": "Talks, learning, comparing notes, preparation",
-      "status": "requested",
+      "status": "built",
       "first_used": "2026-10-20-the-seat-next-to-you",
       "used_in": [
         "2026-10-20-the-seat-next-to-you"
@@ -737,6 +761,351 @@
       "first_used": "2026-10-20-wait-for-the-laugh",
       "used_in": [
         "2026-10-20-wait-for-the-laugh"
+      ]
+    },
+    {
+      "id": "roadster_model",
+      "kind": "prop",
+      "name": "Sports car",
+      "description": "A low, sleek two-seat sports car in smooth white plastic, no logos, about as long as two characters lying down. Can hover on small thruster puffs, hop, and sit on a plinth under a glass case.",
+      "reuse": "Any car, luxury product, flagship or show-off option",
+      "status": "built",
+      "first_used": "2026-10-21-the-car-that-flies",
+      "used_in": [
+        "2026-10-21-the-car-that-flies"
+      ]
+    },
+    {
+      "id": "price_tag",
+      "kind": "prop",
+      "name": "Price tag",
+      "description": "A white card tag on a string with a punched hole, big enough to read on screen, text set per shot. Swings, flips, glows yellow, and can swell to a huge size.",
+      "reuse": "Every pricing video",
+      "status": "built",
+      "first_used": "2026-10-21-the-car-that-flies",
+      "used_in": [
+        "2026-10-21-the-car-that-flies",
+        "2026-10-21-the-comma-in-the-price",
+        "2026-10-21-the-folding-iphone",
+        "2026-10-21-the-heavy-bowl",
+        "2026-10-21-the-name-from-the-bronx",
+        "2026-10-21-the-chicken-at-the-back",
+        "2026-10-21-the-ad-you-posted"
+      ]
+    },
+    {
+      "id": "anchor_weight",
+      "kind": "prop",
+      "name": "Anchor",
+      "description": "A heavy black ship's anchor about the height of a character, dropping on a chain from a price tag and landing with a thud and a small floor crack.",
+      "reuse": "Anchoring, first numbers, the most expensive option",
+      "status": "built",
+      "first_used": "2026-10-21-the-car-that-flies",
+      "used_in": [
+        "2026-10-21-the-car-that-flies"
+      ]
+    },
+    {
+      "id": "laptop",
+      "kind": "prop",
+      "name": "Laptop",
+      "description": "A thin silver laptop, no logo, screen on a hinge that can open from shut to flat, glowing a soft blank white. About as wide as a character's shoulders.",
+      "reuse": "Work, emails, online stores, any tech product",
+      "status": "built",
+      "first_used": "2026-10-21-the-tilted-laptop",
+      "used_in": [
+        "2026-10-21-the-tilted-laptop",
+        "2026-10-21-the-comma-in-the-price",
+        "2026-10-21-the-folding-iphone",
+        "2026-10-21-the-name-from-the-bronx",
+        "2026-10-21-the-pizza-in-the-oven",
+        "2026-10-21-the-ad-you-posted"
+      ]
+    },
+    {
+      "id": "store_table",
+      "kind": "set",
+      "name": "Store table",
+      "description": "A long pale wooden display table at waist height in an otherwise white space, with soft overhead light. Holds a row of products evenly spaced.",
+      "reuse": "Any shop, product launch or display",
+      "status": "built",
+      "first_used": "2026-10-21-the-tilted-laptop",
+      "used_in": [
+        "2026-10-21-the-tilted-laptop",
+        "2026-10-21-the-heavy-bowl",
+        "2026-10-21-the-name-from-the-bronx",
+        "2026-10-21-the-chicken-at-the-back",
+        "2026-10-21-the-pizza-in-the-oven",
+        "2026-10-21-the-bottle-in-the-dark",
+        "2026-10-21-the-ad-you-posted"
+      ]
+    },
+    {
+      "id": "name_tag",
+      "kind": "effect",
+      "name": "Ownership tag",
+      "description": "A small white rounded tag with one bold initial that pops onto an object with a little bounce when someone touches it, with a dotted line to the person snapping solid.",
+      "reuse": "Ownership, endowment, free trials, samples",
+      "status": "built",
+      "first_used": "2026-10-21-the-tilted-laptop",
+      "used_in": [
+        "2026-10-21-the-tilted-laptop"
+      ]
+    },
+    {
+      "id": "balance_scales",
+      "kind": "prop",
+      "name": "Balance scales",
+      "description": "An old-fashioned two-pan balance in white and brushed steel, about chest height on a character. The pans tip smoothly when weight is added and can bounce when something lifts off.",
+      "reuse": "Comparisons, value, fairness, pricing",
+      "status": "built",
+      "first_used": "2026-10-21-the-comma-in-the-price",
+      "used_in": [
+        "2026-10-21-the-comma-in-the-price"
+      ]
+    },
+    {
+      "id": "syllable_train",
+      "kind": "effect",
+      "name": "Syllable train",
+      "description": "A short or long train of chunky rounded block carriages, each with one syllable or symbol of a spoken price printed on it, that rolls in, couples, and loses carriages that pop off with a bounce.",
+      "reuse": "Anything about how long something sounds: prices, names, taglines",
+      "status": "built",
+      "first_used": "2026-10-21-the-comma-in-the-price",
+      "used_in": [
+        "2026-10-21-the-comma-in-the-price",
+        "2026-10-21-the-name-from-the-bronx"
+      ]
+    },
+    {
+      "id": "folding_phone",
+      "kind": "prop",
+      "name": "Folding phone",
+      "description": "A white phone that opens like a small book into a wide glowing screen, no logos, about the size of a character's hand. Opens, closes and sits on a plinth under a spotlight.",
+      "reuse": "Phone launches, flagships, premium options",
+      "status": "built",
+      "first_used": "2026-10-21-the-folding-iphone",
+      "used_in": [
+        "2026-10-21-the-folding-iphone"
+      ]
+    },
+    {
+      "id": "measuring_ruler",
+      "kind": "prop",
+      "name": "Giant ruler",
+      "description": "A tall white ruler about twice a character's height with black tick marks, standing upright. It can rise out of the floor, and a price tag can hammer into its top so every mark is read from there.",
+      "reuse": "Anchoring, comparisons, expectations",
+      "status": "built",
+      "first_used": "2026-10-21-the-folding-iphone",
+      "used_in": [
+        "2026-10-21-the-folding-iphone"
+      ]
+    },
+    {
+      "id": "prize_wheel",
+      "kind": "prop",
+      "name": "Prize wheel",
+      "description": "A big upright game-show wheel in white and greys with numbered segments and a yellow pointer, about a character's height. It spins, slows and lands on a chosen number.",
+      "reuse": "Random numbers, chance, experiments, anchoring",
+      "status": "built",
+      "first_used": "2026-10-21-the-folding-iphone",
+      "used_in": [
+        "2026-10-21-the-folding-iphone"
+      ]
+    },
+    {
+      "id": "yogurt_bowl",
+      "kind": "prop",
+      "name": "Bowl of yogurt",
+      "description": "A plain round white bowl filled with smooth white yogurt and a little swirl on top, sized for one hand. Can be lifted, sinks slightly in the hand when heavy.",
+      "reuse": "Food, taste tests, packaging, any study with a bowl",
+      "status": "built",
+      "first_used": "2026-10-21-the-heavy-bowl",
+      "used_in": [
+        "2026-10-21-the-heavy-bowl"
+      ]
+    },
+    {
+      "id": "weight_dial",
+      "kind": "effect",
+      "name": "Weight dial",
+      "description": "A small round white gauge with a black needle that floats above an object and swings to show how heavy it feels when lifted, light to heavy, with a soft spring.",
+      "reuse": "Weight, heft, premium feel, effort",
+      "status": "built",
+      "first_used": "2026-10-21-the-heavy-bowl",
+      "used_in": [
+        "2026-10-21-the-heavy-bowl"
+      ]
+    },
+    {
+      "id": "freezer_case",
+      "kind": "set",
+      "name": "Freezer case",
+      "description": "A tall white supermarket freezer case with three glass doors, chrome-grey handles and cold white light inside, shelves of plain tubs behind the glass. About 2.2 high and 3 wide next to a character. The inside light can glow brighter.",
+      "reuse": "Any supermarket or grocery scene, chilled products, a cold shoulder joke",
+      "status": "built",
+      "first_used": "2026-10-21-the-name-from-the-bronx",
+      "used_in": [
+        "2026-10-21-the-name-from-the-bronx"
+      ]
+    },
+    {
+      "id": "ice_cream_tub",
+      "kind": "prop",
+      "name": "Ice cream tub",
+      "description": "A round white pint tub slightly wider at the top, with a lid that can come off and a label band whose text can type on letter by letter. A thick scoop can sit on top. About 0.25 high in a character's hand, scales up for hero shots.",
+      "reuse": "Any packaged food, naming and labelling, before and after rebrands",
+      "status": "built",
+      "first_used": "2026-10-21-the-name-from-the-bronx",
+      "used_in": [
+        "2026-10-21-the-name-from-the-bronx"
+      ]
+    },
+    {
+      "id": "text_card",
+      "kind": "prop",
+      "name": "Text card",
+      "description": "A soft white rounded card with tall black condensed text, standing upright or lying flat, that can flip like a departure board to new text and glow at the edges. Sized from a hand-held card to a shop sign.",
+      "reuse": "Signs, menus, package names, shop fronts, any word that needs to live in the 3D scene",
+      "status": "built",
+      "first_used": "2026-10-21-the-name-from-the-bronx",
+      "used_in": [
+        "2026-10-21-the-name-from-the-bronx",
+        "2026-10-21-the-chicken-at-the-back",
+        "2026-10-21-the-bottle-in-the-dark",
+        "2026-10-21-the-ad-you-posted"
+      ]
+    },
+    {
+      "id": "warehouse_aisle",
+      "kind": "set",
+      "name": "Warehouse store",
+      "description": "A huge pale-grey warehouse store: tall steel shelving racks with stacked plain boxes, wide aisles, a front door and a back counter with a warm heat lamp. Works from the floor and as a top-down map, with aisles that can light one by one and a dotted path drawn on the floor.",
+      "reuse": "Any shop layout, customer journeys, funnels, 'what they walk past' ideas",
+      "status": "built",
+      "first_used": "2026-10-21-the-chicken-at-the-back",
+      "used_in": [
+        "2026-10-21-the-chicken-at-the-back"
+      ]
+    },
+    {
+      "id": "rotisserie_chicken",
+      "kind": "prop",
+      "name": "Rotisserie chicken",
+      "description": "A small golden-brown roast chicken in a clear plastic dome on a black tray, about the size of a character's head, that can glow warm under a heat lamp and carries a hanging price tag.",
+      "reuse": "Loss leaders, cheap hero products, food deals",
+      "status": "built",
+      "first_used": "2026-10-21-the-chicken-at-the-back",
+      "used_in": [
+        "2026-10-21-the-chicken-at-the-back"
+      ]
+    },
+    {
+      "id": "shopping_cart",
+      "kind": "prop",
+      "name": "Shopping cart",
+      "description": "A grey wire shopping cart on four small wheels, waist height to a character, that a character pushes. Plain boxes, tubs and a plant can stack inside and pile up over the top, and it can wobble when full.",
+      "reuse": "Any shopping scene, basket size, upsells, the cart filling as a metaphor for spend",
+      "status": "built",
+      "first_used": "2026-10-21-the-chicken-at-the-back",
+      "used_in": [
+        "2026-10-21-the-chicken-at-the-back"
+      ]
+    },
+    {
+      "id": "pizza_box",
+      "kind": "prop",
+      "name": "Pizza box",
+      "description": "A flat square white pizza box with a plain lid that can open to show a round pizza with yellow cheese and a few red dots. About 0.45 wide next to a character, carried flat on one hand.",
+      "reuse": "Food deliveries, orders, anything that arrives in a box",
+      "status": "built",
+      "first_used": "2026-10-21-the-pizza-in-the-oven",
+      "used_in": [
+        "2026-10-21-the-pizza-in-the-oven"
+      ]
+    },
+    {
+      "id": "pizza_oven",
+      "kind": "prop",
+      "name": "Pizza oven",
+      "description": "A rounded white brick oven with a dark arched mouth whose inside glows warm orange, on a white counter, about character height. A cook character can slide a pizza in and out on a flat paddle.",
+      "reuse": "Kitchens, 'in the oven' progress, work happening behind the scenes",
+      "status": "built",
+      "first_used": "2026-10-21-the-pizza-in-the-oven",
+      "used_in": [
+        "2026-10-21-the-pizza-in-the-oven"
+      ]
+    },
+    {
+      "id": "wall_clock",
+      "kind": "prop",
+      "name": "Wall clock",
+      "description": "A large round white wall clock with black hands and a thin outer ring that can glow red when the wait feels bad and calm yellow when it feels fine. The hands move at a set speed and can jump forward. Hangs above a character's head.",
+      "reuse": "Waiting, deadlines, time pressure, response times",
+      "status": "built",
+      "first_used": "2026-10-21-the-pizza-in-the-oven",
+      "used_in": [
+        "2026-10-21-the-pizza-in-the-oven"
+      ]
+    },
+    {
+      "id": "contour_bottle",
+      "kind": "prop",
+      "name": "Contour bottle",
+      "description": "A curvy glass soda bottle in the classic contour shape: narrow neck, a bulging ribbed middle, a pinched waist and a wider base. No logo. About 0.35 high in a hand, scales up for hero shots. Can show just a glowing yellow outline in the dark, and can break into a few curved glowing pieces.",
+      "reuse": "Distinctive design, brand recognition, packaging, the lights-out test",
+      "status": "built",
+      "first_used": "2026-10-21-the-bottle-in-the-dark",
+      "used_in": [
+        "2026-10-21-the-bottle-in-the-dark"
+      ]
+    },
+    {
+      "id": "plain_bottle",
+      "kind": "prop",
+      "name": "Plain bottle",
+      "description": "A straight-sided generic glass bottle with a paper label band whose text can change, the same height as the contour bottle. Fades into the dark when the lights go out.",
+      "reuse": "Copycats, generic products, anything that looks like everyone else's",
+      "status": "built",
+      "first_used": "2026-10-21-the-bottle-in-the-dark",
+      "used_in": [
+        "2026-10-21-the-bottle-in-the-dark"
+      ]
+    },
+    {
+      "id": "drinks_cooler",
+      "kind": "prop",
+      "name": "Drinks cooler",
+      "description": "A white picnic cooler box with a hinged lid, about knee height, full of dark ice and bottles. The inside can go fully dark.",
+      "reuse": "Drinks, picking without looking, summer and party scenes",
+      "status": "built",
+      "first_used": "2026-10-21-the-bottle-in-the-dark",
+      "used_in": [
+        "2026-10-21-the-bottle-in-the-dark"
+      ]
+    },
+    {
+      "id": "recap_card",
+      "kind": "effect",
+      "name": "Recap card",
+      "description": "A tall phone-shaped story card in bold color blocks with a big headline number or list (TOP 5 ARTISTS, MINUTES LISTENED, 41 NEW LEADS). Cards can flick in like stories, flip like a sign, and show a tiny face. Works on a phone screen in 3D or flat on screen.",
+      "reuse": "Year-end recaps, client reports, results, social proof, anything people share",
+      "status": "built",
+      "first_used": "2026-10-21-the-ad-you-posted",
+      "used_in": [
+        "2026-10-21-the-ad-you-posted"
+      ]
+    },
+    {
+      "id": "phone_wall",
+      "kind": "effect",
+      "name": "Phone billboard",
+      "description": "A crowd of pill figures each holding up a glowing phone. From far away the screens line up into one big billboard that can show a number or a word, built from each phone's color block.",
+      "reuse": "Word of mouth, virality, user-generated content, a crowd doing your marketing",
+      "status": "built",
+      "first_used": "2026-10-21-the-ad-you-posted",
+      "used_in": [
+        "2026-10-21-the-ad-you-posted"
       ]
     }
   ]
