@@ -1,0 +1,1122 @@
+{
+  "duration": 58.44,
+  "match": 1.0,
+  "lines": [
+    {
+      "line": 1,
+      "text": "Take the comma out of your price, and it looks cheaper.",
+      "start": 0.08,
+      "end": 2.92,
+      "matched": "11/11"
+    },
+    {
+      "line": 2,
+      "text": "$1,499 and $1499 are the same price.",
+      "start": 3.2,
+      "end": 9.12,
+      "matched": "7/7"
+    },
+    {
+      "line": 3,
+      "text": "Your brain doesn't think so.",
+      "start": 10.0,
+      "end": 11.44,
+      "matched": "5/5"
+    },
+    {
+      "line": 4,
+      "text": "Here's the trick.",
+      "start": 11.897,
+      "end": 12.72,
+      "matched": "3/3"
+    },
+    {
+      "line": 5,
+      "text": "You read prices in your head, even when you don't say them.",
+      "start": 13.04,
+      "end": 16.64,
+      "matched": "12/12"
+    },
+    {
+      "line": 6,
+      "text": "One thousand, four hundred and ninety nine.",
+      "start": 16.782,
+      "end": 19.2,
+      "matched": "7/7"
+    },
+    {
+      "line": 7,
+      "text": "Fourteen ninety nine.",
+      "start": 19.32,
+      "end": 20.72,
+      "matched": "3/3"
+    },
+    {
+      "line": 8,
+      "text": "In 2012, researchers Keith Coulter, Pilsik Choi and Kent Monroe found that the longer a price sounds, the bigger it feels.",
+      "start": 20.8,
+      "end": 29.44,
+      "matched": "21/21"
+    },
+    {
+      "line": 9,
+      "text": "A comma makes it sound longer.",
+      "start": 29.52,
+      "end": 31.493,
+      "matched": "6/6"
+    },
+    {
+      "line": 10,
+      "text": "So do cents.",
+      "start": 31.547,
+      "end": 32.64,
+      "matched": "3/3"
+    },
+    {
+      "line": 11,
+      "text": "But it gets weirder.",
+      "start": 32.84,
+      "end": 34.4,
+      "matched": "4/4"
+    },
+    {
+      "line": 12,
+      "text": "Cornell researchers gave diners the same menu three ways.",
+      "start": 34.48,
+      "end": 38.16,
+      "matched": "9/9"
+    },
+    {
+      "line": 13,
+      "text": "Dollar signs, words, or just the numbers.",
+      "start": 38.24,
+      "end": 41.28,
+      "matched": "7/7"
+    },
+    {
+      "line": 14,
+      "text": "With just the numbers, people spent about eight percent more.",
+      "start": 41.486,
+      "end": 45.04,
+      "matched": "10/10"
+    },
+    {
+      "line": 15,
+      "text": "The dollar sign reminds you you're paying.",
+      "start": 45.12,
+      "end": 47.44,
+      "matched": "7/7"
+    },
+    {
+      "line": 16,
+      "text": "So if you sell anything, write your price short.",
+      "start": 47.646,
+      "end": 50.72,
+      "matched": "9/9"
+    },
+    {
+      "line": 17,
+      "text": "No comma, no cents, no dollar sign if you can get away with it.",
+      "start": 50.84,
+      "end": 54.64,
+      "matched": "14/14"
+    },
+    {
+      "line": 18,
+      "text": "Send this to the friend whose price list looks like a tax form.",
+      "start": 54.846,
+      "end": 57.84,
+      "matched": "13/13"
+    }
+  ],
+  "shots": [
+    {
+      "id": 1,
+      "title": "Two prices",
+      "lines": [
+        1,
+        3
+      ],
+      "start": 0.0,
+      "end": 11.897,
+      "duration": 11.897,
+      "cues": [
+        {
+          "word": "comma",
+          "what": "the comma pops off one tag",
+          "time": 0.56
+        },
+        {
+          "word": "same",
+          "what": "an equals sign drops between the tags",
+          "time": 8.16
+        },
+        {
+          "word": "brain",
+          "what": "the scales tip, the comma tag sinks",
+          "time": 10.24
+        },
+        {
+          "word": "$1,499",
+          "what": "the comma tag swings in",
+          "time": 3.2
+        },
+        {
+          "word": "$1499",
+          "what": "the comma-free tag swings in",
+          "time": 3.2
+        },
+        {
+          "word": "cheaper",
+          "what": "the comma-free tag lifts a little",
+          "time": 2.24
+        },
+        {
+          "word": "are",
+          "what": "an equals sign starts to draw between the tags",
+          "time": 6.32
+        }
+      ],
+      "on_screen": [
+        {
+          "type": "big_text",
+          "at": "Take",
+          "time": 0.08
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "How it sounds",
+      "lines": [
+        4,
+        7
+      ],
+      "start": 11.897,
+      "end": 20.8,
+      "duration": 8.903,
+      "cues": [
+        {
+          "word": "head",
+          "what": "a thought bubble opens above you",
+          "time": 14.4
+        },
+        {
+          "word": "thousand",
+          "what": "the long train rolls out of it",
+          "time": 16.88
+        },
+        {
+          "word": "Fourteen",
+          "what": "the short train zips past",
+          "time": 19.32
+        }
+      ],
+      "on_screen": []
+    },
+    {
+      "id": 3,
+      "title": "The study",
+      "lines": [
+        8,
+        10
+      ],
+      "start": 20.8,
+      "end": 32.84,
+      "duration": 12.04,
+      "cues": [
+        {
+          "word": "bigger",
+          "what": "the long side sinks",
+          "time": 28.0
+        },
+        {
+          "word": "cents",
+          "what": "a .00 carriage clanks on and it sinks further",
+          "time": 32.04
+        },
+        {
+          "word": "longer",
+          "what": "the long train couples onto the scale",
+          "time": 26.36
+        },
+        {
+          "word": "comma",
+          "what": "a comma carriage clanks on",
+          "time": 29.8
+        }
+      ],
+      "on_screen": [
+        {
+          "type": "study_card",
+          "at": "Coulter",
+          "time": 22.88
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Three menus",
+      "lines": [
+        11,
+        15
+      ],
+      "start": 32.84,
+      "end": 47.646,
+      "duration": 14.806,
+      "cues": [
+        {
+          "word": "weirder",
+          "what": "the cards slide in one by one",
+          "time": 33.52
+        },
+        {
+          "word": "numbers",
+          "what": "the plain card lifts and glows",
+          "time": 40.4
+        },
+        {
+          "word": "eight",
+          "what": "its coin stack rises highest",
+          "time": 43.6
+        },
+        {
+          "word": "menu",
+          "what": "three menu cards slide in",
+          "time": 36.84
+        },
+        {
+          "word": "reminds",
+          "what": "the dollar sign card greys out",
+          "time": 45.88
+        }
+      ],
+      "on_screen": [
+        {
+          "type": "study_card",
+          "at": "Cornell",
+          "time": 34.48
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Write it short",
+      "lines": [
+        16,
+        17
+      ],
+      "start": 47.646,
+      "end": 54.846,
+      "duration": 7.2,
+      "cues": [
+        {
+          "word": "short",
+          "what": "the first carriage is deleted",
+          "time": 50.08
+        },
+        {
+          "word": "cents",
+          "what": "the cents carriage pops off",
+          "time": 51.76
+        },
+        {
+          "word": "dollar",
+          "what": "the tag floats up and glows",
+          "time": 52.64
+        }
+      ],
+      "on_screen": [
+        {
+          "type": "x_check",
+          "at": "So",
+          "time": 47.646
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Jay",
+      "lines": [
+        18,
+        18
+      ],
+      "start": 54.846,
+      "end": 58.44,
+      "duration": 3.594,
+      "cues": [
+        {
+          "word": "tax",
+          "what": "the receipt hits the floor and keeps going",
+          "time": 56.96
+        }
+      ],
+      "on_screen": [
+        {
+          "type": "label",
+          "at": "friend",
+          "time": 55.36
+        }
+      ]
+    }
+  ],
+  "words": [
+    {
+      "word": "Take",
+      "start": 0.08,
+      "end": 0.24
+    },
+    {
+      "word": "the",
+      "start": 0.32,
+      "end": 0.4
+    },
+    {
+      "word": "comma",
+      "start": 0.56,
+      "end": 0.72
+    },
+    {
+      "word": "out",
+      "start": 0.8,
+      "end": 0.88
+    },
+    {
+      "word": "of",
+      "start": 0.92,
+      "end": 0.96
+    },
+    {
+      "word": "your",
+      "start": 1.04,
+      "end": 1.12
+    },
+    {
+      "word": "price,",
+      "start": 1.2,
+      "end": 1.68
+    },
+    {
+      "word": "and",
+      "start": 1.76,
+      "end": 1.84
+    },
+    {
+      "word": "it",
+      "start": 1.88,
+      "end": 1.92
+    },
+    {
+      "word": "looks",
+      "start": 2.0,
+      "end": 2.16
+    },
+    {
+      "word": "cheaper.",
+      "start": 2.24,
+      "end": 2.92
+    },
+    {
+      "word": "$1,499",
+      "start": 3.2,
+      "end": 3.76
+    },
+    {
+      "word": "and",
+      "start": 3.84,
+      "end": 5.68
+    },
+    {
+      "word": "$1499",
+      "start": 5.72,
+      "end": 6.24
+    },
+    {
+      "word": "are",
+      "start": 6.32,
+      "end": 7.84
+    },
+    {
+      "word": "the",
+      "start": 7.92,
+      "end": 8.08
+    },
+    {
+      "word": "same",
+      "start": 8.16,
+      "end": 8.48
+    },
+    {
+      "word": "price.",
+      "start": 8.72,
+      "end": 9.12
+    },
+    {
+      "word": "Your",
+      "start": 10.0,
+      "end": 10.08
+    },
+    {
+      "word": "brain",
+      "start": 10.24,
+      "end": 10.4
+    },
+    {
+      "word": "doesn't",
+      "start": 10.48,
+      "end": 10.64
+    },
+    {
+      "word": "think",
+      "start": 10.76,
+      "end": 10.88
+    },
+    {
+      "word": "so.",
+      "start": 10.96,
+      "end": 11.44
+    },
+    {
+      "word": "Here's",
+      "start": 11.897,
+      "end": 12.0
+    },
+    {
+      "word": "the",
+      "start": 12.08,
+      "end": 12.16
+    },
+    {
+      "word": "trick.",
+      "start": 12.2,
+      "end": 12.72
+    },
+    {
+      "word": "You",
+      "start": 13.04,
+      "end": 13.2
+    },
+    {
+      "word": "read",
+      "start": 13.32,
+      "end": 13.44
+    },
+    {
+      "word": "prices",
+      "start": 13.52,
+      "end": 13.92
+    },
+    {
+      "word": "in",
+      "start": 13.96,
+      "end": 14.0
+    },
+    {
+      "word": "your",
+      "start": 14.08,
+      "end": 14.24
+    },
+    {
+      "word": "head,",
+      "start": 14.4,
+      "end": 14.8
+    },
+    {
+      "word": "even",
+      "start": 14.88,
+      "end": 15.12
+    },
+    {
+      "word": "when",
+      "start": 15.2,
+      "end": 15.28
+    },
+    {
+      "word": "you",
+      "start": 15.32,
+      "end": 15.36
+    },
+    {
+      "word": "don't",
+      "start": 15.44,
+      "end": 15.68
+    },
+    {
+      "word": "say",
+      "start": 15.8,
+      "end": 15.92
+    },
+    {
+      "word": "them.",
+      "start": 16.04,
+      "end": 16.64
+    },
+    {
+      "word": "One",
+      "start": 16.782,
+      "end": 16.8
+    },
+    {
+      "word": "thousand,",
+      "start": 16.88,
+      "end": 17.52
+    },
+    {
+      "word": "four",
+      "start": 17.6,
+      "end": 17.68
+    },
+    {
+      "word": "hundred",
+      "start": 17.76,
+      "end": 18.0
+    },
+    {
+      "word": "and",
+      "start": 18.08,
+      "end": 18.16
+    },
+    {
+      "word": "ninety",
+      "start": 18.2,
+      "end": 18.4
+    },
+    {
+      "word": "nine.",
+      "start": 18.48,
+      "end": 19.2
+    },
+    {
+      "word": "Fourteen",
+      "start": 19.32,
+      "end": 19.6
+    },
+    {
+      "word": "ninety",
+      "start": 19.68,
+      "end": 19.92
+    },
+    {
+      "word": "nine.",
+      "start": 20.04,
+      "end": 20.72
+    },
+    {
+      "word": "In",
+      "start": 20.8,
+      "end": 20.88
+    },
+    {
+      "word": "2012,",
+      "start": 20.96,
+      "end": 21.84
+    },
+    {
+      "word": "researchers",
+      "start": 21.92,
+      "end": 22.48
+    },
+    {
+      "word": "Keith",
+      "start": 22.56,
+      "end": 22.8
+    },
+    {
+      "word": "Coulter,",
+      "start": 22.88,
+      "end": 23.44
+    },
+    {
+      "word": "Pilsik",
+      "start": 23.52,
+      "end": 23.92
+    },
+    {
+      "word": "Choi",
+      "start": 24.0,
+      "end": 24.32
+    },
+    {
+      "word": "and",
+      "start": 24.4,
+      "end": 24.56
+    },
+    {
+      "word": "Kent",
+      "start": 24.64,
+      "end": 24.8
+    },
+    {
+      "word": "Monroe",
+      "start": 24.88,
+      "end": 25.36
+    },
+    {
+      "word": "found",
+      "start": 25.76,
+      "end": 25.92
+    },
+    {
+      "word": "that",
+      "start": 26.0,
+      "end": 26.08
+    },
+    {
+      "word": "the",
+      "start": 26.16,
+      "end": 26.24
+    },
+    {
+      "word": "longer",
+      "start": 26.36,
+      "end": 26.56
+    },
+    {
+      "word": "a",
+      "start": 26.64,
+      "end": 26.72
+    },
+    {
+      "word": "price",
+      "start": 26.88,
+      "end": 27.04
+    },
+    {
+      "word": "sounds,",
+      "start": 27.12,
+      "end": 27.76
+    },
+    {
+      "word": "the",
+      "start": 27.84,
+      "end": 27.92
+    },
+    {
+      "word": "bigger",
+      "start": 28.0,
+      "end": 28.24
+    },
+    {
+      "word": "it",
+      "start": 28.32,
+      "end": 28.48
+    },
+    {
+      "word": "feels.",
+      "start": 28.56,
+      "end": 29.44
+    },
+    {
+      "word": "A",
+      "start": 29.52,
+      "end": 29.6
+    },
+    {
+      "word": "comma",
+      "start": 29.8,
+      "end": 30.0
+    },
+    {
+      "word": "makes",
+      "start": 30.08,
+      "end": 30.24
+    },
+    {
+      "word": "it",
+      "start": 30.32,
+      "end": 30.4
+    },
+    {
+      "word": "sound",
+      "start": 30.52,
+      "end": 30.64
+    },
+    {
+      "word": "longer.",
+      "start": 30.72,
+      "end": 31.493
+    },
+    {
+      "word": "So",
+      "start": 31.547,
+      "end": 31.6
+    },
+    {
+      "word": "do",
+      "start": 31.68,
+      "end": 31.84
+    },
+    {
+      "word": "cents.",
+      "start": 32.04,
+      "end": 32.64
+    },
+    {
+      "word": "But",
+      "start": 32.84,
+      "end": 32.88
+    },
+    {
+      "word": "it",
+      "start": 32.96,
+      "end": 33.12
+    },
+    {
+      "word": "gets",
+      "start": 33.24,
+      "end": 33.36
+    },
+    {
+      "word": "weirder.",
+      "start": 33.52,
+      "end": 34.4
+    },
+    {
+      "word": "Cornell",
+      "start": 34.48,
+      "end": 34.8
+    },
+    {
+      "word": "researchers",
+      "start": 34.88,
+      "end": 35.52
+    },
+    {
+      "word": "gave",
+      "start": 35.6,
+      "end": 35.76
+    },
+    {
+      "word": "diners",
+      "start": 35.8,
+      "end": 36.16
+    },
+    {
+      "word": "the",
+      "start": 36.24,
+      "end": 36.32
+    },
+    {
+      "word": "same",
+      "start": 36.4,
+      "end": 36.64
+    },
+    {
+      "word": "menu",
+      "start": 36.84,
+      "end": 37.04
+    },
+    {
+      "word": "three",
+      "start": 37.12,
+      "end": 37.36
+    },
+    {
+      "word": "ways.",
+      "start": 37.44,
+      "end": 38.16
+    },
+    {
+      "word": "Dollar",
+      "start": 38.24,
+      "end": 38.4
+    },
+    {
+      "word": "signs,",
+      "start": 38.48,
+      "end": 39.12
+    },
+    {
+      "word": "words,",
+      "start": 39.2,
+      "end": 39.84
+    },
+    {
+      "word": "or",
+      "start": 39.92,
+      "end": 40.0
+    },
+    {
+      "word": "just",
+      "start": 40.08,
+      "end": 40.24
+    },
+    {
+      "word": "the",
+      "start": 40.32,
+      "end": 40.36
+    },
+    {
+      "word": "numbers.",
+      "start": 40.4,
+      "end": 41.28
+    },
+    {
+      "word": "With",
+      "start": 41.486,
+      "end": 41.52
+    },
+    {
+      "word": "just",
+      "start": 41.6,
+      "end": 41.76
+    },
+    {
+      "word": "the",
+      "start": 41.84,
+      "end": 41.92
+    },
+    {
+      "word": "numbers,",
+      "start": 42.0,
+      "end": 42.56
+    },
+    {
+      "word": "people",
+      "start": 42.64,
+      "end": 42.88
+    },
+    {
+      "word": "spent",
+      "start": 43.04,
+      "end": 43.2
+    },
+    {
+      "word": "about",
+      "start": 43.36,
+      "end": 43.52
+    },
+    {
+      "word": "eight",
+      "start": 43.6,
+      "end": 43.68
+    },
+    {
+      "word": "percent",
+      "start": 43.84,
+      "end": 44.24
+    },
+    {
+      "word": "more.",
+      "start": 44.32,
+      "end": 45.04
+    },
+    {
+      "word": "The",
+      "start": 45.12,
+      "end": 45.2
+    },
+    {
+      "word": "dollar",
+      "start": 45.24,
+      "end": 45.44
+    },
+    {
+      "word": "sign",
+      "start": 45.52,
+      "end": 45.76
+    },
+    {
+      "word": "reminds",
+      "start": 45.88,
+      "end": 46.32
+    },
+    {
+      "word": "you",
+      "start": 46.36,
+      "end": 46.4
+    },
+    {
+      "word": "you're",
+      "start": 46.48,
+      "end": 46.64
+    },
+    {
+      "word": "paying.",
+      "start": 46.76,
+      "end": 47.44
+    },
+    {
+      "word": "So",
+      "start": 47.646,
+      "end": 47.68
+    },
+    {
+      "word": "if",
+      "start": 47.84,
+      "end": 48.0
+    },
+    {
+      "word": "you",
+      "start": 48.08,
+      "end": 48.16
+    },
+    {
+      "word": "sell",
+      "start": 48.32,
+      "end": 48.48
+    },
+    {
+      "word": "anything,",
+      "start": 48.56,
+      "end": 49.2
+    },
+    {
+      "word": "write",
+      "start": 49.28,
+      "end": 49.44
+    },
+    {
+      "word": "your",
+      "start": 49.52,
+      "end": 49.6
+    },
+    {
+      "word": "price",
+      "start": 49.68,
+      "end": 50.0
+    },
+    {
+      "word": "short.",
+      "start": 50.08,
+      "end": 50.72
+    },
+    {
+      "word": "No",
+      "start": 50.84,
+      "end": 50.96
+    },
+    {
+      "word": "comma,",
+      "start": 51.12,
+      "end": 51.52
+    },
+    {
+      "word": "no",
+      "start": 51.6,
+      "end": 51.68
+    },
+    {
+      "word": "cents,",
+      "start": 51.76,
+      "end": 52.4
+    },
+    {
+      "word": "no",
+      "start": 52.48,
+      "end": 52.56
+    },
+    {
+      "word": "dollar",
+      "start": 52.64,
+      "end": 52.88
+    },
+    {
+      "word": "sign",
+      "start": 52.96,
+      "end": 53.12
+    },
+    {
+      "word": "if",
+      "start": 53.2,
+      "end": 53.28
+    },
+    {
+      "word": "you",
+      "start": 53.32,
+      "end": 53.36
+    },
+    {
+      "word": "can",
+      "start": 53.44,
+      "end": 53.52
+    },
+    {
+      "word": "get",
+      "start": 53.6,
+      "end": 53.68
+    },
+    {
+      "word": "away",
+      "start": 53.8,
+      "end": 53.92
+    },
+    {
+      "word": "with",
+      "start": 53.96,
+      "end": 54.0
+    },
+    {
+      "word": "it.",
+      "start": 54.08,
+      "end": 54.64
+    },
+    {
+      "word": "Send",
+      "start": 54.846,
+      "end": 54.88
+    },
+    {
+      "word": "this",
+      "start": 54.96,
+      "end": 55.04
+    },
+    {
+      "word": "to",
+      "start": 55.12,
+      "end": 55.16
+    },
+    {
+      "word": "the",
+      "start": 55.2,
+      "end": 55.28
+    },
+    {
+      "word": "friend",
+      "start": 55.36,
+      "end": 55.6
+    },
+    {
+      "word": "whose",
+      "start": 55.72,
+      "end": 55.84
+    },
+    {
+      "word": "price",
+      "start": 55.92,
+      "end": 56.16
+    },
+    {
+      "word": "list",
+      "start": 56.24,
+      "end": 56.4
+    },
+    {
+      "word": "looks",
+      "start": 56.48,
+      "end": 56.64
+    },
+    {
+      "word": "like",
+      "start": 56.68,
+      "end": 56.72
+    },
+    {
+      "word": "a",
+      "start": 56.88,
+      "end": 56.92
+    },
+    {
+      "word": "tax",
+      "start": 56.96,
+      "end": 57.28
+    },
+    {
+      "word": "form.",
+      "start": 57.36,
+      "end": 57.84
+    }
+  ],
+  "warnings": [],
+  "script": "2026-10-21-the-comma-in-the-price.md"
+}

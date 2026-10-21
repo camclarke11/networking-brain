@@ -1,0 +1,1031 @@
+{
+  "duration": 52.44,
+  "match": 1.0,
+  "lines": [
+    {
+      "line": 1,
+      "text": "Same yogurt.",
+      "start": 0.16,
+      "end": 1.24,
+      "matched": "2/2"
+    },
+    {
+      "line": 2,
+      "text": "Heavier bowl.",
+      "start": 1.44,
+      "end": 2.48,
+      "matched": "2/2"
+    },
+    {
+      "line": 3,
+      "text": "People said it tasted better.",
+      "start": 2.907,
+      "end": 4.56,
+      "matched": "5/5"
+    },
+    {
+      "line": 4,
+      "text": "In 2011, researchers at Oxford gave fifty people the exact same yogurt in three bowls.",
+      "start": 4.94,
+      "end": 11.2,
+      "matched": "15/15"
+    },
+    {
+      "line": 5,
+      "text": "The bowls looked identical.",
+      "start": 11.24,
+      "end": 13.28,
+      "matched": "4/4"
+    },
+    {
+      "line": 6,
+      "text": "The only difference was the weight.",
+      "start": 13.36,
+      "end": 15.32,
+      "matched": "6/6"
+    },
+    {
+      "line": 7,
+      "text": "Here's the trick.",
+      "start": 15.68,
+      "end": 16.72,
+      "matched": "3/3"
+    },
+    {
+      "line": 8,
+      "text": "From the heaviest bowl, people rated the yogurt denser, nicer, and more expensive.",
+      "start": 16.8,
+      "end": 21.92,
+      "matched": "13/13"
+    },
+    {
+      "line": 9,
+      "text": "Your brain has a shortcut.",
+      "start": 22.24,
+      "end": 24.08,
+      "matched": "5/5"
+    },
+    {
+      "line": 10,
+      "text": "Heavy means quality.",
+      "start": 24.36,
+      "end": 25.92,
+      "matched": "3/3"
+    },
+    {
+      "line": 11,
+      "text": "But it's not that simple.",
+      "start": 26.0,
+      "end": 27.84,
+      "matched": "5/5"
+    },
+    {
+      "line": 12,
+      "text": "Two years later, the same lab tried heavier spoons.",
+      "start": 27.92,
+      "end": 31.28,
+      "matched": "9/9"
+    },
+    {
+      "line": 13,
+      "text": "The yogurt from the heavy spoon felt cheaper.",
+      "start": 31.56,
+      "end": 34.24,
+      "matched": "8/8"
+    },
+    {
+      "line": 14,
+      "text": "So weight isn't magic.",
+      "start": 34.32,
+      "end": 36.32,
+      "matched": "4/4"
+    },
+    {
+      "line": 15,
+      "text": "It works when it's in the thing that holds the product.",
+      "start": 36.457,
+      "end": 39.28,
+      "matched": "11/11"
+    },
+    {
+      "line": 16,
+      "text": "The bowl, the bottle, the box.",
+      "start": 39.36,
+      "end": 41.6,
+      "matched": "6/6"
+    },
+    {
+      "line": 17,
+      "text": "So if you sell anything premium, put the weight where they hold it.",
+      "start": 41.74,
+      "end": 45.44,
+      "matched": "13/13"
+    },
+    {
+      "line": 18,
+      "text": "Thick glass.",
+      "start": 45.48,
+      "end": 46.4,
+      "matched": "2/2"
+    },
+    {
+      "line": 19,
+      "text": "A box with some heft.",
+      "start": 46.48,
+      "end": 48.08,
+      "matched": "5/5"
+    },
+    {
+      "line": 20,
+      "text": "Send this to the friend who ships his best product in a flimsy bag.",
+      "start": 48.16,
+      "end": 51.84,
+      "matched": "14/14"
+    }
+  ],
+  "shots": [
+    {
+      "id": 1,
+      "title": "Same yogurt",
+      "lines": [
+        1,
+        3
+      ],
+      "start": 0.0,
+      "end": 4.94,
+      "duration": 4.94,
+      "cues": [
+        {
+          "word": "Heavier",
+          "what": "the middle bowl is lifted and the dial swings",
+          "time": 1.44
+        },
+        {
+          "word": "better",
+          "what": "a star pops above it",
+          "time": 3.92
+        }
+      ],
+      "on_screen": [
+        {
+          "type": "big_text",
+          "at": "Same",
+          "time": 0.16
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "The test",
+      "lines": [
+        4,
+        6
+      ],
+      "start": 4.94,
+      "end": 15.68,
+      "duration": 10.74,
+      "cues": [
+        {
+          "word": "identical",
+          "what": "the three bowls line up exactly the same",
+          "time": 12.32
+        },
+        {
+          "word": "weight",
+          "what": "three dials pop up, each at a different weight",
+          "time": 14.72
+        },
+        {
+          "word": "fifty",
+          "what": "a row of tasters sits down",
+          "time": 7.52
+        },
+        {
+          "word": "three",
+          "what": "three bowls slide in",
+          "time": 10.12
+        }
+      ],
+      "on_screen": [
+        {
+          "type": "study_card",
+          "at": "2011",
+          "time": 5.08
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Heavy means quality",
+      "lines": [
+        7,
+        10
+      ],
+      "start": 15.68,
+      "end": 26.0,
+      "duration": 10.32,
+      "cues": [
+        {
+          "word": "expensive",
+          "what": "the heavy bowl's price tag grows",
+          "time": 21.08
+        },
+        {
+          "word": "quality",
+          "what": "the heavy bowl glows yellow",
+          "time": 24.96
+        },
+        {
+          "word": "heaviest",
+          "what": "the heavy bowl is lifted",
+          "time": 17.12
+        },
+        {
+          "word": "shortcut",
+          "what": "an arrow from weight to star draws on",
+          "time": 23.493
+        }
+      ],
+      "on_screen": []
+    },
+    {
+      "id": 4,
+      "title": "The spoon",
+      "lines": [
+        11,
+        16
+      ],
+      "start": 26.0,
+      "end": 41.74,
+      "duration": 15.74,
+      "cues": [
+        {
+          "word": "spoons",
+          "what": "a big metal spoon clanks down",
+          "time": 30.48
+        },
+        {
+          "word": "cheaper",
+          "what": "the tag shrinks and drains grey",
+          "time": 33.44
+        },
+        {
+          "word": "magic",
+          "what": "a sparkle fizzles out",
+          "time": 35.68
+        },
+        {
+          "word": "bottle",
+          "what": "the bowl, a bottle and a box slide in side by side",
+          "time": 40.12
+        }
+      ],
+      "on_screen": [
+        {
+          "type": "study_card",
+          "at": "Two",
+          "time": 27.92
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Put the weight there",
+      "lines": [
+        17,
+        19
+      ],
+      "start": 41.74,
+      "end": 48.16,
+      "duration": 6.42,
+      "cues": [
+        {
+          "word": "hold",
+          "what": "the customer lifts the jar and the dial swings",
+          "time": 44.64
+        },
+        {
+          "word": "glass",
+          "what": "the jar clinks down solidly",
+          "time": 45.68
+        },
+        {
+          "word": "heft",
+          "what": "the box thuds and the tag glows",
+          "time": 47.36
+        }
+      ],
+      "on_screen": [
+        {
+          "type": "x_check",
+          "at": "So",
+          "time": 41.74
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Jay",
+      "lines": [
+        20,
+        20
+      ],
+      "start": 48.16,
+      "end": 52.44,
+      "duration": 4.28,
+      "cues": [
+        {
+          "word": "flimsy",
+          "what": "the bag flops and the dial barely moves",
+          "time": 50.853
+        }
+      ],
+      "on_screen": [
+        {
+          "type": "label",
+          "at": "friend",
+          "time": 48.88
+        }
+      ]
+    }
+  ],
+  "words": [
+    {
+      "word": "Same",
+      "start": 0.16,
+      "end": 0.4
+    },
+    {
+      "word": "yogurt.",
+      "start": 0.56,
+      "end": 1.24
+    },
+    {
+      "word": "Heavier",
+      "start": 1.44,
+      "end": 1.84
+    },
+    {
+      "word": "bowl.",
+      "start": 1.92,
+      "end": 2.48
+    },
+    {
+      "word": "People",
+      "start": 2.907,
+      "end": 2.96
+    },
+    {
+      "word": "said",
+      "start": 3.12,
+      "end": 3.2
+    },
+    {
+      "word": "it",
+      "start": 3.28,
+      "end": 3.36
+    },
+    {
+      "word": "tasted",
+      "start": 3.44,
+      "end": 3.84
+    },
+    {
+      "word": "better.",
+      "start": 3.92,
+      "end": 4.56
+    },
+    {
+      "word": "In",
+      "start": 4.94,
+      "end": 4.96
+    },
+    {
+      "word": "2011,",
+      "start": 5.08,
+      "end": 5.92
+    },
+    {
+      "word": "researchers",
+      "start": 6.0,
+      "end": 6.48
+    },
+    {
+      "word": "at",
+      "start": 6.56,
+      "end": 6.64
+    },
+    {
+      "word": "Oxford",
+      "start": 6.72,
+      "end": 7.12
+    },
+    {
+      "word": "gave",
+      "start": 7.2,
+      "end": 7.44
+    },
+    {
+      "word": "fifty",
+      "start": 7.52,
+      "end": 7.84
+    },
+    {
+      "word": "people",
+      "start": 7.92,
+      "end": 8.24
+    },
+    {
+      "word": "the",
+      "start": 8.32,
+      "end": 8.4
+    },
+    {
+      "word": "exact",
+      "start": 8.56,
+      "end": 9.04
+    },
+    {
+      "word": "same",
+      "start": 9.12,
+      "end": 9.28
+    },
+    {
+      "word": "yogurt",
+      "start": 9.36,
+      "end": 9.68
+    },
+    {
+      "word": "in",
+      "start": 9.76,
+      "end": 10.0
+    },
+    {
+      "word": "three",
+      "start": 10.12,
+      "end": 10.24
+    },
+    {
+      "word": "bowls.",
+      "start": 10.32,
+      "end": 11.2
+    },
+    {
+      "word": "The",
+      "start": 11.24,
+      "end": 11.28
+    },
+    {
+      "word": "bowls",
+      "start": 11.4,
+      "end": 11.76
+    },
+    {
+      "word": "looked",
+      "start": 11.84,
+      "end": 12.08
+    },
+    {
+      "word": "identical.",
+      "start": 12.32,
+      "end": 13.28
+    },
+    {
+      "word": "The",
+      "start": 13.36,
+      "end": 13.44
+    },
+    {
+      "word": "only",
+      "start": 13.52,
+      "end": 13.76
+    },
+    {
+      "word": "difference",
+      "start": 14.04,
+      "end": 14.32
+    },
+    {
+      "word": "was",
+      "start": 14.4,
+      "end": 14.56
+    },
+    {
+      "word": "the",
+      "start": 14.6,
+      "end": 14.64
+    },
+    {
+      "word": "weight.",
+      "start": 14.72,
+      "end": 15.32
+    },
+    {
+      "word": "Here's",
+      "start": 15.68,
+      "end": 15.84
+    },
+    {
+      "word": "the",
+      "start": 15.92,
+      "end": 16.0
+    },
+    {
+      "word": "trick.",
+      "start": 16.04,
+      "end": 16.72
+    },
+    {
+      "word": "From",
+      "start": 16.8,
+      "end": 16.88
+    },
+    {
+      "word": "the",
+      "start": 16.96,
+      "end": 17.04
+    },
+    {
+      "word": "heaviest",
+      "start": 17.12,
+      "end": 17.52
+    },
+    {
+      "word": "bowl,",
+      "start": 17.6,
+      "end": 18.0
+    },
+    {
+      "word": "people",
+      "start": 18.16,
+      "end": 18.32
+    },
+    {
+      "word": "rated",
+      "start": 18.4,
+      "end": 18.64
+    },
+    {
+      "word": "the",
+      "start": 18.72,
+      "end": 18.76
+    },
+    {
+      "word": "yogurt",
+      "start": 18.8,
+      "end": 19.2
+    },
+    {
+      "word": "denser,",
+      "start": 19.36,
+      "end": 19.92
+    },
+    {
+      "word": "nicer,",
+      "start": 20.0,
+      "end": 20.64
+    },
+    {
+      "word": "and",
+      "start": 20.72,
+      "end": 20.8
+    },
+    {
+      "word": "more",
+      "start": 20.88,
+      "end": 20.96
+    },
+    {
+      "word": "expensive.",
+      "start": 21.08,
+      "end": 21.92
+    },
+    {
+      "word": "Your",
+      "start": 22.24,
+      "end": 22.4
+    },
+    {
+      "word": "brain",
+      "start": 22.6,
+      "end": 22.8
+    },
+    {
+      "word": "has",
+      "start": 22.88,
+      "end": 22.96
+    },
+    {
+      "word": "a",
+      "start": 23.12,
+      "end": 23.307
+    },
+    {
+      "word": "shortcut.",
+      "start": 23.493,
+      "end": 24.08
+    },
+    {
+      "word": "Heavy",
+      "start": 24.36,
+      "end": 24.64
+    },
+    {
+      "word": "means",
+      "start": 24.76,
+      "end": 24.88
+    },
+    {
+      "word": "quality.",
+      "start": 24.96,
+      "end": 25.92
+    },
+    {
+      "word": "But",
+      "start": 26.0,
+      "end": 26.08
+    },
+    {
+      "word": "it's",
+      "start": 26.12,
+      "end": 26.4
+    },
+    {
+      "word": "not",
+      "start": 26.52,
+      "end": 26.64
+    },
+    {
+      "word": "that",
+      "start": 26.76,
+      "end": 26.88
+    },
+    {
+      "word": "simple.",
+      "start": 27.12,
+      "end": 27.84
+    },
+    {
+      "word": "Two",
+      "start": 27.92,
+      "end": 28.08
+    },
+    {
+      "word": "years",
+      "start": 28.2,
+      "end": 28.32
+    },
+    {
+      "word": "later,",
+      "start": 28.4,
+      "end": 28.88
+    },
+    {
+      "word": "the",
+      "start": 28.96,
+      "end": 29.04
+    },
+    {
+      "word": "same",
+      "start": 29.12,
+      "end": 29.36
+    },
+    {
+      "word": "lab",
+      "start": 29.44,
+      "end": 29.68
+    },
+    {
+      "word": "tried",
+      "start": 29.72,
+      "end": 30.0
+    },
+    {
+      "word": "heavier",
+      "start": 30.04,
+      "end": 30.4
+    },
+    {
+      "word": "spoons.",
+      "start": 30.48,
+      "end": 31.28
+    },
+    {
+      "word": "The",
+      "start": 31.56,
+      "end": 31.6
+    },
+    {
+      "word": "yogurt",
+      "start": 31.68,
+      "end": 32.0
+    },
+    {
+      "word": "from",
+      "start": 32.08,
+      "end": 32.16
+    },
+    {
+      "word": "the",
+      "start": 32.24,
+      "end": 32.32
+    },
+    {
+      "word": "heavy",
+      "start": 32.44,
+      "end": 32.56
+    },
+    {
+      "word": "spoon",
+      "start": 32.64,
+      "end": 32.96
+    },
+    {
+      "word": "felt",
+      "start": 33.04,
+      "end": 33.36
+    },
+    {
+      "word": "cheaper.",
+      "start": 33.44,
+      "end": 34.24
+    },
+    {
+      "word": "So",
+      "start": 34.32,
+      "end": 34.48
+    },
+    {
+      "word": "weight",
+      "start": 34.72,
+      "end": 35.04
+    },
+    {
+      "word": "isn't",
+      "start": 35.12,
+      "end": 35.44
+    },
+    {
+      "word": "magic.",
+      "start": 35.68,
+      "end": 36.32
+    },
+    {
+      "word": "It",
+      "start": 36.457,
+      "end": 36.48
+    },
+    {
+      "word": "works",
+      "start": 36.56,
+      "end": 36.88
+    },
+    {
+      "word": "when",
+      "start": 36.92,
+      "end": 36.96
+    },
+    {
+      "word": "it's",
+      "start": 37.04,
+      "end": 37.2
+    },
+    {
+      "word": "in",
+      "start": 37.28,
+      "end": 37.44
+    },
+    {
+      "word": "the",
+      "start": 37.52,
+      "end": 37.6
+    },
+    {
+      "word": "thing",
+      "start": 37.72,
+      "end": 37.84
+    },
+    {
+      "word": "that",
+      "start": 37.96,
+      "end": 38.08
+    },
+    {
+      "word": "holds",
+      "start": 38.24,
+      "end": 38.4
+    },
+    {
+      "word": "the",
+      "start": 38.48,
+      "end": 38.56
+    },
+    {
+      "word": "product.",
+      "start": 38.8,
+      "end": 39.28
+    },
+    {
+      "word": "The",
+      "start": 39.36,
+      "end": 39.44
+    },
+    {
+      "word": "bowl,",
+      "start": 39.48,
+      "end": 39.92
+    },
+    {
+      "word": "the",
+      "start": 40.0,
+      "end": 40.08
+    },
+    {
+      "word": "bottle,",
+      "start": 40.12,
+      "end": 40.613
+    },
+    {
+      "word": "the",
+      "start": 40.667,
+      "end": 40.72
+    },
+    {
+      "word": "box.",
+      "start": 40.92,
+      "end": 41.6
+    },
+    {
+      "word": "So",
+      "start": 41.74,
+      "end": 41.76
+    },
+    {
+      "word": "if",
+      "start": 41.84,
+      "end": 41.92
+    },
+    {
+      "word": "you",
+      "start": 42.0,
+      "end": 42.08
+    },
+    {
+      "word": "sell",
+      "start": 42.2,
+      "end": 42.32
+    },
+    {
+      "word": "anything",
+      "start": 42.4,
+      "end": 42.8
+    },
+    {
+      "word": "premium,",
+      "start": 42.88,
+      "end": 43.6
+    },
+    {
+      "word": "put",
+      "start": 43.68,
+      "end": 43.76
+    },
+    {
+      "word": "the",
+      "start": 43.84,
+      "end": 43.92
+    },
+    {
+      "word": "weight",
+      "start": 44.08,
+      "end": 44.24
+    },
+    {
+      "word": "where",
+      "start": 44.32,
+      "end": 44.4
+    },
+    {
+      "word": "they",
+      "start": 44.48,
+      "end": 44.56
+    },
+    {
+      "word": "hold",
+      "start": 44.64,
+      "end": 44.88
+    },
+    {
+      "word": "it.",
+      "start": 44.96,
+      "end": 45.44
+    },
+    {
+      "word": "Thick",
+      "start": 45.48,
+      "end": 45.6
+    },
+    {
+      "word": "glass.",
+      "start": 45.68,
+      "end": 46.4
+    },
+    {
+      "word": "A",
+      "start": 46.48,
+      "end": 46.56
+    },
+    {
+      "word": "box",
+      "start": 46.72,
+      "end": 46.88
+    },
+    {
+      "word": "with",
+      "start": 46.96,
+      "end": 47.04
+    },
+    {
+      "word": "some",
+      "start": 47.12,
+      "end": 47.28
+    },
+    {
+      "word": "heft.",
+      "start": 47.36,
+      "end": 48.08
+    },
+    {
+      "word": "Send",
+      "start": 48.16,
+      "end": 48.4
+    },
+    {
+      "word": "this",
+      "start": 48.48,
+      "end": 48.56
+    },
+    {
+      "word": "to",
+      "start": 48.64,
+      "end": 48.72
+    },
+    {
+      "word": "the",
+      "start": 48.76,
+      "end": 48.8
+    },
+    {
+      "word": "friend",
+      "start": 48.88,
+      "end": 49.12
+    },
+    {
+      "word": "who",
+      "start": 49.2,
+      "end": 49.28
+    },
+    {
+      "word": "ships",
+      "start": 49.36,
+      "end": 49.52
+    },
+    {
+      "word": "his",
+      "start": 49.6,
+      "end": 49.84
+    },
+    {
+      "word": "best",
+      "start": 49.96,
+      "end": 50.08
+    },
+    {
+      "word": "product",
+      "start": 50.28,
+      "end": 50.48
+    },
+    {
+      "word": "in",
+      "start": 50.52,
+      "end": 50.56
+    },
+    {
+      "word": "a",
+      "start": 50.8,
+      "end": 50.827
+    },
+    {
+      "word": "flimsy",
+      "start": 50.853,
+      "end": 51.2
+    },
+    {
+      "word": "bag.",
+      "start": 51.28,
+      "end": 51.84
+    }
+  ],
+  "warnings": [],
+  "script": "2026-10-21-the-heavy-bowl.md"
+}

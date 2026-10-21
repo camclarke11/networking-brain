@@ -31,8 +31,12 @@ def read_words(data):
     """Normalise any supported format to [(word as said, start, end)]."""
     if isinstance(data, dict) and ("alignment" in data or "characters" in data):
         al = data.get("alignment") or data.get("normalized_alignment") or data
-        words, cur, start, end = [], "", None, None
+        words, cur, start, end, in_tag = [], "", None, None, False
         for ch, s, e in zip(al["characters"], al["character_start_times_seconds"], al["character_end_times_seconds"]):
+            # Audio tags ("[short pause]") aren't spoken words: treat them as a gap.
+            if ch == "[" or in_tag:
+                in_tag = ch != "]"
+                ch = " "
             if ch.isspace():
                 if cur:
                     words.append((cur, start, end))

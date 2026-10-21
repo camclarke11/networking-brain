@@ -1,0 +1,1082 @@
+{
+  "duration": 52.44,
+  "match": 1.0,
+  "lines": [
+    {
+      "line": 1,
+      "text": "Apple set every laptop in its stores to the same awkward angle.",
+      "start": 0.08,
+      "end": 4.4,
+      "matched": "12/12"
+    },
+    {
+      "line": 2,
+      "text": "Every morning.",
+      "start": 4.48,
+      "end": 5.52,
+      "matched": "2/2"
+    },
+    {
+      "line": 3,
+      "text": "In 2012, Forbes writer Carmine Gallo reported that staff tilted every screen to about seventy degrees.",
+      "start": 5.9,
+      "end": 12.88,
+      "matched": "16/16"
+    },
+    {
+      "line": 4,
+      "text": "Not quite closed.",
+      "start": 12.96,
+      "end": 14.288,
+      "matched": "3/3"
+    },
+    {
+      "line": 5,
+      "text": "Not quite right.",
+      "start": 14.6,
+      "end": 15.68,
+      "matched": "3/3"
+    },
+    {
+      "line": 6,
+      "text": "Here's the trick.",
+      "start": 16.137,
+      "end": 16.96,
+      "matched": "3/3"
+    },
+    {
+      "line": 7,
+      "text": "The angle bugs you, so you reach out and fix it.",
+      "start": 17.333,
+      "end": 20.56,
+      "matched": "11/11"
+    },
+    {
+      "line": 8,
+      "text": "Now your hands are on it.",
+      "start": 20.64,
+      "end": 22.32,
+      "matched": "6/6"
+    },
+    {
+      "line": 9,
+      "text": "In 2009, researchers Joann Peck and Suzanne Shu found that just touching a product makes people feel like they own it.",
+      "start": 22.688,
+      "end": 30.133,
+      "matched": "21/21"
+    },
+    {
+      "line": 10,
+      "text": "And what feels like yours is worth more to you.",
+      "start": 30.187,
+      "end": 33.12,
+      "matched": "10/10"
+    },
+    {
+      "line": 11,
+      "text": "That's why ice cream shops hand you a tasting spoon.",
+      "start": 33.253,
+      "end": 35.92,
+      "matched": "10/10"
+    },
+    {
+      "line": 12,
+      "text": "Why furniture stores let you sit on every sofa.",
+      "start": 36.04,
+      "end": 38.96,
+      "matched": "9/9"
+    },
+    {
+      "line": 13,
+      "text": "So if you sell anything, get it into their hands before you talk price.",
+      "start": 39.097,
+      "end": 43.56,
+      "matched": "14/14"
+    },
+    {
+      "line": 14,
+      "text": "Once they've touched it, they're not deciding whether to buy it.",
+      "start": 43.6,
+      "end": 46.573,
+      "matched": "11/11"
+    },
+    {
+      "line": 15,
+      "text": "They're deciding whether to give it back.",
+      "start": 46.64,
+      "end": 48.8,
+      "matched": "7/7"
+    },
+    {
+      "line": 16,
+      "text": "Send this to the friend who keeps his products behind the counter.",
+      "start": 48.88,
+      "end": 51.84,
+      "matched": "12/12"
+    }
+  ],
+  "shots": [
+    {
+      "id": 1,
+      "title": "The angle",
+      "lines": [
+        1,
+        2
+      ],
+      "start": 0.0,
+      "end": 5.9,
+      "duration": 5.9,
+      "cues": [
+        {
+          "word": "angle",
+          "what": "a dotted angle arc draws over every screen at once",
+          "time": 3.52
+        },
+        {
+          "word": "morning",
+          "what": "a sunrise light sweeps across the table",
+          "time": 4.88
+        }
+      ],
+      "on_screen": [
+        {
+          "type": "big_text",
+          "at": null,
+          "time": 0.0
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Seventy degrees",
+      "lines": [
+        3,
+        5
+      ],
+      "start": 5.9,
+      "end": 16.137,
+      "duration": 10.237,
+      "cues": [
+        {
+          "word": "seventy",
+          "what": "the arc snaps to 70°",
+          "time": 11.44
+        },
+        {
+          "word": "closed",
+          "what": "one screen wobbles half shut",
+          "time": 13.8
+        }
+      ],
+      "on_screen": [
+        {
+          "type": "label",
+          "at": "Gallo",
+          "time": 8.2
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "You fix it",
+      "lines": [
+        6,
+        8
+      ],
+      "start": 16.137,
+      "end": 22.688,
+      "duration": 6.551,
+      "cues": [
+        {
+          "word": "bugs",
+          "what": "you stop and tilt your head at it",
+          "time": 17.84
+        },
+        {
+          "word": "fix",
+          "what": "you push the screen upright",
+          "time": 19.8
+        },
+        {
+          "word": "hands",
+          "what": "the dotted line snaps solid",
+          "time": 21.44
+        }
+      ],
+      "on_screen": []
+    },
+    {
+      "id": 4,
+      "title": "Mine",
+      "lines": [
+        9,
+        10
+      ],
+      "start": 22.688,
+      "end": 33.253,
+      "duration": 10.565,
+      "cues": [
+        {
+          "word": "touching",
+          "what": "a hand touches the mug",
+          "time": 27.2
+        },
+        {
+          "word": "own",
+          "what": "a name tag pops onto it",
+          "time": 29.36
+        },
+        {
+          "word": "worth",
+          "what": "its price tag grows",
+          "time": 31.92
+        }
+      ],
+      "on_screen": [
+        {
+          "type": "study_card",
+          "at": "Peck",
+          "time": 24.88
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Everywhere",
+      "lines": [
+        11,
+        12
+      ],
+      "start": 33.253,
+      "end": 39.097,
+      "duration": 5.844,
+      "cues": [
+        {
+          "word": "spoon",
+          "what": "the spoon is handed over and tagged",
+          "time": 35.28
+        },
+        {
+          "word": "sofa",
+          "what": "the sofa gets a name tag",
+          "time": 38.2
+        }
+      ],
+      "on_screen": []
+    },
+    {
+      "id": 6,
+      "title": "Give it back",
+      "lines": [
+        13,
+        15
+      ],
+      "start": 39.097,
+      "end": 48.88,
+      "duration": 9.783,
+      "cues": [
+        {
+          "word": "hands",
+          "what": "you hand it over first",
+          "time": 41.64
+        },
+        {
+          "word": "back",
+          "what": "the shopper clutches it and the scene warms",
+          "time": 48.16
+        },
+        {
+          "word": "touched",
+          "what": "a name tag pops onto the product",
+          "time": 44.04
+        }
+      ],
+      "on_screen": [
+        {
+          "type": "x_check",
+          "at": "So",
+          "time": 39.097
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Jay",
+      "lines": [
+        16,
+        16
+      ],
+      "start": 48.88,
+      "end": 52.44,
+      "duration": 3.56,
+      "cues": [
+        {
+          "word": "counter",
+          "what": "the shopper gives up and walks away",
+          "time": 51.36
+        }
+      ],
+      "on_screen": [
+        {
+          "type": "label",
+          "at": "friend",
+          "time": 49.52
+        }
+      ]
+    }
+  ],
+  "words": [
+    {
+      "word": "Apple",
+      "start": 0.08,
+      "end": 0.4
+    },
+    {
+      "word": "set",
+      "start": 0.56,
+      "end": 0.72
+    },
+    {
+      "word": "every",
+      "start": 0.8,
+      "end": 1.04
+    },
+    {
+      "word": "laptop",
+      "start": 1.12,
+      "end": 1.6
+    },
+    {
+      "word": "in",
+      "start": 1.64,
+      "end": 1.68
+    },
+    {
+      "word": "its",
+      "start": 1.76,
+      "end": 1.84
+    },
+    {
+      "word": "stores",
+      "start": 1.92,
+      "end": 2.24
+    },
+    {
+      "word": "to",
+      "start": 2.28,
+      "end": 2.32
+    },
+    {
+      "word": "the",
+      "start": 2.4,
+      "end": 2.56
+    },
+    {
+      "word": "same",
+      "start": 2.64,
+      "end": 2.96
+    },
+    {
+      "word": "awkward",
+      "start": 3.04,
+      "end": 3.36
+    },
+    {
+      "word": "angle.",
+      "start": 3.52,
+      "end": 4.4
+    },
+    {
+      "word": "Every",
+      "start": 4.48,
+      "end": 4.8
+    },
+    {
+      "word": "morning.",
+      "start": 4.88,
+      "end": 5.52
+    },
+    {
+      "word": "In",
+      "start": 5.9,
+      "end": 5.92
+    },
+    {
+      "word": "2012,",
+      "start": 6.08,
+      "end": 6.88
+    },
+    {
+      "word": "Forbes",
+      "start": 6.96,
+      "end": 7.2
+    },
+    {
+      "word": "writer",
+      "start": 7.28,
+      "end": 7.68
+    },
+    {
+      "word": "Carmine",
+      "start": 7.72,
+      "end": 8.16
+    },
+    {
+      "word": "Gallo",
+      "start": 8.2,
+      "end": 8.48
+    },
+    {
+      "word": "reported",
+      "start": 8.72,
+      "end": 8.96
+    },
+    {
+      "word": "that",
+      "start": 9.04,
+      "end": 9.2
+    },
+    {
+      "word": "staff",
+      "start": 9.36,
+      "end": 9.52
+    },
+    {
+      "word": "tilted",
+      "start": 9.6,
+      "end": 10.08
+    },
+    {
+      "word": "every",
+      "start": 10.16,
+      "end": 10.4
+    },
+    {
+      "word": "screen",
+      "start": 10.48,
+      "end": 10.88
+    },
+    {
+      "word": "to",
+      "start": 10.92,
+      "end": 10.96
+    },
+    {
+      "word": "about",
+      "start": 11.04,
+      "end": 11.36
+    },
+    {
+      "word": "seventy",
+      "start": 11.44,
+      "end": 11.76
+    },
+    {
+      "word": "degrees.",
+      "start": 12.28,
+      "end": 12.88
+    },
+    {
+      "word": "Not",
+      "start": 12.96,
+      "end": 13.04
+    },
+    {
+      "word": "quite",
+      "start": 13.2,
+      "end": 13.36
+    },
+    {
+      "word": "closed.",
+      "start": 13.8,
+      "end": 14.288
+    },
+    {
+      "word": "Not",
+      "start": 14.6,
+      "end": 14.72
+    },
+    {
+      "word": "quite",
+      "start": 14.84,
+      "end": 14.96
+    },
+    {
+      "word": "right.",
+      "start": 15.04,
+      "end": 15.68
+    },
+    {
+      "word": "Here's",
+      "start": 16.137,
+      "end": 16.24
+    },
+    {
+      "word": "the",
+      "start": 16.32,
+      "end": 16.4
+    },
+    {
+      "word": "trick.",
+      "start": 16.44,
+      "end": 16.96
+    },
+    {
+      "word": "The",
+      "start": 17.333,
+      "end": 17.36
+    },
+    {
+      "word": "angle",
+      "start": 17.44,
+      "end": 17.76
+    },
+    {
+      "word": "bugs",
+      "start": 17.84,
+      "end": 18.16
+    },
+    {
+      "word": "you,",
+      "start": 18.24,
+      "end": 18.56
+    },
+    {
+      "word": "so",
+      "start": 18.72,
+      "end": 18.88
+    },
+    {
+      "word": "you",
+      "start": 18.96,
+      "end": 19.04
+    },
+    {
+      "word": "reach",
+      "start": 19.12,
+      "end": 19.28
+    },
+    {
+      "word": "out",
+      "start": 19.36,
+      "end": 19.44
+    },
+    {
+      "word": "and",
+      "start": 19.52,
+      "end": 19.68
+    },
+    {
+      "word": "fix",
+      "start": 19.8,
+      "end": 19.92
+    },
+    {
+      "word": "it.",
+      "start": 20.0,
+      "end": 20.56
+    },
+    {
+      "word": "Now",
+      "start": 20.64,
+      "end": 21.04
+    },
+    {
+      "word": "your",
+      "start": 21.12,
+      "end": 21.28
+    },
+    {
+      "word": "hands",
+      "start": 21.44,
+      "end": 21.6
+    },
+    {
+      "word": "are",
+      "start": 21.64,
+      "end": 21.68
+    },
+    {
+      "word": "on",
+      "start": 21.76,
+      "end": 21.84
+    },
+    {
+      "word": "it.",
+      "start": 21.92,
+      "end": 22.32
+    },
+    {
+      "word": "In",
+      "start": 22.688,
+      "end": 22.72
+    },
+    {
+      "word": "2009,",
+      "start": 22.76,
+      "end": 23.76
+    },
+    {
+      "word": "researchers",
+      "start": 23.96,
+      "end": 24.4
+    },
+    {
+      "word": "Joann",
+      "start": 24.48,
+      "end": 24.8
+    },
+    {
+      "word": "Peck",
+      "start": 24.88,
+      "end": 25.2
+    },
+    {
+      "word": "and",
+      "start": 25.28,
+      "end": 25.36
+    },
+    {
+      "word": "Suzanne",
+      "start": 25.4,
+      "end": 25.84
+    },
+    {
+      "word": "Shu",
+      "start": 25.92,
+      "end": 26.24
+    },
+    {
+      "word": "found",
+      "start": 26.32,
+      "end": 26.48
+    },
+    {
+      "word": "that",
+      "start": 26.6,
+      "end": 26.72
+    },
+    {
+      "word": "just",
+      "start": 26.88,
+      "end": 27.04
+    },
+    {
+      "word": "touching",
+      "start": 27.2,
+      "end": 27.44
+    },
+    {
+      "word": "a",
+      "start": 27.52,
+      "end": 27.6
+    },
+    {
+      "word": "product",
+      "start": 27.8,
+      "end": 28.0
+    },
+    {
+      "word": "makes",
+      "start": 28.08,
+      "end": 28.32
+    },
+    {
+      "word": "people",
+      "start": 28.48,
+      "end": 28.64
+    },
+    {
+      "word": "feel",
+      "start": 28.72,
+      "end": 28.88
+    },
+    {
+      "word": "like",
+      "start": 28.96,
+      "end": 29.04
+    },
+    {
+      "word": "they",
+      "start": 29.12,
+      "end": 29.28
+    },
+    {
+      "word": "own",
+      "start": 29.36,
+      "end": 29.52
+    },
+    {
+      "word": "it.",
+      "start": 29.8,
+      "end": 30.133
+    },
+    {
+      "word": "And",
+      "start": 30.187,
+      "end": 30.24
+    },
+    {
+      "word": "what",
+      "start": 30.36,
+      "end": 30.48
+    },
+    {
+      "word": "feels",
+      "start": 30.52,
+      "end": 30.72
+    },
+    {
+      "word": "like",
+      "start": 30.8,
+      "end": 30.96
+    },
+    {
+      "word": "yours",
+      "start": 31.04,
+      "end": 31.52
+    },
+    {
+      "word": "is",
+      "start": 31.6,
+      "end": 31.76
+    },
+    {
+      "word": "worth",
+      "start": 31.92,
+      "end": 32.08
+    },
+    {
+      "word": "more",
+      "start": 32.2,
+      "end": 32.32
+    },
+    {
+      "word": "to",
+      "start": 32.36,
+      "end": 32.4
+    },
+    {
+      "word": "you.",
+      "start": 32.48,
+      "end": 33.12
+    },
+    {
+      "word": "That's",
+      "start": 33.253,
+      "end": 33.36
+    },
+    {
+      "word": "why",
+      "start": 33.44,
+      "end": 33.52
+    },
+    {
+      "word": "ice",
+      "start": 33.6,
+      "end": 33.76
+    },
+    {
+      "word": "cream",
+      "start": 33.84,
+      "end": 34.0
+    },
+    {
+      "word": "shops",
+      "start": 34.08,
+      "end": 34.32
+    },
+    {
+      "word": "hand",
+      "start": 34.4,
+      "end": 34.56
+    },
+    {
+      "word": "you",
+      "start": 34.6,
+      "end": 34.64
+    },
+    {
+      "word": "a",
+      "start": 34.68,
+      "end": 34.72
+    },
+    {
+      "word": "tasting",
+      "start": 34.8,
+      "end": 35.2
+    },
+    {
+      "word": "spoon.",
+      "start": 35.28,
+      "end": 35.92
+    },
+    {
+      "word": "Why",
+      "start": 36.04,
+      "end": 36.16
+    },
+    {
+      "word": "furniture",
+      "start": 36.2,
+      "end": 36.56
+    },
+    {
+      "word": "stores",
+      "start": 36.64,
+      "end": 36.96
+    },
+    {
+      "word": "let",
+      "start": 37.04,
+      "end": 37.12
+    },
+    {
+      "word": "you",
+      "start": 37.2,
+      "end": 37.28
+    },
+    {
+      "word": "sit",
+      "start": 37.36,
+      "end": 37.44
+    },
+    {
+      "word": "on",
+      "start": 37.52,
+      "end": 37.68
+    },
+    {
+      "word": "every",
+      "start": 37.76,
+      "end": 38.08
+    },
+    {
+      "word": "sofa.",
+      "start": 38.2,
+      "end": 38.96
+    },
+    {
+      "word": "So",
+      "start": 39.097,
+      "end": 39.12
+    },
+    {
+      "word": "if",
+      "start": 39.2,
+      "end": 39.28
+    },
+    {
+      "word": "you",
+      "start": 39.36,
+      "end": 39.44
+    },
+    {
+      "word": "sell",
+      "start": 39.6,
+      "end": 39.76
+    },
+    {
+      "word": "anything,",
+      "start": 39.84,
+      "end": 40.56
+    },
+    {
+      "word": "get",
+      "start": 40.64,
+      "end": 40.72
+    },
+    {
+      "word": "it",
+      "start": 40.76,
+      "end": 40.8
+    },
+    {
+      "word": "into",
+      "start": 40.88,
+      "end": 41.12
+    },
+    {
+      "word": "their",
+      "start": 41.2,
+      "end": 41.44
+    },
+    {
+      "word": "hands",
+      "start": 41.64,
+      "end": 41.84
+    },
+    {
+      "word": "before",
+      "start": 42.04,
+      "end": 42.24
+    },
+    {
+      "word": "you",
+      "start": 42.32,
+      "end": 42.4
+    },
+    {
+      "word": "talk",
+      "start": 42.52,
+      "end": 42.64
+    },
+    {
+      "word": "price.",
+      "start": 43.08,
+      "end": 43.56
+    },
+    {
+      "word": "Once",
+      "start": 43.6,
+      "end": 43.76
+    },
+    {
+      "word": "they've",
+      "start": 43.8,
+      "end": 44.0
+    },
+    {
+      "word": "touched",
+      "start": 44.04,
+      "end": 44.32
+    },
+    {
+      "word": "it,",
+      "start": 44.4,
+      "end": 44.74
+    },
+    {
+      "word": "they're",
+      "start": 44.76,
+      "end": 44.8
+    },
+    {
+      "word": "not",
+      "start": 44.88,
+      "end": 44.96
+    },
+    {
+      "word": "deciding",
+      "start": 45.08,
+      "end": 45.44
+    },
+    {
+      "word": "whether",
+      "start": 45.56,
+      "end": 45.68
+    },
+    {
+      "word": "to",
+      "start": 45.76,
+      "end": 45.84
+    },
+    {
+      "word": "buy",
+      "start": 45.96,
+      "end": 46.08
+    },
+    {
+      "word": "it.",
+      "start": 46.32,
+      "end": 46.573
+    },
+    {
+      "word": "They're",
+      "start": 46.64,
+      "end": 46.8
+    },
+    {
+      "word": "deciding",
+      "start": 46.92,
+      "end": 47.28
+    },
+    {
+      "word": "whether",
+      "start": 47.36,
+      "end": 47.52
+    },
+    {
+      "word": "to",
+      "start": 47.6,
+      "end": 47.68
+    },
+    {
+      "word": "give",
+      "start": 47.72,
+      "end": 47.76
+    },
+    {
+      "word": "it",
+      "start": 47.84,
+      "end": 48.0
+    },
+    {
+      "word": "back.",
+      "start": 48.16,
+      "end": 48.8
+    },
+    {
+      "word": "Send",
+      "start": 48.88,
+      "end": 49.04
+    },
+    {
+      "word": "this",
+      "start": 49.12,
+      "end": 49.2
+    },
+    {
+      "word": "to",
+      "start": 49.28,
+      "end": 49.36
+    },
+    {
+      "word": "the",
+      "start": 49.4,
+      "end": 49.44
+    },
+    {
+      "word": "friend",
+      "start": 49.52,
+      "end": 49.76
+    },
+    {
+      "word": "who",
+      "start": 49.84,
+      "end": 49.92
+    },
+    {
+      "word": "keeps",
+      "start": 49.96,
+      "end": 50.16
+    },
+    {
+      "word": "his",
+      "start": 50.24,
+      "end": 50.32
+    },
+    {
+      "word": "products",
+      "start": 50.52,
+      "end": 50.72
+    },
+    {
+      "word": "behind",
+      "start": 50.8,
+      "end": 50.96
+    },
+    {
+      "word": "the",
+      "start": 51.04,
+      "end": 51.12
+    },
+    {
+      "word": "counter.",
+      "start": 51.36,
+      "end": 51.84
+    }
+  ],
+  "warnings": [],
+  "script": "2026-10-21-the-tilted-laptop.md"
+}

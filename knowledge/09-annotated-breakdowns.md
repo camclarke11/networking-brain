@@ -1,6 +1,6 @@
 # 09 — Annotated Breakdowns
 
-Line-by-line teardowns of the reference account's two breakouts, then why its flops flopped. Study the structure; never reuse the content.
+Line-by-line teardowns of the reference account's two breakouts, then why its flops flopped, then two of Elliott's stories (§4) for how the lead works. Study the structure; never reuse the content.
 
 ---
 
@@ -52,8 +52,37 @@ Line-by-line teardowns of the reference account's two breakouts, then why its fl
 | The loudest person in the room | 404 | A claim about other people, not a move for the viewer; garbled audio at the end | F4: "How to tell who actually runs the room in 10 seconds." |
 | 300 pennies | 447 | A sales trick with no networking moment; "confusing people" sounds manipulative | Tie it to asking for an intro, or skip. |
 | Three steps to make anyone comfortable | 618 | "Anyone" is too broad; three steps feels like a list | F2/F1 at an event: "the person standing alone by the drinks". |
-| Halo effect | 784 | Concept-first hook; the study takes the middle; general, not networking | Start in the first 30 seconds at an event; the study is one line. |
-| Pushback lines (gain effect) | 3.0k | In the niche, but the move ("disagree first") feels risky and the study does the heavy lifting | Lead with the exact words and the safe version. |
+| Halo effect | 784 | Concept-first hook; the study takes the middle; general, not networking | Start in the first 30 seconds at an event; tell the experiment as a scene, never cite it. |
+| Pushback lines (gain effect) | 3.0k | In the niche, but the move ("disagree first") feels risky and the study does the heavy lifting | Lead with the exact words and the safe version; show it working instead of citing. |
 | Your label | 3.2k | Hidden-cause hook (N5) is slow; the move is homework ("ask a friend tonight") | F3 with the exact line to open with. |
 
 **Pattern:** the posts that flopped explain an idea. The posts that won hand the viewer one thing to do in one specific moment.
+
+---
+
+## 4. Elliott's stories: the lead, line by line
+
+Not our niche, but the cleanest examples of a hook that leads and a middle that keeps leading. Transcripts in `~/Downloads/Media Tools/Transcripts/zlliott transcripts/`. Study the jobs each line does; never reuse the lines.
+
+### Charles Bronson, 775k (`DcqqUG9sD49`, 386 words)
+
+| Lines | What happens | Lead job |
+|---|---|---|
+| 1 | You're in a post office holding a shotgun | **Drop-in.** "You", mid-action, something you can see |
+| 2–4 | You get £26 and seven years; you'll be out before 30 | Specifics, plus the expectation the story will break (A) |
+| 5 | "But almost immediately you start making your sentence longer." | **Turn.** Flips the expectation and opens the spiral (B) |
+| 6–10 | A glass jug, a broken bottle, 37 offences, the rooftop protests, £500,000 of damage | **Escalation.** No turn words for five lines, but every line is worse than the last |
+| 11–16 | Released at 34, back inside after 69 days; out again, back after 53 | Good news that opens "how long will it last?", then the **clock** shrinks |
+| 21–22 | Even after all that, you still haven't committed the crime that gets you life | **Forward pointer** at about 60%: the re-hook |
+| 23–27 | The hostage, 44 hours at knifepoint, life | Pays the pointer off |
+| 28–31 | The 2023 parole hearing: a man of peace who just wants to go home | A new loop in the last 15%: will he get out? |
+| 32–34 | 73 years old, 52 years after stealing £26, still inside | **Callback** to line 2 closes everything, and the video loops |
+
+### Malone Lam, three versions: 662k, 164k, 51k
+
+- **662k** (`DbQ7wUGMmhh`, 249 words): drops you into a Discord call mid-con. The theft lands within three lines with exact numbers ($234 million, 4,064 Bitcoin). The plan ("don't buy anything stupid") sets up A; "But then they did the complete opposite" turns to B, followed by an escalating spending list. It ends on the open question of *why* they couldn't stop.
+- **164k** (`DbUKHZAspe6`, 236 words): the same story, a little tighter.
+- **51k** (`DbQmGzwsxr5`, 405 words): opens with a date and time before the drop-in, then answers the closing question with "Psychologists call it the hot-cold empathy gap", a paragraph on the brain, and a moral. The 160 extra words are the explanation.
+
+**For us:** our scripts end on a move, not an open question (E3 still flops for lessons). The rule that carries over is the one the 51k version broke: **never stop the story to explain it with a label.** Show the mechanism happening to "you", and let the payoff say what to do.
+

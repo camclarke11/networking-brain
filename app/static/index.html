@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Brain Studio</title>
+<link rel="stylesheet" href="/static/style.css?v={{v}}">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='8' fill='%235b5bd6'/><text x='16' y='22' font-size='16' text-anchor='middle' fill='white' font-family='sans-serif' font-weight='700'>N</text></svg>">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/marked/12.0.2/marked.min.js" defer></script>
+</head>
+<body>
+<div class="shell">
+  <aside class="nav">
+    <div class="brand"><span class="logo">N</span><div><b>Studio</b><small>@f___a___c___t___s</small></div></div>
+    <nav id="nav">
+      <a href="#/" data-r="home">Home</a>
+      <a href="#/scripts" data-r="scripts">Scripts</a>
+      <a href="#/topics" data-r="topics">Topics</a>
+      <a href="#/voice" data-r="voice">Voice</a>
+      <a href="#/library" data-r="library">Library</a>
+      <a href="#/performance" data-r="performance">Performance</a>
+      <a href="#/brain" data-r="brain">Brain</a>
+      <a href="#/jobs" data-r="jobs">Jobs <span id="jobcount" class="badge" hidden></span></a>
+    </nav>
+    <div class="credit" id="credit"></div>
+  </aside>
+  <main id="main"><p class="muted">Loading…</p></main>
+</div>
+<div id="toast" class="toast" hidden></div>
+<script src="/static/app.js?v={{v}}"></script>
+</body>
+</html>

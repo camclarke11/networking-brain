@@ -6,6 +6,7 @@
 **A vs B:** jump to the next stock question → ask about the answer they just gave
 **Length:** 165 words ≈ 57s (at 175 wpm)
 **Hook code:** N6 (bold claim, set in an event) · **Ending code:** E1 · **Named tool:** none (the "trade" is a light frame, not a coined name)
+**Pillar:** The Move · **Playbook chapter:** Get clients
 
 ---
 
@@ -48,6 +49,14 @@ Nobody remembers your first question.
 Everybody asks that one.
 They remember the one that proved you were listening.
 Send this to the friend who asks one question and checks his phone.
+
+---
+
+## ELEVENLABS
+
+```text
+[thoughtful] Your second question at an event matters more than your first. Say you meet Priya by the drinks. You ask what she's working on. She says she's launching a skincare brand. You go, nice, how do you know the host? [sighs] Interview over. You just showed her you weren't listening. [confident] So ask about her answer instead. [curious] A skincare brand? What made you start that? Now she's telling you a story, not filling a silence. You're thinking, won't that feel like an interrogation? [chuckles] Not if you trade. She answers. You share one small thing. Then you dig into what she said. [matter-of-fact] Harvard researchers looked at over 2,000 speed dates. The people who asked more follow-up questions were liked more. And the best askers got the most second dates. [short pause] But here's the bit that matters. Nobody remembers your first question. Everybody asks that one. [warm] They remember the one that proved you were listening. [playful] Send this to the friend who asks one question and checks his phone.
+```
 
 ---
 
@@ -573,22 +582,12 @@ Send this to the friend who asks one question and checks his phone.
 
 ## CAPTION
 
-Your second question matters more than your first.
 
-Anyone can ask "what are you working on?" The question after it is the one people remember, because it proves you heard the answer.
+Most people ask good questions. So why does nobody remember them?
 
-How to trade instead of interrogate:
-📍 They answer. Pick one word from their answer and ask about it: "A skincare brand? What made you start that?"
-📍 Share one small thing back. "I almost started something in that space."
-📍 Ask about what they just said, not the next thing on your list.
+The full playbook is coming soon. Follow so you don't miss it.
 
-Skip the stock questions that reset the conversation: "How do you know the host?" "So what else is going on?"
-
-Try it on 3 people this week, then come back and tell me who surprised you 👇
-
-Follow, the networking playbook drops soon.
-
-#networking #socialskills #entrepreneur #networkingevent #psychology
+#smallbusiness #entrepreneur #networking
 
 ---
 

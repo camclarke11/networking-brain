@@ -1,0 +1,1158 @@
+{
+  "duration": 57.72,
+  "match": 1.0,
+  "lines": [
+    {
+      "line": 1,
+      "text": "Tesla's flying car has no price.",
+      "start": 0.08,
+      "end": 2.48,
+      "matched": "6/6"
+    },
+    {
+      "line": 2,
+      "text": "It's not there to be bought.",
+      "start": 2.52,
+      "end": 4.24,
+      "matched": "6/6"
+    },
+    {
+      "line": 3,
+      "text": "This month, Tesla showed three versions of its new Roadster.",
+      "start": 4.453,
+      "end": 7.92,
+      "matched": "10/10"
+    },
+    {
+      "line": 4,
+      "text": "Performance, the one that just drives.",
+      "start": 8.24,
+      "end": 10.24,
+      "matched": "6/6"
+    },
+    {
+      "line": 5,
+      "text": "$50,000 just to reserve one.",
+      "start": 10.28,
+      "end": 13.04,
+      "matched": "5/5"
+    },
+    {
+      "line": 6,
+      "text": "Thrust, the one with rocket thrusters.",
+      "start": 13.08,
+      "end": 15.44,
+      "matched": "6/6"
+    },
+    {
+      "line": 7,
+      "text": "$250,000 to reserve.",
+      "start": 15.52,
+      "end": 18.16,
+      "matched": "3/3"
+    },
+    {
+      "line": 8,
+      "text": "And Rocket, the one that flies.",
+      "start": 18.366,
+      "end": 20.56,
+      "matched": "6/6"
+    },
+    {
+      "line": 9,
+      "text": "Invite only.",
+      "start": 20.8,
+      "end": 21.92,
+      "matched": "2/2"
+    },
+    {
+      "line": 10,
+      "text": "Here's the trick.",
+      "start": 22.0,
+      "end": 22.96,
+      "matched": "3/3"
+    },
+    {
+      "line": 11,
+      "text": "Almost nobody will ever own the one that flies.",
+      "start": 23.2,
+      "end": 26.0,
+      "matched": "9/9"
+    },
+    {
+      "line": 12,
+      "text": "But it does two jobs.",
+      "start": 26.08,
+      "end": 27.84,
+      "matched": "5/5"
+    },
+    {
+      "line": 13,
+      "text": "First, it gets filmed.",
+      "start": 28.173,
+      "end": 29.52,
+      "matched": "4/4"
+    },
+    {
+      "line": 14,
+      "text": "A car jumping over a Cybertruck gets more attention than any ad Tesla could buy.",
+      "start": 29.56,
+      "end": 34.32,
+      "matched": "15/15"
+    },
+    {
+      "line": 15,
+      "text": "Second, it moves the anchor.",
+      "start": 34.4,
+      "end": 36.4,
+      "matched": "5/5"
+    },
+    {
+      "line": 16,
+      "text": "Next to a car that flies, $50,000 for one that drives sounds almost sensible.",
+      "start": 37.2,
+      "end": 42.4,
+      "matched": "14/14"
+    },
+    {
+      "line": 17,
+      "text": "That's why menus put one crazy expensive dish right at the top.",
+      "start": 42.44,
+      "end": 46.4,
+      "matched": "12/12"
+    },
+    {
+      "line": 18,
+      "text": "So if you sell anything, add one wild option above your best seller.",
+      "start": 46.48,
+      "end": 50.64,
+      "matched": "13/13"
+    },
+    {
+      "line": 19,
+      "text": "Hardly anyone will pick it.",
+      "start": 50.72,
+      "end": 52.24,
+      "matched": "5/5"
+    },
+    {
+      "line": 20,
+      "text": "It's there to sell the one below it.",
+      "start": 52.373,
+      "end": 54.12,
+      "matched": "8/8"
+    },
+    {
+      "line": 21,
+      "text": "Send this to the friend who only has one price.",
+      "start": 54.4,
+      "end": 57.12,
+      "matched": "10/10"
+    }
+  ],
+  "shots": [
+    {
+      "id": 1,
+      "title": "No price",
+      "lines": [
+        1,
+        2
+      ],
+      "start": 0.0,
+      "end": 4.453,
+      "duration": 4.453,
+      "cues": [
+        {
+          "word": "price",
+          "what": "the tag flips round: it's blank",
+          "time": 1.96
+        },
+        {
+          "word": "bought",
+          "what": "a glass case drops over the car",
+          "time": 3.44
+        }
+      ],
+      "on_screen": [
+        {
+          "type": "big_text",
+          "at": null,
+          "time": 0.0
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Three versions",
+      "lines": [
+        3,
+        9
+      ],
+      "start": 4.453,
+      "end": 22.0,
+      "duration": 17.547,
+      "cues": [
+        {
+          "word": "Performance",
+          "what": "car one lights, its tag swings in: $50,000",
+          "time": 8.24
+        },
+        {
+          "word": "Thrust",
+          "what": "car two lights, puffs from rear thrusters",
+          "time": 13.08
+        },
+        {
+          "word": "flies",
+          "what": "car three lifts off its plinth",
+          "time": 19.76
+        },
+        {
+          "word": "Roadster",
+          "what": "the three plinths rise into view",
+          "time": 7.04
+        },
+        {
+          "word": "reserve",
+          "what": "the $50,000 tag swings in",
+          "time": 12.08
+        },
+        {
+          "word": "$250,000",
+          "what": "the $250,000 tag swings in",
+          "time": 15.52
+        }
+      ],
+      "on_screen": [
+        {
+          "type": "stamp",
+          "at": "Invite",
+          "time": 20.8
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Two jobs",
+      "lines": [
+        10,
+        12
+      ],
+      "start": 22.0,
+      "end": 28.173,
+      "duration": 6.173,
+      "cues": [
+        {
+          "word": "nobody",
+          "what": "the glass case locks shut with a click",
+          "time": 23.52
+        }
+      ],
+      "on_screen": [
+        {
+          "type": "tool_card",
+          "at": "jobs",
+          "time": 26.96
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Filmed",
+      "lines": [
+        13,
+        14
+      ],
+      "start": 28.173,
+      "end": 34.4,
+      "duration": 6.227,
+      "cues": [
+        {
+          "word": "filmed",
+          "what": "phones go up across the crowd",
+          "time": 28.8
+        },
+        {
+          "word": "jumping",
+          "what": "the car hops over the pickup",
+          "time": 30.0
+        },
+        {
+          "word": "ad",
+          "what": "the billboard shrinks away",
+          "time": 32.8
+        }
+      ],
+      "on_screen": []
+    },
+    {
+      "id": 5,
+      "title": "The anchor",
+      "lines": [
+        15,
+        17
+      ],
+      "start": 34.4,
+      "end": 46.48,
+      "duration": 12.08,
+      "cues": [
+        {
+          "word": "anchor",
+          "what": "the anchor drops with a thud and cracks the floor",
+          "time": 35.68
+        },
+        {
+          "word": "sensible",
+          "what": "the $50,000 tag glows yellow",
+          "time": 41.56
+        },
+        {
+          "word": "drives",
+          "what": "the $50,000 car slides in beside the anchor",
+          "time": 40.24
+        },
+        {
+          "word": "car",
+          "what": "the flying car hovers in beside the plinth",
+          "time": 37.6
+        }
+      ],
+      "on_screen": [
+        {
+          "type": "tool_card",
+          "at": "menus",
+          "time": 42.8
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Your version",
+      "lines": [
+        18,
+        20
+      ],
+      "start": 46.48,
+      "end": 54.4,
+      "duration": 7.92,
+      "cues": [
+        {
+          "word": "wild",
+          "what": "the huge tag drops in above, with a small anchor",
+          "time": 48.64
+        },
+        {
+          "word": "below",
+          "what": "the normal tag glows and a customer picks it",
+          "time": 53.44
+        },
+        {
+          "word": "Hardly",
+          "what": "the wild tag sways untouched",
+          "time": 50.72
+        }
+      ],
+      "on_screen": [
+        {
+          "type": "x_check",
+          "at": "So",
+          "time": 46.48
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Jay",
+      "lines": [
+        21,
+        21
+      ],
+      "start": 54.4,
+      "end": 57.72,
+      "duration": 3.32,
+      "cues": [
+        {
+          "word": "one",
+          "what": "his single tag swings in the breeze",
+          "time": 56.16
+        }
+      ],
+      "on_screen": [
+        {
+          "type": "label",
+          "at": "friend",
+          "time": 55.04
+        }
+      ]
+    }
+  ],
+  "words": [
+    {
+      "word": "Tesla's",
+      "start": 0.08,
+      "end": 0.48
+    },
+    {
+      "word": "flying",
+      "start": 0.56,
+      "end": 0.88
+    },
+    {
+      "word": "car",
+      "start": 1.04,
+      "end": 1.2
+    },
+    {
+      "word": "has",
+      "start": 1.28,
+      "end": 1.52
+    },
+    {
+      "word": "no",
+      "start": 1.6,
+      "end": 1.76
+    },
+    {
+      "word": "price.",
+      "start": 1.96,
+      "end": 2.48
+    },
+    {
+      "word": "It's",
+      "start": 2.52,
+      "end": 2.64
+    },
+    {
+      "word": "not",
+      "start": 2.72,
+      "end": 2.88
+    },
+    {
+      "word": "there",
+      "start": 3.0,
+      "end": 3.12
+    },
+    {
+      "word": "to",
+      "start": 3.16,
+      "end": 3.2
+    },
+    {
+      "word": "be",
+      "start": 3.28,
+      "end": 3.36
+    },
+    {
+      "word": "bought.",
+      "start": 3.44,
+      "end": 4.24
+    },
+    {
+      "word": "This",
+      "start": 4.453,
+      "end": 4.48
+    },
+    {
+      "word": "month,",
+      "start": 4.56,
+      "end": 4.96
+    },
+    {
+      "word": "Tesla",
+      "start": 5.16,
+      "end": 5.36
+    },
+    {
+      "word": "showed",
+      "start": 5.44,
+      "end": 5.76
+    },
+    {
+      "word": "three",
+      "start": 5.88,
+      "end": 6.0
+    },
+    {
+      "word": "versions",
+      "start": 6.08,
+      "end": 6.48
+    },
+    {
+      "word": "of",
+      "start": 6.52,
+      "end": 6.56
+    },
+    {
+      "word": "its",
+      "start": 6.68,
+      "end": 6.8
+    },
+    {
+      "word": "new",
+      "start": 6.88,
+      "end": 6.96
+    },
+    {
+      "word": "Roadster.",
+      "start": 7.04,
+      "end": 7.92
+    },
+    {
+      "word": "Performance,",
+      "start": 8.24,
+      "end": 8.8
+    },
+    {
+      "word": "the",
+      "start": 8.84,
+      "end": 8.88
+    },
+    {
+      "word": "one",
+      "start": 8.96,
+      "end": 9.04
+    },
+    {
+      "word": "that",
+      "start": 9.12,
+      "end": 9.2
+    },
+    {
+      "word": "just",
+      "start": 9.28,
+      "end": 9.36
+    },
+    {
+      "word": "drives.",
+      "start": 9.44,
+      "end": 10.24
+    },
+    {
+      "word": "$50,000",
+      "start": 10.28,
+      "end": 11.12
+    },
+    {
+      "word": "just",
+      "start": 11.2,
+      "end": 11.76
+    },
+    {
+      "word": "to",
+      "start": 11.8,
+      "end": 11.84
+    },
+    {
+      "word": "reserve",
+      "start": 12.08,
+      "end": 12.32
+    },
+    {
+      "word": "one.",
+      "start": 12.4,
+      "end": 13.04
+    },
+    {
+      "word": "Thrust,",
+      "start": 13.08,
+      "end": 13.76
+    },
+    {
+      "word": "the",
+      "start": 13.84,
+      "end": 13.92
+    },
+    {
+      "word": "one",
+      "start": 14.0,
+      "end": 14.08
+    },
+    {
+      "word": "with",
+      "start": 14.16,
+      "end": 14.24
+    },
+    {
+      "word": "rocket",
+      "start": 14.4,
+      "end": 14.56
+    },
+    {
+      "word": "thrusters.",
+      "start": 14.64,
+      "end": 15.44
+    },
+    {
+      "word": "$250,000",
+      "start": 15.52,
+      "end": 16.0
+    },
+    {
+      "word": "to",
+      "start": 16.16,
+      "end": 16.68
+    },
+    {
+      "word": "reserve.",
+      "start": 16.96,
+      "end": 18.16
+    },
+    {
+      "word": "And",
+      "start": 18.366,
+      "end": 18.4
+    },
+    {
+      "word": "Rocket,",
+      "start": 18.56,
+      "end": 19.2
+    },
+    {
+      "word": "the",
+      "start": 19.28,
+      "end": 19.36
+    },
+    {
+      "word": "one",
+      "start": 19.44,
+      "end": 19.52
+    },
+    {
+      "word": "that",
+      "start": 19.6,
+      "end": 19.68
+    },
+    {
+      "word": "flies.",
+      "start": 19.76,
+      "end": 20.56
+    },
+    {
+      "word": "Invite",
+      "start": 20.8,
+      "end": 21.04
+    },
+    {
+      "word": "only.",
+      "start": 21.12,
+      "end": 21.92
+    },
+    {
+      "word": "Here's",
+      "start": 22.0,
+      "end": 22.16
+    },
+    {
+      "word": "the",
+      "start": 22.24,
+      "end": 22.32
+    },
+    {
+      "word": "trick.",
+      "start": 22.36,
+      "end": 22.96
+    },
+    {
+      "word": "Almost",
+      "start": 23.2,
+      "end": 23.44
+    },
+    {
+      "word": "nobody",
+      "start": 23.52,
+      "end": 23.92
+    },
+    {
+      "word": "will",
+      "start": 24.04,
+      "end": 24.16
+    },
+    {
+      "word": "ever",
+      "start": 24.24,
+      "end": 24.48
+    },
+    {
+      "word": "own",
+      "start": 24.56,
+      "end": 24.72
+    },
+    {
+      "word": "the",
+      "start": 24.76,
+      "end": 24.8
+    },
+    {
+      "word": "one",
+      "start": 24.88,
+      "end": 24.96
+    },
+    {
+      "word": "that",
+      "start": 25.04,
+      "end": 25.12
+    },
+    {
+      "word": "flies.",
+      "start": 25.36,
+      "end": 26.0
+    },
+    {
+      "word": "But",
+      "start": 26.08,
+      "end": 26.16
+    },
+    {
+      "word": "it",
+      "start": 26.24,
+      "end": 26.32
+    },
+    {
+      "word": "does",
+      "start": 26.48,
+      "end": 26.64
+    },
+    {
+      "word": "two",
+      "start": 26.76,
+      "end": 26.88
+    },
+    {
+      "word": "jobs.",
+      "start": 26.96,
+      "end": 27.84
+    },
+    {
+      "word": "First,",
+      "start": 28.173,
+      "end": 28.4
+    },
+    {
+      "word": "it",
+      "start": 28.44,
+      "end": 28.48
+    },
+    {
+      "word": "gets",
+      "start": 28.56,
+      "end": 28.72
+    },
+    {
+      "word": "filmed.",
+      "start": 28.8,
+      "end": 29.52
+    },
+    {
+      "word": "A",
+      "start": 29.56,
+      "end": 29.6
+    },
+    {
+      "word": "car",
+      "start": 29.68,
+      "end": 29.92
+    },
+    {
+      "word": "jumping",
+      "start": 30.0,
+      "end": 30.24
+    },
+    {
+      "word": "over",
+      "start": 30.32,
+      "end": 30.48
+    },
+    {
+      "word": "a",
+      "start": 30.56,
+      "end": 30.64
+    },
+    {
+      "word": "Cybertruck",
+      "start": 30.72,
+      "end": 31.28
+    },
+    {
+      "word": "gets",
+      "start": 31.4,
+      "end": 31.52
+    },
+    {
+      "word": "more",
+      "start": 31.6,
+      "end": 31.68
+    },
+    {
+      "word": "attention",
+      "start": 31.92,
+      "end": 32.16
+    },
+    {
+      "word": "than",
+      "start": 32.28,
+      "end": 32.4
+    },
+    {
+      "word": "any",
+      "start": 32.48,
+      "end": 32.72
+    },
+    {
+      "word": "ad",
+      "start": 32.8,
+      "end": 33.04
+    },
+    {
+      "word": "Tesla",
+      "start": 33.2,
+      "end": 33.36
+    },
+    {
+      "word": "could",
+      "start": 33.44,
+      "end": 33.6
+    },
+    {
+      "word": "buy.",
+      "start": 33.76,
+      "end": 34.32
+    },
+    {
+      "word": "Second,",
+      "start": 34.4,
+      "end": 35.04
+    },
+    {
+      "word": "it",
+      "start": 35.12,
+      "end": 35.2
+    },
+    {
+      "word": "moves",
+      "start": 35.28,
+      "end": 35.52
+    },
+    {
+      "word": "the",
+      "start": 35.56,
+      "end": 35.6
+    },
+    {
+      "word": "anchor.",
+      "start": 35.68,
+      "end": 36.4
+    },
+    {
+      "word": "Next",
+      "start": 37.2,
+      "end": 37.28
+    },
+    {
+      "word": "to",
+      "start": 37.36,
+      "end": 37.44
+    },
+    {
+      "word": "a",
+      "start": 37.48,
+      "end": 37.52
+    },
+    {
+      "word": "car",
+      "start": 37.6,
+      "end": 37.76
+    },
+    {
+      "word": "that",
+      "start": 37.8,
+      "end": 37.84
+    },
+    {
+      "word": "flies,",
+      "start": 38.0,
+      "end": 38.72
+    },
+    {
+      "word": "$50,000",
+      "start": 38.76,
+      "end": 39.68
+    },
+    {
+      "word": "for",
+      "start": 39.76,
+      "end": 39.84
+    },
+    {
+      "word": "one",
+      "start": 39.92,
+      "end": 40.0
+    },
+    {
+      "word": "that",
+      "start": 40.08,
+      "end": 40.16
+    },
+    {
+      "word": "drives",
+      "start": 40.24,
+      "end": 40.72
+    },
+    {
+      "word": "sounds",
+      "start": 40.92,
+      "end": 41.12
+    },
+    {
+      "word": "almost",
+      "start": 41.2,
+      "end": 41.52
+    },
+    {
+      "word": "sensible.",
+      "start": 41.56,
+      "end": 42.4
+    },
+    {
+      "word": "That's",
+      "start": 42.44,
+      "end": 42.56
+    },
+    {
+      "word": "why",
+      "start": 42.64,
+      "end": 42.72
+    },
+    {
+      "word": "menus",
+      "start": 42.8,
+      "end": 43.2
+    },
+    {
+      "word": "put",
+      "start": 43.28,
+      "end": 43.36
+    },
+    {
+      "word": "one",
+      "start": 43.52,
+      "end": 43.68
+    },
+    {
+      "word": "crazy",
+      "start": 43.84,
+      "end": 44.24
+    },
+    {
+      "word": "expensive",
+      "start": 44.36,
+      "end": 44.72
+    },
+    {
+      "word": "dish",
+      "start": 44.8,
+      "end": 45.12
+    },
+    {
+      "word": "right",
+      "start": 45.28,
+      "end": 45.44
+    },
+    {
+      "word": "at",
+      "start": 45.52,
+      "end": 45.6
+    },
+    {
+      "word": "the",
+      "start": 45.64,
+      "end": 45.68
+    },
+    {
+      "word": "top.",
+      "start": 45.76,
+      "end": 46.4
+    },
+    {
+      "word": "So",
+      "start": 46.48,
+      "end": 46.56
+    },
+    {
+      "word": "if",
+      "start": 46.64,
+      "end": 46.72
+    },
+    {
+      "word": "you",
+      "start": 46.8,
+      "end": 46.88
+    },
+    {
+      "word": "sell",
+      "start": 47.0,
+      "end": 47.12
+    },
+    {
+      "word": "anything,",
+      "start": 47.28,
+      "end": 48.0
+    },
+    {
+      "word": "add",
+      "start": 48.08,
+      "end": 48.16
+    },
+    {
+      "word": "one",
+      "start": 48.32,
+      "end": 48.48
+    },
+    {
+      "word": "wild",
+      "start": 48.64,
+      "end": 48.96
+    },
+    {
+      "word": "option",
+      "start": 49.04,
+      "end": 49.28
+    },
+    {
+      "word": "above",
+      "start": 49.4,
+      "end": 49.52
+    },
+    {
+      "word": "your",
+      "start": 49.6,
+      "end": 49.68
+    },
+    {
+      "word": "best",
+      "start": 49.76,
+      "end": 49.92
+    },
+    {
+      "word": "seller.",
+      "start": 50.0,
+      "end": 50.64
+    },
+    {
+      "word": "Hardly",
+      "start": 50.72,
+      "end": 50.96
+    },
+    {
+      "word": "anyone",
+      "start": 51.04,
+      "end": 51.28
+    },
+    {
+      "word": "will",
+      "start": 51.36,
+      "end": 51.44
+    },
+    {
+      "word": "pick",
+      "start": 51.52,
+      "end": 51.68
+    },
+    {
+      "word": "it.",
+      "start": 51.76,
+      "end": 52.24
+    },
+    {
+      "word": "It's",
+      "start": 52.373,
+      "end": 52.48
+    },
+    {
+      "word": "there",
+      "start": 52.56,
+      "end": 52.64
+    },
+    {
+      "word": "to",
+      "start": 52.72,
+      "end": 52.8
+    },
+    {
+      "word": "sell",
+      "start": 52.88,
+      "end": 53.04
+    },
+    {
+      "word": "the",
+      "start": 53.12,
+      "end": 53.16
+    },
+    {
+      "word": "one",
+      "start": 53.2,
+      "end": 53.36
+    },
+    {
+      "word": "below",
+      "start": 53.44,
+      "end": 53.68
+    },
+    {
+      "word": "it.",
+      "start": 53.76,
+      "end": 54.12
+    },
+    {
+      "word": "Send",
+      "start": 54.4,
+      "end": 54.56
+    },
+    {
+      "word": "this",
+      "start": 54.64,
+      "end": 54.8
+    },
+    {
+      "word": "to",
+      "start": 54.84,
+      "end": 54.88
+    },
+    {
+      "word": "the",
+      "start": 54.96,
+      "end": 55.0
+    },
+    {
+      "word": "friend",
+      "start": 55.04,
+      "end": 55.36
+    },
+    {
+      "word": "who",
+      "start": 55.44,
+      "end": 55.52
+    },
+    {
+      "word": "only",
+      "start": 55.6,
+      "end": 55.76
+    },
+    {
+      "word": "has",
+      "start": 55.84,
+      "end": 56.08
+    },
+    {
+      "word": "one",
+      "start": 56.16,
+      "end": 56.32
+    },
+    {
+      "word": "price.",
+      "start": 56.4,
+      "end": 57.12
+    }
+  ],
+  "warnings": [],
+  "script": "2026-10-21-the-car-that-flies.md"
+}

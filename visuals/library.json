@@ -7,10 +7,18 @@
       "name": "Event hall",
       "description": "A busy networking event: high tables, drinks, warm low light, crowd silhouettes.",
       "reuse": "",
-      "status": "core",
+      "status": "built",
       "first_used": null,
       "used_in": [
-        "2026-10-20-the-second-question"
+        "2026-10-20-the-second-question",
+        "2026-10-20-the-person-standing-alone",
+        "2026-10-20-the-specific-follow-up",
+        "2026-10-20-the-thursday-test",
+        "2026-10-20-the-echo",
+        "2026-10-20-the-liking-gap",
+        "2026-10-20-write-the-intro",
+        "2026-10-20-leave-on-the-high",
+        "2026-10-20-wait-for-the-laugh"
       ]
     },
     {
@@ -19,10 +27,18 @@
       "name": "Drinks table",
       "description": "Close corner of the event by the drinks. Two to three people fit comfortably.",
       "reuse": "",
-      "status": "core",
+      "status": "built",
       "first_used": null,
       "used_in": [
-        "2026-10-20-the-second-question"
+        "2026-10-20-the-second-question",
+        "2026-10-20-the-person-standing-alone",
+        "2026-10-20-the-echo",
+        "2026-10-20-leave-on-the-high",
+        "2026-10-21-the-car-that-flies",
+        "2026-10-21-the-tilted-laptop",
+        "2026-10-21-the-comma-in-the-price",
+        "2026-10-21-the-folding-iphone",
+        "2026-10-21-the-heavy-bowl"
       ]
     },
     {
@@ -33,7 +49,9 @@
       "reuse": "",
       "status": "core",
       "first_used": null,
-      "used_in": []
+      "used_in": [
+        "2026-10-20-the-seat-next-to-you"
+      ]
     },
     {
       "id": "coffee_shop",
@@ -43,7 +61,11 @@
       "reuse": "",
       "status": "core",
       "first_used": null,
-      "used_in": []
+      "used_in": [
+        "2026-10-20-the-thursday-test",
+        "2026-10-20-the-echo",
+        "2026-10-20-the-liking-gap"
+      ]
     },
     {
       "id": "coworking",
@@ -53,7 +75,10 @@
       "reuse": "",
       "status": "core",
       "first_used": null,
-      "used_in": []
+      "used_in": [
+        "2026-10-20-write-the-intro",
+        "2026-10-20-message-three-old-ones"
+      ]
     },
     {
       "id": "phone_screen",
@@ -61,9 +86,15 @@
       "name": "Phone screen",
       "description": "Full-frame phone UI for DMs, texts and profiles. Uses the dm_screen component.",
       "reuse": "",
-      "status": "core",
+      "status": "built",
       "first_used": null,
-      "used_in": []
+      "used_in": [
+        "2026-10-20-the-specific-follow-up",
+        "2026-10-20-the-thursday-test",
+        "2026-10-20-the-liking-gap",
+        "2026-10-20-write-the-intro",
+        "2026-10-20-message-three-old-ones"
+      ]
     },
     {
       "id": "doorway",
@@ -73,7 +104,10 @@
       "reuse": "",
       "status": "core",
       "first_used": null,
-      "used_in": []
+      "used_in": [
+        "2026-10-20-the-seat-next-to-you",
+        "2026-10-21-the-pizza-in-the-oven"
+      ]
     },
     {
       "id": "street_night",
@@ -83,7 +117,10 @@
       "reuse": "",
       "status": "core",
       "first_used": null,
-      "used_in": []
+      "used_in": [
+        "2026-10-20-the-thursday-test",
+        "2026-10-20-the-liking-gap"
+      ]
     },
     {
       "id": "void",
@@ -91,9 +128,20 @@
       "name": "Brand void",
       "description": "Plain off-white background with the gold accent. For big statements and cards.",
       "reuse": "",
-      "status": "core",
+      "status": "built",
       "first_used": null,
-      "used_in": []
+      "used_in": [
+        "2026-10-20-the-specific-follow-up",
+        "2026-10-20-the-thursday-test",
+        "2026-10-20-write-the-intro",
+        "2026-10-20-leave-on-the-high",
+        "2026-10-21-the-car-that-flies",
+        "2026-10-21-the-tilted-laptop",
+        "2026-10-21-the-comma-in-the-price",
+        "2026-10-21-the-folding-iphone",
+        "2026-10-21-the-heavy-bowl",
+        "2026-10-21-the-name-from-the-bronx"
+      ]
     },
     {
       "id": "drink_glass",
@@ -101,10 +149,15 @@
       "name": "Drink glass",
       "description": "A stylised glass a character can hold, sip or put down.",
       "reuse": "",
-      "status": "core",
+      "status": "built",
       "first_used": null,
       "used_in": [
-        "2026-10-20-the-second-question"
+        "2026-10-20-the-second-question",
+        "2026-10-20-the-person-standing-alone",
+        "2026-10-20-the-specific-follow-up",
+        "2026-10-20-the-echo",
+        "2026-10-20-leave-on-the-high",
+        "2026-10-20-wait-for-the-laugh"
       ]
     },
     {
@@ -113,10 +166,21 @@
       "name": "Phone",
       "description": "A character's phone: check it, type, show the screen to camera.",
       "reuse": "",
-      "status": "core",
+      "status": "built",
       "first_used": null,
       "used_in": [
-        "2026-10-20-the-second-question"
+        "2026-10-20-the-second-question",
+        "2026-10-20-the-person-standing-alone",
+        "2026-10-20-the-specific-follow-up",
+        "2026-10-20-the-thursday-test",
+        "2026-10-20-the-liking-gap",
+        "2026-10-20-write-the-intro",
+        "2026-10-20-message-three-old-ones",
+        "2026-10-21-the-car-that-flies",
+        "2026-10-21-the-tilted-laptop",
+        "2026-10-21-the-folding-iphone",
+        "2026-10-21-the-pizza-in-the-oven",
+        "2026-10-21-the-ad-you-posted"
       ]
     },
     {
@@ -125,10 +189,14 @@
       "name": "Freeze frame",
       "description": "Everything stops mid-motion except the narrator's focus.",
       "reuse": "",
-      "status": "core",
+      "status": "built",
       "first_used": null,
       "used_in": [
-        "2026-10-20-the-second-question"
+        "2026-10-20-the-second-question",
+        "2026-10-20-the-person-standing-alone",
+        "2026-10-20-the-thursday-test",
+        "2026-10-20-the-echo",
+        "2026-10-20-message-three-old-ones"
       ]
     },
     {
@@ -137,10 +205,22 @@
       "name": "Colour drain",
       "description": "The wrong move: the frame drains to cold grey-blue and slows. Part of the locked visual grammar.",
       "reuse": "",
-      "status": "core",
+      "status": "built",
       "first_used": null,
       "used_in": [
-        "2026-10-20-the-second-question"
+        "2026-10-20-the-second-question",
+        "2026-10-20-the-person-standing-alone",
+        "2026-10-20-the-specific-follow-up",
+        "2026-10-20-the-thursday-test",
+        "2026-10-20-the-echo",
+        "2026-10-20-the-liking-gap",
+        "2026-10-20-write-the-intro",
+        "2026-10-20-the-seat-next-to-you",
+        "2026-10-20-leave-on-the-high",
+        "2026-10-20-message-three-old-ones",
+        "2026-10-20-wait-for-the-laugh",
+        "2026-10-21-the-folding-iphone",
+        "2026-10-21-the-heavy-bowl"
       ]
     },
     {
@@ -149,10 +229,25 @@
       "name": "Gold glow",
       "description": "The right move: warm gold light spreads and colour floods back. Part of the locked visual grammar.",
       "reuse": "",
-      "status": "core",
+      "status": "built",
       "first_used": null,
       "used_in": [
-        "2026-10-20-the-second-question"
+        "2026-10-20-the-second-question",
+        "2026-10-20-the-person-standing-alone",
+        "2026-10-20-the-specific-follow-up",
+        "2026-10-20-the-thursday-test",
+        "2026-10-20-the-echo",
+        "2026-10-20-the-liking-gap",
+        "2026-10-20-write-the-intro",
+        "2026-10-20-the-seat-next-to-you",
+        "2026-10-20-leave-on-the-high",
+        "2026-10-20-message-three-old-ones",
+        "2026-10-20-wait-for-the-laugh",
+        "2026-10-21-the-car-that-flies",
+        "2026-10-21-the-tilted-laptop",
+        "2026-10-21-the-comma-in-the-price",
+        "2026-10-21-the-folding-iphone",
+        "2026-10-21-the-heavy-bowl"
       ]
     },
     {
@@ -161,10 +256,15 @@
       "name": "Whip pan",
       "description": "A fast blurred camera swing used as a transition.",
       "reuse": "",
-      "status": "core",
+      "status": "built",
       "first_used": null,
       "used_in": [
-        "2026-10-20-the-second-question"
+        "2026-10-20-the-second-question",
+        "2026-10-20-the-person-standing-alone",
+        "2026-10-20-the-specific-follow-up",
+        "2026-10-20-the-thursday-test",
+        "2026-10-20-write-the-intro",
+        "2026-10-20-message-three-old-ones"
       ]
     },
     {
@@ -173,7 +273,7 @@
       "name": "The answer door",
       "description": "When someone tells you something about themselves, a small glowing door appears between you. Ignoring it shuts it, a follow-up opens it into their world.",
       "reuse": "Any video about listening, follow-ups, curiosity or missed openings",
-      "status": "requested",
+      "status": "built",
       "first_used": "2026-10-20-the-second-question",
       "used_in": [
         "2026-10-20-the-second-question"
@@ -185,7 +285,7 @@
       "name": "Glowing door",
       "description": "A small wooden door, knee height next to a character, with a warm gold glow from the gap underneath. It rises from any surface, shrinks and shuts with a puff of smoke, or swings open onto a new set. A small painted icon on it shows what's behind it.",
       "reuse": "The answer door metaphor, any 'opening' or opportunity moment",
-      "status": "requested",
+      "status": "built",
       "first_used": "2026-10-20-the-second-question",
       "used_in": [
         "2026-10-20-the-second-question"
@@ -197,7 +297,7 @@
       "name": "Question cards",
       "description": "Two speech bubbles held like playing cards, hand sized, marked with big numbers. One can glow gold, the other crumbles to dust.",
       "reuse": "Ranking or comparing lines, first vs second, this vs that",
-      "status": "requested",
+      "status": "built",
       "first_used": "2026-10-20-the-second-question",
       "used_in": [
         "2026-10-20-the-second-question"
@@ -209,10 +309,12 @@
       "name": "Loading spinner",
       "description": "A floating grey loading spinner above a character's head, slowly turning, shown while they're bored or stalled.",
       "reuse": "Any stalled or boring conversation",
-      "status": "requested",
+      "status": "built",
       "first_used": "2026-10-20-the-second-question",
       "used_in": [
-        "2026-10-20-the-second-question"
+        "2026-10-20-the-second-question",
+        "2026-10-20-the-specific-follow-up",
+        "2026-10-20-leave-on-the-high"
       ]
     },
     {
@@ -221,10 +323,16 @@
       "name": "VHS rewind",
       "description": "The whole frame scrubs backwards with VHS tracking lines and a slight colour wobble, then snaps back to normal at a chosen moment.",
       "reuse": "Showing the do-over, 'let's try that again'",
-      "status": "requested",
+      "status": "built",
       "first_used": "2026-10-20-the-second-question",
       "used_in": [
-        "2026-10-20-the-second-question"
+        "2026-10-20-the-second-question",
+        "2026-10-20-the-thursday-test",
+        "2026-10-20-the-liking-gap",
+        "2026-10-20-write-the-intro",
+        "2026-10-20-the-seat-next-to-you",
+        "2026-10-20-leave-on-the-high",
+        "2026-10-20-wait-for-the-laugh"
       ]
     },
     {
@@ -233,7 +341,7 @@
       "name": "Night kitchen lab",
       "description": "A small home kitchen at 2am, lit by one warm lamp, the counter covered in test bottles, handwritten labels and a laptop. Feels like someone's first business.",
       "reuse": "Any founder's origin story or side-project moment",
-      "status": "requested",
+      "status": "built",
       "first_used": "2026-10-20-the-second-question",
       "used_in": [
         "2026-10-20-the-second-question"
@@ -245,7 +353,7 @@
       "name": "Interrogation room",
       "description": "A dark police interview room with a metal table, two chairs, a swinging overhead lamp and an old tape recorder. Played for comedy, not menace.",
       "reuse": "Asking too many questions, being grilled, awkward pressure",
-      "status": "requested",
+      "status": "built",
       "first_used": "2026-10-20-the-second-question",
       "used_in": [
         "2026-10-20-the-second-question"
@@ -257,7 +365,7 @@
       "name": "Ping-pong table",
       "description": "A full-size ping-pong table with paddles and a ball that can glow gold, built so the interview table or any table can flip into it.",
       "reuse": "Back-and-forth conversation, give and take, trading",
-      "status": "requested",
+      "status": "built",
       "first_used": "2026-10-20-the-second-question",
       "used_in": [
         "2026-10-20-the-second-question"
@@ -269,10 +377,12 @@
       "name": "Study scale grid",
       "description": "A huge grid of tiny two-person tables seen from above, each one able to light up warm or go grey, with small tickets that can fly out of chosen tables.",
       "reuse": "Showing the size and result of any study with many participants",
-      "status": "requested",
+      "status": "built",
       "first_used": "2026-10-20-the-second-question",
       "used_in": [
-        "2026-10-20-the-second-question"
+        "2026-10-20-the-second-question",
+        "2026-10-20-the-person-standing-alone",
+        "2026-10-20-the-liking-gap"
       ]
     },
     {
@@ -281,10 +391,721 @@
       "name": "Question bubbles",
       "description": "Speech bubbles that float up from conversations like balloons. Grey ones merge into a fog over the room, a gold one can drift to one person and be pocketed.",
       "reuse": "Forgettable vs memorable lines, small talk, being remembered",
-      "status": "requested",
+      "status": "built",
       "first_used": "2026-10-20-the-second-question",
       "used_in": [
-        "2026-10-20-the-second-question"
+        "2026-10-20-the-second-question",
+        "2026-10-20-the-seat-next-to-you"
+      ]
+    },
+    {
+      "id": "group_islands",
+      "kind": "metaphor",
+      "name": "Group islands",
+      "description": "Groups at an event stand on small lit islands in a dark still floor of water; lone people stand on single stepping stones. Joining or starting a group grows an island.",
+      "reuse": "Any video about groups, belonging, cliques, being left out or starting your own circle",
+      "status": "requested",
+      "first_used": "2026-10-20-the-person-standing-alone",
+      "used_in": [
+        "2026-10-20-the-person-standing-alone"
+      ]
+    },
+    {
+      "id": "islands_floor",
+      "kind": "effect",
+      "name": "Islands floor",
+      "description": "The event floor turns into dark, still, reflective water. Each group stands on a round lit island just big enough for them, lone people on a knee-high stepping stone. Stones rise under feet as someone walks, and islands can fuse and grow with a soft clunk.",
+      "reuse": "Groups, isolation, building a circle, bridges between people",
+      "status": "requested",
+      "first_used": "2026-10-20-the-person-standing-alone",
+      "used_in": [
+        "2026-10-20-the-person-standing-alone"
+      ]
+    },
+    {
+      "id": "lanyard",
+      "kind": "prop",
+      "name": "Event lanyard",
+      "description": "A fabric neck strap with a plastic badge holder hanging at chest height, blank card with a small gold logo. Swings when the wearer turns.",
+      "reuse": "Any event, conference or meetup scene, as a quick 'this person is at the event' tell",
+      "status": "requested",
+      "first_used": "2026-10-20-the-person-standing-alone",
+      "used_in": [
+        "2026-10-20-the-person-standing-alone",
+        "2026-10-20-the-specific-follow-up",
+        "2026-10-20-the-seat-next-to-you",
+        "2026-10-20-message-three-old-ones"
+      ]
+    },
+    {
+      "id": "envelope_pile_metaphor",
+      "kind": "metaphor",
+      "name": "The envelope pile",
+      "description": "Every message is an envelope landing on someone's desk. Generic ones are identical grey envelopes that pile up unopened. A specific one is a gold, hand-addressed envelope that lands on top.",
+      "reuse": "Follow-ups, cold DMs, emails, any 'stand out in their inbox' lesson",
+      "status": "requested",
+      "first_used": "2026-10-20-the-specific-follow-up",
+      "used_in": [
+        "2026-10-20-the-specific-follow-up"
+      ]
+    },
+    {
+      "id": "envelope_pile",
+      "kind": "prop",
+      "name": "Envelope pile",
+      "description": "Hand-sized envelopes. Grey ones are plain and identical and stack into a wobbling tower taller than a person that can topple. One gold envelope with a handwritten name and a gold sticker glows softly and can sail through the air and land on top. Any envelope can drain grey or light up gold.",
+      "reuse": "Inboxes, DMs, follow-ups, outreach volume",
+      "status": "requested",
+      "first_used": "2026-10-20-the-specific-follow-up",
+      "used_in": [
+        "2026-10-20-the-specific-follow-up",
+        "2026-10-20-message-three-old-ones"
+      ]
+    },
+    {
+      "id": "endless_scroll",
+      "kind": "prop",
+      "name": "Endless scroll",
+      "description": "A long paper scroll that unrolls out of a phone screen, across the floor and out of a door, for a message that's far too long. It can snap back up into the phone in one move.",
+      "reuse": "Over-long messages, rambling pitches, too much text",
+      "status": "requested",
+      "first_used": "2026-10-20-the-specific-follow-up",
+      "used_in": [
+        "2026-10-20-the-specific-follow-up"
+      ]
+    },
+    {
+      "id": "fog_calendar_metaphor",
+      "kind": "metaphor",
+      "name": "The fog calendar",
+      "description": "A vague plan is a calendar full of fog with no days on it. A specific time slams a gold pin into one real day and clears the fog around it.",
+      "reuse": "Any video about vague plans, 'let's catch up', scheduling or follow-through",
+      "status": "requested",
+      "first_used": "2026-10-20-the-thursday-test",
+      "used_in": [
+        "2026-10-20-the-thursday-test"
+      ]
+    },
+    {
+      "id": "fog_calendar",
+      "kind": "prop",
+      "name": "Fog calendar",
+      "description": "A big paper wall calendar, taller than a character, whose day squares can dissolve into drifting grey fog or clear. A thumb-sized gold pin can slam into one square, glow, be pulled out and moved, or drop and bounce. Pages flip to show time passing.",
+      "reuse": "Scheduling, time passing, deadlines, vague plans",
+      "status": "requested",
+      "first_used": "2026-10-20-the-thursday-test",
+      "used_in": [
+        "2026-10-20-the-thursday-test",
+        "2026-10-20-write-the-intro"
+      ]
+    },
+    {
+      "id": "runaway_cup",
+      "kind": "prop",
+      "name": "Runaway coffee cup",
+      "description": "A takeaway coffee cup with a lid, about knee height, with two little legs. It trots away when chased, and trots back and sits when you stop. Can be steaming hot or cold and abandoned.",
+      "reuse": "Coffee meetings, chasing people, plans that keep getting away",
+      "status": "requested",
+      "first_used": "2026-10-20-the-thursday-test",
+      "used_in": [
+        "2026-10-20-the-thursday-test"
+      ]
+    },
+    {
+      "id": "echo_cave_metaphor",
+      "kind": "metaphor",
+      "name": "The echo cave",
+      "description": "A conversation is a cave. Tossing someone's own words back makes them echo off the walls and light lanterns deeper in, revealing their story painted on the walls.",
+      "reuse": "Listening, going deeper, follow-ups, getting someone to open up",
+      "status": "requested",
+      "first_used": "2026-10-20-the-echo",
+      "used_in": [
+        "2026-10-20-the-echo"
+      ]
+    },
+    {
+      "id": "echo_cave",
+      "kind": "set",
+      "name": "Echo cave",
+      "description": "A warm stone cave whose walls can rise out of any floor. A tunnel runs back into darkness with a row of hanging lanterns that light one by one. The walls can show simple painted scenes, like cave paintings, that appear as the lanterns light.",
+      "reuse": "Going deeper in a conversation, someone's backstory, discovery",
+      "status": "requested",
+      "first_used": "2026-10-20-the-echo",
+      "used_in": [
+        "2026-10-20-the-echo"
+      ]
+    },
+    {
+      "id": "word_tiles",
+      "kind": "prop",
+      "name": "Word tiles",
+      "description": "Chunky tiles, each with one spoken word in bold letters, about the size of a hand. They float out of a speaker's mouth in a line, can be picked up and tossed, thud and turn grey when ignored, or ring and glow gold when they matter.",
+      "reuse": "Any lesson about specific words, what to say, what to repeat or cut",
+      "status": "requested",
+      "first_used": "2026-10-20-the-echo",
+      "used_in": [
+        "2026-10-20-the-echo"
+      ]
+    },
+    {
+      "id": "scorecard_metaphor",
+      "kind": "metaphor",
+      "name": "The two scorecards",
+      "description": "After a conversation, both people hold up judge's score paddles. You score yourself from a blooper reel, they score you from a highlight reel, and your number is always lower.",
+      "reuse": "Self-doubt, overthinking, first impressions, how others really see you",
+      "status": "requested",
+      "first_used": "2026-10-20-the-liking-gap",
+      "used_in": [
+        "2026-10-20-the-liking-gap"
+      ]
+    },
+    {
+      "id": "score_paddles",
+      "kind": "prop",
+      "name": "Score paddles",
+      "description": "Round white judge's paddles on a short handle, held at head height, with one big number. The number can flip, glow gold, drain grey, or drop out of a hand.",
+      "reuse": "Ratings, judgements, self-assessment vs reality",
+      "status": "requested",
+      "first_used": "2026-10-20-the-liking-gap",
+      "used_in": [
+        "2026-10-20-the-liking-gap"
+      ]
+    },
+    {
+      "id": "reel_screens",
+      "kind": "effect",
+      "name": "Reel screens",
+      "description": "A small floating screen above a character's head, like a thought bubble, playing short clips of a moment. A grey blooper version and a gold highlight version. Can also play on any surface, like a fogged mirror.",
+      "reuse": "Memories, replaying moments, overthinking, what someone remembers",
+      "status": "requested",
+      "first_used": "2026-10-20-the-liking-gap",
+      "used_in": [
+        "2026-10-20-the-liking-gap"
+      ]
+    },
+    {
+      "id": "flatpack_metaphor",
+      "kind": "metaphor",
+      "name": "Flat-pack vs parcel",
+      "description": "A request that makes someone do the work is a flat-pack box with loose parts and instructions. A request you've done the work for is a wrapped parcel ready to send.",
+      "reuse": "Any ask, intro, favor or request where making it easy is the lesson",
+      "status": "requested",
+      "first_used": "2026-10-20-write-the-intro",
+      "used_in": [
+        "2026-10-20-write-the-intro"
+      ]
+    },
+    {
+      "id": "intro_parcel",
+      "kind": "prop",
+      "name": "Intro parcel",
+      "description": "A box that has two states. Flat-pack: a big brown cardboard box, chest high, with loose parts rattling and a thick instruction booklet, which can spill or gather dust. Wrapped: a neat gold-ribboned parcel, shoebox sized, with a handwritten label and a small gold pull tab on the side.",
+      "reuse": "Asks, favors, gifts, intros, deliverables",
+      "status": "requested",
+      "first_used": "2026-10-20-write-the-intro",
+      "used_in": [
+        "2026-10-20-write-the-intro"
+      ]
+    },
+    {
+      "id": "forward_button",
+      "kind": "prop",
+      "name": "Forward button",
+      "description": "A big round arcade-style button, about knee height, gold with a forward arrow on top. A parcel or message sits on it and shoots off with a whoosh and a gold trail when it's pressed.",
+      "reuse": "Sharing, forwarding, sending, making something one tap",
+      "status": "requested",
+      "first_used": "2026-10-20-write-the-intro",
+      "used_in": [
+        "2026-10-20-write-the-intro"
+      ]
+    },
+    {
+      "id": "conveyor_metaphor",
+      "kind": "metaphor",
+      "name": "The conveyor belt",
+      "description": "Doing what everyone does puts you on a factory conveyor belt: you get processed the same way as everyone else and dropped off the end, forgotten. Stepping off it is the move.",
+      "reuse": "Queues, mass outreach, generic DMs, anything where everyone does the same thing",
+      "status": "built",
+      "first_used": "2026-10-20-the-seat-next-to-you",
+      "used_in": [
+        "2026-10-20-the-seat-next-to-you"
+      ]
+    },
+    {
+      "id": "queue_conveyor",
+      "kind": "effect",
+      "name": "Queue conveyor",
+      "description": "A floor or aisle turns into a grey industrial conveyor belt carrying people in a line. At the end, a stamp marks each person and they drop into a bin of identical grey faces. The belt can grind to a halt with a clunk.",
+      "reuse": "Queues, processes, being one of many, standing out from the line",
+      "status": "built",
+      "first_used": "2026-10-20-the-seat-next-to-you",
+      "used_in": [
+        "2026-10-20-the-seat-next-to-you"
+      ]
+    },
+    {
+      "id": "notebook",
+      "kind": "prop",
+      "name": "Notebook",
+      "description": "A hand-sized notebook with a pen clipped on, pages that flutter and turn, and underlined lines that can glow gold. Two notebooks can swap pages through the air.",
+      "reuse": "Talks, learning, comparing notes, preparation",
+      "status": "built",
+      "first_used": "2026-10-20-the-seat-next-to-you",
+      "used_in": [
+        "2026-10-20-the-seat-next-to-you"
+      ]
+    },
+    {
+      "id": "energy_line_metaphor",
+      "kind": "metaphor",
+      "name": "The energy line",
+      "description": "A glowing heart-monitor line floats over a conversation, rising with laughs and sagging when it goes flat. A polaroid snaps whatever it's doing at the end, and that's the memory kept.",
+      "reuse": "Endings, first and last impressions, timing, reading energy",
+      "status": "requested",
+      "first_used": "2026-10-20-leave-on-the-high",
+      "used_in": [
+        "2026-10-20-leave-on-the-high"
+      ]
+    },
+    {
+      "id": "energy_line",
+      "kind": "effect",
+      "name": "Energy line",
+      "description": "A thick glowing line floating above two characters like a heart-monitor trace. It glows gold and climbs on laughs, sags and turns grey when the talk goes flat, and can beep flat. Can also be drawn small over any object.",
+      "reuse": "Conversation energy, mood, momentum, before and after",
+      "status": "requested",
+      "first_used": "2026-10-20-leave-on-the-high",
+      "used_in": [
+        "2026-10-20-leave-on-the-high"
+      ]
+    },
+    {
+      "id": "memory_polaroid",
+      "kind": "prop",
+      "name": "Memory polaroid",
+      "description": "A hand-sized instant photo that snaps out of the air with a flash and shows the last moment of something. It can slide into a pocket, glow gold or drain grey.",
+      "reuse": "What people remember, first impressions, last impressions, highlights",
+      "status": "requested",
+      "first_used": "2026-10-20-leave-on-the-high",
+      "used_in": [
+        "2026-10-20-leave-on-the-high"
+      ]
+    },
+    {
+      "id": "dormant_attic_metaphor",
+      "kind": "metaphor",
+      "name": "The dormant attic",
+      "description": "Your old contacts are figures asleep under dust sheets in an attic. Reaching out pulls the sheet off and they wake up glowing.",
+      "reuse": "Reconnecting, old clients, your existing network, past relationships",
+      "status": "requested",
+      "first_used": "2026-10-20-message-three-old-ones",
+      "used_in": [
+        "2026-10-20-message-three-old-ones"
+      ]
+    },
+    {
+      "id": "contact_attic",
+      "kind": "set",
+      "name": "Contact attic",
+      "description": "A warm wooden attic with sloped beams, dusty floorboards, a small round window and a pull-down ladder. Rows of figures stand or sit under white dust sheets. It can be dark and torch-lit or warm and glowing once people wake up.",
+      "reuse": "Old contacts, memories, forgotten ideas, things you already have",
+      "status": "requested",
+      "first_used": "2026-10-20-message-three-old-ones",
+      "used_in": [
+        "2026-10-20-message-three-old-ones"
+      ]
+    },
+    {
+      "id": "dust_sheets",
+      "kind": "prop",
+      "name": "Dust sheets",
+      "description": "White cloth sheets draped over a standing or sitting figure, slightly dusty, that can twitch, lift at the corner or slide off in one smooth pull to reveal the person underneath waking up.",
+      "reuse": "Reveals, dormant things, waking something up",
+      "status": "requested",
+      "first_used": "2026-10-20-message-three-old-ones",
+      "used_in": [
+        "2026-10-20-message-three-old-ones"
+      ]
+    },
+    {
+      "id": "jump_rope_metaphor",
+      "kind": "metaphor",
+      "name": "Double-dutch",
+      "description": "Joining a conversation is jumping into two turning skipping ropes. The ropes open on the beat, the laugh, and you hop in clean.",
+      "reuse": "Timing, joining groups, interrupting well, knowing when to speak",
+      "status": "requested",
+      "first_used": "2026-10-20-wait-for-the-laugh",
+      "used_in": [
+        "2026-10-20-wait-for-the-laugh"
+      ]
+    },
+    {
+      "id": "jump_ropes",
+      "kind": "prop",
+      "name": "Double-dutch ropes",
+      "description": "Two long glowing skipping ropes turning around a group of characters with no one holding them. They sweep the floor in a steady beat, swing wide open in slow motion on a cue, wobble and slow when the energy drops, and glow gold when it's good.",
+      "reuse": "Group rhythm, timing, momentum, joining in",
+      "status": "requested",
+      "first_used": "2026-10-20-wait-for-the-laugh",
+      "used_in": [
+        "2026-10-20-wait-for-the-laugh"
+      ]
+    },
+    {
+      "id": "story_baton",
+      "kind": "prop",
+      "name": "Story baton",
+      "description": "A short relay baton, hand-sized, that glows gold. Passing it hands over the turn to speak, and it glows brighter when someone's on a roll.",
+      "reuse": "Turn-taking, handing the floor to someone, letting others shine",
+      "status": "requested",
+      "first_used": "2026-10-20-wait-for-the-laugh",
+      "used_in": [
+        "2026-10-20-wait-for-the-laugh"
+      ]
+    },
+    {
+      "id": "roadster_model",
+      "kind": "prop",
+      "name": "Sports car",
+      "description": "A low, sleek two-seat sports car in smooth white plastic, no logos, about as long as two characters lying down. Can hover on small thruster puffs, hop, and sit on a plinth under a glass case.",
+      "reuse": "Any car, luxury product, flagship or show-off option",
+      "status": "built",
+      "first_used": "2026-10-21-the-car-that-flies",
+      "used_in": [
+        "2026-10-21-the-car-that-flies"
+      ]
+    },
+    {
+      "id": "price_tag",
+      "kind": "prop",
+      "name": "Price tag",
+      "description": "A white card tag on a string with a punched hole, big enough to read on screen, text set per shot. Swings, flips, glows yellow, and can swell to a huge size.",
+      "reuse": "Every pricing video",
+      "status": "built",
+      "first_used": "2026-10-21-the-car-that-flies",
+      "used_in": [
+        "2026-10-21-the-car-that-flies",
+        "2026-10-21-the-comma-in-the-price",
+        "2026-10-21-the-folding-iphone",
+        "2026-10-21-the-heavy-bowl",
+        "2026-10-21-the-name-from-the-bronx",
+        "2026-10-21-the-chicken-at-the-back",
+        "2026-10-21-the-ad-you-posted"
+      ]
+    },
+    {
+      "id": "anchor_weight",
+      "kind": "prop",
+      "name": "Anchor",
+      "description": "A heavy black ship's anchor about the height of a character, dropping on a chain from a price tag and landing with a thud and a small floor crack.",
+      "reuse": "Anchoring, first numbers, the most expensive option",
+      "status": "built",
+      "first_used": "2026-10-21-the-car-that-flies",
+      "used_in": [
+        "2026-10-21-the-car-that-flies"
+      ]
+    },
+    {
+      "id": "laptop",
+      "kind": "prop",
+      "name": "Laptop",
+      "description": "A thin silver laptop, no logo, screen on a hinge that can open from shut to flat, glowing a soft blank white. About as wide as a character's shoulders.",
+      "reuse": "Work, emails, online stores, any tech product",
+      "status": "built",
+      "first_used": "2026-10-21-the-tilted-laptop",
+      "used_in": [
+        "2026-10-21-the-tilted-laptop",
+        "2026-10-21-the-comma-in-the-price",
+        "2026-10-21-the-folding-iphone",
+        "2026-10-21-the-name-from-the-bronx",
+        "2026-10-21-the-pizza-in-the-oven",
+        "2026-10-21-the-ad-you-posted"
+      ]
+    },
+    {
+      "id": "store_table",
+      "kind": "set",
+      "name": "Store table",
+      "description": "A long pale wooden display table at waist height in an otherwise white space, with soft overhead light. Holds a row of products evenly spaced.",
+      "reuse": "Any shop, product launch or display",
+      "status": "built",
+      "first_used": "2026-10-21-the-tilted-laptop",
+      "used_in": [
+        "2026-10-21-the-tilted-laptop",
+        "2026-10-21-the-heavy-bowl",
+        "2026-10-21-the-name-from-the-bronx",
+        "2026-10-21-the-chicken-at-the-back",
+        "2026-10-21-the-pizza-in-the-oven",
+        "2026-10-21-the-bottle-in-the-dark",
+        "2026-10-21-the-ad-you-posted"
+      ]
+    },
+    {
+      "id": "name_tag",
+      "kind": "effect",
+      "name": "Ownership tag",
+      "description": "A small white rounded tag with one bold initial that pops onto an object with a little bounce when someone touches it, with a dotted line to the person snapping solid.",
+      "reuse": "Ownership, endowment, free trials, samples",
+      "status": "built",
+      "first_used": "2026-10-21-the-tilted-laptop",
+      "used_in": [
+        "2026-10-21-the-tilted-laptop"
+      ]
+    },
+    {
+      "id": "balance_scales",
+      "kind": "prop",
+      "name": "Balance scales",
+      "description": "An old-fashioned two-pan balance in white and brushed steel, about chest height on a character. The pans tip smoothly when weight is added and can bounce when something lifts off.",
+      "reuse": "Comparisons, value, fairness, pricing",
+      "status": "built",
+      "first_used": "2026-10-21-the-comma-in-the-price",
+      "used_in": [
+        "2026-10-21-the-comma-in-the-price"
+      ]
+    },
+    {
+      "id": "syllable_train",
+      "kind": "effect",
+      "name": "Syllable train",
+      "description": "A short or long train of chunky rounded block carriages, each with one syllable or symbol of a spoken price printed on it, that rolls in, couples, and loses carriages that pop off with a bounce.",
+      "reuse": "Anything about how long something sounds: prices, names, taglines",
+      "status": "built",
+      "first_used": "2026-10-21-the-comma-in-the-price",
+      "used_in": [
+        "2026-10-21-the-comma-in-the-price",
+        "2026-10-21-the-name-from-the-bronx"
+      ]
+    },
+    {
+      "id": "folding_phone",
+      "kind": "prop",
+      "name": "Folding phone",
+      "description": "A white phone that opens like a small book into a wide glowing screen, no logos, about the size of a character's hand. Opens, closes and sits on a plinth under a spotlight.",
+      "reuse": "Phone launches, flagships, premium options",
+      "status": "built",
+      "first_used": "2026-10-21-the-folding-iphone",
+      "used_in": [
+        "2026-10-21-the-folding-iphone"
+      ]
+    },
+    {
+      "id": "measuring_ruler",
+      "kind": "prop",
+      "name": "Giant ruler",
+      "description": "A tall white ruler about twice a character's height with black tick marks, standing upright. It can rise out of the floor, and a price tag can hammer into its top so every mark is read from there.",
+      "reuse": "Anchoring, comparisons, expectations",
+      "status": "built",
+      "first_used": "2026-10-21-the-folding-iphone",
+      "used_in": [
+        "2026-10-21-the-folding-iphone"
+      ]
+    },
+    {
+      "id": "prize_wheel",
+      "kind": "prop",
+      "name": "Prize wheel",
+      "description": "A big upright game-show wheel in white and greys with numbered segments and a yellow pointer, about a character's height. It spins, slows and lands on a chosen number.",
+      "reuse": "Random numbers, chance, experiments, anchoring",
+      "status": "built",
+      "first_used": "2026-10-21-the-folding-iphone",
+      "used_in": [
+        "2026-10-21-the-folding-iphone"
+      ]
+    },
+    {
+      "id": "yogurt_bowl",
+      "kind": "prop",
+      "name": "Bowl of yogurt",
+      "description": "A plain round white bowl filled with smooth white yogurt and a little swirl on top, sized for one hand. Can be lifted, sinks slightly in the hand when heavy.",
+      "reuse": "Food, taste tests, packaging, any study with a bowl",
+      "status": "built",
+      "first_used": "2026-10-21-the-heavy-bowl",
+      "used_in": [
+        "2026-10-21-the-heavy-bowl"
+      ]
+    },
+    {
+      "id": "weight_dial",
+      "kind": "effect",
+      "name": "Weight dial",
+      "description": "A small round white gauge with a black needle that floats above an object and swings to show how heavy it feels when lifted, light to heavy, with a soft spring.",
+      "reuse": "Weight, heft, premium feel, effort",
+      "status": "built",
+      "first_used": "2026-10-21-the-heavy-bowl",
+      "used_in": [
+        "2026-10-21-the-heavy-bowl"
+      ]
+    },
+    {
+      "id": "freezer_case",
+      "kind": "set",
+      "name": "Freezer case",
+      "description": "A tall white supermarket freezer case with three glass doors, chrome-grey handles and cold white light inside, shelves of plain tubs behind the glass. About 2.2 high and 3 wide next to a character. The inside light can glow brighter.",
+      "reuse": "Any supermarket or grocery scene, chilled products, a cold shoulder joke",
+      "status": "built",
+      "first_used": "2026-10-21-the-name-from-the-bronx",
+      "used_in": [
+        "2026-10-21-the-name-from-the-bronx"
+      ]
+    },
+    {
+      "id": "ice_cream_tub",
+      "kind": "prop",
+      "name": "Ice cream tub",
+      "description": "A round white pint tub slightly wider at the top, with a lid that can come off and a label band whose text can type on letter by letter. A thick scoop can sit on top. About 0.25 high in a character's hand, scales up for hero shots.",
+      "reuse": "Any packaged food, naming and labelling, before and after rebrands",
+      "status": "built",
+      "first_used": "2026-10-21-the-name-from-the-bronx",
+      "used_in": [
+        "2026-10-21-the-name-from-the-bronx"
+      ]
+    },
+    {
+      "id": "text_card",
+      "kind": "prop",
+      "name": "Text card",
+      "description": "A soft white rounded card with tall black condensed text, standing upright or lying flat, that can flip like a departure board to new text and glow at the edges. Sized from a hand-held card to a shop sign.",
+      "reuse": "Signs, menus, package names, shop fronts, any word that needs to live in the 3D scene",
+      "status": "built",
+      "first_used": "2026-10-21-the-name-from-the-bronx",
+      "used_in": [
+        "2026-10-21-the-name-from-the-bronx",
+        "2026-10-21-the-chicken-at-the-back",
+        "2026-10-21-the-bottle-in-the-dark",
+        "2026-10-21-the-ad-you-posted"
+      ]
+    },
+    {
+      "id": "warehouse_aisle",
+      "kind": "set",
+      "name": "Warehouse store",
+      "description": "A huge pale-grey warehouse store: tall steel shelving racks with stacked plain boxes, wide aisles, a front door and a back counter with a warm heat lamp. Works from the floor and as a top-down map, with aisles that can light one by one and a dotted path drawn on the floor.",
+      "reuse": "Any shop layout, customer journeys, funnels, 'what they walk past' ideas",
+      "status": "built",
+      "first_used": "2026-10-21-the-chicken-at-the-back",
+      "used_in": [
+        "2026-10-21-the-chicken-at-the-back"
+      ]
+    },
+    {
+      "id": "rotisserie_chicken",
+      "kind": "prop",
+      "name": "Rotisserie chicken",
+      "description": "A small golden-brown roast chicken in a clear plastic dome on a black tray, about the size of a character's head, that can glow warm under a heat lamp and carries a hanging price tag.",
+      "reuse": "Loss leaders, cheap hero products, food deals",
+      "status": "built",
+      "first_used": "2026-10-21-the-chicken-at-the-back",
+      "used_in": [
+        "2026-10-21-the-chicken-at-the-back"
+      ]
+    },
+    {
+      "id": "shopping_cart",
+      "kind": "prop",
+      "name": "Shopping cart",
+      "description": "A grey wire shopping cart on four small wheels, waist height to a character, that a character pushes. Plain boxes, tubs and a plant can stack inside and pile up over the top, and it can wobble when full.",
+      "reuse": "Any shopping scene, basket size, upsells, the cart filling as a metaphor for spend",
+      "status": "built",
+      "first_used": "2026-10-21-the-chicken-at-the-back",
+      "used_in": [
+        "2026-10-21-the-chicken-at-the-back"
+      ]
+    },
+    {
+      "id": "pizza_box",
+      "kind": "prop",
+      "name": "Pizza box",
+      "description": "A flat square white pizza box with a plain lid that can open to show a round pizza with yellow cheese and a few red dots. About 0.45 wide next to a character, carried flat on one hand.",
+      "reuse": "Food deliveries, orders, anything that arrives in a box",
+      "status": "built",
+      "first_used": "2026-10-21-the-pizza-in-the-oven",
+      "used_in": [
+        "2026-10-21-the-pizza-in-the-oven"
+      ]
+    },
+    {
+      "id": "pizza_oven",
+      "kind": "prop",
+      "name": "Pizza oven",
+      "description": "A rounded white brick oven with a dark arched mouth whose inside glows warm orange, on a white counter, about character height. A cook character can slide a pizza in and out on a flat paddle.",
+      "reuse": "Kitchens, 'in the oven' progress, work happening behind the scenes",
+      "status": "built",
+      "first_used": "2026-10-21-the-pizza-in-the-oven",
+      "used_in": [
+        "2026-10-21-the-pizza-in-the-oven"
+      ]
+    },
+    {
+      "id": "wall_clock",
+      "kind": "prop",
+      "name": "Wall clock",
+      "description": "A large round white wall clock with black hands and a thin outer ring that can glow red when the wait feels bad and calm yellow when it feels fine. The hands move at a set speed and can jump forward. Hangs above a character's head.",
+      "reuse": "Waiting, deadlines, time pressure, response times",
+      "status": "built",
+      "first_used": "2026-10-21-the-pizza-in-the-oven",
+      "used_in": [
+        "2026-10-21-the-pizza-in-the-oven"
+      ]
+    },
+    {
+      "id": "contour_bottle",
+      "kind": "prop",
+      "name": "Contour bottle",
+      "description": "A curvy glass soda bottle in the classic contour shape: narrow neck, a bulging ribbed middle, a pinched waist and a wider base. No logo. About 0.35 high in a hand, scales up for hero shots. Can show just a glowing yellow outline in the dark, and can break into a few curved glowing pieces.",
+      "reuse": "Distinctive design, brand recognition, packaging, the lights-out test",
+      "status": "built",
+      "first_used": "2026-10-21-the-bottle-in-the-dark",
+      "used_in": [
+        "2026-10-21-the-bottle-in-the-dark"
+      ]
+    },
+    {
+      "id": "plain_bottle",
+      "kind": "prop",
+      "name": "Plain bottle",
+      "description": "A straight-sided generic glass bottle with a paper label band whose text can change, the same height as the contour bottle. Fades into the dark when the lights go out.",
+      "reuse": "Copycats, generic products, anything that looks like everyone else's",
+      "status": "built",
+      "first_used": "2026-10-21-the-bottle-in-the-dark",
+      "used_in": [
+        "2026-10-21-the-bottle-in-the-dark"
+      ]
+    },
+    {
+      "id": "drinks_cooler",
+      "kind": "prop",
+      "name": "Drinks cooler",
+      "description": "A white picnic cooler box with a hinged lid, about knee height, full of dark ice and bottles. The inside can go fully dark.",
+      "reuse": "Drinks, picking without looking, summer and party scenes",
+      "status": "built",
+      "first_used": "2026-10-21-the-bottle-in-the-dark",
+      "used_in": [
+        "2026-10-21-the-bottle-in-the-dark"
+      ]
+    },
+    {
+      "id": "recap_card",
+      "kind": "effect",
+      "name": "Recap card",
+      "description": "A tall phone-shaped story card in bold color blocks with a big headline number or list (TOP 5 ARTISTS, MINUTES LISTENED, 41 NEW LEADS). Cards can flick in like stories, flip like a sign, and show a tiny face. Works on a phone screen in 3D or flat on screen.",
+      "reuse": "Year-end recaps, client reports, results, social proof, anything people share",
+      "status": "built",
+      "first_used": "2026-10-21-the-ad-you-posted",
+      "used_in": [
+        "2026-10-21-the-ad-you-posted"
+      ]
+    },
+    {
+      "id": "phone_wall",
+      "kind": "effect",
+      "name": "Phone billboard",
+      "description": "A crowd of pill figures each holding up a glowing phone. From far away the screens line up into one big billboard that can show a number or a word, built from each phone's color block.",
+      "reuse": "Word of mouth, virality, user-generated content, a crowd doing your marketing",
+      "status": "built",
+      "first_used": "2026-10-21-the-ad-you-posted",
+      "used_in": [
+        "2026-10-21-the-ad-you-posted"
       ]
     }
   ]

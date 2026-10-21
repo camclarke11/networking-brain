@@ -1,0 +1,1095 @@
+{
+  "duration": 51.24,
+  "match": 1.0,
+  "lines": [
+    {
+      "line": 1,
+      "text": "You're in the freezer aisle, holding the tub with the fancy foreign name.",
+      "start": 0.08,
+      "end": 4.32,
+      "matched": "13/13"
+    },
+    {
+      "line": 2,
+      "text": "Häagen-Dazs.",
+      "start": 4.4,
+      "end": 6.0,
+      "matched": "3/3"
+    },
+    {
+      "line": 3,
+      "text": "You'd guess it came from Denmark.",
+      "start": 6.08,
+      "end": 8.24,
+      "matched": "6/6"
+    },
+    {
+      "line": 4,
+      "text": "It came from the Bronx.",
+      "start": 8.96,
+      "end": 10.56,
+      "matched": "5/5"
+    },
+    {
+      "line": 5,
+      "text": "Reuben Mattus made the name up at his kitchen table.",
+      "start": 10.64,
+      "end": 13.467,
+      "matched": "10/10"
+    },
+    {
+      "line": 6,
+      "text": "It doesn't mean anything, in any language.",
+      "start": 13.493,
+      "end": 16.12,
+      "matched": "7/7"
+    },
+    {
+      "line": 7,
+      "text": "Danish doesn't even have that dotted A.",
+      "start": 16.16,
+      "end": 18.56,
+      "matched": "7/7"
+    },
+    {
+      "line": 8,
+      "text": "But he knew exactly what he was doing.",
+      "start": 18.64,
+      "end": 21.2,
+      "matched": "8/8"
+    },
+    {
+      "line": 9,
+      "text": "Because that name gets to you before the ice cream does.",
+      "start": 21.28,
+      "end": 24.52,
+      "matched": "11/11"
+    },
+    {
+      "line": 10,
+      "text": "You read it and picture somewhere cold, old and serious about cream.",
+      "start": 24.56,
+      "end": 29.333,
+      "matched": "12/12"
+    },
+    {
+      "line": 11,
+      "text": "So the tub in your hand already feels like the good stuff.",
+      "start": 29.387,
+      "end": 32.56,
+      "matched": "12/12"
+    },
+    {
+      "line": 12,
+      "text": "He made the ice cream rich.",
+      "start": 32.697,
+      "end": 34.36,
+      "matched": "6/6"
+    },
+    {
+      "line": 13,
+      "text": "The name made you expect rich.",
+      "start": 34.4,
+      "end": 36.72,
+      "matched": "6/6"
+    },
+    {
+      "line": 14,
+      "text": "So if you sell anything, name it like the price you want to charge.",
+      "start": 36.857,
+      "end": 40.48,
+      "matched": "14/14"
+    },
+    {
+      "line": 15,
+      "text": "Not website package.",
+      "start": 40.68,
+      "end": 42.293,
+      "matched": "3/3"
+    },
+    {
+      "line": 16,
+      "text": "The Launch Build.",
+      "start": 42.347,
+      "end": 43.554,
+      "matched": "3/3"
+    },
+    {
+      "line": 17,
+      "text": "Because people read the name long before they read the price.",
+      "start": 43.726,
+      "end": 46.743,
+      "matched": "11/11"
+    },
+    {
+      "line": 18,
+      "text": "Send this to the friend whose business is still called something solutions.",
+      "start": 46.88,
+      "end": 50.64,
+      "matched": "12/12"
+    }
+  ],
+  "shots": [
+    {
+      "id": 1,
+      "title": "The fancy tub",
+      "lines": [
+        1,
+        2
+      ],
+      "start": 0.0,
+      "end": 6.08,
+      "duration": 6.08,
+      "cues": [
+        {
+          "word": "freezer",
+          "what": "the freezer doors glow cold",
+          "time": 0.56
+        },
+        {
+          "word": "fancy",
+          "what": "letters start typing on the label",
+          "time": 2.64
+        },
+        {
+          "word": "Häagen",
+          "what": "the name lands and the price tag swings in",
+          "time": 4.4
+        }
+      ],
+      "on_screen": [
+        {
+          "type": "big_text",
+          "at": "You're",
+          "time": 0.08
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Not Denmark",
+      "lines": [
+        3,
+        4
+      ],
+      "start": 6.08,
+      "end": 10.64,
+      "duration": 4.56,
+      "cues": [
+        {
+          "word": "Denmark",
+          "what": "the sign reads DENMARK?",
+          "time": 7.36
+        },
+        {
+          "word": "Bronx",
+          "what": "the sign flips to THE BRONX, NEW YORK and you jolt",
+          "time": 9.68
+        }
+      ],
+      "on_screen": []
+    },
+    {
+      "id": 3,
+      "title": "The kitchen table",
+      "lines": [
+        5,
+        7
+      ],
+      "start": 10.64,
+      "end": 18.64,
+      "duration": 8.0,
+      "cues": [
+        {
+          "word": "kitchen",
+          "what": "the blocks slide into the name",
+          "time": 12.4
+        },
+        {
+          "word": "anything",
+          "what": "the blocks flash blank",
+          "time": 14.16
+        },
+        {
+          "word": "dotted",
+          "what": "the Danish letter card slides in and the Ä is struck",
+          "time": 17.56
+        }
+      ],
+      "on_screen": [
+        {
+          "type": "label",
+          "at": "Reuben",
+          "time": 10.64
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "The name gets there first",
+      "lines": [
+        8,
+        11
+      ],
+      "start": 18.64,
+      "end": 32.697,
+      "duration": 14.057,
+      "cues": [
+        {
+          "word": "knew",
+          "what": "the plain label flickers",
+          "time": 19.0
+        },
+        {
+          "word": "before",
+          "what": "the name types over the plain label and the tag grows",
+          "time": 22.72
+        },
+        {
+          "word": "picture",
+          "what": "snowy peaks rise behind the tub",
+          "time": 25.52
+        },
+        {
+          "word": "serious",
+          "what": "an old dairy sign glides in behind the peaks",
+          "time": 27.84
+        },
+        {
+          "word": "hand",
+          "what": "the tub lifts slightly as if in your hand",
+          "time": 30.08
+        },
+        {
+          "word": "good",
+          "what": "the price tag glows yellow",
+          "time": 31.6
+        }
+      ],
+      "on_screen": []
+    },
+    {
+      "id": 5,
+      "title": "Rich, and expected rich",
+      "lines": [
+        12,
+        13
+      ],
+      "start": 32.697,
+      "end": 36.857,
+      "duration": 4.16,
+      "cues": [
+        {
+          "word": "rich",
+          "what": "both scoops wobble, identical",
+          "time": 33.68
+        },
+        {
+          "word": "expect",
+          "what": "only the right tag grows",
+          "time": 35.56
+        }
+      ],
+      "on_screen": []
+    },
+    {
+      "id": 6,
+      "title": "Name your package",
+      "lines": [
+        14,
+        17
+      ],
+      "start": 36.857,
+      "end": 46.88,
+      "duration": 10.023,
+      "cues": [
+        {
+          "word": "sell",
+          "what": "the card drops in",
+          "time": 37.28
+        },
+        {
+          "word": "Launch",
+          "what": "the card retypes and the tag grows",
+          "time": 42.48
+        },
+        {
+          "word": "price",
+          "what": "the tag glows",
+          "time": 38.96
+        }
+      ],
+      "on_screen": [
+        {
+          "type": "x_check",
+          "at": "Not",
+          "time": 40.68
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Jay's sign",
+      "lines": [
+        18,
+        18
+      ],
+      "start": 46.88,
+      "end": 51.24,
+      "duration": 4.36,
+      "cues": [
+        {
+          "word": "solutions",
+          "what": "the sign's tiny tag swings",
+          "time": 49.68
+        }
+      ],
+      "on_screen": [
+        {
+          "type": "label",
+          "at": "friend",
+          "time": 47.56
+        }
+      ]
+    }
+  ],
+  "words": [
+    {
+      "word": "You're",
+      "start": 0.08,
+      "end": 0.16
+    },
+    {
+      "word": "in",
+      "start": 0.24,
+      "end": 0.32
+    },
+    {
+      "word": "the",
+      "start": 0.4,
+      "end": 0.48
+    },
+    {
+      "word": "freezer",
+      "start": 0.56,
+      "end": 0.96
+    },
+    {
+      "word": "aisle,",
+      "start": 1.04,
+      "end": 1.56
+    },
+    {
+      "word": "holding",
+      "start": 1.6,
+      "end": 1.84
+    },
+    {
+      "word": "the",
+      "start": 1.92,
+      "end": 2.0
+    },
+    {
+      "word": "tub",
+      "start": 2.08,
+      "end": 2.24
+    },
+    {
+      "word": "with",
+      "start": 2.32,
+      "end": 2.4
+    },
+    {
+      "word": "the",
+      "start": 2.48,
+      "end": 2.56
+    },
+    {
+      "word": "fancy",
+      "start": 2.64,
+      "end": 3.04
+    },
+    {
+      "word": "foreign",
+      "start": 3.12,
+      "end": 3.44
+    },
+    {
+      "word": "name.",
+      "start": 3.52,
+      "end": 4.32
+    },
+    {
+      "word": "Häagen-Dazs.",
+      "start": 4.4,
+      "end": 6.0
+    },
+    {
+      "word": "You'd",
+      "start": 6.08,
+      "end": 6.4
+    },
+    {
+      "word": "guess",
+      "start": 6.52,
+      "end": 6.64
+    },
+    {
+      "word": "it",
+      "start": 6.72,
+      "end": 6.8
+    },
+    {
+      "word": "came",
+      "start": 6.88,
+      "end": 7.04
+    },
+    {
+      "word": "from",
+      "start": 7.16,
+      "end": 7.28
+    },
+    {
+      "word": "Denmark.",
+      "start": 7.36,
+      "end": 8.24
+    },
+    {
+      "word": "It",
+      "start": 8.96,
+      "end": 9.04
+    },
+    {
+      "word": "came",
+      "start": 9.16,
+      "end": 9.28
+    },
+    {
+      "word": "from",
+      "start": 9.36,
+      "end": 9.44
+    },
+    {
+      "word": "the",
+      "start": 9.52,
+      "end": 9.6
+    },
+    {
+      "word": "Bronx.",
+      "start": 9.68,
+      "end": 10.56
+    },
+    {
+      "word": "Reuben",
+      "start": 10.64,
+      "end": 10.96
+    },
+    {
+      "word": "Mattus",
+      "start": 11.08,
+      "end": 11.36
+    },
+    {
+      "word": "made",
+      "start": 11.44,
+      "end": 11.6
+    },
+    {
+      "word": "the",
+      "start": 11.64,
+      "end": 11.68
+    },
+    {
+      "word": "name",
+      "start": 11.76,
+      "end": 11.92
+    },
+    {
+      "word": "up",
+      "start": 12.0,
+      "end": 12.08
+    },
+    {
+      "word": "at",
+      "start": 12.12,
+      "end": 12.16
+    },
+    {
+      "word": "his",
+      "start": 12.24,
+      "end": 12.32
+    },
+    {
+      "word": "kitchen",
+      "start": 12.4,
+      "end": 12.72
+    },
+    {
+      "word": "table.",
+      "start": 13.08,
+      "end": 13.467
+    },
+    {
+      "word": "It",
+      "start": 13.493,
+      "end": 13.52
+    },
+    {
+      "word": "doesn't",
+      "start": 13.6,
+      "end": 13.84
+    },
+    {
+      "word": "mean",
+      "start": 13.96,
+      "end": 14.08
+    },
+    {
+      "word": "anything,",
+      "start": 14.16,
+      "end": 14.76
+    },
+    {
+      "word": "in",
+      "start": 14.8,
+      "end": 14.96
+    },
+    {
+      "word": "any",
+      "start": 15.04,
+      "end": 15.2
+    },
+    {
+      "word": "language.",
+      "start": 15.64,
+      "end": 16.12
+    },
+    {
+      "word": "Danish",
+      "start": 16.16,
+      "end": 16.56
+    },
+    {
+      "word": "doesn't",
+      "start": 16.64,
+      "end": 16.76
+    },
+    {
+      "word": "even",
+      "start": 16.8,
+      "end": 17.04
+    },
+    {
+      "word": "have",
+      "start": 17.12,
+      "end": 17.28
+    },
+    {
+      "word": "that",
+      "start": 17.36,
+      "end": 17.52
+    },
+    {
+      "word": "dotted",
+      "start": 17.56,
+      "end": 17.84
+    },
+    {
+      "word": "A.",
+      "start": 17.92,
+      "end": 18.56
+    },
+    {
+      "word": "But",
+      "start": 18.64,
+      "end": 18.72
+    },
+    {
+      "word": "he",
+      "start": 18.8,
+      "end": 18.96
+    },
+    {
+      "word": "knew",
+      "start": 19.0,
+      "end": 19.2
+    },
+    {
+      "word": "exactly",
+      "start": 19.28,
+      "end": 19.92
+    },
+    {
+      "word": "what",
+      "start": 20.0,
+      "end": 20.08
+    },
+    {
+      "word": "he",
+      "start": 20.16,
+      "end": 20.24
+    },
+    {
+      "word": "was",
+      "start": 20.32,
+      "end": 20.4
+    },
+    {
+      "word": "doing.",
+      "start": 20.48,
+      "end": 21.2
+    },
+    {
+      "word": "Because",
+      "start": 21.28,
+      "end": 21.6
+    },
+    {
+      "word": "that",
+      "start": 21.68,
+      "end": 21.84
+    },
+    {
+      "word": "name",
+      "start": 21.96,
+      "end": 22.08
+    },
+    {
+      "word": "gets",
+      "start": 22.16,
+      "end": 22.4
+    },
+    {
+      "word": "to",
+      "start": 22.44,
+      "end": 22.48
+    },
+    {
+      "word": "you",
+      "start": 22.56,
+      "end": 22.64
+    },
+    {
+      "word": "before",
+      "start": 22.72,
+      "end": 23.12
+    },
+    {
+      "word": "the",
+      "start": 23.16,
+      "end": 23.2
+    },
+    {
+      "word": "ice",
+      "start": 23.28,
+      "end": 23.44
+    },
+    {
+      "word": "cream",
+      "start": 23.52,
+      "end": 23.76
+    },
+    {
+      "word": "does.",
+      "start": 24.12,
+      "end": 24.52
+    },
+    {
+      "word": "You",
+      "start": 24.56,
+      "end": 24.72
+    },
+    {
+      "word": "read",
+      "start": 24.8,
+      "end": 24.88
+    },
+    {
+      "word": "it",
+      "start": 24.96,
+      "end": 25.2
+    },
+    {
+      "word": "and",
+      "start": 25.28,
+      "end": 25.36
+    },
+    {
+      "word": "picture",
+      "start": 25.52,
+      "end": 25.68
+    },
+    {
+      "word": "somewhere",
+      "start": 25.76,
+      "end": 26.08
+    },
+    {
+      "word": "cold,",
+      "start": 26.16,
+      "end": 26.88
+    },
+    {
+      "word": "old",
+      "start": 26.96,
+      "end": 27.28
+    },
+    {
+      "word": "and",
+      "start": 27.36,
+      "end": 27.6
+    },
+    {
+      "word": "serious",
+      "start": 27.84,
+      "end": 28.08
+    },
+    {
+      "word": "about",
+      "start": 28.24,
+      "end": 28.4
+    },
+    {
+      "word": "cream.",
+      "start": 28.84,
+      "end": 29.333
+    },
+    {
+      "word": "So",
+      "start": 29.387,
+      "end": 29.44
+    },
+    {
+      "word": "the",
+      "start": 29.48,
+      "end": 29.52
+    },
+    {
+      "word": "tub",
+      "start": 29.6,
+      "end": 29.76
+    },
+    {
+      "word": "in",
+      "start": 29.8,
+      "end": 29.84
+    },
+    {
+      "word": "your",
+      "start": 29.92,
+      "end": 30.0
+    },
+    {
+      "word": "hand",
+      "start": 30.08,
+      "end": 30.4
+    },
+    {
+      "word": "already",
+      "start": 30.68,
+      "end": 30.96
+    },
+    {
+      "word": "feels",
+      "start": 31.0,
+      "end": 31.2
+    },
+    {
+      "word": "like",
+      "start": 31.28,
+      "end": 31.36
+    },
+    {
+      "word": "the",
+      "start": 31.44,
+      "end": 31.52
+    },
+    {
+      "word": "good",
+      "start": 31.6,
+      "end": 31.68
+    },
+    {
+      "word": "stuff.",
+      "start": 31.76,
+      "end": 32.56
+    },
+    {
+      "word": "He",
+      "start": 32.697,
+      "end": 32.72
+    },
+    {
+      "word": "made",
+      "start": 32.8,
+      "end": 32.88
+    },
+    {
+      "word": "the",
+      "start": 32.96,
+      "end": 33.04
+    },
+    {
+      "word": "ice",
+      "start": 33.12,
+      "end": 33.28
+    },
+    {
+      "word": "cream",
+      "start": 33.44,
+      "end": 33.6
+    },
+    {
+      "word": "rich.",
+      "start": 33.68,
+      "end": 34.36
+    },
+    {
+      "word": "The",
+      "start": 34.4,
+      "end": 34.56
+    },
+    {
+      "word": "name",
+      "start": 34.76,
+      "end": 34.96
+    },
+    {
+      "word": "made",
+      "start": 35.04,
+      "end": 35.12
+    },
+    {
+      "word": "you",
+      "start": 35.2,
+      "end": 35.28
+    },
+    {
+      "word": "expect",
+      "start": 35.56,
+      "end": 35.84
+    },
+    {
+      "word": "rich.",
+      "start": 35.92,
+      "end": 36.72
+    },
+    {
+      "word": "So",
+      "start": 36.857,
+      "end": 36.88
+    },
+    {
+      "word": "if",
+      "start": 36.92,
+      "end": 36.96
+    },
+    {
+      "word": "you",
+      "start": 37.04,
+      "end": 37.12
+    },
+    {
+      "word": "sell",
+      "start": 37.28,
+      "end": 37.44
+    },
+    {
+      "word": "anything,",
+      "start": 37.52,
+      "end": 38.24
+    },
+    {
+      "word": "name",
+      "start": 38.36,
+      "end": 38.48
+    },
+    {
+      "word": "it",
+      "start": 38.52,
+      "end": 38.56
+    },
+    {
+      "word": "like",
+      "start": 38.64,
+      "end": 38.72
+    },
+    {
+      "word": "the",
+      "start": 38.8,
+      "end": 38.88
+    },
+    {
+      "word": "price",
+      "start": 38.96,
+      "end": 39.2
+    },
+    {
+      "word": "you",
+      "start": 39.28,
+      "end": 39.36
+    },
+    {
+      "word": "want",
+      "start": 39.44,
+      "end": 39.52
+    },
+    {
+      "word": "to",
+      "start": 39.6,
+      "end": 39.68
+    },
+    {
+      "word": "charge.",
+      "start": 40.04,
+      "end": 40.48
+    },
+    {
+      "word": "Not",
+      "start": 40.68,
+      "end": 40.88
+    },
+    {
+      "word": "website",
+      "start": 41.12,
+      "end": 41.36
+    },
+    {
+      "word": "package.",
+      "start": 41.8,
+      "end": 42.293
+    },
+    {
+      "word": "The",
+      "start": 42.347,
+      "end": 42.4
+    },
+    {
+      "word": "Launch",
+      "start": 42.48,
+      "end": 42.8
+    },
+    {
+      "word": "Build.",
+      "start": 42.88,
+      "end": 43.554
+    },
+    {
+      "word": "Because",
+      "start": 43.726,
+      "end": 43.76
+    },
+    {
+      "word": "people",
+      "start": 43.84,
+      "end": 44.16
+    },
+    {
+      "word": "read",
+      "start": 44.24,
+      "end": 44.32
+    },
+    {
+      "word": "the",
+      "start": 44.4,
+      "end": 44.48
+    },
+    {
+      "word": "name",
+      "start": 44.64,
+      "end": 44.8
+    },
+    {
+      "word": "long",
+      "start": 44.88,
+      "end": 45.12
+    },
+    {
+      "word": "before",
+      "start": 45.28,
+      "end": 45.44
+    },
+    {
+      "word": "they",
+      "start": 45.52,
+      "end": 45.6
+    },
+    {
+      "word": "read",
+      "start": 45.68,
+      "end": 45.76
+    },
+    {
+      "word": "the",
+      "start": 45.84,
+      "end": 45.92
+    },
+    {
+      "word": "price.",
+      "start": 46.32,
+      "end": 46.743
+    },
+    {
+      "word": "Send",
+      "start": 46.88,
+      "end": 46.96
+    },
+    {
+      "word": "this",
+      "start": 47.04,
+      "end": 47.12
+    },
+    {
+      "word": "to",
+      "start": 47.2,
+      "end": 47.28
+    },
+    {
+      "word": "the",
+      "start": 47.36,
+      "end": 47.44
+    },
+    {
+      "word": "friend",
+      "start": 47.56,
+      "end": 47.68
+    },
+    {
+      "word": "whose",
+      "start": 47.76,
+      "end": 47.92
+    },
+    {
+      "word": "business",
+      "start": 48.0,
+      "end": 48.32
+    },
+    {
+      "word": "is",
+      "start": 48.4,
+      "end": 48.48
+    },
+    {
+      "word": "still",
+      "start": 48.56,
+      "end": 48.8
+    },
+    {
+      "word": "called",
+      "start": 48.96,
+      "end": 49.12
+    },
+    {
+      "word": "something",
+      "start": 49.36,
+      "end": 49.6
+    },
+    {
+      "word": "solutions.",
+      "start": 49.68,
+      "end": 50.64
+    }
+  ],
+  "warnings": [],
+  "script": "2026-10-21-the-name-from-the-bronx.md"
+}

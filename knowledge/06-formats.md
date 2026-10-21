@@ -1,17 +1,20 @@
 # 06 — Formats
 
-Every script uses one format. The format decides the move (beat 3) and the most natural ending.
+Every script uses one format. The format decides the move (beat 3) and the most natural ending. F1 to F6 are **the Move** pillar (one business moment, one move); F7 is **the Brand X-ray** pillar. The records come from @theoryofbehaviour's networking posts (F1 to F6) and @decoyreport (F7); the shapes work for any business moment.
 
 | Code | Format | The move | Reference record | Best hook | Best ending |
 |---|---|---|---|---|---|
-| **F1** | **The Tool** | A named framework, acronym or step sequence | 688k (FORD); 618 and 447 when abstract | N2, N7 | E1 |
-| **F2** | **The Person** | Who to find, talk to or befriend, and how | 527k (the connector) | N1 | E4 |
-| **F3** | **The Exact Words** | The line, DM or text to send, word for word, with a fill-in-the-blank | 32k (coffee DM) | N4, N3 | E2 |
-| **F4** | **The Read** | A signal to read in someone else, and what to do about it | 22k (Question Back test) | N4 | E1 |
+| **F1** | **The Tool** | A named framework, acronym or step sequence (for a call, a follow-up, an onboarding) | 688k (FORD); 618 and 447 when abstract | N2, N7 | E1 |
+| **F2** | **The Person** | The one person (or kind of customer) to focus on, and how: the connector, the client who refers, the buyer who decides | 527k (the connector) | N1 | E4 |
+| **F3** | **The Exact Words** | The line, DM, email, quote or text to send, word for word, with a fill-in-the-blank | 32k (coffee DM) | N4, N3 | E2 |
+| **F4** | **The Read** | A signal to read in a prospect or client (are they about to buy, about to leave?) and what to do about it | 22k (Question Back test) | N4 | E1 |
 | **F5** | **The Mistake** | The common thing they say or do that kills them, and the swap | 5.8k, 5.2k, 3.2k | N2, N3, N5 | E2 |
-| **F6** | **The Study** | A surprising study, then how to use it tonight | 19k, 3k; 784 and 330 when abstract | N3 | E1 |
+| **F6** | **Inside the Experiment** (was The Study) | Put the viewer inside a real experiment as a scene, then how to use it tonight. No researchers named | 19k, 3k; 784 and 330 when abstract (as a cited study) | N12, N3 | E1 |
+| **F7** | **The Brand X-ray** (pillar 2) | A famous brand's trick, the mechanism, and the rule to steal it for your business | 9.75M, 2.6M, median 115k (@decoyreport) | N12, N9, N10, N11 | E6 |
 
-**Start with F1, F2, F3 and F4.** They hold almost all the views. F5 works best as F2 or F1 in disguise ("never say X" → "say this instead" is an F3). F6 only works when the study is tied to a specific moment.
+**F7 is its own pillar:** skeleton, hooks and rules in `15-brand-xray.md`.
+
+**For a Move, start with F1, F2, F3 and F4.** They hold almost all the views. F5 works best as F2 or F1 in disguise ("never say X" → "say this instead" is an F3). F6 only works when the experiment is tied to a specific moment, and it's told as a scene, never cited (`00-what-performs.md` §4).
 
 ---
 
@@ -39,7 +42,7 @@ Every script uses one format. The format decides the move (beat 3) and the most 
 1. Hook: the outcome with a constraint ("…a busy person who doesn't know you…").
 2. Scene: the usual way, and what happens (left on read).
 3. The line, as a fill-in-the-blank template ("You did X. If you were me, A or B?"), then one filled-in example.
-4. Objection ("Doesn't that make me look clueless?") plus proof if you have it.
+4. Objection ("Doesn't that make me look clueless?"), answered by showing it work: their reply, their face.
 5. Escalation: the second message, after they answer.
 6. Payoff: the instruction or reframe.
 7. Share prompt.
@@ -62,10 +65,10 @@ Every script uses one format. The format decides the move (beat 3) and the most 
 6. Payoff: the instruction (E2) or reframe (E1).
 7. Share prompt.
 
-### F6 — The Study
-1. Hook: the counterintuitive order ("Stop agreeing with people you want to like you").
-2. The study in two to three lines: year, what they did, what happened. "Guess who they liked more?"
-3. Name the effect.
+### F6 — Inside the Experiment
+1. Hook: drop the viewer into the experiment (N12) or give the counterintuitive order (N3) ("Stop agreeing with people you want to like you").
+2. The experiment as a scene, two to four lines, in "you" form: what you're asked to do, what you'd expect, what actually happens. "Guess who you'd end up liking more?" The year and researchers stay in the fact sheet.
+3. The turn: what that means in your business (on the call, in the quote, at the event), in one line. Never name the effect.
 4. Objection: "Won't I look difficult?"
 5. Use it tonight: a specific moment and the exact words.
 6. Payoff: one-line reframe.
@@ -83,4 +86,4 @@ Named tools get remembered and repeated, which is free marketing. A good name is
 Acronyms (F1) are the strongest shape when the parts are a sequence of questions or steps. Make sure each letter stands for a plain word.
 
 ## Series (once we have data)
-Recurring series help retention across videos. Candidates: "Room by room" (one networking moment per episode), "What to text after…", "Read the room" (F4 signals). Hold until the single videos show what works.
+Recurring series help retention across videos, and each one maps onto a Playbook chapter. Candidates: "Steal this from [brand]" (Brand X-ray), "What to send when…" (F3: the quiet client, the ghosted quote, the morning after an event), "Price check" (one pricing move per episode), "Read the client" (F4 signals). Hold until the single videos show what works.

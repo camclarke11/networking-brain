@@ -1,0 +1,1158 @@
+{
+  "duration": 62.36,
+  "match": 1.0,
+  "lines": [
+    {
+      "line": 1,
+      "text": "Apple's folding iPhone isn't there to sell.",
+      "start": 0.16,
+      "end": 2.92,
+      "matched": "7/7"
+    },
+    {
+      "line": 2,
+      "text": "It's there to make the others look cheap.",
+      "start": 2.96,
+      "end": 5.24,
+      "matched": "8/8"
+    },
+    {
+      "line": 3,
+      "text": "In September, Apple launched its first folding phone, the iPhone Duo.",
+      "start": 5.59,
+      "end": 10.32,
+      "matched": "11/11"
+    },
+    {
+      "line": 4,
+      "text": "$1,999.",
+      "start": 10.4,
+      "end": 13.28,
+      "matched": "1/1"
+    },
+    {
+      "line": 5,
+      "text": "At the same event, the iPhone 18 Pro and Pro Max both went up a hundred dollars.",
+      "start": 13.32,
+      "end": 18.72,
+      "matched": "17/17"
+    },
+    {
+      "line": 6,
+      "text": "But the fold got the spotlight.",
+      "start": 18.86,
+      "end": 20.5,
+      "matched": "6/6"
+    },
+    {
+      "line": 7,
+      "text": "Here's the trick.",
+      "start": 21.2,
+      "end": 22.16,
+      "matched": "3/3"
+    },
+    {
+      "line": 8,
+      "text": "It's called anchoring.",
+      "start": 22.24,
+      "end": 23.84,
+      "matched": "3/3"
+    },
+    {
+      "line": 9,
+      "text": "The first big number you see becomes your ruler.",
+      "start": 23.92,
+      "end": 27.04,
+      "matched": "9/9"
+    },
+    {
+      "line": 10,
+      "text": "In 1974, psychologists Tversky and Kahneman spun a rigged wheel that stopped on 10 or 65.",
+      "start": 27.107,
+      "end": 34.12,
+      "matched": "16/16"
+    },
+    {
+      "line": 11,
+      "text": "Then they asked what share of UN countries were in Africa.",
+      "start": 34.16,
+      "end": 37.68,
+      "matched": "11/11"
+    },
+    {
+      "line": 12,
+      "text": "People who saw 10 guessed 25 percent.",
+      "start": 37.8,
+      "end": 40.67,
+      "matched": "7/7"
+    },
+    {
+      "line": 13,
+      "text": "People who saw 65 guessed 45.",
+      "start": 40.85,
+      "end": 43.813,
+      "matched": "6/6"
+    },
+    {
+      "line": 14,
+      "text": "A $1,999 phone moves your answer too.",
+      "start": 43.867,
+      "end": 48.093,
+      "matched": "7/7"
+    },
+    {
+      "line": 15,
+      "text": "And it does a second job.",
+      "start": 48.16,
+      "end": 49.88,
+      "matched": "6/6"
+    },
+    {
+      "line": 16,
+      "text": "It gives the price rise somewhere to hide.",
+      "start": 49.92,
+      "end": 52.411,
+      "matched": "8/8"
+    },
+    {
+      "line": 17,
+      "text": "So if you sell anything, show your premium option first.",
+      "start": 52.48,
+      "end": 56.08,
+      "matched": "10/10"
+    },
+    {
+      "line": 18,
+      "text": "Your best seller looks reasonable next to it.",
+      "start": 56.16,
+      "end": 58.48,
+      "matched": "8/8"
+    },
+    {
+      "line": 19,
+      "text": "Send this to the friend who hides his best package at the bottom.",
+      "start": 58.76,
+      "end": 61.76,
+      "matched": "13/13"
+    }
+  ],
+  "shots": [
+    {
+      "id": 1,
+      "title": "Not for sale",
+      "lines": [
+        1,
+        2
+      ],
+      "start": 0.0,
+      "end": 5.59,
+      "duration": 5.59,
+      "cues": [
+        {
+          "word": "folding",
+          "what": "the phone unfolds",
+          "time": 0.56
+        },
+        {
+          "word": "cheap",
+          "what": "the ruler rises and the normal phone looks short",
+          "time": 4.64
+        }
+      ],
+      "on_screen": [
+        {
+          "type": "big_text",
+          "at": "Apple's",
+          "time": 0.16
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "The lineup",
+      "lines": [
+        3,
+        6
+      ],
+      "start": 5.59,
+      "end": 21.2,
+      "duration": 15.61,
+      "cues": [
+        {
+          "word": "Duo",
+          "what": "the folding phone lands in a spotlight",
+          "time": 9.44
+        },
+        {
+          "word": "hundred",
+          "what": "the Pro tag ticks up, unlit",
+          "time": 17.48
+        },
+        {
+          "word": "spotlight",
+          "what": "the spotlight widens on the fold, the Pros fade to grey",
+          "time": 20.0
+        },
+        {
+          "word": "event",
+          "what": "the Pro tags appear in the shadow",
+          "time": 13.96
+        },
+        {
+          "word": "Max",
+          "what": "the Pro Max tag ticks up",
+          "time": 16.16
+        }
+      ],
+      "on_screen": [
+        {
+          "type": "stamp",
+          "at": "$1,999",
+          "time": 10.4
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "The ruler",
+      "lines": [
+        7,
+        9
+      ],
+      "start": 21.2,
+      "end": 27.107,
+      "duration": 5.907,
+      "cues": [
+        {
+          "word": "anchoring",
+          "what": "the top tag hammers into the ruler",
+          "time": 22.88
+        },
+        {
+          "word": "ruler",
+          "what": "the ruler's marks light up from that top tag",
+          "time": 26.16
+        }
+      ],
+      "on_screen": []
+    },
+    {
+      "id": 4,
+      "title": "The wheel",
+      "lines": [
+        10,
+        14
+      ],
+      "start": 27.107,
+      "end": 48.16,
+      "duration": 21.053,
+      "cues": [
+        {
+          "word": "wheel",
+          "what": "the wheel spins",
+          "time": 31.28
+        },
+        {
+          "word": "25",
+          "what": "the first card reads 25%",
+          "time": 39.2
+        },
+        {
+          "word": "45",
+          "what": "the second card reads 45%",
+          "time": 42.68
+        },
+        {
+          "word": "65",
+          "what": "the wheel lands on 65",
+          "time": 32.92
+        },
+        {
+          "word": "Africa",
+          "what": "a simple map card flips up",
+          "time": 36.96
+        },
+        {
+          "word": "$1,999",
+          "what": "the folding phone's tag hammers into the ruler",
+          "time": 44.0
+        }
+      ],
+      "on_screen": [
+        {
+          "type": "study_card",
+          "at": "1974",
+          "time": 27.2
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Somewhere to hide",
+      "lines": [
+        15,
+        16
+      ],
+      "start": 48.16,
+      "end": 52.48,
+      "duration": 4.32,
+      "cues": [
+        {
+          "word": "second",
+          "what": "the camera pans into the shadow",
+          "time": 49.093
+        },
+        {
+          "word": "hide",
+          "what": "the Pro's tag ducks behind the folding phone",
+          "time": 51.68
+        }
+      ],
+      "on_screen": []
+    },
+    {
+      "id": 6,
+      "title": "Premium first",
+      "lines": [
+        17,
+        18
+      ],
+      "start": 52.48,
+      "end": 58.76,
+      "duration": 6.28,
+      "cues": [
+        {
+          "word": "premium",
+          "what": "the premium card goes down first and the ruler rises",
+          "time": 54.48
+        },
+        {
+          "word": "reasonable",
+          "what": "the middle card glows and gets tapped",
+          "time": 57.04
+        }
+      ],
+      "on_screen": [
+        {
+          "type": "x_check",
+          "at": "So",
+          "time": 52.48
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Jay",
+      "lines": [
+        19,
+        19
+      ],
+      "start": 58.76,
+      "end": 62.36,
+      "duration": 3.6,
+      "cues": [
+        {
+          "word": "bottom",
+          "what": "the page scrolls to the buried package as the tab closes",
+          "time": 61.2
+        }
+      ],
+      "on_screen": [
+        {
+          "type": "label",
+          "at": "friend",
+          "time": 59.4
+        }
+      ]
+    }
+  ],
+  "words": [
+    {
+      "word": "Apple's",
+      "start": 0.16,
+      "end": 0.48
+    },
+    {
+      "word": "folding",
+      "start": 0.56,
+      "end": 0.88
+    },
+    {
+      "word": "iPhone",
+      "start": 0.96,
+      "end": 1.36
+    },
+    {
+      "word": "isn't",
+      "start": 1.44,
+      "end": 1.68
+    },
+    {
+      "word": "there",
+      "start": 1.76,
+      "end": 1.92
+    },
+    {
+      "word": "to",
+      "start": 2.04,
+      "end": 2.16
+    },
+    {
+      "word": "sell.",
+      "start": 2.52,
+      "end": 2.92
+    },
+    {
+      "word": "It's",
+      "start": 2.96,
+      "end": 3.12
+    },
+    {
+      "word": "there",
+      "start": 3.2,
+      "end": 3.44
+    },
+    {
+      "word": "to",
+      "start": 3.48,
+      "end": 3.52
+    },
+    {
+      "word": "make",
+      "start": 3.6,
+      "end": 3.68
+    },
+    {
+      "word": "the",
+      "start": 3.76,
+      "end": 3.92
+    },
+    {
+      "word": "others",
+      "start": 4.0,
+      "end": 4.32
+    },
+    {
+      "word": "look",
+      "start": 4.44,
+      "end": 4.56
+    },
+    {
+      "word": "cheap.",
+      "start": 4.64,
+      "end": 5.24
+    },
+    {
+      "word": "In",
+      "start": 5.59,
+      "end": 5.6
+    },
+    {
+      "word": "September,",
+      "start": 5.68,
+      "end": 6.48
+    },
+    {
+      "word": "Apple",
+      "start": 6.56,
+      "end": 6.8
+    },
+    {
+      "word": "launched",
+      "start": 6.84,
+      "end": 7.12
+    },
+    {
+      "word": "its",
+      "start": 7.24,
+      "end": 7.36
+    },
+    {
+      "word": "first",
+      "start": 7.44,
+      "end": 7.68
+    },
+    {
+      "word": "folding",
+      "start": 7.76,
+      "end": 8.16
+    },
+    {
+      "word": "phone,",
+      "start": 8.24,
+      "end": 8.72
+    },
+    {
+      "word": "the",
+      "start": 8.8,
+      "end": 8.88
+    },
+    {
+      "word": "iPhone",
+      "start": 8.96,
+      "end": 9.36
+    },
+    {
+      "word": "Duo.",
+      "start": 9.44,
+      "end": 10.32
+    },
+    {
+      "word": "$1,999.",
+      "start": 10.4,
+      "end": 13.28
+    },
+    {
+      "word": "At",
+      "start": 13.32,
+      "end": 13.36
+    },
+    {
+      "word": "the",
+      "start": 13.44,
+      "end": 13.52
+    },
+    {
+      "word": "same",
+      "start": 13.6,
+      "end": 13.76
+    },
+    {
+      "word": "event,",
+      "start": 13.96,
+      "end": 14.32
+    },
+    {
+      "word": "the",
+      "start": 14.4,
+      "end": 14.48
+    },
+    {
+      "word": "iPhone",
+      "start": 14.56,
+      "end": 14.88
+    },
+    {
+      "word": "18",
+      "start": 14.96,
+      "end": 15.28
+    },
+    {
+      "word": "Pro",
+      "start": 15.36,
+      "end": 15.68
+    },
+    {
+      "word": "and",
+      "start": 15.76,
+      "end": 15.84
+    },
+    {
+      "word": "Pro",
+      "start": 15.92,
+      "end": 16.08
+    },
+    {
+      "word": "Max",
+      "start": 16.16,
+      "end": 16.56
+    },
+    {
+      "word": "both",
+      "start": 16.64,
+      "end": 16.88
+    },
+    {
+      "word": "went",
+      "start": 17.0,
+      "end": 17.12
+    },
+    {
+      "word": "up",
+      "start": 17.2,
+      "end": 17.28
+    },
+    {
+      "word": "a",
+      "start": 17.36,
+      "end": 17.44
+    },
+    {
+      "word": "hundred",
+      "start": 17.48,
+      "end": 17.76
+    },
+    {
+      "word": "dollars.",
+      "start": 17.84,
+      "end": 18.72
+    },
+    {
+      "word": "But",
+      "start": 18.86,
+      "end": 18.88
+    },
+    {
+      "word": "the",
+      "start": 18.96,
+      "end": 19.04
+    },
+    {
+      "word": "fold",
+      "start": 19.12,
+      "end": 19.52
+    },
+    {
+      "word": "got",
+      "start": 19.6,
+      "end": 19.68
+    },
+    {
+      "word": "the",
+      "start": 19.76,
+      "end": 19.84
+    },
+    {
+      "word": "spotlight.",
+      "start": 20.0,
+      "end": 20.5
+    },
+    {
+      "word": "Here's",
+      "start": 21.2,
+      "end": 21.36
+    },
+    {
+      "word": "the",
+      "start": 21.44,
+      "end": 21.52
+    },
+    {
+      "word": "trick.",
+      "start": 21.56,
+      "end": 22.16
+    },
+    {
+      "word": "It's",
+      "start": 22.24,
+      "end": 22.4
+    },
+    {
+      "word": "called",
+      "start": 22.6,
+      "end": 22.8
+    },
+    {
+      "word": "anchoring.",
+      "start": 22.88,
+      "end": 23.84
+    },
+    {
+      "word": "The",
+      "start": 23.92,
+      "end": 24.0
+    },
+    {
+      "word": "first",
+      "start": 24.08,
+      "end": 24.32
+    },
+    {
+      "word": "big",
+      "start": 24.4,
+      "end": 24.56
+    },
+    {
+      "word": "number",
+      "start": 24.64,
+      "end": 24.88
+    },
+    {
+      "word": "you",
+      "start": 24.96,
+      "end": 25.12
+    },
+    {
+      "word": "see",
+      "start": 25.2,
+      "end": 25.52
+    },
+    {
+      "word": "becomes",
+      "start": 25.6,
+      "end": 25.92
+    },
+    {
+      "word": "your",
+      "start": 26.0,
+      "end": 26.08
+    },
+    {
+      "word": "ruler.",
+      "start": 26.16,
+      "end": 27.04
+    },
+    {
+      "word": "In",
+      "start": 27.107,
+      "end": 27.12
+    },
+    {
+      "word": "1974,",
+      "start": 27.2,
+      "end": 28.44
+    },
+    {
+      "word": "psychologists",
+      "start": 28.48,
+      "end": 29.2
+    },
+    {
+      "word": "Tversky",
+      "start": 29.24,
+      "end": 29.68
+    },
+    {
+      "word": "and",
+      "start": 29.76,
+      "end": 29.84
+    },
+    {
+      "word": "Kahneman",
+      "start": 29.92,
+      "end": 30.4
+    },
+    {
+      "word": "spun",
+      "start": 30.48,
+      "end": 30.64
+    },
+    {
+      "word": "a",
+      "start": 30.72,
+      "end": 30.8
+    },
+    {
+      "word": "rigged",
+      "start": 30.88,
+      "end": 31.12
+    },
+    {
+      "word": "wheel",
+      "start": 31.28,
+      "end": 31.44
+    },
+    {
+      "word": "that",
+      "start": 31.52,
+      "end": 31.6
+    },
+    {
+      "word": "stopped",
+      "start": 31.68,
+      "end": 31.92
+    },
+    {
+      "word": "on",
+      "start": 32.04,
+      "end": 32.16
+    },
+    {
+      "word": "10",
+      "start": 32.4,
+      "end": 32.64
+    },
+    {
+      "word": "or",
+      "start": 32.72,
+      "end": 32.8
+    },
+    {
+      "word": "65.",
+      "start": 32.92,
+      "end": 34.12
+    },
+    {
+      "word": "Then",
+      "start": 34.16,
+      "end": 34.56
+    },
+    {
+      "word": "they",
+      "start": 34.64,
+      "end": 34.72
+    },
+    {
+      "word": "asked",
+      "start": 34.8,
+      "end": 34.96
+    },
+    {
+      "word": "what",
+      "start": 35.04,
+      "end": 35.2
+    },
+    {
+      "word": "share",
+      "start": 35.28,
+      "end": 35.44
+    },
+    {
+      "word": "of",
+      "start": 35.52,
+      "end": 35.6
+    },
+    {
+      "word": "UN",
+      "start": 35.68,
+      "end": 35.92
+    },
+    {
+      "word": "countries",
+      "start": 36.0,
+      "end": 36.4
+    },
+    {
+      "word": "were",
+      "start": 36.48,
+      "end": 36.56
+    },
+    {
+      "word": "in",
+      "start": 36.64,
+      "end": 36.72
+    },
+    {
+      "word": "Africa.",
+      "start": 36.96,
+      "end": 37.68
+    },
+    {
+      "word": "People",
+      "start": 37.8,
+      "end": 37.92
+    },
+    {
+      "word": "who",
+      "start": 38.0,
+      "end": 38.08
+    },
+    {
+      "word": "saw",
+      "start": 38.16,
+      "end": 38.32
+    },
+    {
+      "word": "10",
+      "start": 38.4,
+      "end": 38.88
+    },
+    {
+      "word": "guessed",
+      "start": 38.92,
+      "end": 39.12
+    },
+    {
+      "word": "25",
+      "start": 39.2,
+      "end": 39.68
+    },
+    {
+      "word": "percent.",
+      "start": 39.76,
+      "end": 40.67
+    },
+    {
+      "word": "People",
+      "start": 40.85,
+      "end": 40.88
+    },
+    {
+      "word": "who",
+      "start": 40.96,
+      "end": 41.12
+    },
+    {
+      "word": "saw",
+      "start": 41.2,
+      "end": 41.36
+    },
+    {
+      "word": "65",
+      "start": 41.48,
+      "end": 42.24
+    },
+    {
+      "word": "guessed",
+      "start": 42.28,
+      "end": 42.56
+    },
+    {
+      "word": "45.",
+      "start": 42.68,
+      "end": 43.813
+    },
+    {
+      "word": "A",
+      "start": 43.867,
+      "end": 43.92
+    },
+    {
+      "word": "$1,999",
+      "start": 44.0,
+      "end": 46.08
+    },
+    {
+      "word": "phone",
+      "start": 46.28,
+      "end": 46.48
+    },
+    {
+      "word": "moves",
+      "start": 46.56,
+      "end": 46.8
+    },
+    {
+      "word": "your",
+      "start": 46.88,
+      "end": 46.96
+    },
+    {
+      "word": "answer",
+      "start": 47.04,
+      "end": 47.36
+    },
+    {
+      "word": "too.",
+      "start": 47.44,
+      "end": 48.093
+    },
+    {
+      "word": "And",
+      "start": 48.16,
+      "end": 48.4
+    },
+    {
+      "word": "it",
+      "start": 48.44,
+      "end": 48.48
+    },
+    {
+      "word": "does",
+      "start": 48.56,
+      "end": 48.64
+    },
+    {
+      "word": "a",
+      "start": 48.88,
+      "end": 48.987
+    },
+    {
+      "word": "second",
+      "start": 49.093,
+      "end": 49.2
+    },
+    {
+      "word": "job.",
+      "start": 49.28,
+      "end": 49.88
+    },
+    {
+      "word": "It",
+      "start": 49.92,
+      "end": 50.0
+    },
+    {
+      "word": "gives",
+      "start": 50.08,
+      "end": 50.24
+    },
+    {
+      "word": "the",
+      "start": 50.32,
+      "end": 50.4
+    },
+    {
+      "word": "price",
+      "start": 50.48,
+      "end": 50.72
+    },
+    {
+      "word": "rise",
+      "start": 50.8,
+      "end": 51.12
+    },
+    {
+      "word": "somewhere",
+      "start": 51.2,
+      "end": 51.44
+    },
+    {
+      "word": "to",
+      "start": 51.52,
+      "end": 51.6
+    },
+    {
+      "word": "hide.",
+      "start": 51.68,
+      "end": 52.411
+    },
+    {
+      "word": "So",
+      "start": 52.48,
+      "end": 52.56
+    },
+    {
+      "word": "if",
+      "start": 52.64,
+      "end": 52.72
+    },
+    {
+      "word": "you",
+      "start": 52.8,
+      "end": 52.88
+    },
+    {
+      "word": "sell",
+      "start": 53.04,
+      "end": 53.2
+    },
+    {
+      "word": "anything,",
+      "start": 53.28,
+      "end": 53.96
+    },
+    {
+      "word": "show",
+      "start": 54.0,
+      "end": 54.16
+    },
+    {
+      "word": "your",
+      "start": 54.24,
+      "end": 54.4
+    },
+    {
+      "word": "premium",
+      "start": 54.48,
+      "end": 54.88
+    },
+    {
+      "word": "option",
+      "start": 55.08,
+      "end": 55.28
+    },
+    {
+      "word": "first.",
+      "start": 55.36,
+      "end": 56.08
+    },
+    {
+      "word": "Your",
+      "start": 56.16,
+      "end": 56.24
+    },
+    {
+      "word": "best",
+      "start": 56.36,
+      "end": 56.48
+    },
+    {
+      "word": "seller",
+      "start": 56.6,
+      "end": 56.72
+    },
+    {
+      "word": "looks",
+      "start": 56.84,
+      "end": 56.96
+    },
+    {
+      "word": "reasonable",
+      "start": 57.04,
+      "end": 57.52
+    },
+    {
+      "word": "next",
+      "start": 57.64,
+      "end": 57.76
+    },
+    {
+      "word": "to",
+      "start": 57.8,
+      "end": 57.84
+    },
+    {
+      "word": "it.",
+      "start": 57.92,
+      "end": 58.48
+    },
+    {
+      "word": "Send",
+      "start": 58.76,
+      "end": 58.8
+    },
+    {
+      "word": "this",
+      "start": 58.88,
+      "end": 58.96
+    },
+    {
+      "word": "to",
+      "start": 59.04,
+      "end": 59.12
+    },
+    {
+      "word": "the",
+      "start": 59.2,
+      "end": 59.28
+    },
+    {
+      "word": "friend",
+      "start": 59.4,
+      "end": 59.52
+    },
+    {
+      "word": "who",
+      "start": 59.6,
+      "end": 59.68
+    },
+    {
+      "word": "hides",
+      "start": 59.76,
+      "end": 60.0
+    },
+    {
+      "word": "his",
+      "start": 60.12,
+      "end": 60.24
+    },
+    {
+      "word": "best",
+      "start": 60.32,
+      "end": 60.56
+    },
+    {
+      "word": "package",
+      "start": 60.72,
+      "end": 60.88
+    },
+    {
+      "word": "at",
+      "start": 60.96,
+      "end": 61.04
+    },
+    {
+      "word": "the",
+      "start": 61.08,
+      "end": 61.12
+    },
+    {
+      "word": "bottom.",
+      "start": 61.2,
+      "end": 61.76
+    }
+  ],
+  "warnings": [],
+  "script": "2026-10-21-the-folding-iphone.md"
+}

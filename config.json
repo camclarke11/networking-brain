@@ -1,18 +1,104 @@
 {
   "our_account": "f___a___c___t___s",
+  "niche": "Making your business better: one move a video to get clients, sell, price, stand out and keep customers (knowledge/01-audience-and-account.md).",
+  "playbook": {
+    "status": "coming_soon",
+    "name": "the Playbook",
+    "bio": "Steal the tricks the big brands use. One move a day to make your business better.\nPlaybook coming soon 📘",
+    "caption_line": "The full playbook is coming soon. Follow so you don't miss it.",
+    "live_caption_line": "Get the full playbook: link in bio.",
+    "live_video_cta": "The full playbook's in my bio.",
+    "chapters": [
+      "Get clients",
+      "Sell",
+      "Price and package",
+      "Stand out",
+      "Keep clients",
+      "Get seen"
+    ]
+  },
+  "hashtags": {
+    "always": [
+      "#smallbusiness",
+      "#entrepreneur"
+    ],
+    "topical": [
+      "#marketing",
+      "#branding",
+      "#sales",
+      "#pricing",
+      "#freelancing",
+      "#agency",
+      "#networking",
+      "#customerexperience",
+      "#packaging"
+    ]
+  },
   "default_account": "theoryofbehaviour",
   "reference_accounts": [
-    "theoryofbehaviour"
+    "theoryofbehaviour",
+    "decoyreport"
   ],
   "spelling": "US English",
   "words_per_minute": 175,
   "too_new_days": {
     "theoryofbehaviour": 0,
-    "f___a___c___t___s": 7
+    "f___a___c___t___s": 7,
+    "decoyreport": 0
   },
   "_notes": {
     "too_new_days": "Days before a post counts in medians. 0 for accounts we only have one export of, so their newest posts still count.",
     "our_account": "Our Instagram handle. Switch default_account to it once its first Media Tools export is imported.",
-    "words_per_minute": "Narration pace used to estimate length. Re-measure once the voice is chosen."
+    "words_per_minute": "Narration pace used to estimate length. Re-measure once the voice is chosen.",
+    "elevenlabs": "model is for finals and draft_model for cheap test takes (both have audio tags). credits_per_char matches ElevenLabs' plan allowances (v4 Turbo gets twice the characters); usd_per_1k is the API pay-as-you-go price (elevenlabs.io/pricing/api, checked 2026-10-20). voice_id is the default voice; set it from the web app's Voice page. tags are the audio tags scripts may use (knowledge/14-voice-tags.md).",
+    "playbook": "status: coming_soon (no Playbook CTA in videos; bio says coming soon) or live (videos end on live_video_cta, captions use live_caption_line). The owner switches it once there's traction."
+  },
+  "elevenlabs": {
+    "model": "eleven_v4",
+    "draft_model": "eleven_v4_turbo",
+    "voice_id": "kmSVBPu7loj4ayNinwWM",
+    "voice_name": "Archie",
+    "models": {
+      "eleven_v4": {
+        "label": "Eleven v4 (best, for finals)",
+        "credits_per_char": 1.0,
+        "usd_per_1k": 0.08
+      },
+      "eleven_v4_turbo": {
+        "label": "Eleven v4 Turbo (half price, for drafts)",
+        "credits_per_char": 0.5,
+        "usd_per_1k": 0.04
+      }
+    },
+    "voice_settings": {
+      "stability": 0.5,
+      "similarity_boost": 0.75,
+      "use_speaker_boost": true
+    },
+    "tags": [
+      "thoughtful",
+      "curious",
+      "serious",
+      "matter-of-fact",
+      "confident",
+      "encouraging",
+      "reassuring",
+      "warm",
+      "happy",
+      "excited",
+      "playful",
+      "sarcastic",
+      "whispers",
+      "sighs",
+      "exhales",
+      "chuckles",
+      "laughs",
+      "short pause",
+      "pause",
+      "long pause"
+    ],
+    "say": {
+      "Häagen-Dazs": "Hah-gen Dahz"
+    }
   }
 }
