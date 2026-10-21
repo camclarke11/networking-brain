@@ -28,7 +28,10 @@ A turn or a pull every 2 to 4 lines. Use at least three different devices per sc
 | **Clock** | Puts time pressure on the scene | "You've got about ten seconds before he moves on." |
 | **Objection** | The viewer's doubt in their words, then the answer | "You're thinking, won't that be weird? It's the opposite." |
 
-A run of plain lines is fine **only if each one escalates** (a bigger number, a worse moment). Five flat lines of context in a row is where viewers leave.
+| **Restate the premise** | One line just before the payoff that reminds the viewer what they're waiting for. People arrive mid-video from the feed (`16-short-form-guide.md` B5) | "So why would Apple want your hands on it?" |
+| **The skeptic (B-plot)** | A second voice that doubts it or does it wrong, so there's tension (B6) | "Jay thinks that's mad. Jay still charges by the hour." |
+
+A run of plain lines is fine **only if each one escalates** (a bigger number, a worse moment). Five flat lines of context in a row is where viewers leave. The guide's rule of thumb: a rehook at least every 6 to 10 seconds, which is about every 3 to 5 lines at our pace.
 
 ## 3. The beats (the Move, F1 to F6)
 

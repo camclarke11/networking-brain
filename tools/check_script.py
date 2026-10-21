@@ -4,7 +4,7 @@
   python3 tools/check_script.py scripts/2026-10-21-the-doorway-test.md [more files…]
 
 Checks what a machine can check from knowledge/10-quality-checklist.md: length, banned
-words, punctuation, no citations in the spoken script (knowledge/00-what-performs.md §4),
+words, punctuation, reading level (knowledge/16-short-form-guide.md), no citations in the spoken script (knowledge/00-what-performs.md §4),
 the lead (knowledge/04-lesson-engine.md: "you" in the opening, no warm-up, turns every few
 lines, a callback, the LOOP MAP), the hook's first line and voice density, plus the storyboard
 must-haves in knowledge/12-visual-storyboard.md §5 (every line in a shot, library reuse,
@@ -133,6 +133,26 @@ def check_tags(tagged, script, n_words):
     if "\n" in tagged:
         warns.append("ELEVENLABS should be one paragraph, ready to paste.")
     return fails, warns
+
+
+def syllables(word):
+    """Rough English syllable count, good enough for a reading-level estimate."""
+    w = word.lower().strip("'")
+    if len(w) <= 3:
+        return 1
+    w = re.sub(r"(?:[^laeiouy]es|ed|[^laeiouy]e)$", "", w)
+    w = re.sub(r"^y", "", w)
+    return max(1, len(re.findall(r"[aeiouy]{1,2}", w)))
+
+
+def reading_grade(lines):
+    """Flesch-Kincaid grade of the spoken script. Aim for about 5th grade (knowledge/16-short-form-guide.md B1)."""
+    text = " ".join(lines)
+    words = re.findall(r"[A-Za-z']+", text)
+    if not words:
+        return 0.0
+    sentences = max(1, len(re.findall(r"[.!?]+", text)))
+    return 0.39 * len(words) / sentences + 11.8 * sum(syllables(w) for w in words) / len(words) - 15.59
 
 
 def check_caption(caption, lines):
@@ -304,6 +324,9 @@ def check(path, library=None):
     warns += check_caption(caption, lines)
     if caption and PLAYBOOK and "playbook" not in caption.lower():
         warns.append(f"The caption has no Playbook line. End it with: {PLAYBOOK.get('live_caption_line' if live else 'caption_line', '')}")
+    grade = reading_grade(lines)
+    if grade > 5:
+        warns.append(f"Reading level is about grade {grade:.1f}; aim for 5th grade or below (shorter words and sentences).")
     short = sum(1 for line in lines if len(line.split()) <= 3)
     if short < 2:
         warns.append("Fewer than two 1–3 word lines; the rhythm may be flat.")

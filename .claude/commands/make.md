@@ -2,6 +2,8 @@
 description: Research a topic, write the script, then make the video, start to finish
 argument-hint: <topic or topic-bank id, e.g. T06>
 ---
+Before writing, load the `anthropic-skills:short-form-scripts` skill with the Skill tool if it's available in this session. If it isn't, read `knowledge/16-short-form-guide.md`, which is the same guide in full. Where it and our data disagree, follow that file's last section.
+
 Make a finished video for: $ARGUMENTS
 
 1. Write the script exactly as `/script` does: AGENTS.md Step 0 to Step 12, saved to scripts/, passing `python3 tools/check_script.py`, registered with `python3 tools/library.py add`, logged in content-log.md.

@@ -16,6 +16,7 @@ Go through every item. **Hard fails** must be fixed before delivering. For **sof
 - [ ] "You" is in the scene within the first three lines, and frame one could show it.
 - [ ] The full hook is under 25 words, with no warm-up ("So", "Have you ever", "Did you know") and no citation.
 - [ ] One meaning only when read once at speed.
+- [ ] **Triple hook:** frame one, the on-screen big text and spoken line 1 point at the same single idea (and the cover title matches). Frame one works on mute (`16-short-form-guide.md` A1, A3).
 - [ ] It points forward: an A-vs-B contrast, a withheld person or line, or an outcome that hasn't happened yet, and the ending pays it off.
 
 ### Structure
@@ -24,7 +25,8 @@ Go through every item. **Hard fails** must be fixed before delivering. For **sof
 - [ ] The viewer's objection (the Move) or a wrong guess (Brand X-ray) is voiced and answered.
 - [ ] At least one re-hook before the 60% mark.
 - [ ] **The relay holds** (`04-lesson-engine.md`): the LOOP MAP is filled in, every answer opens the next question, no more than about 4 lines sit outside an open loop, and a turn or pull lands every 2 to 4 lines.
-- [ ] **The hook's main question is fully answered in the last 20%**, not the middle.
+- [ ] **The hook's main question is fully answered in the last 20%**, not the middle, and the premise is restated in one line just before the answer (`16-short-form-guide.md` B5).
+- [ ] It ends on the high note: the payoff, then the share prompt, then a hard cut. No outro, no lingering frame (C1).
 - [ ] Nothing stops to explain: no moral, no "the lesson is", no named effect. The meaning comes out of what happens.
 - [ ] The move is shown with **exact words** or a concrete action, not described in general terms.
 
@@ -66,6 +68,8 @@ Go through every item. **Hard fails** must be fixed before delivering. For **sof
 - [ ] Jagged rhythm: at least two 1 to 3 word lines and at least one line over 12 words.
 - [ ] A named character the 3D cast can play.
 - [ ] Every shot shows something the words don't already say.
+- [ ] A visual progress marker tracks toward the payoff (B8).
+- [ ] About a 5th-grade reading level (the checker's estimate is a guide, not a gate).
 - [ ] A named tool, if the move is reusable.
 - [ ] A paired-contrast line somewhere ("A ends a conversation. B starts one.").
 - [ ] The share prompt is specific and a little funny.

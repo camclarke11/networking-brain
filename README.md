@@ -48,6 +48,7 @@ Read and check scripts, move the ElevenLabs tags around, generate voice takes (c
 | `knowledge/08-phrase-bank.md` | Re-hooks, objections, payoffs and share prompts, in our own words |
 | `knowledge/09-annotated-breakdowns.md` | Line-by-line teardowns of the two breakouts, why the flops flopped, and two of Elliott's stories |
 | `knowledge/10-quality-checklist.md` | The gate every script passes |
+| `knowledge/16-short-form-guide.md` | The `short-form-scripts` skill in full (Hoyos, Kallaway, Galloway, Mosseri), plus where our data overrides it |
 | `knowledge/11-storytelling-principles.md` | Callaway's hooks and storytelling, Elliott's reels and numbers: where the lead comes from |
 | `knowledge/12-visual-storyboard.md` | The cast, the creative rules, on-screen components, must-haves, and the audio-first timing pass |
 | `knowledge/13-video-production.md` | How a script becomes an MP4: the pipeline, the kit, the craft rules, the stills checklist |

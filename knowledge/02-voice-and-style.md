@@ -24,7 +24,7 @@ The narrator is **the older brother who has already done it**. A couple of years
 
 ## 3. Words
 
-- **Plain, spoken, about a 6th-grade reading level.** "Talk to" not "engage with". "Remember you" not "retain a positive impression".
+- **Plain, spoken, about a 5th-grade reading level** (`16-short-form-guide.md` B1). "Talk to" not "engage with". "Remember you" not "retain a positive impression".
 - **Spelling:** set in `config.json` (`spelling`). Default **US English** ("favor", "realize") because the audience is global and the reference account uses it. Money in dollars.
 - **Contractions always:** you're, don't, he'll, that's.
 - **The niche's own nouns:** client, customer, offer, price, quote, invoice, proposal, call, DM, follow-up, referral, intro, launch, brand, shop, agency, founder, "your business". Use them; they signal "this is for you". Avoid corporate words (stakeholder, synergy, value proposition, KPI, ROI).

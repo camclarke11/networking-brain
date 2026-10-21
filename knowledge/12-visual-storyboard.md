@@ -35,11 +35,12 @@ The narrator is the only voice.
 2. **Start real, then break reality.** The hook frame shows the real situation (the shop, the product, the call, the quote on a phone, the event). The metaphor arrives in the first few seconds and escalates from there. The biggest visual surprise lands on the objection or the re-hook, not on line 1.
 3. **Show what the words don't say.** A shot that only illustrates the line ("she says skincare brand" → she talks) is wasted. Add a layer: a reaction, a transformation, a joke, the metaphor moving.
 4. **Something changes every 2 to 4 seconds.** A cut, a camera move, a transformation, or a prop arriving. A shot can cover several lines, but it can't sit still.
-5. **One screenshot moment.** At least one frame someone would pause on or send to a friend. Mark it with `"screenshot": true`.
-6. **Reuse before you invent.** Check `visuals/library.json` first. Reuse a set, prop or effect if one fits. A metaphor can come back too: a recurring metaphor (the door) becomes part of the account's language. Invent new things when they make the video clearly better. Aim for 3 or fewer new assets once the library has 20 or more items.
-7. **Describe new things so they can be built once.** For every new asset: what it is, its shape, material and size next to a character, how it moves, and what else it could be reused for.
-8. **Pin the big moments to words.** Every transformation, slam, glow or reveal is a `cue` pinned to the exact spoken word it lands on. That's how the visuals hit the audio.
-9. **Stay kind and clean.** No real people's faces, no brand logos, no gore, nothing that mocks the viewer. Comic, not cruel.
+5. **A progress marker.** Something visible that tracks toward the payoff (a price tag that grows, a path that draws, tracker steps that light up), so the viewer can feel the answer getting closer (`16-short-form-guide.md` B8). Frame one has to work on mute.
+6. **One screenshot moment.** At least one frame someone would pause on or send to a friend. Mark it with `"screenshot": true`.
+7. **Reuse before you invent.** Check `visuals/library.json` first. Reuse a set, prop or effect if one fits. A metaphor can come back too: a recurring metaphor (the door) becomes part of the account's language. Invent new things when they make the video clearly better. Aim for 3 or fewer new assets once the library has 20 or more items.
+8. **Describe new things so they can be built once.** For every new asset: what it is, its shape, material and size next to a character, how it moves, and what else it could be reused for.
+9. **Pin the big moments to words.** Every transformation, slam, glow or reveal is a `cue` pinned to the exact spoken word it lands on. That's how the visuals hit the audio.
+10. **Stay kind and clean.** No real people's faces, no brand logos, no gore, nothing that mocks the viewer. Comic, not cruel.
 
 ## 4. On-screen components (the brand's design system)
 

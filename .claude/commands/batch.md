@@ -2,6 +2,8 @@
 description: Write a batch of scripts from the topic bank
 argument-hint: <how many, default 5>
 ---
+Before writing, load the `anthropic-skills:short-form-scripts` skill with the Skill tool if it's available in this session. If it isn't, read `knowledge/16-short-form-guide.md`, which is the same guide in full. Where it and our data disagree, follow that file's last section.
+
 Write a batch of ${ARGUMENTS:-5} scripts.
 
 1. Pick that many `open` topics from topics/topic-bank.md: Tier 1 first, a mix of pillars and Playbook chapters (thin chapters first), no two in a row with the same format, nothing that repeats content-log.md.

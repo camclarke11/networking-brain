@@ -47,7 +47,9 @@ This brain is adapted from the one built for Elliott (@zlliott), which writes 90
 ## Workflow (follow in order)
 
 ### Step 0 — Load the brain
-Read every session, before writing:
+**First, if the `anthropic-skills:short-form-scripts` skill is available in this session, load it with the Skill tool.** It's the same guide as `knowledge/16-short-form-guide.md`, so if it isn't available, that file covers it.
+
+Then read every session, before writing:
 - `knowledge/00-what-performs.md` (overrides everything else)
 - `knowledge/01-audience-and-account.md` (who it's for, the two pillars, the Playbook and its phase)
 - `knowledge/02-voice-and-style.md`
@@ -60,6 +62,7 @@ Read every session, before writing:
 - `knowledge/12-visual-storyboard.md`
 - `knowledge/14-voice-tags.md`
 - `knowledge/15-brand-xray.md` (for any F7 / brand topic)
+- `knowledge/16-short-form-guide.md` (the short-form-scripts skill in full: how the platforms judge a video, and the hook, body and ending rules behind ours; its last section says where our data overrides it)
 - `visuals/library.json` (or `python3 tools/library.py list`)
 
 Then read the teardowns in `knowledge/09-annotated-breakdowns.md` (the two @theoryofbehaviour breakouts and Elliott's two stories: how the lead works line by line), and for a Brand X-ray the reference posts in `examples/decoyreport/`.
@@ -86,19 +89,21 @@ Use web search. For every fact and every study behind a mechanism: open a real s
 1. Write the payoff line (`05-endings-and-ctas.md`) and the share prompt.
 2. Write 3 leading hooks from at least 2 archetypes, N12, N1 or N2 among them. Each drops the viewer in and points at the payoff.
 3. Pick the strongest: read each one alone and ask whether you can picture frame one and whether there's a question you can't answer yet.
+4. Check the **triple hook** (`16-short-form-guide.md` A3): frame one, the on-screen big text and the spoken line 1 point at one idea, and a famous brand or object is in that first frame when there is one.
 
 ### Step 6 — Beats and loop map
 Lay out the beats (`04-lesson-engine.md` §3, or `15-brand-xray.md` §2 for F7), one line each, joined by BUT or SO. Then write the LOOP MAP (§4): each loop's opening line, the question in the viewer's head, and its closing line. L1 closes in the last 20%. Every closing line opens the next loop. Mark the re-hook.
 
 ### Step 7 — Draft
-One sentence per line. "You" in the scene, present tense. Exact words for the move. Name a character if a person is involved (recurring cast names: `12-visual-storyboard.md`). Facts are told as things happening, never cited. Use at least three different lead devices (`04-lesson-engine.md` §2).
+One sentence per line. "You" in the scene, present tense. Exact words for the move. Name a character if a person is involved (recurring cast names: `12-visual-storyboard.md`). Facts are told as things happening, never cited. Use at least three different lead devices (`04-lesson-engine.md` §2). Just before the payoff, restate the premise in one line so late arrivals know what they're waiting for (`16-short-form-guide.md` B5). If a skeptic or a B-plot would add tension, give it one line (B6).
 
 ### Step 8 — Cut and sharpen
 - Delete any line that isn't the situation, the move, the objection, a turn or pointer, or the payoff.
 - **The swipe test:** after each line, ask "do I need the next one?" A "no" means that line closed a loop without opening one. Add a turn or pointer, or cut it.
 - **No lectures:** search the script for "research", "study", "studies", "scientists", "psychologists", "found that", "according to", "the lesson". Rewrite each as what happens.
 - Read the hook alone: one meaning, "you" in the scene, under 15 words for line 1, a question you can't answer yet?
-- Read the payoff alone: would someone repeat it? Does it call back to line 1?
+- Read the payoff alone: would someone repeat it? Does it call back to line 1? Does the script stop right after it (the payoff, then the share prompt, no outro)?
+- **Reading level:** about 5th grade. Short words, short sentences, no jargon (the checker estimates it).
 - Update the LOOP MAP line numbers to the final draft.
 - Count words. Trim to 130 to 160 (F7: 100 to 155).
 
@@ -112,6 +117,7 @@ Direct it (`12-visual-storyboard.md`):
 3. For each shot: what we see, the camera, the transition, the cast, the library assets it reuses, anything new, and **cues pinned to spoken words** so something changes every 2 to 4 seconds.
 4. Describe every new asset well enough to build once and reuse.
 5. Mark the one screenshot moment.
+6. Give the viewer a **visual progress marker** that tracks toward the payoff (a tag that grows, a path that draws, steps that light up) (`16-short-form-guide.md` B8), and make sure frame one works on mute.
 
 ### Step 10 — Package
 3 title options (the first is the cover title), the **teaser caption** (`05-endings-and-ctas.md`: one line, usually a question about the viewer's business, that names nothing from the video, then the Playbook line for the current phase and the hashtags), and the fact sheet with links.

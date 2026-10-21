@@ -390,7 +390,8 @@ def spend_summary():
 # ---------- jobs ----------
 
 JOBS = {}
-CLAUDE_TOOLS = ["Read", "Write", "Edit", "Glob", "Grep", "WebSearch", "WebFetch", "TodoWrite",
+# Skill lets a writing job load the short-form-scripts skill when the CLI has it (knowledge/16 is the fallback).
+CLAUDE_TOOLS = ["Read", "Write", "Edit", "Glob", "Grep", "WebSearch", "WebFetch", "TodoWrite", "Skill",
                 "Bash(python3:*)", "Bash(ls:*)", "Bash(cat:*)", "Bash(head:*)", "Bash(wc:*)", "Bash(grep:*)",
                 "Bash(npx:*)", "Bash(npm:*)", "Bash(node:*)", "Bash(ffmpeg:*)", "Bash(ffprobe:*)", "Bash(mkdir:*)"]
 
